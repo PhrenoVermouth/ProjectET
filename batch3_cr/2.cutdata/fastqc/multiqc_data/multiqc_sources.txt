@@ -1,0 +1,17 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	TSC_Cdx2_10k_rep1.R2_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_Cdx2_10k_rep1.R2_cut_fastqc.zip
+FastQC	all_sections	TSC_Cdx2_100k_rep1.R2_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_Cdx2_100k_rep1.R2_cut_fastqc.zip
+FastQC	all_sections	TSC_IgG_1k_rep1.R2_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_IgG_1k_rep1.R2_cut_fastqc.zip
+FastQC	all_sections	TSC_IgG_1k_rep2.R1_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_IgG_1k_rep2.R1_cut_fastqc.zip
+FastQC	all_sections	TSC_IgG_10k_rep1.R2_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_IgG_10k_rep1.R2_cut_fastqc.zip
+FastQC	all_sections	TSC_Cdx2_1k_rep1.R1_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_Cdx2_1k_rep1.R1_cut_fastqc.zip
+FastQC	all_sections	TSC_Cdx2_10k_rep1.R1_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_Cdx2_10k_rep1.R1_cut_fastqc.zip
+FastQC	all_sections	TSC_Cdx2_1k_rep2.R2_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_Cdx2_1k_rep2.R2_cut_fastqc.zip
+FastQC	all_sections	TSC_Cdx2_1k_rep2.R1_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_Cdx2_1k_rep2.R1_cut_fastqc.zip
+FastQC	all_sections	TSC_Cdx2_5k_rep1.R1_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_Cdx2_5k_rep1.R1_cut_fastqc.zip
+FastQC	all_sections	TSC_IgG_1k_rep1.R1_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_IgG_1k_rep1.R1_cut_fastqc.zip
+FastQC	all_sections	TSC_Cdx2_100k_rep1.R1_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_Cdx2_100k_rep1.R1_cut_fastqc.zip
+FastQC	all_sections	TSC_Cdx2_1k_rep1.R2_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_Cdx2_1k_rep1.R2_cut_fastqc.zip
+FastQC	all_sections	TSC_IgG_10k_rep1.R1_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_IgG_10k_rep1.R1_cut_fastqc.zip
+FastQC	all_sections	TSC_IgG_1k_rep2.R2_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_IgG_1k_rep2.R2_cut_fastqc.zip
+FastQC	all_sections	TSC_Cdx2_5k_rep1.R2_cut	/home1/gyang/work_space/4.ProjectET/batch3_cr/2.cutdata/fastqc/TSC_Cdx2_5k_rep1.R2_cut_fastqc.zip

@@ -1,0 +1,7 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+ESC_IgG_10k_rep1	46.9759	25.6523	54.61%	14.9603	31.85%	86.45%
+ESC_IgG_1k_rep1	44.064	23.3794	53.06%	14.3126	32.48%	85.54%
+ESC_IgG_1k_rep2	46.8555	25.2572	53.90%	14.5347	31.02%	84.92%
+ESC_Sox2_10k_rep1	58.2524	35.5214	60.98%	18.0443	30.98%	91.95%
+ESC_Sox2_1k_rep1	47.9702	28.2961	58.99%	14.6358	30.51%	89.50%
+ESC_Sox2_1k_rep2	51.3621	30.0154	58.44%	15.1831	29.56%	88.00%

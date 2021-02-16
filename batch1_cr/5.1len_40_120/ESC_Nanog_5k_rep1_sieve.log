@@ -1,0 +1,3 @@
+#bamFilterReads --filterMetrics
+#File	Reads Remaining	Total Initial Reads
+ESC_Nanog_5k_rep1.duprm.bam	3774652	52145598

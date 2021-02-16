@@ -1,0 +1,3 @@
+#bamFilterReads --filterMetrics
+#File	Reads Remaining	Total Initial Reads
+ESC_IgG_1k_rep2.duprm.bam	2121072	15704934

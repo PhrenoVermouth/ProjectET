@@ -1,0 +1,27 @@
+Sample	adapter_content	Sequences flagged as poor quality	sequence_duplication_levels	avg_sequence_length	Encoding	per_base_sequence_quality	sequence_length_distribution	Sequence length	File type	basic_statistics	per_sequence_gc_content	Total Sequences	per_base_n_content	per_base_sequence_content	overrepresented_sequences	%GC	total_deduplicated_percentage	Filename	per_tile_sequence_quality	per_sequence_quality_scores
+ESC_IgG_10k_rep1.R1	fail	0.0	warn	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	42343295.0	pass	fail	fail	45.0	61.5626001151	ESC_IgG_10k_rep1.R1.fq.gz	warn	pass
+ESC_IgG_10k_rep1.R2	fail	0.0	warn	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	42343295.0	pass	fail	fail	47.0	64.6999090965	ESC_IgG_10k_rep1.R2.fq.gz	warn	pass
+ESC_IgG_1k_rep1.R1	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	34491624.0	pass	warn	fail	49.0	41.9477511843	ESC_IgG_1k_rep1.R1.fq.gz	pass	pass
+ESC_IgG_1k_rep1.R2	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	34491624.0	pass	fail	fail	52.0	46.7982198664	ESC_IgG_1k_rep1.R2.fq.gz	warn	pass
+ESC_IgG_1k_rep2.R1	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	50799751.0	pass	warn	fail	49.0	36.5338979453	ESC_IgG_1k_rep2.R1.fq.gz	warn	pass
+ESC_IgG_1k_rep2.R2	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	50799751.0	pass	fail	fail	53.0	42.3213217773	ESC_IgG_1k_rep2.R2.fq.gz	warn	pass
+ESC_Nanog_100k_rep1.R1	fail	0.0	pass	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	pass	49310299.0	pass	fail	warn	44.0	78.4308965845	ESC_Nanog_100k_rep1.R1.fq.gz	pass	pass
+ESC_Nanog_100k_rep1.R2	fail	0.0	pass	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	warn	49310299.0	pass	fail	warn	46.0	79.3923193004	ESC_Nanog_100k_rep1.R2.fq.gz	pass	pass
+ESC_Nanog_10k_rep1.R1	fail	0.0	warn	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	warn	64606404.0	pass	fail	fail	46.0	65.6198870446	ESC_Nanog_10k_rep1.R1.fq.gz	pass	pass
+ESC_Nanog_10k_rep1.R2	fail	0.0	warn	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	64606404.0	pass	fail	fail	48.0	68.6665260359	ESC_Nanog_10k_rep1.R2.fq.gz	pass	pass
+ESC_Nanog_1k_rep1.R1	warn	0.0	warn	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	41262538.0	pass	fail	fail	49.0	53.3226985813	ESC_Nanog_1k_rep1.R1.fq.gz	pass	pass
+ESC_Nanog_1k_rep1.R2	warn	0.0	warn	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	41262538.0	pass	fail	fail	53.0	57.8246230625	ESC_Nanog_1k_rep1.R2.fq.gz	warn	pass
+ESC_Nanog_1k_rep2.R1	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	43575732.0	pass	fail	fail	49.0	46.2154646844	ESC_Nanog_1k_rep2.R1.fq.gz	pass	pass
+ESC_Nanog_1k_rep2.R2	fail	0.0	warn	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	43575732.0	pass	fail	fail	52.0	52.4312677512	ESC_Nanog_1k_rep2.R2.fq.gz	pass	pass
+ESC_Nanog_5k_rep1.R1	fail	0.0	warn	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	warn	52119092.0	pass	fail	fail	45.0	67.4842606782	ESC_Nanog_5k_rep1.R1.fq.gz	pass	pass
+ESC_Nanog_5k_rep1.R2	fail	0.0	pass	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	52119092.0	pass	fail	fail	46.0	70.3959119249	ESC_Nanog_5k_rep1.R2.fq.gz	pass	pass
+ESC_Sox2_100k_rep1.R1	fail	0.0	warn	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	50122946.0	pass	fail	fail	43.0	68.6789500366	ESC_Sox2_100k_rep1.R1.fq.gz	pass	pass
+ESC_Sox2_100k_rep1.R2	fail	0.0	pass	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	50122946.0	pass	fail	warn	45.0	70.0951498417	ESC_Sox2_100k_rep1.R2.fq.gz	warn	pass
+ESC_Sox2_10k_rep1.R1	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	58763809.0	pass	fail	fail	44.0	49.2505589517	ESC_Sox2_10k_rep1.R1.fq.gz	pass	pass
+ESC_Sox2_10k_rep1.R2	fail	0.0	warn	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	58763809.0	pass	fail	fail	45.0	51.9807067286	ESC_Sox2_10k_rep1.R2.fq.gz	pass	pass
+ESC_Sox2_1k_rep1.R1	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	34979671.0	pass	fail	fail	50.0	30.2697167212	ESC_Sox2_1k_rep1.R1.fq.gz	pass	pass
+ESC_Sox2_1k_rep1.R2	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	34979671.0	pass	fail	fail	53.0	34.7530480292	ESC_Sox2_1k_rep1.R2.fq.gz	warn	pass
+ESC_Sox2_1k_rep2.R1	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	40179211.0	pass	warn	fail	48.0	35.3371601683	ESC_Sox2_1k_rep2.R1.fq.gz	pass	pass
+ESC_Sox2_1k_rep2.R2	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	40179211.0	pass	fail	fail	51.0	38.8807993106	ESC_Sox2_1k_rep2.R2.fq.gz	warn	pass
+ESC_Sox2_5k_rep1.R1	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	48096689.0	pass	fail	fail	46.0	45.8268513542	ESC_Sox2_5k_rep1.R1.fq.gz	pass	pass
+ESC_Sox2_5k_rep1.R2	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	48096689.0	pass	fail	fail	49.0	49.3061770974	ESC_Sox2_5k_rep1.R2.fq.gz	warn	pass

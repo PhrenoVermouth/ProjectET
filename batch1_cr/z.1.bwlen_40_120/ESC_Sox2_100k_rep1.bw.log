@@ -1,0 +1,24 @@
+normalization: RPKM
+minFragmentLength: 0
+verbose: False
+out_file_for_raw_data: None
+numberOfSamples: None
+bedFile: None
+bamFilesList: ['ESC_Sox2_100k_rep1.sieved.bam']
+ignoreDuplicates: False
+numberOfProcessors: 3
+samFlag_exclude: None
+save_data: False
+stepSize: 25
+smoothLength: None
+center_read: True
+defaultFragmentLength: read length
+chrsToSkip: []
+region: None
+maxPairedFragmentLength: 1000
+samFlag_include: None
+binLength: 25
+blackListFileName: None
+maxFragmentLength: 0
+minMappingQuality: None
+zerosToNans: False

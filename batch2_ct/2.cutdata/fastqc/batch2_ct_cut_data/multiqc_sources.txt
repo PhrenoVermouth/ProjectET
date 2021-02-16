@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	ESC_IgG_1k_rep1.R2_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_IgG_1k_rep1.R2_cut_fastqc.zip
+FastQC	all_sections	ESC_Sox2_1k_rep1.R1_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_Sox2_1k_rep1.R1_cut_fastqc.zip
+FastQC	all_sections	ESC_Sox2_10k_rep1.R1_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_Sox2_10k_rep1.R1_cut_fastqc.zip
+FastQC	all_sections	ESC_Sox2_1k_rep2.R2_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_Sox2_1k_rep2.R2_cut_fastqc.zip
+FastQC	all_sections	ESC_Sox2_1k_rep2.R1_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_Sox2_1k_rep2.R1_cut_fastqc.zip
+FastQC	all_sections	ESC_IgG_10k_rep1.R1_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_IgG_10k_rep1.R1_cut_fastqc.zip
+FastQC	all_sections	ESC_IgG_1k_rep2.R1_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_IgG_1k_rep2.R1_cut_fastqc.zip
+FastQC	all_sections	ESC_Sox2_1k_rep1.R2_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_Sox2_1k_rep1.R2_cut_fastqc.zip
+FastQC	all_sections	ESC_IgG_1k_rep1.R1_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_IgG_1k_rep1.R1_cut_fastqc.zip
+FastQC	all_sections	ESC_Sox2_10k_rep1.R2_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_Sox2_10k_rep1.R2_cut_fastqc.zip
+FastQC	all_sections	ESC_IgG_10k_rep1.R2_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_IgG_10k_rep1.R2_cut_fastqc.zip
+FastQC	all_sections	ESC_IgG_1k_rep2.R2_cut	/home1/gyang/work_space/4.ProjectET/batch2_ct/2.cutdata/fastqc/ESC_IgG_1k_rep2.R2_cut_fastqc.zip

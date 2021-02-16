@@ -1,0 +1,386 @@
+[E::bgzf_flush] [E::bgzf_flush] File write failed (wrong size)File write failed (wrong size)[E::bgzf_flush] File write failed (wrong size)[E::bgzf_flush] File write failed (wrong size)[E::bgzf_flush] File write failed (wrong size)[E::bgzf_flush] File write failed (wrong size)
+
+
+
+
+
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] [E::bgzf_close] File write failedFile write failed
+
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_flush] [E::bgzf_flush] File write failed (wrong size)File write failed (wrong size)
+
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_flush] File write failed (wrong size)
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 331, in filterWorker
+    ofh.write(read)
+  File "pysam/libcalignmentfile.pyx", line 1690, in pysam.libcalignmentfile.AlignmentFile.write
+  File "pysam/libcalignmentfile.pyx", line 1719, in pysam.libcalignmentfile.AlignmentFile.write
+OSError: sam_write1 failed with error code -1
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/alignmentSieve", line 12, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 390, in main
+    verbose=args.verbose)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/mapReduce.py", line 142, in mapReduce
+    res = pool.map_async(func, TASKS).get(9999999)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+OSError: sam_write1 failed with error code -1
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 331, in filterWorker
+    ofh.write(read)
+  File "pysam/libcalignmentfile.pyx", line 1690, in pysam.libcalignmentfile.AlignmentFile.write
+  File "pysam/libcalignmentfile.pyx", line 1719, in pysam.libcalignmentfile.AlignmentFile.write
+OSError: sam_write1 failed with error code -1
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/alignmentSieve", line 12, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 390, in main
+    verbose=args.verbose)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/mapReduce.py", line 142, in mapReduce
+    res = pool.map_async(func, TASKS).get(9999999)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+OSError: sam_write1 failed with error code -1
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+[E::bgzf_flush] File write failed (wrong size)
+[E::bgzf_close] File write failed
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 331, in filterWorker
+    ofh.write(read)
+  File "pysam/libcalignmentfile.pyx", line 1690, in pysam.libcalignmentfile.AlignmentFile.write
+  File "pysam/libcalignmentfile.pyx", line 1719, in pysam.libcalignmentfile.AlignmentFile.write
+OSError: sam_write1 failed with error code -1
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/alignmentSieve", line 12, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 390, in main
+    verbose=args.verbose)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/mapReduce.py", line 142, in mapReduce
+    res = pool.map_async(func, TASKS).get(9999999)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+OSError: sam_write1 failed with error code -1
+[E::bgzf_close] File write failed
+[E::bgzf_close] File write failed
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 331, in filterWorker
+    ofh.write(read)
+  File "pysam/libcalignmentfile.pyx", line 1690, in pysam.libcalignmentfile.AlignmentFile.write
+  File "pysam/libcalignmentfile.pyx", line 1719, in pysam.libcalignmentfile.AlignmentFile.write
+OSError: sam_write1 failed with error code -1
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/alignmentSieve", line 12, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 390, in main
+    verbose=args.verbose)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/mapReduce.py", line 142, in mapReduce
+    res = pool.map_async(func, TASKS).get(9999999)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+OSError: sam_write1 failed with error code -1
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 331, in filterWorker
+    ofh.write(read)
+  File "pysam/libcalignmentfile.pyx", line 1690, in pysam.libcalignmentfile.AlignmentFile.write
+  File "pysam/libcalignmentfile.pyx", line 1719, in pysam.libcalignmentfile.AlignmentFile.write
+OSError: sam_write1 failed with error code -1
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/alignmentSieve", line 12, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 390, in main
+    verbose=args.verbose)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/mapReduce.py", line 142, in mapReduce
+    res = pool.map_async(func, TASKS).get(9999999)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+OSError: sam_write1 failed with error code -1
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 331, in filterWorker
+    ofh.write(read)
+  File "pysam/libcalignmentfile.pyx", line 1690, in pysam.libcalignmentfile.AlignmentFile.write
+  File "pysam/libcalignmentfile.pyx", line 1719, in pysam.libcalignmentfile.AlignmentFile.write
+OSError: sam_write1 failed with error code -1
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/alignmentSieve", line 12, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 390, in main
+    verbose=args.verbose)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/mapReduce.py", line 142, in mapReduce
+    res = pool.map_async(func, TASKS).get(9999999)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+OSError: sam_write1 failed with error code -1
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 331, in filterWorker
+    ofh.write(read)
+  File "pysam/libcalignmentfile.pyx", line 1690, in pysam.libcalignmentfile.AlignmentFile.write
+  File "pysam/libcalignmentfile.pyx", line 1719, in pysam.libcalignmentfile.AlignmentFile.write
+OSError: sam_write1 failed with error code -1
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/alignmentSieve", line 12, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 390, in main
+    verbose=args.verbose)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/mapReduce.py", line 142, in mapReduce
+    res = pool.map_async(func, TASKS).get(9999999)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+OSError: sam_write1 failed with error code -1
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+OSError: [Errno 28] No space left on device
+Exception ignored in: 'pysam.libcalignmentfile.AlignmentFile.__dealloc__'
+OSError: [Errno 28] No space left on device
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 331, in filterWorker
+    ofh.write(read)
+  File "pysam/libcalignmentfile.pyx", line 1690, in pysam.libcalignmentfile.AlignmentFile.write
+  File "pysam/libcalignmentfile.pyx", line 1719, in pysam.libcalignmentfile.AlignmentFile.write
+OSError: sam_write1 failed with error code -1
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/alignmentSieve", line 12, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/alignmentSieve.py", line 390, in main
+    verbose=args.verbose)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/site-packages/deeptools/mapReduce.py", line 142, in mapReduce
+    res = pool.map_async(func, TASKS).get(9999999)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+OSError: sam_write1 failed with error code -1
