@@ -1,0 +1,83 @@
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/OptValidator.py:27: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.IO.Parser import BEDParser, ELANDResultParser, ELANDMultiParser, \
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/callpeak_cmd.py:34: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.PeakModel import PeakModel,NotEnoughPairsException
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/callpeak_cmd.py:35: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.PeakDetect import PeakDetect
+INFO  @ Sun, 21 Feb 2021 12:42:08: 
+# Command line: callpeak -t ESC_Nanog_1k_rep1.duprm.bam -c ESC_IgG_10k_rep1.duprm.bam -f BAMPE -g mm -n ESC_Nanog_1k_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch1_cr/6.peak
+# ARGUMENTS LIST:
+# name = ESC_Nanog_1k_rep1
+# format = BAMPE
+# ChIP-seq file = ['ESC_Nanog_1k_rep1.duprm.bam']
+# control file = ['ESC_IgG_10k_rep1.duprm.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Sun, 21 Feb 2021 12:42:08: #1 read fragment files... 
+INFO  @ Sun, 21 Feb 2021 12:42:08: #1 read treatment fragments... 
+INFO  @ Sun, 21 Feb 2021 12:42:31:  1000000 
+INFO  @ Sun, 21 Feb 2021 12:42:54:  2000000 
+INFO  @ Sun, 21 Feb 2021 12:43:15:  3000000 
+INFO  @ Sun, 21 Feb 2021 12:43:38:  4000000 
+INFO  @ Sun, 21 Feb 2021 12:44:02:  5000000 
+INFO  @ Sun, 21 Feb 2021 12:44:25:  6000000 
+INFO  @ Sun, 21 Feb 2021 12:44:45:  7000000 
+INFO  @ Sun, 21 Feb 2021 12:45:08:  8000000 
+INFO  @ Sun, 21 Feb 2021 12:45:30:  9000000 
+INFO  @ Sun, 21 Feb 2021 12:45:52:  10000000 
+INFO  @ Sun, 21 Feb 2021 12:46:15:  11000000 
+INFO  @ Sun, 21 Feb 2021 12:46:37:  12000000 
+INFO  @ Sun, 21 Feb 2021 12:46:58:  13000000 
+INFO  @ Sun, 21 Feb 2021 12:47:15: #1.2 read input fragments... 
+INFO  @ Sun, 21 Feb 2021 12:47:34:  1000000 
+INFO  @ Sun, 21 Feb 2021 12:47:55:  2000000 
+INFO  @ Sun, 21 Feb 2021 12:48:14:  3000000 
+INFO  @ Sun, 21 Feb 2021 12:48:34:  4000000 
+INFO  @ Sun, 21 Feb 2021 12:48:54:  5000000 
+INFO  @ Sun, 21 Feb 2021 12:49:14:  6000000 
+INFO  @ Sun, 21 Feb 2021 12:49:35:  7000000 
+INFO  @ Sun, 21 Feb 2021 12:49:55:  8000000 
+INFO  @ Sun, 21 Feb 2021 12:50:15:  9000000 
+INFO  @ Sun, 21 Feb 2021 12:50:35:  10000000 
+INFO  @ Sun, 21 Feb 2021 12:50:56:  11000000 
+INFO  @ Sun, 21 Feb 2021 12:51:16:  12000000 
+INFO  @ Sun, 21 Feb 2021 12:51:36:  13000000 
+INFO  @ Sun, 21 Feb 2021 12:51:56:  14000000 
+INFO  @ Sun, 21 Feb 2021 12:52:16:  15000000 
+INFO  @ Sun, 21 Feb 2021 12:52:36:  16000000 
+INFO  @ Sun, 21 Feb 2021 12:52:56:  17000000 
+INFO  @ Sun, 21 Feb 2021 12:53:29: #1 mean fragment size is determined as 288 bp from treatment 
+INFO  @ Sun, 21 Feb 2021 12:53:29: #1 note: mean fragment size in control is 227 bp -- value ignored 
+INFO  @ Sun, 21 Feb 2021 12:53:29: #1 fragment size = 288 
+INFO  @ Sun, 21 Feb 2021 12:53:29: #1  total fragments in treatment: 13211645 
+INFO  @ Sun, 21 Feb 2021 12:53:29: #1 user defined the maximum fragments... 
+INFO  @ Sun, 21 Feb 2021 12:53:29: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sun, 21 Feb 2021 12:54:17: #1  fragments after filtering in treatment: 13209810 
+INFO  @ Sun, 21 Feb 2021 12:54:17: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sun, 21 Feb 2021 12:54:17: #1  total fragments in control: 17875566 
+INFO  @ Sun, 21 Feb 2021 12:54:17: #1 user defined the maximum fragments... 
+INFO  @ Sun, 21 Feb 2021 12:54:17: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sun, 21 Feb 2021 12:55:21: #1  fragments after filtering in control: 17866630 
+INFO  @ Sun, 21 Feb 2021 12:55:21: #1  Redundant rate of control: 0.00 
+INFO  @ Sun, 21 Feb 2021 12:55:21: #1 finished! 
+INFO  @ Sun, 21 Feb 2021 12:55:21: #2 Build Peak Model... 
+INFO  @ Sun, 21 Feb 2021 12:55:21: #2 Skipped... 
+INFO  @ Sun, 21 Feb 2021 12:55:21: #2 Use 288 as fragment length 
+INFO  @ Sun, 21 Feb 2021 12:55:21: #3 Call peaks... 
+INFO  @ Sun, 21 Feb 2021 12:55:21: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sun, 21 Feb 2021 12:59:06: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sun, 21 Feb 2021 12:59:06: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... ESC_Nanog_1k_rep1_treat_pileup.bdg 
+INFO  @ Sun, 21 Feb 2021 12:59:06: #3   Write bedGraph files for control lambda (after scaling if necessary)... ESC_Nanog_1k_rep1_control_lambda.bdg 
+INFO  @ Sun, 21 Feb 2021 12:59:06: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sun, 21 Feb 2021 12:59:06: #3 Call peaks for each chromosome... 
+INFO  @ Sun, 21 Feb 2021 13:03:29: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch1_cr/6.peak/ESC_Nanog_1k_rep1_peaks.xls 
+INFO  @ Sun, 21 Feb 2021 13:03:29: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch1_cr/6.peak/ESC_Nanog_1k_rep1_peaks.narrowPeak 
+INFO  @ Sun, 21 Feb 2021 13:03:29: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch1_cr/6.peak/ESC_Nanog_1k_rep1_summits.bed 
+INFO  @ Sun, 21 Feb 2021 13:03:29: Done! 

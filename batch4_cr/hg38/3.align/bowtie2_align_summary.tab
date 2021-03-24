@@ -1,0 +1,7 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+293_Dux-CHA_10k_rep1	44.9159	24.1947	53.87%	16.857	37.53%	91.40%
+293_Dux-CHA_1k_rep1	48.9655	23.5499	48.09%	18.2204	37.21%	85.31%
+293_Dux-CHA_1k_rep2	43.0285	20.8284	48.41%	15.0309	34.93%	83.34%
+293_Dux-NHA_10k_rep1	44.6383	23.6251	52.93%	15.7734	35.34%	88.26%
+293_Dux-NHA_1k_rep1	46.87	22.7481	48.53%	15.9351	34.00%	82.53%
+293_Dux-NHA_1k_rep2	36.3212	18.0301	49.64%	12.609	34.72%	84.36%

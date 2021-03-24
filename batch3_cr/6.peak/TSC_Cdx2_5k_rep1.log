@@ -1,0 +1,105 @@
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/OptValidator.py:27: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.IO.Parser import BEDParser, ELANDResultParser, ELANDMultiParser, \
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/callpeak_cmd.py:34: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.PeakModel import PeakModel,NotEnoughPairsException
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/callpeak_cmd.py:35: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.PeakDetect import PeakDetect
+INFO  @ Sun, 21 Feb 2021 12:33:53: 
+# Command line: callpeak -t TSC_Cdx2_5k_rep1.duprm.bam -c TSC_IgG_10k_rep1.duprm.bam -f BAMPE -g mm -n TSC_Cdx2_5k_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch3_cr/6.peak
+# ARGUMENTS LIST:
+# name = TSC_Cdx2_5k_rep1
+# format = BAMPE
+# ChIP-seq file = ['TSC_Cdx2_5k_rep1.duprm.bam']
+# control file = ['TSC_IgG_10k_rep1.duprm.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Sun, 21 Feb 2021 12:33:53: #1 read fragment files... 
+INFO  @ Sun, 21 Feb 2021 12:33:53: #1 read treatment fragments... 
+INFO  @ Sun, 21 Feb 2021 12:34:07:  1000000 
+INFO  @ Sun, 21 Feb 2021 12:34:21:  2000000 
+INFO  @ Sun, 21 Feb 2021 12:34:34:  3000000 
+INFO  @ Sun, 21 Feb 2021 12:34:47:  4000000 
+INFO  @ Sun, 21 Feb 2021 12:35:00:  5000000 
+INFO  @ Sun, 21 Feb 2021 12:35:14:  6000000 
+INFO  @ Sun, 21 Feb 2021 12:35:28:  7000000 
+INFO  @ Sun, 21 Feb 2021 12:35:42:  8000000 
+INFO  @ Sun, 21 Feb 2021 12:35:57:  9000000 
+INFO  @ Sun, 21 Feb 2021 12:36:11:  10000000 
+INFO  @ Sun, 21 Feb 2021 12:36:25:  11000000 
+INFO  @ Sun, 21 Feb 2021 12:36:39:  12000000 
+INFO  @ Sun, 21 Feb 2021 12:36:53:  13000000 
+INFO  @ Sun, 21 Feb 2021 12:37:07:  14000000 
+INFO  @ Sun, 21 Feb 2021 12:37:21:  15000000 
+INFO  @ Sun, 21 Feb 2021 12:37:35:  16000000 
+INFO  @ Sun, 21 Feb 2021 12:37:50:  17000000 
+INFO  @ Sun, 21 Feb 2021 12:38:04:  18000000 
+INFO  @ Sun, 21 Feb 2021 12:38:18:  19000000 
+INFO  @ Sun, 21 Feb 2021 12:38:32:  20000000 
+INFO  @ Sun, 21 Feb 2021 12:38:45:  21000000 
+INFO  @ Sun, 21 Feb 2021 12:38:59:  22000000 
+INFO  @ Sun, 21 Feb 2021 12:39:12:  23000000 
+INFO  @ Sun, 21 Feb 2021 12:39:26:  24000000 
+INFO  @ Sun, 21 Feb 2021 12:39:42:  25000000 
+INFO  @ Sun, 21 Feb 2021 12:39:58:  26000000 
+INFO  @ Sun, 21 Feb 2021 12:40:16:  27000000 
+INFO  @ Sun, 21 Feb 2021 12:40:39: #1.2 read input fragments... 
+INFO  @ Sun, 21 Feb 2021 12:40:55:  1000000 
+INFO  @ Sun, 21 Feb 2021 12:41:11:  2000000 
+INFO  @ Sun, 21 Feb 2021 12:41:28:  3000000 
+INFO  @ Sun, 21 Feb 2021 12:41:44:  4000000 
+INFO  @ Sun, 21 Feb 2021 12:42:00:  5000000 
+INFO  @ Sun, 21 Feb 2021 12:42:18:  6000000 
+INFO  @ Sun, 21 Feb 2021 12:42:36:  7000000 
+INFO  @ Sun, 21 Feb 2021 12:42:55:  8000000 
+INFO  @ Sun, 21 Feb 2021 12:43:15:  9000000 
+INFO  @ Sun, 21 Feb 2021 12:43:34:  10000000 
+INFO  @ Sun, 21 Feb 2021 12:43:53:  11000000 
+INFO  @ Sun, 21 Feb 2021 12:44:12:  12000000 
+INFO  @ Sun, 21 Feb 2021 12:44:31:  13000000 
+INFO  @ Sun, 21 Feb 2021 12:44:50:  14000000 
+INFO  @ Sun, 21 Feb 2021 12:45:09:  15000000 
+INFO  @ Sun, 21 Feb 2021 12:45:29:  16000000 
+INFO  @ Sun, 21 Feb 2021 12:45:48:  17000000 
+INFO  @ Sun, 21 Feb 2021 12:46:07:  18000000 
+INFO  @ Sun, 21 Feb 2021 12:46:27:  19000000 
+INFO  @ Sun, 21 Feb 2021 12:46:47:  20000000 
+INFO  @ Sun, 21 Feb 2021 12:47:06:  21000000 
+INFO  @ Sun, 21 Feb 2021 12:47:26:  22000000 
+INFO  @ Sun, 21 Feb 2021 12:47:45:  23000000 
+INFO  @ Sun, 21 Feb 2021 12:48:04:  24000000 
+INFO  @ Sun, 21 Feb 2021 12:48:23:  25000000 
+INFO  @ Sun, 21 Feb 2021 12:49:02: #1 mean fragment size is determined as 193 bp from treatment 
+INFO  @ Sun, 21 Feb 2021 12:49:02: #1 note: mean fragment size in control is 198 bp -- value ignored 
+INFO  @ Sun, 21 Feb 2021 12:49:02: #1 fragment size = 193 
+INFO  @ Sun, 21 Feb 2021 12:49:02: #1  total fragments in treatment: 27103350 
+INFO  @ Sun, 21 Feb 2021 12:49:02: #1 user defined the maximum fragments... 
+INFO  @ Sun, 21 Feb 2021 12:49:02: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sun, 21 Feb 2021 12:50:42: #1  fragments after filtering in treatment: 27093885 
+INFO  @ Sun, 21 Feb 2021 12:50:42: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sun, 21 Feb 2021 12:50:42: #1  total fragments in control: 25699283 
+INFO  @ Sun, 21 Feb 2021 12:50:42: #1 user defined the maximum fragments... 
+INFO  @ Sun, 21 Feb 2021 12:50:42: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sun, 21 Feb 2021 12:52:17: #1  fragments after filtering in control: 25695839 
+INFO  @ Sun, 21 Feb 2021 12:52:17: #1  Redundant rate of control: 0.00 
+INFO  @ Sun, 21 Feb 2021 12:52:17: #1 finished! 
+INFO  @ Sun, 21 Feb 2021 12:52:17: #2 Build Peak Model... 
+INFO  @ Sun, 21 Feb 2021 12:52:17: #2 Skipped... 
+INFO  @ Sun, 21 Feb 2021 12:52:17: #2 Use 193 as fragment length 
+INFO  @ Sun, 21 Feb 2021 12:52:17: #3 Call peaks... 
+INFO  @ Sun, 21 Feb 2021 12:52:17: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sun, 21 Feb 2021 12:58:15: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sun, 21 Feb 2021 12:58:15: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... TSC_Cdx2_5k_rep1_treat_pileup.bdg 
+INFO  @ Sun, 21 Feb 2021 12:58:15: #3   Write bedGraph files for control lambda (after scaling if necessary)... TSC_Cdx2_5k_rep1_control_lambda.bdg 
+INFO  @ Sun, 21 Feb 2021 12:58:15: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sun, 21 Feb 2021 12:58:15: #3 Call peaks for each chromosome... 
+INFO  @ Sun, 21 Feb 2021 13:05:00: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch3_cr/6.peak/TSC_Cdx2_5k_rep1_peaks.xls 
+INFO  @ Sun, 21 Feb 2021 13:05:00: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch3_cr/6.peak/TSC_Cdx2_5k_rep1_peaks.narrowPeak 
+INFO  @ Sun, 21 Feb 2021 13:05:00: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch3_cr/6.peak/TSC_Cdx2_5k_rep1_summits.bed 
+INFO  @ Sun, 21 Feb 2021 13:05:00: Done! 

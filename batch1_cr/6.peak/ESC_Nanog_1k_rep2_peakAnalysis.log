@@ -1,0 +1,902 @@
+
+	Position file = ESC_Nanog_1k_rep2_peaks.narrowPeak
+	Genome = mm10
+	Output Directory = ESC_Nanog_1k_rep2_peakAnalysis
+	Using actual sizes of regions (-size given)
+	Fragment size set to given
+	Using 10 CPUs
+	Motif length set at 8,
+	Found mset for "mouse", will check against vertebrates motifs
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 13582
+		peakfile formatted lines: 0
+
+	Peak File Statistics:
+		Total Peaks: 13582
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Peak file looks good!
+
+	Background fragment size set to 671 (avg size of targets)
+	Could not find background files for 671 bp fragments
+	Below are the sizes that are already available prepared.
+		200
+		342
+		420
+		444
+		463
+		998
+		999
+		1078
+		1142
+		1222
+		1249
+		1259
+		1262
+		1288
+		1376
+		1455
+		1619
+		1925
+		1959
+		2017
+		2116
+		2151
+		2488
+		2499
+		7879
+		7974
+	HOMER will now create background files for 671 bp fragments
+	To CANCEL and rerun with a differet "-size <#>", hit <CTRL+C> now!
+		5
+		4
+		3
+		2
+		1
+	Preparsing genome for 671 bp fragments...(will probably take 1-5 min)
+	preparse size set to 671
+
+	By default, using /usr/local/software/homer/.//data/genomes/mm10//mm10.tss for reference positions
+	Output files will be placed in /usr/local/software/homer/.//data/genomes/mm10//preparsed//mm10.671.* ...
+	By default, HOMER will set the the preparsed Directory to be group read/write
+chmod: changing permissions of ‘/usr/local/software/homer/.//data/genomes/mm10//preparsed/’: Operation not permitted
+	Extracting sequences
+
+	Duplicate peak name (NR_003517-chr11-3124021-0+0) - this could potentially cause problems
+		Sometimes unavoidable for BED/2DBED formats
+		New name for this peak is NR_003517-chr11-3124021-0+0--2
+		Warning over 1000 peaks with duplicate names
+		Warning over 2000 peaks with duplicate names
+		Warning over 3000 peaks with duplicate names
+		Warning over 4000 peaks with duplicate names
+		Warning over 5000 peaks with duplicate names
+		Warning over 6000 peaks with duplicate names
+		Warning over 7000 peaks with duplicate names
+		Warning over 8000 peaks with duplicate names
+		Warning over 9000 peaks with duplicate names
+		Warning over 10000 peaks with duplicate names
+		Warning over 11000 peaks with duplicate names
+		Warning over 12000 peaks with duplicate names
+		Warning over 13000 peaks with duplicate names
+		Warning over 14000 peaks with duplicate names
+		Warning over 15000 peaks with duplicate names
+		Warning over 16000 peaks with duplicate names
+		Warning over 17000 peaks with duplicate names
+		Warning over 18000 peaks with duplicate names
+		Warning over 19000 peaks with duplicate names
+		Warning over 20000 peaks with duplicate names
+		Warning over 21000 peaks with duplicate names
+		Warning over 22000 peaks with duplicate names
+		Warning over 23000 peaks with duplicate names
+		Warning over 24000 peaks with duplicate names
+		Warning over 25000 peaks with duplicate names
+		Warning over 26000 peaks with duplicate names
+		Warning over 27000 peaks with duplicate names
+		Warning over 28000 peaks with duplicate names
+		Warning over 29000 peaks with duplicate names
+		Warning over 30000 peaks with duplicate names
+		Warning over 31000 peaks with duplicate names
+		Warning over 32000 peaks with duplicate names
+		Warning over 33000 peaks with duplicate names
+		Warning over 34000 peaks with duplicate names
+		Warning over 35000 peaks with duplicate names
+		Warning over 36000 peaks with duplicate names
+		Warning over 37000 peaks with duplicate names
+		Warning over 38000 peaks with duplicate names
+		Warning over 39000 peaks with duplicate names
+		Warning over 40000 peaks with duplicate names
+		Warning over 41000 peaks with duplicate names
+		Warning over 42000 peaks with duplicate names
+		Warning over 43000 peaks with duplicate names
+		Warning over 44000 peaks with duplicate names
+		Warning over 45000 peaks with duplicate names
+		Warning over 46000 peaks with duplicate names
+		Warning over 47000 peaks with duplicate names
+		Warning over 48000 peaks with duplicate names
+		Warning over 49000 peaks with duplicate names
+		Warning over 50000 peaks with duplicate names
+		Warning over 51000 peaks with duplicate names
+		Warning over 52000 peaks with duplicate names
+		Warning over 53000 peaks with duplicate names
+		Warning over 54000 peaks with duplicate names
+		Warning over 55000 peaks with duplicate names
+		Warning over 56000 peaks with duplicate names
+		Warning over 57000 peaks with duplicate names
+		Warning over 58000 peaks with duplicate names
+		Warning over 59000 peaks with duplicate names
+		Warning over 60000 peaks with duplicate names
+		Warning over 61000 peaks with duplicate names
+		Warning over 62000 peaks with duplicate names
+		Warning over 63000 peaks with duplicate names
+		Warning over 64000 peaks with duplicate names
+		Warning over 65000 peaks with duplicate names
+		Warning over 66000 peaks with duplicate names
+		Warning over 67000 peaks with duplicate names
+		Warning over 68000 peaks with duplicate names
+		Warning over 69000 peaks with duplicate names
+		Warning over 70000 peaks with duplicate names
+		Warning over 71000 peaks with duplicate names
+		Warning over 72000 peaks with duplicate names
+		Warning over 73000 peaks with duplicate names
+		Warning over 74000 peaks with duplicate names
+		Warning over 75000 peaks with duplicate names
+		Warning over 76000 peaks with duplicate names
+		Warning over 77000 peaks with duplicate names
+		Warning over 78000 peaks with duplicate names
+		Warning over 79000 peaks with duplicate names
+		Warning over 80000 peaks with duplicate names
+		Warning over 81000 peaks with duplicate names
+		Warning over 82000 peaks with duplicate names
+		Warning over 83000 peaks with duplicate names
+		Warning over 84000 peaks with duplicate names
+		Warning over 85000 peaks with duplicate names
+		Warning over 86000 peaks with duplicate names
+		Warning over 87000 peaks with duplicate names
+		Warning over 88000 peaks with duplicate names
+		Warning over 89000 peaks with duplicate names
+		Warning over 90000 peaks with duplicate names
+		Warning over 91000 peaks with duplicate names
+		Warning over 92000 peaks with duplicate names
+		Warning over 93000 peaks with duplicate names
+		Warning over 94000 peaks with duplicate names
+		Warning over 95000 peaks with duplicate names
+		Warning over 96000 peaks with duplicate names
+		Warning over 97000 peaks with duplicate names
+		Warning over 98000 peaks with duplicate names
+		Warning over 99000 peaks with duplicate names
+		Warning over 100000 peaks with duplicate names
+		Warning over 101000 peaks with duplicate names
+		Warning over 102000 peaks with duplicate names
+		Warning over 103000 peaks with duplicate names
+		Warning over 104000 peaks with duplicate names
+		Warning over 105000 peaks with duplicate names
+		Warning over 106000 peaks with duplicate names
+		Warning over 107000 peaks with duplicate names
+		Warning over 108000 peaks with duplicate names
+		Warning over 109000 peaks with duplicate names
+		Warning over 110000 peaks with duplicate names
+		Warning over 111000 peaks with duplicate names
+		Warning over 112000 peaks with duplicate names
+		Warning over 113000 peaks with duplicate names
+		Warning over 114000 peaks with duplicate names
+		Warning over 115000 peaks with duplicate names
+		Warning over 116000 peaks with duplicate names
+		Warning over 117000 peaks with duplicate names
+		Warning over 118000 peaks with duplicate names
+		Warning over 119000 peaks with duplicate names
+		Warning over 120000 peaks with duplicate names
+		Warning over 121000 peaks with duplicate names
+		Warning over 122000 peaks with duplicate names
+		Warning over 123000 peaks with duplicate names
+		Warning over 124000 peaks with duplicate names
+		Warning over 125000 peaks with duplicate names
+		Warning over 126000 peaks with duplicate names
+		Warning over 127000 peaks with duplicate names
+		Warning over 128000 peaks with duplicate names
+		Warning over 129000 peaks with duplicate names
+		Warning over 130000 peaks with duplicate names
+		Warning over 131000 peaks with duplicate names
+		Warning over 132000 peaks with duplicate names
+		Warning over 133000 peaks with duplicate names
+		Warning over 134000 peaks with duplicate names
+		Warning over 135000 peaks with duplicate names
+		Warning over 136000 peaks with duplicate names
+		Warning over 137000 peaks with duplicate names
+		Warning over 138000 peaks with duplicate names
+		Warning over 139000 peaks with duplicate names
+		Warning over 140000 peaks with duplicate names
+		Warning over 141000 peaks with duplicate names
+		Warning over 142000 peaks with duplicate names
+		Warning over 143000 peaks with duplicate names
+		Warning over 144000 peaks with duplicate names
+		Warning over 145000 peaks with duplicate names
+		Warning over 146000 peaks with duplicate names
+		Warning over 147000 peaks with duplicate names
+		Warning over 148000 peaks with duplicate names
+		Warning over 149000 peaks with duplicate names
+		Warning over 150000 peaks with duplicate names
+		Warning over 151000 peaks with duplicate names
+		Warning over 152000 peaks with duplicate names
+		Warning over 153000 peaks with duplicate names
+		Warning over 154000 peaks with duplicate names
+		Warning over 155000 peaks with duplicate names
+		Warning over 156000 peaks with duplicate names
+		Warning over 157000 peaks with duplicate names
+		Warning over 158000 peaks with duplicate names
+		Warning over 159000 peaks with duplicate names
+		Warning over 160000 peaks with duplicate names
+		Warning over 161000 peaks with duplicate names
+		Warning over 162000 peaks with duplicate names
+		Warning over 163000 peaks with duplicate names
+		Warning over 164000 peaks with duplicate names
+		Warning over 165000 peaks with duplicate names
+		Warning over 166000 peaks with duplicate names
+		Warning over 167000 peaks with duplicate names
+		Warning over 168000 peaks with duplicate names
+		Warning over 169000 peaks with duplicate names
+		Warning over 170000 peaks with duplicate names
+		Warning over 171000 peaks with duplicate names
+		Warning over 172000 peaks with duplicate names
+		Warning over 173000 peaks with duplicate names
+		Warning over 174000 peaks with duplicate names
+		Warning over 175000 peaks with duplicate names
+		Warning over 176000 peaks with duplicate names
+		Warning over 177000 peaks with duplicate names
+		Warning over 178000 peaks with duplicate names
+		Warning over 179000 peaks with duplicate names
+		Warning over 180000 peaks with duplicate names
+		Warning over 181000 peaks with duplicate names
+		Warning over 182000 peaks with duplicate names
+		Warning over 183000 peaks with duplicate names
+		Warning over 184000 peaks with duplicate names
+		Warning over 185000 peaks with duplicate names
+		Warning over 186000 peaks with duplicate names
+		Warning over 187000 peaks with duplicate names
+		Warning over 188000 peaks with duplicate names
+		Warning over 189000 peaks with duplicate names
+		Warning over 190000 peaks with duplicate names
+		Warning over 191000 peaks with duplicate names
+		Warning over 192000 peaks with duplicate names
+		Warning over 193000 peaks with duplicate names
+		Warning over 194000 peaks with duplicate names
+		Warning over 195000 peaks with duplicate names
+		Warning over 196000 peaks with duplicate names
+		Warning over 197000 peaks with duplicate names
+		Warning over 198000 peaks with duplicate names
+		Warning over 199000 peaks with duplicate names
+		Warning over 200000 peaks with duplicate names
+		Warning over 201000 peaks with duplicate names
+		Warning over 202000 peaks with duplicate names
+		Warning over 203000 peaks with duplicate names
+		Warning over 204000 peaks with duplicate names
+		Warning over 205000 peaks with duplicate names
+		Warning over 206000 peaks with duplicate names
+		Warning over 207000 peaks with duplicate names
+		Warning over 208000 peaks with duplicate names
+		Warning over 209000 peaks with duplicate names
+		Warning over 210000 peaks with duplicate names
+		Warning over 211000 peaks with duplicate names
+		Warning over 212000 peaks with duplicate names
+		Warning over 213000 peaks with duplicate names
+		Warning over 214000 peaks with duplicate names
+		Warning over 215000 peaks with duplicate names
+		Warning over 216000 peaks with duplicate names
+		Warning over 217000 peaks with duplicate names
+		Warning over 218000 peaks with duplicate names
+		Warning over 219000 peaks with duplicate names
+		Warning over 220000 peaks with duplicate names
+		Warning over 221000 peaks with duplicate names
+		Warning over 222000 peaks with duplicate names
+		Warning over 223000 peaks with duplicate names
+	Extracting sequences from directory: /usr/local/software/homer/.//data/genomes/mm10//
+	Extracting 78 sequences from chr1
+	Extracting 136639 sequences from chr2
+	Extracting 49066 sequences from chr3
+	Extracting 119408 sequences from chr4
+	Extracting 73252 sequences from chr5
+	Extracting 93302 sequences from chr6
+	Extracting 173655 sequences from chr7
+	Extracting 38875 sequences from chr8
+	Extracting 2385 sequences from chr9
+	Extracting 72121 sequences from chr10
+	Extracting 140549 sequences from chr11
+	Extracting 68147 sequences from chr12
+	Extracting 8706 sequences from chr13
+	Extracting 48364 sequences from chr14
+	Extracting 21939 sequences from chr15
+	Extracting 49643 sequences from chr17
+	Extracting 44537 sequences from chr18
+	Extracting 15262 sequences from chr19
+	Extracting 64261 sequences from chrX
+	Extracting 94 sequences from chrY
+	!!Could not open file for 150977 (.fa or .fa.masked)
+	!!Could not open file for 84996227 (.fa or .fa.masked)
+	!!Could not open file for NM_001004366-chr17-2813879 (.fa or .fa.masked)
+	!!Could not open file for NM_001036684-chr6-113891539-1-93979743655 (.fa or .fa.masked)
+	!!Could not open file for NM_01122408265 (.fa or .fa.masked)
+	!!Could not open file for NM_027624459 (.fa or .fa.masked)
+	!!Could not open file for NR_88 (.fa or .fa.masked)
+	!!Could not open file for c952 (.fa or .fa.masked)
+	Extracting 158 sequences from chr1_GL456211_random
+	Extracting 89 sequences from chr1_GL456221_random
+	Extracting 142 sequences from chr4_GL456216_random
+	Extracting 282 sequences from chr4_GL456350_random
+	Extracting 49 sequences from chr4_JH584292_random
+	Extracting 83 sequences from chr4_JH584293_random
+	Extracting 180 sequences from chr4_JH584294_random
+	Extracting 95 sequences from chr5_JH584297_random
+	Extracting 205 sequences from chr5_JH584298_random
+	Extracting 433 sequences from chr5_JH584299_random
+	Extracting 158 sequences from chr7_GL456219_random
+	Extracting 11 sequences from chrUn_JH584304
+	Extracting 366 sequences from chrX_GL456233_random
+	!!Could not open file for cr8 (.fa or .fa.masked)
+Use of uninitialized value $len in numeric lt (<) at /usr/local/software/homer/bin/cleanUpSequences.pl line 36, <IN> line 650449.
+Use of uninitialized value $len in numeric gt (>) at /usr/local/software/homer/bin/cleanUpSequences.pl line 40, <IN> line 650449.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 44, <IN> line 650449.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 45, <IN> line 650449.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 46, <IN> line 650449.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 47, <IN> line 650449.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 48, <IN> line 650449.
+Use of uninitialized value $line[1] in pattern match (m//) at /usr/local/software/homer/bin/cleanUpSequences.pl line 50, <IN> line 650449.
+Use of uninitialized value $line[1] in concatenation (.) or string at /usr/local/software/homer/bin/cleanUpSequences.pl line 55, <IN> line 650449.
+Use of uninitialized value $len in numeric lt (<) at /usr/local/software/homer/bin/cleanUpSequences.pl line 36, <IN> line 1220095.
+Use of uninitialized value $len in numeric gt (>) at /usr/local/software/homer/bin/cleanUpSequences.pl line 40, <IN> line 1220095.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 44, <IN> line 1220095.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 45, <IN> line 1220095.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 46, <IN> line 1220095.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 47, <IN> line 1220095.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 48, <IN> line 1220095.
+Use of uninitialized value $line[1] in pattern match (m//) at /usr/local/software/homer/bin/cleanUpSequences.pl line 50, <IN> line 1220095.
+Use of uninitialized value $line[1] in concatenation (.) or string at /usr/local/software/homer/bin/cleanUpSequences.pl line 55, <IN> line 1220095.
+Use of uninitialized value $L in numeric lt (<) at /usr/local/software/homer/bin/removePoorSeq.pl line 38, <IN> line 650449.
+Use of uninitialized value $L in numeric lt (<) at /usr/local/software/homer/bin/removePoorSeq.pl line 38, <IN> line 1220095.
+	2 of 1222331 removed because they were shorter than 5 bp
+		3546 of 1222331 removed because they had >70.00% Ns (i.e. masked repeats)
+
+	Sequences processed:
+		Auto detected maximum sequence length of 671 bp
+		100000
+		200000
+		300000
+		400000
+		500000
+		600000
+		700000
+		800000
+		900000
+		1000000
+		1100000
+		1200000
+		1218783 total
+
+	Frequency Bins: 0.01 0.02 0.03 0.04 0.05 0.06 0.08 0.1 0.12 0.14 0.16
+	Freq	Bin	Count
+	0.01	0	748241
+	0.02	1	361119
+	0.03	2	65031
+	0.04	3	13974
+	0.05	4	8022
+	0.06	5	5329
+	0.08	6	7372
+	0.1	7	4858
+	0.12	8	2812
+	0.14	9	1300
+	0.16	10	574
+	11	11	151
+	Frequency Bins: 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.6 0.7 0.8
+	Freq	Bin	Count
+	0.2	0	30
+	0.25	1	548
+	0.3	2	12181
+	0.35	3	80579
+	0.4	4	259973
+	0.45	5	367197
+	0.5	6	305508
+	0.6	7	172498
+	0.7	8	16629
+	0.8	9	3521
+	10	10	119
+
+
+	Extracting sequences from directory: /usr/local/software/homer/.//data/genomes/mm10//
+	Extracting 824 sequences from chr1
+	Extracting 970 sequences from chr2
+	Extracting 599 sequences from chr3
+	Extracting 862 sequences from chr4
+	Extracting 882 sequences from chr5
+	Extracting 1075 sequences from chr6
+	Extracting 665 sequences from chr7
+	Extracting 876 sequences from chr8
+	Extracting 719 sequences from chr9
+	Extracting 801 sequences from chr10
+	Extracting 947 sequences from chr11
+	Extracting 493 sequences from chr12
+	Extracting 621 sequences from chr13
+	Extracting 519 sequences from chr14
+	Extracting 555 sequences from chr15
+	Extracting 438 sequences from chr16
+	Extracting 573 sequences from chr17
+	Extracting 489 sequences from chr18
+	Extracting 400 sequences from chr19
+	Extracting 274 sequences from chrX
+
+	Not removing redundant sequences
+
+
+	Sequences processed:
+		Auto detected maximum sequence length of 732 bp
+		13582 total
+
+	Frequency Bins: 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.6 0.7 0.8
+	Freq	Bin	Count
+	0.25	1	2
+	0.3	2	15
+	0.35	3	146
+	0.4	4	876
+	0.45	5	3177
+	0.5	6	3995
+	0.6	7	3549
+	0.7	8	1239
+	0.8	9	558
+	10	10	25
+
+	Total sequences set to 50000
+
+	Choosing background that matches in CpG/GC content...
+	Bin	# Targets	# Background	Background Weight
+	1	2	5	1.073
+	2	15	40	1.005
+	3	146	391	1.001
+	4	876	2349	1.000
+	5	3177	8519	1.000
+	6	3995	10712	1.000
+	7	3549	9516	1.000
+	8	1239	3322	1.000
+	9	558	1496	1.000
+	10	25	67	1.000
+	Assembling sequence file...
+	Normalizing lower order oligos using homer2
+
+	Reading input files...
+	49999 total sequences read
+	Autonormalization: 1-mers (4 total)
+		A	25.02%	25.23%	0.992
+		C	24.98%	24.77%	1.008
+		G	24.98%	24.77%	1.008
+		T	25.02%	25.23%	0.992
+	Autonormalization: 2-mers (16 total)
+		AA	7.39%	6.89%	1.073
+		CA	7.14%	7.51%	0.951
+		GA	6.17%	6.29%	0.981
+		TA	4.30%	4.53%	0.948
+		AC	5.14%	5.29%	0.972
+		CC	7.47%	7.27%	1.027
+		GC	6.23%	5.93%	1.050
+		TC	6.17%	6.29%	0.981
+		AG	7.67%	7.81%	0.982
+		CG	2.69%	2.19%	1.229
+		GG	7.47%	7.27%	1.027
+		TG	7.14%	7.51%	0.951
+		AT	4.83%	5.23%	0.924
+		CT	7.67%	7.81%	0.982
+		GT	5.14%	5.29%	0.972
+		TT	7.39%	6.89%	1.073
+	Autonormalization: 3-mers (64 total)
+	Normalization weights can be found in file: ESC_Nanog_1k_rep2_peakAnalysis/seq.autonorm.tsv
+	Converging on autonormalization solution:
+	...............................................................................
+	Final normalization:	Autonormalization: 1-mers (4 total)
+		A	25.02%	25.00%	1.001
+		C	24.98%	25.00%	0.999
+		G	24.98%	25.00%	0.999
+		T	25.02%	25.00%	1.001
+	Autonormalization: 2-mers (16 total)
+		AA	7.39%	7.18%	1.030
+		CA	7.14%	7.20%	0.991
+		GA	6.17%	6.22%	0.992
+		TA	4.30%	4.40%	0.977
+		AC	5.14%	5.15%	0.999
+		CC	7.47%	7.44%	1.004
+		GC	6.23%	6.20%	1.005
+		TC	6.17%	6.22%	0.992
+		AG	7.67%	7.68%	0.999
+		CG	2.69%	2.68%	1.005
+		GG	7.47%	7.44%	1.004
+		TG	7.14%	7.20%	0.991
+		AT	4.83%	5.00%	0.967
+		CT	7.67%	7.68%	0.999
+		GT	5.14%	5.15%	0.999
+		TT	7.39%	7.18%	1.030
+	Autonormalization: 3-mers (64 total)
+	Finished preparing sequence/group files
+
+	----------------------------------------------------------
+	Known motif enrichment
+
+	Reading input files...
+	49999 total sequences read
+	414 motifs loaded
+	Cache length = 11180
+	Using binomial scoring
+	Checking enrichment of 414 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+	Preparing HTML output with sequence logos...
+		1 of 414 (1e-401) OCT4-SOX2-TCF-NANOG(POU,Homeobox,HMG)/mES-Oct4-ChIP-Seq(GSE11431)/Homer
+		2 of 414 (1e-172) Zfp281(Zf)/ES-Zfp281-ChIP-Seq(GSE81042)/Homer
+		3 of 414 (1e-114) Oct4(POU,Homeobox)/mES-Oct4-ChIP-Seq(GSE11431)/Homer
+		4 of 414 (1e-114) Brn1(POU,Homeobox)/NPC-Brn1-ChIP-Seq(GSE35496)/Homer
+		5 of 414 (1e-93) Sox2(HMG)/mES-Sox2-ChIP-Seq(GSE11431)/Homer
+		6 of 414 (1e-92) Oct6(POU,Homeobox)/NPC-Pou3f1-ChIP-Seq(GSE35496)/Homer
+		7 of 414 (1e-80) KLF3(Zf)/MEF-Klf3-ChIP-Seq(GSE44748)/Homer
+		8 of 414 (1e-78) Sox17(HMG)/Endoderm-Sox17-ChIP-Seq(GSE61475)/Homer
+		9 of 414 (1e-74) Nr5a2(NR)/mES-Nr5a2-ChIP-Seq(GSE19019)/Homer
+		10 of 414 (1e-72) Zic3(Zf)/mES-Zic3-ChIP-Seq(GSE37889)/Homer
+		11 of 414 (1e-67) Tcf3(HMG)/mES-Tcf3-ChIP-Seq(GSE11724)/Homer
+		12 of 414 (1e-66) Esrrb(NR)/mES-Esrrb-ChIP-Seq(GSE11431)/Homer
+		13 of 414 (1e-64) EKLF(Zf)/Erythrocyte-Klf1-ChIP-Seq(GSE20478)/Homer
+		14 of 414 (1e-63) KLF5(Zf)/LoVo-KLF5-ChIP-Seq(GSE49402)/Homer
+		15 of 414 (1e-63) Sp2(Zf)/HEK293-Sp2.eGFP-ChIP-Seq(Encode)/Homer
+		16 of 414 (1e-63) LEF1(HMG)/H1-LEF1-ChIP-Seq(GSE64758)/Homer
+		17 of 414 (1e-62) Klf4(Zf)/mES-Klf4-ChIP-Seq(GSE11431)/Homer
+		18 of 414 (1e-59) Nr5a2(NR)/Pancreas-LRH1-ChIP-Seq(GSE34295)/Homer
+		19 of 414 (1e-56) Sp5(Zf)/mES-Sp5.Flag-ChIP-Seq(GSE72989)/Homer
+		20 of 414 (1e-56) Unknown-ESC-element(?)/mES-Nanog-ChIP-Seq(GSE11724)/Homer
+		21 of 414 (1e-56) Maz(Zf)/HepG2-Maz-ChIP-Seq(GSE31477)/Homer
+		22 of 414 (1e-51) Sox15(HMG)/CPA-Sox15-ChIP-Seq(GSE62909)/Homer
+		23 of 414 (1e-48) KLF6(Zf)/PDAC-KLF6-ChIP-Seq(GSE64557)/Homer
+		24 of 414 (1e-47) SF1(NR)/H295R-Nr5a1-ChIP-Seq(GSE44220)/Homer
+		25 of 414 (1e-46) Dlx3(Homeobox)/Kerainocytes-Dlx3-ChIP-Seq(GSE89884)/Homer
+		26 of 414 (1e-44) TCFL2(HMG)/K562-TCF7L2-ChIP-Seq(GSE29196)/Homer
+		27 of 414 (1e-42) RAR:RXR(NR),DR5/ES-RAR-ChIP-Seq(GSE56893)/Homer
+		28 of 414 (1e-42) Oct2(POU,Homeobox)/Bcell-Oct2-ChIP-Seq(GSE21512)/Homer
+		29 of 414 (1e-36) Sox4(HMG)/proB-Sox4-ChIP-Seq(GSE50066)/Homer
+		30 of 414 (1e-34) Lhx1(Homeobox)/EmbryoCarcinoma-Lhx1-ChIP-Seq(GSE70957)/Homer
+		31 of 414 (1e-33) RARg(NR)/ES-RARg-ChIP-Seq(GSE30538)/Homer
+		32 of 414 (1e-31) Tcf7(HMG)/GM12878-TCF7-ChIP-Seq(Encode)/Homer
+		33 of 414 (1e-30) TEAD1(TEAD)/HepG2-TEAD1-ChIP-Seq(Encode)/Homer
+		34 of 414 (1e-29) Lhx2(Homeobox)/HFSC-Lhx2-ChIP-Seq(GSE48068)/Homer
+		35 of 414 (1e-29) Klf9(Zf)/GBM-Klf9-ChIP-Seq(GSE62211)/Homer
+		36 of 414 (1e-28) KLF14(Zf)/HEK293-KLF14.GFP-ChIP-Seq(GSE58341)/Homer
+		37 of 414 (1e-27) Sox3(HMG)/NPC-Sox3-ChIP-Seq(GSE33059)/Homer
+		38 of 414 (1e-27) TEAD4(TEA)/Tropoblast-Tead4-ChIP-Seq(GSE37350)/Homer
+		39 of 414 (1e-22) Zic(Zf)/Cerebellum-ZIC1.2-ChIP-Seq(GSE60731)/Homer
+		40 of 414 (1e-21) WT1(Zf)/Kidney-WT1-ChIP-Seq(GSE90016)/Homer
+		41 of 414 (1e-21) TEAD(TEA)/Fibroblast-PU.1-ChIP-Seq(Unpublished)/Homer
+		42 of 414 (1e-21) Sox6(HMG)/Myotubes-Sox6-ChIP-Seq(GSE32627)/Homer
+		43 of 414 (1e-20) OCT:OCT(POU,Homeobox,IR1)/NPC-Brn2-ChIP-Seq(GSE35496)/Homer
+		44 of 414 (1e-18) TEAD2(TEA)/Py2T-Tead2-ChIP-Seq(GSE55709)/Homer
+		45 of 414 (1e-18) Sox9(HMG)/Limb-SOX9-ChIP-Seq(GSE73225)/Homer
+		46 of 414 (1e-17) MYNN(Zf)/HEK293-MYNN.eGFP-ChIP-Seq(Encode)/Homer
+		47 of 414 (1e-16) ZNF652/HepG2-ZNF652.Flag-ChIP-Seq(Encode)/Homer
+		48 of 414 (1e-14) CHR(?)/Hela-CellCycle-Expression/Homer
+		49 of 414 (1e-14) Nrf2(bZIP)/Lymphoblast-Nrf2-ChIP-Seq(GSE37589)/Homer
+		50 of 414 (1e-14) Nur77(NR)/K562-NR4A1-ChIP-Seq(GSE31363)/Homer
+		51 of 414 (1e-14) Bach1(bZIP)/K562-Bach1-ChIP-Seq(GSE31477)/Homer
+		52 of 414 (1e-14) Sox10(HMG)/SciaticNerve-Sox3-ChIP-Seq(GSE35132)/Homer
+		53 of 414 (1e-13) STAT5(Stat)/mCD4+-Stat5-ChIP-Seq(GSE12346)/Homer
+		54 of 414 (1e-13) NF-E2(bZIP)/K562-NFE2-ChIP-Seq(GSE31477)/Homer
+		55 of 414 (1e-12) NFkB-p65(RHD)/GM12787-p65-ChIP-Seq(GSE19485)/Homer
+		56 of 414 (1e-12) Stat3(Stat)/mES-Stat3-ChIP-Seq(GSE11431)/Homer
+		57 of 414 (1e-12) Lhx3(Homeobox)/Neuron-Lhx3-ChIP-Seq(GSE31456)/Homer
+		58 of 414 (1e-11) STAT1(Stat)/HelaS3-STAT1-ChIP-Seq(GSE12782)/Homer
+		59 of 414 (1e-11) Hoxb4(Homeobox)/ES-Hoxb4-ChIP-Seq(GSE34014)/Homer
+		60 of 414 (1e-9) Barx1(Homeobox)/Stomach-Barx1.3xFlag-ChIP-Seq(GSE69483)/Homer
+		61 of 414 (1e-9) STAT4(Stat)/CD4-Stat4-ChIP-Seq(GSE22104)/Homer
+		62 of 414 (1e-8) TEAD3(TEA)/HepG2-TEAD3-ChIP-Seq(Encode)/Homer
+		63 of 414 (1e-8) Egr1(Zf)/K562-Egr1-ChIP-Seq(GSE32465)/Homer
+		64 of 414 (1e-8) ZNF467(Zf)/HEK293-ZNF467.GFP-ChIP-Seq(GSE58341)/Homer
+		65 of 414 (1e-8) Brn2(POU,Homeobox)/NPC-Brn2-ChIP-Seq(GSE35496)/Homer
+		66 of 414 (1e-8) Elk4(ETS)/Hela-Elk4-ChIP-Seq(GSE31477)/Homer
+		67 of 414 (1e-8) NFE2L2(bZIP)/HepG2-NFE2L2-ChIP-Seq(Encode)/Homer
+		68 of 414 (1e-7) PBX1(Homeobox)/MCF7-PBX1-ChIP-Seq(GSE28007)/Homer
+		69 of 414 (1e-7) Bach2(bZIP)/OCILy7-Bach2-ChIP-Seq(GSE44420)/Homer
+		70 of 414 (1e-7) bHLHE40(bHLH)/HepG2-BHLHE40-ChIP-Seq(GSE31477)/Homer
+		71 of 414 (1e-7) Fra2(bZIP)/Striatum-Fra2-ChIP-Seq(GSE43429)/Homer
+		72 of 414 (1e-6) Atf3(bZIP)/GBM-ATF3-ChIP-Seq(GSE33912)/Homer
+		73 of 414 (1e-6) KLF10(Zf)/HEK293-KLF10.GFP-ChIP-Seq(GSE58341)/Homer
+		74 of 414 (1e-6) Cux2(Homeobox)/Liver-Cux2-ChIP-Seq(GSE35985)/Homer
+		75 of 414 (1e-5) Fra1(bZIP)/BT549-Fra1-ChIP-Seq(GSE46166)/Homer
+		76 of 414 (1e-5) NFkB-p65-Rel(RHD)/ThioMac-LPS-Expression(GSE23622)/Homer
+		77 of 414 (1e-5) HNF6(Homeobox)/Liver-Hnf6-ChIP-Seq(ERP000394)/Homer
+		78 of 414 (1e-5) Brachyury(T-box)/Mesoendoderm-Brachyury-ChIP-exo(GSE54963)/Homer
+		79 of 414 (1e-5) Tbx21(T-box)/GM12878-TBX21-ChIP-Seq(Encode)/Homer
+		80 of 414 (1e-5) ELF5(ETS)/T47D-ELF5-ChIP-Seq(GSE30407)/Homer
+		81 of 414 (1e-5) ELF1(ETS)/Jurkat-ELF1-ChIP-Seq(SRA014231)/Homer
+		82 of 414 (1e-5) Stat3+il21(Stat)/CD4-Stat3-ChIP-Seq(GSE19198)/Homer
+		83 of 414 (1e-5) Isl1(Homeobox)/Neuron-Isl1-ChIP-Seq(GSE31456)/Homer
+		84 of 414 (1e-5) Elk1(ETS)/Hela-Elk1-ChIP-Seq(GSE31477)/Homer
+		85 of 414 (1e-5) JunB(bZIP)/DendriticCells-Junb-ChIP-Seq(GSE36099)/Homer
+		86 of 414 (1e-4) Tbx6(T-box)/ESC-Tbx6-ChIP-Seq(GSE93524)/Homer
+		87 of 414 (1e-4) EAR2(NR)/K562-NR2F6-ChIP-Seq(Encode)/Homer
+		88 of 414 (1e-4) COUP-TFII(NR)/K562-NR2F1-ChIP-Seq(Encode)/Homer
+		89 of 414 (1e-4) FOXP1(Forkhead)/H9-FOXP1-ChIP-Seq(GSE31006)/Homer
+		90 of 414 (1e-4) Tbr1(T-box)/Cortex-Tbr1-ChIP-Seq(GSE71384)/Homer
+		91 of 414 (1e-4) Foxa3(Forkhead)/Liver-Foxa3-ChIP-Seq(GSE77670)/Homer
+		92 of 414 (1e-4) NFkB-p50,p52(RHD)/Monocyte-p50-ChIP-Chip(Schreiber_et_al.)/Homer
+		93 of 414 (1e-4) Unknown(Homeobox)/Limb-p300-ChIP-Seq/Homer
+		94 of 414 (1e-4) E2F4(E2F)/K562-E2F4-ChIP-Seq(GSE31477)/Homer
+		95 of 414 (1e-4) Oct4:Sox17(POU,Homeobox,HMG)/F9-Sox17-ChIP-Seq(GSE44553)/Homer
+		96 of 414 (1e-4) Atf4(bZIP)/MEF-Atf4-ChIP-Seq(GSE35681)/Homer
+		97 of 414 (1e-3) Tcfcp2l1(CP2)/mES-Tcfcp2l1-ChIP-Seq(GSE11431)/Homer
+		98 of 414 (1e-3) RFX(HTH)/K562-RFX3-ChIP-Seq(SRA012198)/Homer
+		99 of 414 (1e-3) AP-1(bZIP)/ThioMac-PU.1-ChIP-Seq(GSE21512)/Homer
+		100 of 414 (1e-3) ELF3(ETS)/PDAC-ELF3-ChIP-Seq(GSE64557)/Homer
+		101 of 414 (1e-3) DMRT1(DM)/Testis-DMRT1-ChIP-Seq(GSE64892)/Homer
+		102 of 414 (1e-3) X-box(HTH)/NPC-H3K4me1-ChIP-Seq(GSE16256)/Homer
+		103 of 414 (1e-3) PU.1(ETS)/ThioMac-PU.1-ChIP-Seq(GSE21512)/Homer
+		104 of 414 (1e-3) STAT6(Stat)/CD4-Stat6-ChIP-Seq(GSE22104)/Homer
+		105 of 414 (1e-3) Fosl2(bZIP)/3T3L1-Fosl2-ChIP-Seq(GSE56872)/Homer
+		106 of 414 (1e-3) LXRE(NR),DR4/RAW-LXRb.biotin-ChIP-Seq(GSE21512)/Homer
+		107 of 414 (1e-3) ETS(ETS)/Promoter/Homer
+		108 of 414 (1e-3) GATA(Zf),IR4/iTreg-Gata3-ChIP-Seq(GSE20898)/Homer
+		109 of 414 (1e-3) CDX4(Homeobox)/ZebrafishEmbryos-Cdx4.Myc-ChIP-Seq(GSE48254)/Homer
+		110 of 414 (1e-3) Phox2a(Homeobox)/Neuron-Phox2a-ChIP-Seq(GSE31456)/Homer
+		111 of 414 (1e-3) Arnt:Ahr(bHLH)/MCF7-Arnt-ChIP-Seq(Lo_et_al.)/Homer
+		112 of 414 (1e-3) EWS:ERG-fusion(ETS)/CADO_ES1-EWS:ERG-ChIP-Seq(SRA014231)/Homer
+		113 of 414 (1e-3) EBF(EBF)/proBcell-EBF-ChIP-Seq(GSE21978)/Homer
+		114 of 414 (1e-3) Jun-AP1(bZIP)/K562-cJun-ChIP-Seq(GSE31477)/Homer
+		115 of 414 (1e-2) CEBP:AP1(bZIP)/ThioMac-CEBPb-ChIP-Seq(GSE21512)/Homer
+		116 of 414 (1e-2) E2F7(E2F)/Hela-E2F7-ChIP-Seq(GSE32673)/Homer
+		117 of 414 (1e-2) ETS:E-box(ETS,bHLH)/HPC7-Scl-ChIP-Seq(GSE22178)/Homer
+		118 of 414 (1e-2) PU.1:IRF8(ETS:IRF)/pDC-Irf8-ChIP-Seq(GSE66899)/Homer
+		119 of 414 (1e-2) ZKSCAN1(Zf)/HepG2-ZKSCAN1-ChIP-Seq(Encode)/Homer
+		120 of 414 (1e-2) Foxh1(Forkhead)/hESC-FOXH1-ChIP-Seq(GSE29422)/Homer
+		121 of 414 (1e-2) BATF(bZIP)/Th17-BATF-ChIP-Seq(GSE39756)/Homer
+		122 of 414 (1e-2) c-Myc(bHLH)/LNCAP-cMyc-ChIP-Seq(Unpublished)/Homer
+		123 of 414 (1e-2) NF1:FOXA1(CTF,Forkhead)/LNCAP-FOXA1-ChIP-Seq(GSE27824)/Homer
+		124 of 414 (1e-2) Prop1(Homeobox)/GHFT1-PROP1.biotin-ChIP-Seq(GSE77302)/Homer
+		125 of 414 (1e-2) Six4(Homeobox)/MCF7-SIX4-ChIP-Seq(Encode)/Homer
+		126 of 414 (1e-2) STAT6(Stat)/Macrophage-Stat6-ChIP-Seq(GSE38377)/Homer
+		127 of 414 (1e-2) Hoxc9(Homeobox)/Ainv15-Hoxc9-ChIP-Seq(GSE21812)/Homer
+		128 of 414 (1e-2) RORg(NR)/Liver-Rorc-ChIP-Seq(GSE101115)/Homer
+		129 of 414 (1e-2) ZNF675(Zf)/HEK293-ZNF675.GFP-ChIP-Seq(GSE58341)/Homer
+		130 of 414 (1e-2) ZNF7(Zf)/HepG2-ZNF7.Flag-ChIP-Seq(Encode)/Homer
+		131 of 414 (1e-2) Fli1(ETS)/CD8-FLI-ChIP-Seq(GSE20898)/Homer
+		132 of 414 (1e-2) Otx2(Homeobox)/EpiLC-Otx2-ChIP-Seq(GSE56098)/Homer
+		133 of 414 (1e-2) Chop(bZIP)/MEF-Chop-ChIP-Seq(GSE35681)/Homer
+		134 of 414 (1e-2) USF1(bHLH)/GM12878-Usf1-ChIP-Seq(GSE32465)/Homer
+		135 of 414 (1e-2) HLF(bZIP)/HSC-HLF.Flag-ChIP-Seq(GSE69817)/Homer
+	----------------------------------------------------------
+	De novo motif finding (HOMER)
+
+	Scanning input files...
+	Parsing sequences...
+	|0%                                   50%                                  100%|
+	================================================================================
+	Total number of Oligos: 32896
+	Autoadjustment for sequence coverage in background: 1.33x
+
+	Oligos: 32896 of 34497 max
+	Tree  : 66996 of 172485 max
+	Optimizing memory usage...
+	Cache length = 11180
+	Using binomial scoring
+
+	Global Optimization Phase: Looking for enriched oligos with up to 2 mismatches...
+
+	Screening oligos 32896 (allowing 0 mismatches):
+	|0%                                   50%                                  100%|
+	================================================================================
+		0.00% skipped, 100.00% checked (32895 of 32896), of those checked:
+		0.00% not in target, 0.00% increased p-value, 0.00% high p-value
+
+	Screening oligos 32896 (allowing 1 mismatches):
+	|0%                                   50%                                  100%|
+	================================================================================
+		0.00% skipped, 100.00% checked (32895 of 32896), of those checked:
+		0.00% not in target, 47.86% increased p-value, 44.59% high p-value
+
+	Screening oligos 32896 (allowing 2 mismatches):
+	|0%                                   50%                                  100%|
+	================================================================================
+		59.76% skipped, 40.24% checked (13237 of 32896), of those checked:
+		0.00% not in target, 34.09% increased p-value, 0.00% high p-value
+	Reading input files...
+	49999 total sequences read
+	Cache length = 11180
+	Using binomial scoring
+
+	Local Optimization Phase:
+	1 of 25 Initial Sequence: CCCCACCC... (-401.876)
+		Round 1: -601.90 CCCCCCCC T:12367.0(59.77%),B:28417.7(44.97%),P:1e-261
+		Round 2: -601.90 CCCCCCCC T:12367.0(59.77%),B:28417.7(44.97%),P:1e-261
+		=Final=: -191.25 CCCCCCCC T:3628.0(26.71%),B:7088.1(19.83%),P:1e-83
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	2 of 25 Initial Sequence: TGACCTTG... (-236.691)
+		Round 1: -277.18 TGACCTTG T:1884.4(12.95%),B:3569.1(7.23%),P:1e-120
+		Round 2: -277.18 TGACCTTG T:1884.4(12.95%),B:3569.1(7.23%),P:1e-120
+		=Final=: -305.34 TGACCTTG T:1214.0(8.94%),B:1475.8(4.13%),P:1e-132
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	3 of 25 Initial Sequence: GCTAATTA... (-226.174)
+		Round 1: -329.66 GCTAATTA T:7580.5(42.77%),B:18554.3(32.29%),P:1e-143
+		Round 2: -329.66 GCTAATTA T:7580.5(42.77%),B:18554.3(32.29%),P:1e-143
+		=Final=: -164.17 GCTAATTA T:2215.0(16.31%),B:3996.0(11.18%),P:1e-71
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	4 of 25 Initial Sequence: CCTTTGAA... (-157.709)
+		Round 1: -262.15 CCTTTGAA T:8975.1(48.36%),B:23316.5(38.74%),P:1e-113
+		Round 2: -289.54 CCTTTGAW T:5910.2(35.28%),B:14319.6(25.99%),P:1e-125
+		Round 3: -297.11 CYWTTGWW T:8218.7(45.40%),B:20708.9(35.29%),P:1e-129
+		Round 4: -297.11 CYWTTGWW T:8218.7(45.40%),B:20708.9(35.29%),P:1e-129
+		=Final=: -164.31 CYWTTGWW T:4656.0(34.28%),B:9747.1(27.27%),P:1e-71
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	5 of 25 Initial Sequence: TACTGAAT... (-137.110)
+		Round 1: -291.31 RACTGAAT T:3162.6(20.77%),B:6791.9(13.30%),P:1e-126
+		Round 2: -291.31 RACTGAAT T:3162.6(20.77%),B:6791.9(13.30%),P:1e-126
+		=Final=: -182.45 RACTGAAT T:2805.0(20.65%),B:5230.0(14.63%),P:1e-79
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	6 of 25 Initial Sequence: GGGTGGAG... (-117.483)
+		Round 1: -121.66 GGGTGGAG T:1313.2(9.21%),B:2878.8(5.87%),P:1e-52
+		Round 2: -148.88 TGGKGGAG T:3353.9(21.88%),B:8439.7(16.25%),P:1e-64
+		Round 3: -148.88 TGGKGGAG T:3353.9(21.88%),B:8439.7(16.25%),P:1e-64
+		=Final=: -183.04 TGGKGGAG T:3591.0(26.44%),B:7051.3(19.73%),P:1e-79
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	7 of 25 Initial Sequence: GGCACTTA... (-111.910)
+		Round 1: -141.23 GGCACTTA T:695.0(4.99%),B:1192.5(2.47%),P:1e-61
+		Round 2: -141.23 GGCACTTA T:695.0(4.99%),B:1192.5(2.47%),P:1e-61
+		=Final=: -188.14 GGCACTTA T:894.0(6.58%),B:1166.3(3.26%),P:1e-81
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	8 of 25 Initial Sequence: TCAAAGCG... (-104.449)
+		Round 1: -222.02 TCAAAGCG T:5225.7(31.94%),B:13071.1(24.02%),P:1e-96
+		Round 2: -222.02 TCAAAGCG T:5225.7(31.94%),B:13071.1(24.02%),P:1e-96
+		=Final=: -164.79 TCAAAGCG T:3441.0(25.34%),B:6813.0(19.06%),P:1e-71
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	9 of 25 Initial Sequence: ATTTGCAT... (-94.514)
+		Round 1: -181.53 ATTTACAT T:2551.9(17.12%),B:5877.9(11.62%),P:1e-78
+		Round 2: -181.53 ATTTACAT T:2551.9(17.12%),B:5877.9(11.62%),P:1e-78
+		=Final=: -231.09 ATTTACAT T:2387.0(17.57%),B:4063.5(11.37%),P:1e-100
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	10 of 25 Initial Sequence: TTCAAGGA... (-88.788)
+		Round 1: -130.14 TTCAAGGA T:1583.6(11.00%),B:3564.5(7.22%),P:1e-56
+		Round 2: -132.51 TTCGAGGA T:1679.8(11.63%),B:3812.9(7.70%),P:1e-57
+		Round 3: -132.90 TTCAMGCA T:1717.6(11.88%),B:3913.9(7.89%),P:1e-57
+		Round 4: -132.90 TTCAMGCA T:1717.6(11.88%),B:3913.9(7.89%),P:1e-57
+		=Final=: -120.75 TTCAMGCA T:2028.0(14.93%),B:3811.8(10.66%),P:1e-52
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	11 of 25 Initial Sequence: GACAAACG... (-85.102)
+		Round 1: -120.76 GACAAACG T:3644.1(23.53%),B:9606.6(18.28%),P:1e-52
+		Round 2: -126.75 GACAADCG T:4317.8(27.23%),B:11536.5(21.53%),P:1e-55
+		Round 3: -139.03 GWCAAWCG T:3934.7(25.15%),B:10245.4(19.37%),P:1e-60
+		Round 4: -139.03 GWCAAWCG T:3934.7(25.15%),B:10245.4(19.37%),P:1e-60
+		=Final=: -101.83 GWCAAWCG T:3678.0(27.08%),B:7854.0(21.97%),P:1e-44
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	12 of 25 Initial Sequence: GATCCATA... (-78.957)
+		Round 1: -79.95 GATCCATA T:265.3(1.93%),B:386.5(0.81%),P:1e-34
+		Round 2: -79.95 GATCCATA T:265.3(1.93%),B:386.5(0.81%),P:1e-34
+		=Final=: -83.51 GATCCATA T:323.0(2.38%),B:385.2(1.08%),P:1e-36
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	13 of 25 Initial Sequence: ATAGCTAA... (-75.197)
+		Round 1: -75.20 ATAGCTAA T:276.7(2.01%),B:423.8(0.89%),P:1e-32
+		Round 2: -75.20 ATAGCTAA T:276.7(2.01%),B:423.8(0.89%),P:1e-32
+		=Final=: -111.08 ATAGCTAA T:375.0(2.76%),B:418.5(1.17%),P:1e-48
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	14 of 25 Initial Sequence: TTGGAACA... (-73.302)
+		Round 1: -73.30 TTGGAACA T:421.5(3.05%),B:774.3(1.61%),P:1e-31
+		Round 2: -73.30 TTGGAACA T:421.5(3.05%),B:774.3(1.61%),P:1e-31
+		=Final=: -87.61 TTGGAACA T:535.0(3.94%),B:765.6(2.14%),P:1e-38
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	15 of 25 Initial Sequence: CGGAATTC... (-66.732)
+		Round 1: -99.51 CGGAATTC T:880.9(6.27%),B:1841.5(3.80%),P:1e-43
+		Round 2: -99.51 CGGAATTC T:880.9(6.27%),B:1841.5(3.80%),P:1e-43
+		=Final=: -69.27 CGGAATTC T:905.0(6.66%),B:1602.6(4.48%),P:1e-30
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	16 of 25 Initial Sequence: TTAACGCG... (-62.507)
+		Round 1: -99.32 TTAACGCG T:7083.6(40.64%),B:20429.2(34.91%),P:1e-43
+		Round 2: -113.36 TTAAMNCG T:8510.8(46.56%),B:24523.4(40.27%),P:1e-49
+		Round 3: -114.26 TTAAMNCG T:7740.9(43.44%),B:22140.2(37.21%),P:1e-49
+		Round 4: -114.26 TTAAMNCG T:7740.9(43.44%),B:22140.2(37.21%),P:1e-49
+		=Final=: -64.07 TTAAMNCG T:1310.0(9.65%),B:2535.2(7.09%),P:1e-27
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	17 of 25 Initial Sequence: GGGTGTGG... (-57.344)
+		Round 1: -109.49 GGGTGTGG T:2610.8(17.48%),B:6672.7(13.08%),P:1e-47
+		Round 2: -109.49 GGGTGTGG T:2610.8(17.48%),B:6672.7(13.08%),P:1e-47
+		=Final=: -120.76 GGGTGTGG T:2603.0(19.17%),B:5134.3(14.36%),P:1e-52
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	18 of 25 Initial Sequence: TCGAGCAT... (-56.076)
+		Round 1: -56.08 TCGAGCAT T:85.5(0.62%),B:75.7(0.16%),P:1e-24
+		Round 2: -56.08 TCGAGCAT T:85.5(0.62%),B:75.7(0.16%),P:1e-24
+		=Final=: -60.97 TCGAGCAT T:103.0(0.76%),B:75.7(0.21%),P:1e-26
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	19 of 25 Initial Sequence: CTCCTGGA... (-55.265)
+		Round 1: -68.73 CTCCTGGA T:1543.8(10.74%),B:3941.1(7.95%),P:1e-29
+		Round 2: -70.63 CTCCTGGA T:1822.9(12.55%),B:4752.5(9.50%),P:1e-30
+		Round 3: -70.63 CTCCTGGA T:1822.9(12.55%),B:4752.5(9.50%),P:1e-30
+		=Final=: -62.47 CTCCTGGA T:969.0(7.13%),B:1779.8(4.98%),P:1e-27
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	20 of 25 Initial Sequence: GGCGTTTA... (-51.683)
+		Round 1: -73.68 GGCGTTTA T:5549.7(33.54%),B:16200.6(28.86%),P:1e-31
+		Round 2: -95.45 RGCGWTTA T:7694.2(43.25%),B:22411.6(37.56%),P:1e-41
+		Round 3: -99.81 RGCGWTTW T:4800.2(29.77%),B:13391.3(24.53%),P:1e-43
+		Round 4: -99.81 RGCGWTTW T:4800.2(29.77%),B:13391.3(24.53%),P:1e-43
+		=Final=: -83.79 RGCGWTTW T:3099.0(22.82%),B:6604.3(18.48%),P:1e-36
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	21 of 25 Initial Sequence: GCATTGTT... (-44.850)
+		Round 1: -87.90 GCATTGTT T:2479.4(16.68%),B:6518.3(12.80%),P:1e-38
+		Round 2: -87.90 GCATTGTT T:2479.4(16.68%),B:6518.3(12.80%),P:1e-38
+		=Final=: -94.28 GCATTGTT T:1404.0(10.34%),B:2563.6(7.17%),P:1e-40
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	22 of 25 Initial Sequence: ATTTACCG... (-44.687)
+		Round 1: -86.27 ATTTACCG T:2273.9(15.41%),B:5925.4(11.71%),P:1e-37
+		Round 2: -86.27 ATTTACCG T:2273.9(15.41%),B:5925.4(11.71%),P:1e-37
+		=Final=: -89.15 ATTTACCG T:2596.0(19.11%),B:5350.0(14.97%),P:1e-38
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	23 of 25 Initial Sequence: CACATTCC... (-44.057)
+		Round 1: -58.27 CRCATTCC T:3003.8(19.84%),B:8530.2(16.41%),P:1e-25
+		Round 2: -58.27 CRCATTCC T:3003.8(19.84%),B:8530.2(16.41%),P:1e-25
+		=Final=: -57.72 CRCATTCC T:2023.0(14.89%),B:4252.1(11.90%),P:1e-25
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	24 of 25 Initial Sequence: CCCGTATA... (-41.480)
+		Round 1: -41.48 CCCGTATA T:54.7(0.40%),B:42.3(0.09%),P:1e-18
+		Round 2: -41.48 CCCGTATA T:54.7(0.40%),B:42.3(0.09%),P:1e-18
+		=Final=: -55.02 CCCGTATA T:70.0(0.52%),B:40.4(0.11%),P:1e-23
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	25 of 25 Initial Sequence: GAGAATGC... (-41.413)
+		Round 1: -41.41 GAGAATGC T:303.0(2.20%),B:606.6(1.27%),P:1e-17
+		Round 2: -41.41 GAGAATGC T:303.0(2.20%),B:606.6(1.27%),P:1e-17
+		=Final=: -51.11 GAGAATGC T:388.0(2.86%),B:597.6(1.67%),P:1e-22
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+
+	Finalizing Enrichment Statistics (new in v3.4)
+	Reading input files...
+	49999 total sequences read
+	Cache length = 11180
+	Using binomial scoring
+	Checking enrichment of 25 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+	Output in file: ESC_Nanog_1k_rep2_peakAnalysis/homerMotifs.motifs8
+
+	(Motifs in homer2 format)
+	Determining similar motifs... 25 reduced to 16 motifs
+	Outputing HTML and sequence logos for motif comparison...
+	Checking de novo motifs against known motifs...
+	Formatting HTML page...
+		1 of 16 (1e-132) similar to Brn1(POU,Homeobox)/NPC-Brn1-ChIP-Seq(GSE35496)/Homer(0.897)
+		2 of 16 (1e-132) similar to Esrrb(NR)/mES-Esrrb-ChIP-Seq(GSE11431)/Homer(0.973)
+		3 of 16 (1e-89) similar to WT1(Zf)/Kidney-WT1-ChIP-Seq(GSE90016)/Homer(0.796)
+		4 of 16 (1e-83) similar to ISL2/MA0914.1/Jaspar(0.869)
+		5 of 16 (1e-80) similar to PB0068.1_Sox1_1/Jaspar(0.784)
+		6 of 16 (1e-74) similar to Tcf3(HMG)/mES-Tcf3-ChIP-Seq(GSE11724)/Homer(0.794)
+		7 of 16 (1e-56) similar to KLF4/MA0039.3/Jaspar(0.965)
+		8 of 16 (1e-55) similar to Pax6/MA0069.1/Jaspar(0.712)
+		9 of 16 (1e-48) similar to Gata1/MA0035.3/Jaspar(0.636)
+		10 of 16 (1e-46) similar to BARHL2/MA0635.1/Jaspar(0.708)
+		11 of 16 (1e-43) similar to Sox5/MA0087.1/Jaspar(0.887)
+		12 of 16 (1e-40) similar to ZNF189(Zf)/HEK293-ZNF189.GFP-ChIP-Seq(GSE58341)/Homer(0.779)
+		13 of 16 (1e-34) similar to HNF6(Homeobox)/Liver-Hnf6-ChIP-Seq(ERP000394)/Homer(0.830)
+		14 of 16 (1e-29) similar to TEAD1(TEAD)/HepG2-TEAD1-ChIP-Seq(Encode)/Homer(0.916)
+		15 of 16 (1e-26) similar to Bcl6(Zf)/Liver-Bcl6-ChIP-Seq(GSE31578)/Homer(0.745)
+		16 of 16 (1e-25) similar to GCM2/MA0767.1/Jaspar(0.770)
+	Job finished - if results look good, please send beer to ..
+
+	Cleaning up tmp files...
+

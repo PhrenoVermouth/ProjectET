@@ -1,0 +1,1 @@
+cmd = CP_VE_E6-5_Gata6_rep1_peaks.narrowPeak mm10 CP_VE_E6-5_Gata6_rep1_peakAnalysis -size given -p 10 -len 8

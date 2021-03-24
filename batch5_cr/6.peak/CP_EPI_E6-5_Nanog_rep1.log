@@ -1,0 +1,60 @@
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/OptValidator.py:27: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.IO.Parser import BEDParser, ELANDResultParser, ELANDMultiParser, \
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/callpeak_cmd.py:34: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.PeakModel import PeakModel,NotEnoughPairsException
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/callpeak_cmd.py:35: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.PeakDetect import PeakDetect
+INFO  @ Wed, 24 Mar 2021 14:21:27: 
+# Command line: callpeak -t CP_EPI_E6-5_Nanog_rep1.duprm.bam -f BAMPE -g mm -n CP_EPI_E6-5_Nanog_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch5_cr/6.peak
+# ARGUMENTS LIST:
+# name = CP_EPI_E6-5_Nanog_rep1
+# format = BAMPE
+# ChIP-seq file = ['CP_EPI_E6-5_Nanog_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Wed, 24 Mar 2021 14:21:27: #1 read fragment files... 
+INFO  @ Wed, 24 Mar 2021 14:21:27: #1 read treatment fragments... 
+INFO  @ Wed, 24 Mar 2021 14:21:41:  1000000 
+INFO  @ Wed, 24 Mar 2021 14:21:54:  2000000 
+INFO  @ Wed, 24 Mar 2021 14:22:08:  3000000 
+INFO  @ Wed, 24 Mar 2021 14:22:21:  4000000 
+INFO  @ Wed, 24 Mar 2021 14:22:35:  5000000 
+INFO  @ Wed, 24 Mar 2021 14:22:49:  6000000 
+INFO  @ Wed, 24 Mar 2021 14:23:02:  7000000 
+INFO  @ Wed, 24 Mar 2021 14:23:16:  8000000 
+INFO  @ Wed, 24 Mar 2021 14:23:29:  9000000 
+INFO  @ Wed, 24 Mar 2021 14:23:43:  10000000 
+INFO  @ Wed, 24 Mar 2021 14:23:56:  11000000 
+INFO  @ Wed, 24 Mar 2021 14:24:10:  12000000 
+INFO  @ Wed, 24 Mar 2021 14:24:23:  13000000 
+INFO  @ Wed, 24 Mar 2021 14:24:37:  14000000 
+INFO  @ Wed, 24 Mar 2021 14:24:49: #1 mean fragment size is determined as 242 bp from treatment 
+INFO  @ Wed, 24 Mar 2021 14:24:49: #1 fragment size = 242 
+INFO  @ Wed, 24 Mar 2021 14:24:49: #1  total fragments in treatment: 14335861 
+INFO  @ Wed, 24 Mar 2021 14:24:49: #1 user defined the maximum fragments... 
+INFO  @ Wed, 24 Mar 2021 14:24:49: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Wed, 24 Mar 2021 14:25:22: #1  fragments after filtering in treatment: 14330555 
+INFO  @ Wed, 24 Mar 2021 14:25:22: #1  Redundant rate of treatment: 0.00 
+INFO  @ Wed, 24 Mar 2021 14:25:22: #1 finished! 
+INFO  @ Wed, 24 Mar 2021 14:25:22: #2 Build Peak Model... 
+INFO  @ Wed, 24 Mar 2021 14:25:22: #2 Skipped... 
+INFO  @ Wed, 24 Mar 2021 14:25:22: #2 Use 242 as fragment length 
+INFO  @ Wed, 24 Mar 2021 14:25:22: #3 Call peaks... 
+INFO  @ Wed, 24 Mar 2021 14:25:22: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 24 Mar 2021 14:26:17: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Wed, 24 Mar 2021 14:26:17: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... CP_EPI_E6-5_Nanog_rep1_treat_pileup.bdg 
+INFO  @ Wed, 24 Mar 2021 14:26:17: #3   Write bedGraph files for control lambda (after scaling if necessary)... CP_EPI_E6-5_Nanog_rep1_control_lambda.bdg 
+INFO  @ Wed, 24 Mar 2021 14:26:17: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Wed, 24 Mar 2021 14:26:17: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 24 Mar 2021 14:28:05: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch5_cr/6.peak/CP_EPI_E6-5_Nanog_rep1_peaks.xls 
+INFO  @ Wed, 24 Mar 2021 14:28:05: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch5_cr/6.peak/CP_EPI_E6-5_Nanog_rep1_peaks.narrowPeak 
+INFO  @ Wed, 24 Mar 2021 14:28:05: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch5_cr/6.peak/CP_EPI_E6-5_Nanog_rep1_summits.bed 
+INFO  @ Wed, 24 Mar 2021 14:28:05: Done! 

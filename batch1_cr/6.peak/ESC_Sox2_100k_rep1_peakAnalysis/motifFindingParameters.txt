@@ -1,0 +1,1 @@
+cmd = ESC_Sox2_100k_rep1_peaks.narrowPeak mm10 ESC_Sox2_100k_rep1_peakAnalysis -size given -p 10 -len 8

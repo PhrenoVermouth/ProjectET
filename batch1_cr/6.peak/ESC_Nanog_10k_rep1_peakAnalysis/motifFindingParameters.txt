@@ -1,0 +1,1 @@
+cmd = ESC_Nanog_10k_rep1_peaks.narrowPeak mm10 ESC_Nanog_10k_rep1_peakAnalysis -size given -p 10 -len 8

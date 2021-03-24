@@ -1,0 +1,55 @@
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/OptValidator.py:27: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.IO.Parser import BEDParser, ELANDResultParser, ELANDMultiParser, \
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/callpeak_cmd.py:34: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.PeakModel import PeakModel,NotEnoughPairsException
+/home1/gyang/anaconda3/envs/work/lib/python2.7/site-packages/MACS2/callpeak_cmd.py:35: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility
+  from MACS2.PeakDetect import PeakDetect
+INFO  @ Wed, 24 Mar 2021 14:21:27: 
+# Command line: callpeak -t CP_VE_E6-5_Gata6_rep1.duprm.bam -f BAMPE -g mm -n CP_VE_E6-5_Gata6_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch5_cr/6.peak
+# ARGUMENTS LIST:
+# name = CP_VE_E6-5_Gata6_rep1
+# format = BAMPE
+# ChIP-seq file = ['CP_VE_E6-5_Gata6_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Wed, 24 Mar 2021 14:21:27: #1 read fragment files... 
+INFO  @ Wed, 24 Mar 2021 14:21:27: #1 read treatment fragments... 
+INFO  @ Wed, 24 Mar 2021 14:21:42:  1000000 
+INFO  @ Wed, 24 Mar 2021 14:21:56:  2000000 
+INFO  @ Wed, 24 Mar 2021 14:22:10:  3000000 
+INFO  @ Wed, 24 Mar 2021 14:22:24:  4000000 
+INFO  @ Wed, 24 Mar 2021 14:22:38:  5000000 
+INFO  @ Wed, 24 Mar 2021 14:22:52:  6000000 
+INFO  @ Wed, 24 Mar 2021 14:23:06:  7000000 
+INFO  @ Wed, 24 Mar 2021 14:23:21:  8000000 
+INFO  @ Wed, 24 Mar 2021 14:23:35:  9000000 
+INFO  @ Wed, 24 Mar 2021 14:23:48: #1 mean fragment size is determined as 267 bp from treatment 
+INFO  @ Wed, 24 Mar 2021 14:23:48: #1 fragment size = 267 
+INFO  @ Wed, 24 Mar 2021 14:23:48: #1  total fragments in treatment: 9625191 
+INFO  @ Wed, 24 Mar 2021 14:23:48: #1 user defined the maximum fragments... 
+INFO  @ Wed, 24 Mar 2021 14:23:48: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Wed, 24 Mar 2021 14:24:09: #1  fragments after filtering in treatment: 9618862 
+INFO  @ Wed, 24 Mar 2021 14:24:09: #1  Redundant rate of treatment: 0.00 
+INFO  @ Wed, 24 Mar 2021 14:24:09: #1 finished! 
+INFO  @ Wed, 24 Mar 2021 14:24:09: #2 Build Peak Model... 
+INFO  @ Wed, 24 Mar 2021 14:24:09: #2 Skipped... 
+INFO  @ Wed, 24 Mar 2021 14:24:09: #2 Use 267 as fragment length 
+INFO  @ Wed, 24 Mar 2021 14:24:09: #3 Call peaks... 
+INFO  @ Wed, 24 Mar 2021 14:24:09: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 24 Mar 2021 14:24:48: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Wed, 24 Mar 2021 14:24:48: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... CP_VE_E6-5_Gata6_rep1_treat_pileup.bdg 
+INFO  @ Wed, 24 Mar 2021 14:24:48: #3   Write bedGraph files for control lambda (after scaling if necessary)... CP_VE_E6-5_Gata6_rep1_control_lambda.bdg 
+INFO  @ Wed, 24 Mar 2021 14:24:48: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Wed, 24 Mar 2021 14:24:48: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 24 Mar 2021 14:25:56: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch5_cr/6.peak/CP_VE_E6-5_Gata6_rep1_peaks.xls 
+INFO  @ Wed, 24 Mar 2021 14:25:56: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch5_cr/6.peak/CP_VE_E6-5_Gata6_rep1_peaks.narrowPeak 
+INFO  @ Wed, 24 Mar 2021 14:25:56: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch5_cr/6.peak/CP_VE_E6-5_Gata6_rep1_summits.bed 
+INFO  @ Wed, 24 Mar 2021 14:25:56: Done! 

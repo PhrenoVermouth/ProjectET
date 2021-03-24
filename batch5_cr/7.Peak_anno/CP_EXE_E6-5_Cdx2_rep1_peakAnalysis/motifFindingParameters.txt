@@ -1,0 +1,1 @@
+cmd = CP_EXE_E6-5_Cdx2_rep1_peaks.narrowPeak mm10 CP_EXE_E6-5_Cdx2_rep1_peakAnalysis -size given -p 10 -len 8
