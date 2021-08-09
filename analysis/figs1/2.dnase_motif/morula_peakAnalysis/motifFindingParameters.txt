@@ -1,0 +1,1 @@
+cmd = morula_dhs.peak mm9 /home1/gyang/work_space/4.ProjectET/analysis/figs1/1.dnase_peak/../2.dnase_motif/morula_peakAnalysis -size given -p 10 -len 8
