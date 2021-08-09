@@ -1,0 +1,1 @@
+cmd = gaorui_8c_mm9_sox2_peaks.narrowPeak mm10 /home1/gyang/work_space/4.ProjectET/temp_gaorui_usb/usb/8cell_sox2_gaolab/3.align/gaorui_8c_mm9_sox2_peakAnalysis -size given -p 10 -len 8

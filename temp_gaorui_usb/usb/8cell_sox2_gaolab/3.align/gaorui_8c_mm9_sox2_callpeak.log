@@ -1,0 +1,42 @@
+INFO  @ Mon, 05 Apr 2021 22:06:18: 
+# Command line: callpeak -t GR_0601_1_BKDL190815061-1a_R1_cut.duprm.bam -f BAMPE -g mm -n gaorui_8c_mm9_sox2 -B -q 0.05 --keep-dup 1 --outdir ./
+# ARGUMENTS LIST:
+# name = gaorui_8c_mm9_sox2
+# format = BAMPE
+# ChIP-seq file = ['GR_0601_1_BKDL190815061-1a_R1_cut.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Mon, 05 Apr 2021 22:06:18: #1 read fragment files... 
+INFO  @ Mon, 05 Apr 2021 22:06:18: #1 read treatment fragments... 
+INFO  @ Mon, 05 Apr 2021 22:06:33:  1000000 
+INFO  @ Mon, 05 Apr 2021 22:06:47:  2000000 
+INFO  @ Mon, 05 Apr 2021 22:06:57: #1 mean fragment size is determined as 291 bp from treatment 
+INFO  @ Mon, 05 Apr 2021 22:06:57: #1 fragment size = 291 
+INFO  @ Mon, 05 Apr 2021 22:06:57: #1  total fragments in treatment: 2617410 
+INFO  @ Mon, 05 Apr 2021 22:06:57: #1 user defined the maximum fragments... 
+INFO  @ Mon, 05 Apr 2021 22:06:57: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Mon, 05 Apr 2021 22:07:02: #1  fragments after filtering in treatment: 2612386 
+INFO  @ Mon, 05 Apr 2021 22:07:02: #1  Redundant rate of treatment: 0.00 
+INFO  @ Mon, 05 Apr 2021 22:07:02: #1 finished! 
+INFO  @ Mon, 05 Apr 2021 22:07:02: #2 Build Peak Model... 
+INFO  @ Mon, 05 Apr 2021 22:07:02: #2 Skipped... 
+INFO  @ Mon, 05 Apr 2021 22:07:02: #2 Use 291 as fragment length 
+INFO  @ Mon, 05 Apr 2021 22:07:02: #3 Call peaks... 
+INFO  @ Mon, 05 Apr 2021 22:07:02: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Mon, 05 Apr 2021 22:07:13: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Mon, 05 Apr 2021 22:07:13: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... gaorui_8c_mm9_sox2_treat_pileup.bdg 
+INFO  @ Mon, 05 Apr 2021 22:07:13: #3   Write bedGraph files for control lambda (after scaling if necessary)... gaorui_8c_mm9_sox2_control_lambda.bdg 
+INFO  @ Mon, 05 Apr 2021 22:07:13: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Mon, 05 Apr 2021 22:07:13: #3 Call peaks for each chromosome... 
+INFO  @ Mon, 05 Apr 2021 22:07:33: #4 Write output xls file... ./gaorui_8c_mm9_sox2_peaks.xls 
+INFO  @ Mon, 05 Apr 2021 22:07:33: #4 Write peak in narrowPeak format file... ./gaorui_8c_mm9_sox2_peaks.narrowPeak 
+INFO  @ Mon, 05 Apr 2021 22:07:33: #4 Write summits bed file... ./gaorui_8c_mm9_sox2_summits.bed 
+INFO  @ Mon, 05 Apr 2021 22:07:33: Done! 

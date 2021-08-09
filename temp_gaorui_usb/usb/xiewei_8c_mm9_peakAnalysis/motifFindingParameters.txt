@@ -1,0 +1,1 @@
+cmd = xiewei_8c_mm9_sox2.peak mm10 /home1/gyang/work_space/4.ProjectET/temp_gaorui_usb/usb/xiewei_8c_mm9_peakAnalysis -size given -p 10 -len 8
