@@ -1,0 +1,62 @@
+INFO  @ Sat, 03 Jul 2021 10:08:54: 
+# Command line: callpeak -t ESC_Oct4_5k_rep1.duprm.bam -f BAMPE -g mm -n ESC_Oct4_5k_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch11_cr/6.peak
+# ARGUMENTS LIST:
+# name = ESC_Oct4_5k_rep1
+# format = BAMPE
+# ChIP-seq file = ['ESC_Oct4_5k_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Sat, 03 Jul 2021 10:08:54: #1 read fragment files... 
+INFO  @ Sat, 03 Jul 2021 10:08:54: #1 read treatment fragments... 
+INFO  @ Sat, 03 Jul 2021 10:09:09:  1000000 
+INFO  @ Sat, 03 Jul 2021 10:09:24:  2000000 
+INFO  @ Sat, 03 Jul 2021 10:09:39:  3000000 
+INFO  @ Sat, 03 Jul 2021 10:09:54:  4000000 
+INFO  @ Sat, 03 Jul 2021 10:10:09:  5000000 
+INFO  @ Sat, 03 Jul 2021 10:10:25:  6000000 
+INFO  @ Sat, 03 Jul 2021 10:10:40:  7000000 
+INFO  @ Sat, 03 Jul 2021 10:10:55:  8000000 
+INFO  @ Sat, 03 Jul 2021 10:11:10:  9000000 
+INFO  @ Sat, 03 Jul 2021 10:11:24:  10000000 
+INFO  @ Sat, 03 Jul 2021 10:11:38:  11000000 
+INFO  @ Sat, 03 Jul 2021 10:11:52:  12000000 
+INFO  @ Sat, 03 Jul 2021 10:12:07:  13000000 
+INFO  @ Sat, 03 Jul 2021 10:12:21:  14000000 
+INFO  @ Sat, 03 Jul 2021 10:12:35:  15000000 
+INFO  @ Sat, 03 Jul 2021 10:12:49:  16000000 
+INFO  @ Sat, 03 Jul 2021 10:13:03:  17000000 
+INFO  @ Sat, 03 Jul 2021 10:13:17:  18000000 
+INFO  @ Sat, 03 Jul 2021 10:13:31:  19000000 
+INFO  @ Sat, 03 Jul 2021 10:13:45:  20000000 
+INFO  @ Sat, 03 Jul 2021 10:14:00:  21000000 
+INFO  @ Sat, 03 Jul 2021 10:14:15:  22000000 
+INFO  @ Sat, 03 Jul 2021 10:14:31: #1 mean fragment size is determined as 267 bp from treatment 
+INFO  @ Sat, 03 Jul 2021 10:14:31: #1 fragment size = 267 
+INFO  @ Sat, 03 Jul 2021 10:14:31: #1  total fragments in treatment: 22094661 
+INFO  @ Sat, 03 Jul 2021 10:14:31: #1 user defined the maximum fragments... 
+INFO  @ Sat, 03 Jul 2021 10:14:31: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sat, 03 Jul 2021 10:15:20: #1  fragments after filtering in treatment: 22093493 
+INFO  @ Sat, 03 Jul 2021 10:15:20: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 03 Jul 2021 10:15:20: #1 finished! 
+INFO  @ Sat, 03 Jul 2021 10:15:20: #2 Build Peak Model... 
+INFO  @ Sat, 03 Jul 2021 10:15:20: #2 Skipped... 
+INFO  @ Sat, 03 Jul 2021 10:15:20: #2 Use 267 as fragment length 
+INFO  @ Sat, 03 Jul 2021 10:15:20: #3 Call peaks... 
+INFO  @ Sat, 03 Jul 2021 10:15:20: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 03 Jul 2021 10:16:39: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 03 Jul 2021 10:16:39: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... ESC_Oct4_5k_rep1_treat_pileup.bdg 
+INFO  @ Sat, 03 Jul 2021 10:16:39: #3   Write bedGraph files for control lambda (after scaling if necessary)... ESC_Oct4_5k_rep1_control_lambda.bdg 
+INFO  @ Sat, 03 Jul 2021 10:16:39: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sat, 03 Jul 2021 10:16:39: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 03 Jul 2021 10:19:05: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch11_cr/6.peak/ESC_Oct4_5k_rep1_peaks.xls 
+INFO  @ Sat, 03 Jul 2021 10:19:05: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch11_cr/6.peak/ESC_Oct4_5k_rep1_peaks.narrowPeak 
+INFO  @ Sat, 03 Jul 2021 10:19:05: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch11_cr/6.peak/ESC_Oct4_5k_rep1_summits.bed 
+INFO  @ Sat, 03 Jul 2021 10:19:05: Done! 

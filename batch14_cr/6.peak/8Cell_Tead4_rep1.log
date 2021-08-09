@@ -1,0 +1,61 @@
+INFO  @ Sun, 08 Aug 2021 14:17:02: 
+# Command line: callpeak -t 8Cell_Tead4_rep1.duprm.bam -f BAMPE -g mm -n 8Cell_Tead4_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch14-1_cr/6.peak
+# ARGUMENTS LIST:
+# name = 8Cell_Tead4_rep1
+# format = BAMPE
+# ChIP-seq file = ['8Cell_Tead4_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Sun, 08 Aug 2021 14:17:02: #1 read fragment files... 
+INFO  @ Sun, 08 Aug 2021 14:17:02: #1 read treatment fragments... 
+INFO  @ Sun, 08 Aug 2021 14:17:09:  1000000 
+INFO  @ Sun, 08 Aug 2021 14:17:16:  2000000 
+INFO  @ Sun, 08 Aug 2021 14:17:22:  3000000 
+INFO  @ Sun, 08 Aug 2021 14:17:29:  4000000 
+INFO  @ Sun, 08 Aug 2021 14:17:36:  5000000 
+INFO  @ Sun, 08 Aug 2021 14:17:43:  6000000 
+INFO  @ Sun, 08 Aug 2021 14:17:49:  7000000 
+INFO  @ Sun, 08 Aug 2021 14:17:56:  8000000 
+INFO  @ Sun, 08 Aug 2021 14:18:03:  9000000 
+INFO  @ Sun, 08 Aug 2021 14:18:10:  10000000 
+INFO  @ Sun, 08 Aug 2021 14:18:16:  11000000 
+INFO  @ Sun, 08 Aug 2021 14:18:23:  12000000 
+INFO  @ Sun, 08 Aug 2021 14:18:30:  13000000 
+INFO  @ Sun, 08 Aug 2021 14:18:36:  14000000 
+INFO  @ Sun, 08 Aug 2021 14:18:43:  15000000 
+INFO  @ Sun, 08 Aug 2021 14:18:50:  16000000 
+INFO  @ Sun, 08 Aug 2021 14:18:57:  17000000 
+INFO  @ Sun, 08 Aug 2021 14:19:03:  18000000 
+INFO  @ Sun, 08 Aug 2021 14:19:10:  19000000 
+INFO  @ Sun, 08 Aug 2021 14:19:14: 19630442 fragments have been read. 
+INFO  @ Sun, 08 Aug 2021 14:19:28: #1 mean fragment size is determined as 248.6 bp from treatment 
+INFO  @ Sun, 08 Aug 2021 14:19:28: #1 fragment size = 248.6 
+INFO  @ Sun, 08 Aug 2021 14:19:28: #1  total fragments in treatment: 19630442 
+INFO  @ Sun, 08 Aug 2021 14:19:28: #1 user defined the maximum fragments... 
+INFO  @ Sun, 08 Aug 2021 14:19:28: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sun, 08 Aug 2021 14:20:10: #1  fragments after filtering in treatment: 19624912 
+INFO  @ Sun, 08 Aug 2021 14:20:10: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sun, 08 Aug 2021 14:20:10: #1 finished! 
+INFO  @ Sun, 08 Aug 2021 14:20:10: #2 Build Peak Model... 
+INFO  @ Sun, 08 Aug 2021 14:20:10: #2 Skipped... 
+INFO  @ Sun, 08 Aug 2021 14:20:10: #3 Call peaks... 
+INFO  @ Sun, 08 Aug 2021 14:20:10: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sun, 08 Aug 2021 14:21:47: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sun, 08 Aug 2021 14:21:47: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 8Cell_Tead4_rep1_treat_pileup.bdg 
+INFO  @ Sun, 08 Aug 2021 14:21:47: #3   Write bedGraph files for control lambda (after scaling if necessary)... 8Cell_Tead4_rep1_control_lambda.bdg 
+INFO  @ Sun, 08 Aug 2021 14:21:47: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sun, 08 Aug 2021 14:21:47: #3 Call peaks for each chromosome... 
+INFO  @ Sun, 08 Aug 2021 14:23:31: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch14-1_cr/6.peak/8Cell_Tead4_rep1_peaks.xls 
+INFO  @ Sun, 08 Aug 2021 14:23:31: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch14-1_cr/6.peak/8Cell_Tead4_rep1_peaks.narrowPeak 
+INFO  @ Sun, 08 Aug 2021 14:23:31: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch14-1_cr/6.peak/8Cell_Tead4_rep1_summits.bed 
+INFO  @ Sun, 08 Aug 2021 14:23:31: Done! 

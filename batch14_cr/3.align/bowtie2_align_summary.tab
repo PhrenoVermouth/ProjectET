@@ -1,0 +1,5 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+8Cell_Tead4_rep1	38.1476	21.0875	55.28%	12.9395	33.92%	89.20%
+8Cell_Tead4_rep2	29.7637	16.1561	54.28%	10.2641	34.49%	88.77%
+Morula_Tead4_rep1	35.9965	20.8015	57.79%	12.3236	34.24%	92.02%
+Morula_Tead4_rep2	34.4665	20.0832	58.27%	12.223	35.46%	93.73%

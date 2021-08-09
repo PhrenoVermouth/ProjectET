@@ -1,0 +1,1 @@
+cmd = 8Cell_Tead4_rep2_peaks.narrowPeak mm10 /home1/gyang/work_space/4.ProjectET/batch14_cr/7.Peak_anno/8Cell_Tead4_rep2_peakAnalysis -size given -p 10 -len 8

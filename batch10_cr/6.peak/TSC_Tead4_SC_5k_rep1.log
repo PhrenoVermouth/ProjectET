@@ -1,0 +1,59 @@
+INFO  @ Sun, 20 Jun 2021 13:43:58: 
+# Command line: callpeak -t TSC_Tead4_SC_5k_rep1.duprm.bam -f BAMPE -g mm -n TSC_Tead4_SC_5k_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch10_cr/6.peak
+# ARGUMENTS LIST:
+# name = TSC_Tead4_SC_5k_rep1
+# format = BAMPE
+# ChIP-seq file = ['TSC_Tead4_SC_5k_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Sun, 20 Jun 2021 13:43:58: #1 read fragment files... 
+INFO  @ Sun, 20 Jun 2021 13:43:58: #1 read treatment fragments... 
+INFO  @ Sun, 20 Jun 2021 13:44:12:  1000000 
+INFO  @ Sun, 20 Jun 2021 13:44:26:  2000000 
+INFO  @ Sun, 20 Jun 2021 13:44:40:  3000000 
+INFO  @ Sun, 20 Jun 2021 13:44:54:  4000000 
+INFO  @ Sun, 20 Jun 2021 13:45:08:  5000000 
+INFO  @ Sun, 20 Jun 2021 13:45:22:  6000000 
+INFO  @ Sun, 20 Jun 2021 13:45:36:  7000000 
+INFO  @ Sun, 20 Jun 2021 13:45:51:  8000000 
+INFO  @ Sun, 20 Jun 2021 13:46:05:  9000000 
+INFO  @ Sun, 20 Jun 2021 13:46:19:  10000000 
+INFO  @ Sun, 20 Jun 2021 13:46:33:  11000000 
+INFO  @ Sun, 20 Jun 2021 13:46:46:  12000000 
+INFO  @ Sun, 20 Jun 2021 13:47:00:  13000000 
+INFO  @ Sun, 20 Jun 2021 13:47:14:  14000000 
+INFO  @ Sun, 20 Jun 2021 13:47:29:  15000000 
+INFO  @ Sun, 20 Jun 2021 13:47:43:  16000000 
+INFO  @ Sun, 20 Jun 2021 13:47:57:  17000000 
+INFO  @ Sun, 20 Jun 2021 13:48:11:  18000000 
+INFO  @ Sun, 20 Jun 2021 13:48:24:  19000000 
+INFO  @ Sun, 20 Jun 2021 13:48:44: #1 mean fragment size is determined as 286 bp from treatment 
+INFO  @ Sun, 20 Jun 2021 13:48:44: #1 fragment size = 286 
+INFO  @ Sun, 20 Jun 2021 13:48:44: #1  total fragments in treatment: 19580571 
+INFO  @ Sun, 20 Jun 2021 13:48:44: #1 user defined the maximum fragments... 
+INFO  @ Sun, 20 Jun 2021 13:48:44: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sun, 20 Jun 2021 13:49:32: #1  fragments after filtering in treatment: 19566389 
+INFO  @ Sun, 20 Jun 2021 13:49:32: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sun, 20 Jun 2021 13:49:32: #1 finished! 
+INFO  @ Sun, 20 Jun 2021 13:49:32: #2 Build Peak Model... 
+INFO  @ Sun, 20 Jun 2021 13:49:32: #2 Skipped... 
+INFO  @ Sun, 20 Jun 2021 13:49:32: #2 Use 286 as fragment length 
+INFO  @ Sun, 20 Jun 2021 13:49:32: #3 Call peaks... 
+INFO  @ Sun, 20 Jun 2021 13:49:32: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sun, 20 Jun 2021 13:50:46: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sun, 20 Jun 2021 13:50:46: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... TSC_Tead4_SC_5k_rep1_treat_pileup.bdg 
+INFO  @ Sun, 20 Jun 2021 13:50:46: #3   Write bedGraph files for control lambda (after scaling if necessary)... TSC_Tead4_SC_5k_rep1_control_lambda.bdg 
+INFO  @ Sun, 20 Jun 2021 13:50:46: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sun, 20 Jun 2021 13:50:46: #3 Call peaks for each chromosome... 
+INFO  @ Sun, 20 Jun 2021 13:53:10: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch10_cr/6.peak/TSC_Tead4_SC_5k_rep1_peaks.xls 
+INFO  @ Sun, 20 Jun 2021 13:53:10: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch10_cr/6.peak/TSC_Tead4_SC_5k_rep1_peaks.narrowPeak 
+INFO  @ Sun, 20 Jun 2021 13:53:10: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch10_cr/6.peak/TSC_Tead4_SC_5k_rep1_summits.bed 
+INFO  @ Sun, 20 Jun 2021 13:53:10: Done! 

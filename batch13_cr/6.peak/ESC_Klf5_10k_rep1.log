@@ -1,0 +1,65 @@
+INFO  @ Sat, 24 Jul 2021 22:43:51: 
+# Command line: callpeak -t ESC_Klf5_10k_rep1.duprm.bam -f BAMPE -g mm -n ESC_Klf5_10k_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch13_cr/6.peak
+# ARGUMENTS LIST:
+# name = ESC_Klf5_10k_rep1
+# format = BAMPE
+# ChIP-seq file = ['ESC_Klf5_10k_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Sat, 24 Jul 2021 22:43:51: #1 read fragment files... 
+INFO  @ Sat, 24 Jul 2021 22:43:51: #1 read treatment fragments... 
+INFO  @ Sat, 24 Jul 2021 22:43:58:  1000000 
+INFO  @ Sat, 24 Jul 2021 22:44:04:  2000000 
+INFO  @ Sat, 24 Jul 2021 22:44:10:  3000000 
+INFO  @ Sat, 24 Jul 2021 22:44:17:  4000000 
+INFO  @ Sat, 24 Jul 2021 22:44:23:  5000000 
+INFO  @ Sat, 24 Jul 2021 22:44:30:  6000000 
+INFO  @ Sat, 24 Jul 2021 22:44:36:  7000000 
+INFO  @ Sat, 24 Jul 2021 22:44:42:  8000000 
+INFO  @ Sat, 24 Jul 2021 22:44:49:  9000000 
+INFO  @ Sat, 24 Jul 2021 22:44:58:  10000000 
+INFO  @ Sat, 24 Jul 2021 22:45:08:  11000000 
+INFO  @ Sat, 24 Jul 2021 22:45:17:  12000000 
+INFO  @ Sat, 24 Jul 2021 22:45:26:  13000000 
+INFO  @ Sat, 24 Jul 2021 22:45:36:  14000000 
+INFO  @ Sat, 24 Jul 2021 22:45:45:  15000000 
+INFO  @ Sat, 24 Jul 2021 22:45:55:  16000000 
+INFO  @ Sat, 24 Jul 2021 22:46:05:  17000000 
+INFO  @ Sat, 24 Jul 2021 22:46:14:  18000000 
+INFO  @ Sat, 24 Jul 2021 22:46:23:  19000000 
+INFO  @ Sat, 24 Jul 2021 22:46:33:  20000000 
+INFO  @ Sat, 24 Jul 2021 22:46:43:  21000000 
+INFO  @ Sat, 24 Jul 2021 22:46:53:  22000000 
+INFO  @ Sat, 24 Jul 2021 22:47:02:  23000000 
+INFO  @ Sat, 24 Jul 2021 22:47:11: 23970472 fragments have been read. 
+INFO  @ Sat, 24 Jul 2021 22:47:40: #1 mean fragment size is determined as 272.7 bp from treatment 
+INFO  @ Sat, 24 Jul 2021 22:47:40: #1 fragment size = 272.7 
+INFO  @ Sat, 24 Jul 2021 22:47:40: #1  total fragments in treatment: 23970472 
+INFO  @ Sat, 24 Jul 2021 22:47:40: #1 user defined the maximum fragments... 
+INFO  @ Sat, 24 Jul 2021 22:47:40: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sat, 24 Jul 2021 22:49:08: #1  fragments after filtering in treatment: 23967640 
+INFO  @ Sat, 24 Jul 2021 22:49:08: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 24 Jul 2021 22:49:08: #1 finished! 
+INFO  @ Sat, 24 Jul 2021 22:49:08: #2 Build Peak Model... 
+INFO  @ Sat, 24 Jul 2021 22:49:08: #2 Skipped... 
+INFO  @ Sat, 24 Jul 2021 22:49:08: #3 Call peaks... 
+INFO  @ Sat, 24 Jul 2021 22:49:08: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 24 Jul 2021 22:51:51: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 24 Jul 2021 22:51:51: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... ESC_Klf5_10k_rep1_treat_pileup.bdg 
+INFO  @ Sat, 24 Jul 2021 22:51:51: #3   Write bedGraph files for control lambda (after scaling if necessary)... ESC_Klf5_10k_rep1_control_lambda.bdg 
+INFO  @ Sat, 24 Jul 2021 22:51:51: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sat, 24 Jul 2021 22:51:51: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 24 Jul 2021 22:53:35: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch13_cr/6.peak/ESC_Klf5_10k_rep1_peaks.xls 
+INFO  @ Sat, 24 Jul 2021 22:53:36: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch13_cr/6.peak/ESC_Klf5_10k_rep1_peaks.narrowPeak 
+INFO  @ Sat, 24 Jul 2021 22:53:36: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch13_cr/6.peak/ESC_Klf5_10k_rep1_summits.bed 
+INFO  @ Sat, 24 Jul 2021 22:53:36: Done! 

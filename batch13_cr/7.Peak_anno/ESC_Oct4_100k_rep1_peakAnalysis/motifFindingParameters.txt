@@ -1,0 +1,1 @@
+cmd = ESC_Oct4_100k_rep1_peaks.narrowPeak mm10 /home1/gyang/work_space/4.ProjectET/batch13_cr/7.Peak_anno/ESC_Oct4_100k_rep1_peakAnalysis -size given -p 10 -len 8

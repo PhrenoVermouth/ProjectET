@@ -1,0 +1,12 @@
+Time loading reference: 00:00:02
+Time loading forward index: 00:00:02
+Time loading mirror index: 00:00:02
+Multiseed full-index search: 14:14:15
+40716911 reads; of these:
+  40716911 (100.00%) were paired; of these:
+    13192195 (32.40%) aligned concordantly 0 times
+    17901903 (43.97%) aligned concordantly exactly 1 time
+    9622813 (23.63%) aligned concordantly >1 times
+67.60% overall alignment rate
+Time searching: 14:14:21
+Overall time: 14:14:21

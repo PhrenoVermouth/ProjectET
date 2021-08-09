@@ -1,0 +1,61 @@
+INFO  @ Thu, 05 Aug 2021 09:50:34: 
+# Command line: callpeak -t Morula_Tead4_rep1.duprm.bam -f BAMPE -g mm -n Morula_Tead4_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch14_cr/6.peak
+# ARGUMENTS LIST:
+# name = Morula_Tead4_rep1
+# format = BAMPE
+# ChIP-seq file = ['Morula_Tead4_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Thu, 05 Aug 2021 09:50:34: #1 read fragment files... 
+INFO  @ Thu, 05 Aug 2021 09:50:34: #1 read treatment fragments... 
+INFO  @ Thu, 05 Aug 2021 09:50:40:  1000000 
+INFO  @ Thu, 05 Aug 2021 09:50:47:  2000000 
+INFO  @ Thu, 05 Aug 2021 09:50:53:  3000000 
+INFO  @ Thu, 05 Aug 2021 09:51:00:  4000000 
+INFO  @ Thu, 05 Aug 2021 09:51:07:  5000000 
+INFO  @ Thu, 05 Aug 2021 09:51:13:  6000000 
+INFO  @ Thu, 05 Aug 2021 09:51:20:  7000000 
+INFO  @ Thu, 05 Aug 2021 09:51:26:  8000000 
+INFO  @ Thu, 05 Aug 2021 09:51:33:  9000000 
+INFO  @ Thu, 05 Aug 2021 09:51:40:  10000000 
+INFO  @ Thu, 05 Aug 2021 09:51:46:  11000000 
+INFO  @ Thu, 05 Aug 2021 09:51:53:  12000000 
+INFO  @ Thu, 05 Aug 2021 09:51:59:  13000000 
+INFO  @ Thu, 05 Aug 2021 09:52:06:  14000000 
+INFO  @ Thu, 05 Aug 2021 09:52:13:  15000000 
+INFO  @ Thu, 05 Aug 2021 09:52:19:  16000000 
+INFO  @ Thu, 05 Aug 2021 09:52:26:  17000000 
+INFO  @ Thu, 05 Aug 2021 09:52:32:  18000000 
+INFO  @ Thu, 05 Aug 2021 09:52:39:  19000000 
+INFO  @ Thu, 05 Aug 2021 09:52:40: 19105687 fragments have been read. 
+INFO  @ Thu, 05 Aug 2021 09:52:53: #1 mean fragment size is determined as 247.9 bp from treatment 
+INFO  @ Thu, 05 Aug 2021 09:52:53: #1 fragment size = 247.9 
+INFO  @ Thu, 05 Aug 2021 09:52:53: #1  total fragments in treatment: 19105687 
+INFO  @ Thu, 05 Aug 2021 09:52:53: #1 user defined the maximum fragments... 
+INFO  @ Thu, 05 Aug 2021 09:52:53: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Thu, 05 Aug 2021 09:53:35: #1  fragments after filtering in treatment: 19100831 
+INFO  @ Thu, 05 Aug 2021 09:53:35: #1  Redundant rate of treatment: 0.00 
+INFO  @ Thu, 05 Aug 2021 09:53:35: #1 finished! 
+INFO  @ Thu, 05 Aug 2021 09:53:35: #2 Build Peak Model... 
+INFO  @ Thu, 05 Aug 2021 09:53:35: #2 Skipped... 
+INFO  @ Thu, 05 Aug 2021 09:53:35: #3 Call peaks... 
+INFO  @ Thu, 05 Aug 2021 09:53:35: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Thu, 05 Aug 2021 09:55:10: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Thu, 05 Aug 2021 09:55:10: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... Morula_Tead4_rep1_treat_pileup.bdg 
+INFO  @ Thu, 05 Aug 2021 09:55:10: #3   Write bedGraph files for control lambda (after scaling if necessary)... Morula_Tead4_rep1_control_lambda.bdg 
+INFO  @ Thu, 05 Aug 2021 09:55:10: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Thu, 05 Aug 2021 09:55:10: #3 Call peaks for each chromosome... 
+INFO  @ Thu, 05 Aug 2021 09:56:34: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch14_cr/6.peak/Morula_Tead4_rep1_peaks.xls 
+INFO  @ Thu, 05 Aug 2021 09:56:35: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch14_cr/6.peak/Morula_Tead4_rep1_peaks.narrowPeak 
+INFO  @ Thu, 05 Aug 2021 09:56:35: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch14_cr/6.peak/Morula_Tead4_rep1_summits.bed 
+INFO  @ Thu, 05 Aug 2021 09:56:35: Done! 

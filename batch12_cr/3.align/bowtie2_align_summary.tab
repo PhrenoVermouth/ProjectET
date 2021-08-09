@@ -1,0 +1,4 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+8Cell_Tfap2c_rep1	49.8355	31.8427	63.90%	15.0434	30.19%	94.08%
+8Cell_Tfap2c_rep2	48.7255	31.2958	64.23%	14.1735	29.09%	93.32%
+lateMorula_Nanog_rep2	45.1774	19.2216	42.55%	11.1742	24.73%	67.28%

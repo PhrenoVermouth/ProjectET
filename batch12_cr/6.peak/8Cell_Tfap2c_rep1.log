@@ -1,0 +1,72 @@
+INFO  @ Tue, 20 Jul 2021 13:40:31: 
+# Command line: callpeak -t 8Cell_Tfap2c_rep1.duprm.bam -f BAMPE -g mm -n 8Cell_Tfap2c_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch12_cr/6.peak
+# ARGUMENTS LIST:
+# name = 8Cell_Tfap2c_rep1
+# format = BAMPE
+# ChIP-seq file = ['8Cell_Tfap2c_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Tue, 20 Jul 2021 13:40:31: #1 read fragment files... 
+INFO  @ Tue, 20 Jul 2021 13:40:31: #1 read treatment fragments... 
+INFO  @ Tue, 20 Jul 2021 13:40:37:  1000000 
+INFO  @ Tue, 20 Jul 2021 13:40:44:  2000000 
+INFO  @ Tue, 20 Jul 2021 13:40:50:  3000000 
+INFO  @ Tue, 20 Jul 2021 13:40:57:  4000000 
+INFO  @ Tue, 20 Jul 2021 13:41:03:  5000000 
+INFO  @ Tue, 20 Jul 2021 13:41:10:  6000000 
+INFO  @ Tue, 20 Jul 2021 13:41:16:  7000000 
+INFO  @ Tue, 20 Jul 2021 13:41:23:  8000000 
+INFO  @ Tue, 20 Jul 2021 13:41:29:  9000000 
+INFO  @ Tue, 20 Jul 2021 13:41:35:  10000000 
+INFO  @ Tue, 20 Jul 2021 13:41:42:  11000000 
+INFO  @ Tue, 20 Jul 2021 13:41:48:  12000000 
+INFO  @ Tue, 20 Jul 2021 13:41:55:  13000000 
+INFO  @ Tue, 20 Jul 2021 13:42:02:  14000000 
+INFO  @ Tue, 20 Jul 2021 13:42:08:  15000000 
+INFO  @ Tue, 20 Jul 2021 13:42:14:  16000000 
+INFO  @ Tue, 20 Jul 2021 13:42:21:  17000000 
+INFO  @ Tue, 20 Jul 2021 13:42:27:  18000000 
+INFO  @ Tue, 20 Jul 2021 13:42:34:  19000000 
+INFO  @ Tue, 20 Jul 2021 13:42:40:  20000000 
+INFO  @ Tue, 20 Jul 2021 13:42:47:  21000000 
+INFO  @ Tue, 20 Jul 2021 13:42:53:  22000000 
+INFO  @ Tue, 20 Jul 2021 13:43:00:  23000000 
+INFO  @ Tue, 20 Jul 2021 13:43:06:  24000000 
+INFO  @ Tue, 20 Jul 2021 13:43:13:  25000000 
+INFO  @ Tue, 20 Jul 2021 13:43:19:  26000000 
+INFO  @ Tue, 20 Jul 2021 13:43:26:  27000000 
+INFO  @ Tue, 20 Jul 2021 13:43:33:  28000000 
+INFO  @ Tue, 20 Jul 2021 13:43:40:  29000000 
+INFO  @ Tue, 20 Jul 2021 13:43:47:  30000000 
+INFO  @ Tue, 20 Jul 2021 13:43:49: 30358860 fragments have been read. 
+INFO  @ Tue, 20 Jul 2021 13:44:12: #1 mean fragment size is determined as 233.8 bp from treatment 
+INFO  @ Tue, 20 Jul 2021 13:44:12: #1 fragment size = 233.8 
+INFO  @ Tue, 20 Jul 2021 13:44:12: #1  total fragments in treatment: 30358860 
+INFO  @ Tue, 20 Jul 2021 13:44:12: #1 user defined the maximum fragments... 
+INFO  @ Tue, 20 Jul 2021 13:44:12: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Tue, 20 Jul 2021 13:45:18: #1  fragments after filtering in treatment: 30354761 
+INFO  @ Tue, 20 Jul 2021 13:45:18: #1  Redundant rate of treatment: 0.00 
+INFO  @ Tue, 20 Jul 2021 13:45:18: #1 finished! 
+INFO  @ Tue, 20 Jul 2021 13:45:18: #2 Build Peak Model... 
+INFO  @ Tue, 20 Jul 2021 13:45:18: #2 Skipped... 
+INFO  @ Tue, 20 Jul 2021 13:45:18: #3 Call peaks... 
+INFO  @ Tue, 20 Jul 2021 13:45:18: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Tue, 20 Jul 2021 13:47:45: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Tue, 20 Jul 2021 13:47:45: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 8Cell_Tfap2c_rep1_treat_pileup.bdg 
+INFO  @ Tue, 20 Jul 2021 13:47:45: #3   Write bedGraph files for control lambda (after scaling if necessary)... 8Cell_Tfap2c_rep1_control_lambda.bdg 
+INFO  @ Tue, 20 Jul 2021 13:47:45: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Tue, 20 Jul 2021 13:47:45: #3 Call peaks for each chromosome... 
+INFO  @ Tue, 20 Jul 2021 13:50:03: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch12_cr/6.peak/8Cell_Tfap2c_rep1_peaks.xls 
+INFO  @ Tue, 20 Jul 2021 13:50:03: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch12_cr/6.peak/8Cell_Tfap2c_rep1_peaks.narrowPeak 
+INFO  @ Tue, 20 Jul 2021 13:50:03: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch12_cr/6.peak/8Cell_Tfap2c_rep1_summits.bed 
+INFO  @ Tue, 20 Jul 2021 13:50:03: Done! 
