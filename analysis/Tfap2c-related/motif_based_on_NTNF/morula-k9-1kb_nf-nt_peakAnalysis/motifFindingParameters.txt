@@ -1,0 +1,1 @@
+cmd = test.bed mm10 morula-k9-1kb_nf-nt_peakAnalysis -size given -p 10 -len 8

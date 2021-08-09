@@ -1,0 +1,10 @@
+narrowPeak 8-cell-atac_peaks.narrowPeak.sorted
+bam build/8-cell-atac.bam
+chrom_sizes mm10_sorted.size
+outDir 8-cell-atac/ABC_output/Peaks/
+nStrongestPeaks 150000
+peakExtendFromSummit 250
+ignoreSummits False
+minPeakWidth 500
+regions_includelist /home1/gyang/work_space/1.Mouse_Acetylation/buffet/resource_set/5most_promoter_mm10.tab
+regions_blocklist build/mm10_blacklist.bed

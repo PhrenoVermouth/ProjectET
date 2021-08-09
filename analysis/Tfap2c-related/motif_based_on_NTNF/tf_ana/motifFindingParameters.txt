@@ -1,0 +1,1 @@
+cmd = test.bed mm10 tf_ana -size given -p 15 -find /home1/gyang/work_space/4.ProjectET/analysis/Tfap2c-related/morula-k9-1kb_nf-nt_peakAnalysis/knownResults/known1.motif
