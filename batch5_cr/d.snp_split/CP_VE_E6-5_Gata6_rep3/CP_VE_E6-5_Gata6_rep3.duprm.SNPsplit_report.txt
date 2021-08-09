@@ -1,0 +1,29 @@
+Input file:					'CP_VE_E6-5_Gata6_rep3.duprm.bam'
+Writing allele-flagged output file to:		'CP_VE_E6-5_Gata6_rep3.duprm.allele_flagged.bam'
+
+
+Allele-tagging report
+=====================
+Processed 30243098 read alignments in total
+Reads were unaligned and hence skipped: 0 (0.00%)
+13276795 reads were unassignable (43.90%)
+8927299 reads were specific for genome 1 (29.52%)
+7981762 reads were specific for genome 2 (26.39%)
+24649 reads did not contain one of the expected bases at known SNP positions (0.08%)
+57242 contained conflicting allele-specific SNPs (0.19%)
+
+
+SNP coverage report
+===================
+SNP annotation file:	/home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz
+SNPs stored in total:	20315523
+N-containing reads:	16967513
+non-N:			13252146
+total:			30243098
+Reads had a deletion of the N-masked position (and were thus dropped):	23439 (0.08%)
+Of which had multiple deletions of N-masked positions within the same read:	43
+
+Of valid N containing reads,
+N was present in the list of known SNPs:	36228800 (99.98%)
+N was not present in the list of SNPs:		8123 (0.02%)
+

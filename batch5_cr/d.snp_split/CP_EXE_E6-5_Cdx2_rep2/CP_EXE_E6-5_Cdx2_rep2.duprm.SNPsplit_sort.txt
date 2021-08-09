@@ -1,0 +1,26 @@
+Input file:						'CP_EXE_E6-5_Cdx2_rep2.duprm.allele_flagged.bam'
+Writing unassigned reads to:				'CP_EXE_E6-5_Cdx2_rep2.duprm.unassigned.bam'
+Writing genome 1-specific reads to:			'CP_EXE_E6-5_Cdx2_rep2.duprm.genome1.bam'
+Writing genome 2-specific reads to:			'CP_EXE_E6-5_Cdx2_rep2.duprm.genome2.bam'
+Writing reads with conflicting number of SNPs to:	'CP_EXE_E6-5_Cdx2_rep2.duprm.conflicting.bam'
+
+
+
+Allele-specific paired-end sorting report
+=========================================
+Read pairs/singletons processed in total:		16148795
+	thereof were read pairs:			16148795
+	thereof were singletons:			0
+Reads were unassignable (not overlapping SNPs):		6028834 (37.33%)
+	thereof were read pairs:	6028834
+	thereof were singletons:	0
+Reads were specific for genome 1:			5518746 (34.17%)
+	thereof were read pairs:	5518746
+	thereof were singletons:	0
+Reads were specific for genome 2:			4534792 (28.08%)
+	thereof were read pairs:	4534792
+	thereof were singletons:	0
+Reads contained conflicting SNP information:		66423 (0.41%)
+	thereof were read pairs:	66423
+	thereof were singletons:	0
+

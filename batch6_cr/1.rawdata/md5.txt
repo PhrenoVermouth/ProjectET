@@ -1,0 +1,12 @@
+deb1ec6a5ad745016867ab8bad8113f0  	CP_EPI_E6.5_Sox2_rep4.R1.fq.gz
+729a25e7ec0a80037d184216ec1461bc  	CP_EPI_E6.5_Sox2_rep4.R2.fq.gz
+9bb88c661cbceb7a2f1a64eec2ba7647  	CP_EPI_E6.5_Sox2_rep5.R1.fq.gz
+18e1194cbf064cb0bcd711087ef0febc  	CP_EPI_E6.5_Sox2_rep5.R2.fq.gz
+00f02f0d0323c8468bbb59b71670fc6c  	CP_EPI_E6.5_Nanog_rep4.R1.fq.gz
+10552b48ea3a8009f3b3ddf4f86dca96  	CP_EPI_E6.5_Nanog_rep4.R2.fq.gz
+63ae7a1f77b08d7db3a607137c2edeb0  	CP_EPI_E6.5_Nanog_rep5.R1.fq.gz
+ccd1444be133a35f0ff6012ced4e491c  	CP_EPI_E6.5_Nanog_rep5.R2.fq.gz
+39694e3e91390b287c708dcfeb496ec4  	CP_EXE_E6.5_Gata3_rep1.R1.fq.gz
+e9eacd9d4ef10fdc52c0898e1ecb6753  	CP_EXE_E6.5_Gata3_rep1.R2.fq.gz
+27690b357617b8aeb492ce1fcfff9941  	CP_EXE_E6.5_Gata3_rep2.R1.fq.gz
+038f275d530dac075ac2fe7076fca520  	CP_EXE_E6.5_Gata3_rep2.R2.fq.gz

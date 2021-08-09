@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	CP_EPI_E6.5_Nanog_rep5.R2	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EPI_E6.5_Nanog_rep5.R2_fastqc.zip
+FastQC	all_sections	CP_EPI_E6.5_Nanog_rep5.R1	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EPI_E6.5_Nanog_rep5.R1_fastqc.zip
+FastQC	all_sections	CP_EPI_E6.5_Nanog_rep4.R1	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EPI_E6.5_Nanog_rep4.R1_fastqc.zip
+FastQC	all_sections	CP_EPI_E6.5_Nanog_rep4.R2	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EPI_E6.5_Nanog_rep4.R2_fastqc.zip
+FastQC	all_sections	CP_EPI_E6.5_Sox2_rep4.R1	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EPI_E6.5_Sox2_rep4.R1_fastqc.zip
+FastQC	all_sections	CP_EPI_E6.5_Sox2_rep4.R2	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EPI_E6.5_Sox2_rep4.R2_fastqc.zip
+FastQC	all_sections	CP_EPI_E6.5_Sox2_rep5.R2	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EPI_E6.5_Sox2_rep5.R2_fastqc.zip
+FastQC	all_sections	CP_EPI_E6.5_Sox2_rep5.R1	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EPI_E6.5_Sox2_rep5.R1_fastqc.zip
+FastQC	all_sections	CP_EXE_E6.5_Gata3_rep1.R2	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EXE_E6.5_Gata3_rep1.R2_fastqc.zip
+FastQC	all_sections	CP_EXE_E6.5_Gata3_rep2.R2	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EXE_E6.5_Gata3_rep2.R2_fastqc.zip
+FastQC	all_sections	CP_EXE_E6.5_Gata3_rep2.R1	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EXE_E6.5_Gata3_rep2.R1_fastqc.zip
+FastQC	all_sections	CP_EXE_E6.5_Gata3_rep1.R1	/home1/gyang/work_space/4.ProjectET/batch6_cr/1.rawdata/fastqc/CP_EXE_E6.5_Gata3_rep1.R1_fastqc.zip

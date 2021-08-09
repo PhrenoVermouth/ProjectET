@@ -1,0 +1,26 @@
+Input file:						'CP_EPI_E6-5_Nanog_rep1.duprm.allele_flagged.bam'
+Writing unassigned reads to:				'CP_EPI_E6-5_Nanog_rep1.duprm.unassigned.bam'
+Writing genome 1-specific reads to:			'CP_EPI_E6-5_Nanog_rep1.duprm.genome1.bam'
+Writing genome 2-specific reads to:			'CP_EPI_E6-5_Nanog_rep1.duprm.genome2.bam'
+Writing reads with conflicting number of SNPs to:	'CP_EPI_E6-5_Nanog_rep1.duprm.conflicting.bam'
+
+
+
+Allele-specific paired-end sorting report
+=========================================
+Read pairs/singletons processed in total:		13974420
+	thereof were read pairs:			13974420
+	thereof were singletons:			0
+Reads were unassignable (not overlapping SNPs):		4971673 (35.58%)
+	thereof were read pairs:	4971673
+	thereof were singletons:	0
+Reads were specific for genome 1:			4741293 (33.93%)
+	thereof were read pairs:	4741293
+	thereof were singletons:	0
+Reads were specific for genome 2:			4215608 (30.17%)
+	thereof were read pairs:	4215608
+	thereof were singletons:	0
+Reads contained conflicting SNP information:		45846 (0.33%)
+	thereof were read pairs:	45846
+	thereof were singletons:	0
+

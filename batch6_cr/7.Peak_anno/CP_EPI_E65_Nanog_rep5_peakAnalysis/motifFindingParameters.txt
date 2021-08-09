@@ -1,0 +1,1 @@
+cmd = CP_EPI_E65_Nanog_rep5_peaks.narrowPeak mm10 /home1/gyang/work_space/4.ProjectET/batch6_cr/7.Peak_anno/CP_EPI_E65_Nanog_rep5_peakAnalysis -size given -p 10 -len 8

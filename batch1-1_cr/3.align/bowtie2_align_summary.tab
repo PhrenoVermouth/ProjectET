@@ -1,4 +1,0 @@
-sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
-ESC_Sox2_10k_rep2	55.5242	27.856	50.17%	22.7446	40.96%	91.13%
-ESC_Sox2_1k_rep3	28.8612	9.93789	34.43%	8.88214	30.78%	65.21%
-ESC_Sox2_1k_rep4	34.5777	13.5741	39.26%	11.571	33.46%	72.72%

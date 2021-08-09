@@ -1,0 +1,125 @@
+Created output directory /home1/gyang/work_space/4.ProjectET/batch5_cr/d.snp_split/CP_VE_E6-5_Gata6_rep2/!
+
+Output will be written into the directory: /home1/gyang/work_space/4.ProjectET/batch5_cr/d.snp_split/CP_VE_E6-5_Gata6_rep2/
+Testing if input file 'CP_VE_E6-5_Gata6_rep2.duprm.bam' looks like a Bisulfite-Seq file
+Now starting to process file <<< 'CP_VE_E6-5_Gata6_rep2.duprm.bam' >>> 
+
+Input file:					'CP_VE_E6-5_Gata6_rep2.duprm.bam'
+Writing SNPplit-tag report to:			'CP_VE_E6-5_Gata6_rep2.duprm.SNPsplit_report.txt'
+Writing allele-flagged output file to:		'CP_VE_E6-5_Gata6_rep2.duprm.allele_flagged.bam'
+
+
+Summary of parameters for SNPsplit-tag:
+========================================
+SNPsplit infile:		CP_VE_E6-5_Gata6_rep2.duprm.bam
+SNP annotation file:		/home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz
+Output directory:		>/home1/gyang/work_space/4.ProjectET/batch5_cr/d.snp_split/CP_VE_E6-5_Gata6_rep2/<
+Parent directory:		>/home1/gyang/work_space/4.ProjectET/batch5_cr/c.snp_unique<
+Samtools path:			/home1/gyang/anaconda3/envs/work/bin/samtools
+Output format:			BAM (default)
+Input format:			Paired-end (not relevant for tagging process)
+
+
+File specified as unsorted paired-end BAM file
+Sorting paired-end BAM file 'CP_VE_E6-5_Gata6_rep2.duprm.bam' by read IDs ...
+[bam_sort_core] merging from 7 files and 1 in-memory blocks...
+Finished sorting BAM file into new file 'CP_VE_E6-5_Gata6_rep2.duprm.sortedByName.bam'
+
+Storing SNP positions provided in '/home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz'
+Stored 20315523 positions in total
+
+Reading from sorted mapping file 'CP_VE_E6-5_Gata6_rep2.duprm.sortedByName.bam'
+Processed 1000000 lines so far
+Processed 2000000 lines so far
+Processed 3000000 lines so far
+Processed 4000000 lines so far
+Processed 5000000 lines so far
+Processed 6000000 lines so far
+Processed 7000000 lines so far
+Processed 8000000 lines so far
+Processed 9000000 lines so far
+Processed 10000000 lines so far
+Processed 11000000 lines so far
+Processed 12000000 lines so far
+Processed 13000000 lines so far
+Processed 14000000 lines so far
+Processed 15000000 lines so far
+
+Allele-tagging report
+=====================
+Processed 15091128 read alignments in total
+Reads were unaligned and hence skipped: 0 (0.00%)
+6590793 reads were unassignable (43.67%)
+4464195 reads were specific for genome 1 (29.58%)
+4006336 reads were specific for genome 2 (26.55%)
+13341 reads did not contain one of the expected bases at known SNP positions (0.09%)
+29804 contained conflicting allele-specific SNPs (0.20%)
+
+
+SNP coverage report
+===================
+SNP annotation file:	/home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz
+SNPs stored in total:	20315523
+N-containing reads:	8501278
+non-N:			6577452
+total:			15091128
+Reads had a deletion of the N-masked position (and were thus called Conflicting):	12398 (0.08%)
+Of which had multiple deletions of N-masked positions within the same read:	33 (0.00%)
+
+Of valid N containing reads,
+N was present in the list of known SNPs:	18267205 (99.98%)
+N was not present in the list of SNPs:		4447 (0.02%)
+
+Finished allele-tagging for file <<< 'CP_VE_E6-5_Gata6_rep2.duprm.sortedByName.bam' >>> 
+
+
+Summary of parameters for SNPsplit-sort:
+========================================
+SNPsplit tagged infile:		CP_VE_E6-5_Gata6_rep2.duprm.allele_flagged.bam
+Output directory:		>/home1/gyang/work_space/4.ProjectET/batch5_cr/d.snp_split/CP_VE_E6-5_Gata6_rep2/<
+Parent directory:		>/home1/gyang/work_space/4.ProjectET/batch5_cr/c.snp_unique<
+Samtools path:			/home1/gyang/anaconda3/envs/work/bin/samtools
+Output format:			BAM (default)
+Input format:			Paired-end
+
+
+Input file:						'CP_VE_E6-5_Gata6_rep2.duprm.allele_flagged.bam'
+Writing SNPsplit-sort report to:			'CP_VE_E6-5_Gata6_rep2.duprm.SNPsplit_sort.txt'
+Writing unassigned reads to:				'CP_VE_E6-5_Gata6_rep2.duprm.unassigned.bam'
+Writing genome 1-specific reads to:			'CP_VE_E6-5_Gata6_rep2.duprm.genome1.bam'
+Writing genome 2-specific reads to:			'CP_VE_E6-5_Gata6_rep2.duprm.genome2.bam'
+Writing reads with conflicting number of SNPs to:	'CP_VE_E6-5_Gata6_rep2.duprm.conflicting.bam'
+
+Processed 1000000 lines so far
+Processed 2000000 lines so far
+Processed 3000000 lines so far
+Processed 4000000 lines so far
+Processed 5000000 lines so far
+Processed 6000000 lines so far
+Processed 7000000 lines so far
+Last read was a read pair which has already been processed. all done
+
+
+
+Allele-specific paired-end sorting report
+=========================================
+Read pairs/singletons processed in total:		7545564
+	thereof were read pairs:			7545564
+	thereof were singletons:			0
+Reads were unassignable (not overlapping SNPs):		2403343 (31.85%)
+	thereof were read pairs:	2403343
+	thereof were singletons:	0
+Reads were specific for genome 1:			2691577 (35.67%)
+	thereof were read pairs:	2691577
+	thereof were singletons:	0
+Reads were specific for genome 2:			2419472 (32.06%)
+	thereof were read pairs:	2419472
+	thereof were singletons:	0
+Reads contained conflicting SNP information:		31172 (0.41%)
+	thereof were read pairs:	31172
+	thereof were singletons:	0
+
+Sorting finished successfully
+
+SNPsplit processing finished...
+

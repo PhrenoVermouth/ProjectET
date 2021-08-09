@@ -1,0 +1,29 @@
+Input file:					'CP_EPI_E6-5_Sox2_rep1.duprm.bam'
+Writing allele-flagged output file to:		'CP_EPI_E6-5_Sox2_rep1.duprm.allele_flagged.bam'
+
+
+Allele-tagging report
+=====================
+Processed 34909254 read alignments in total
+Reads were unaligned and hence skipped: 0 (0.00%)
+15533196 reads were unassignable (44.50%)
+10237584 reads were specific for genome 1 (29.33%)
+9076723 reads were specific for genome 2 (26.00%)
+26493 reads did not contain one of the expected bases at known SNP positions (0.08%)
+61751 contained conflicting allele-specific SNPs (0.18%)
+
+
+SNP coverage report
+===================
+SNP annotation file:	/home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz
+SNPs stored in total:	20315523
+N-containing reads:	19376313
+non-N:			15506703
+total:			34909254
+Reads had a deletion of the N-masked position (and were thus dropped):	26238 (0.08%)
+Of which had multiple deletions of N-masked positions within the same read:	57
+
+Of valid N containing reads,
+N was present in the list of known SNPs:	41114342 (99.98%)
+N was not present in the list of SNPs:		9936 (0.02%)
+

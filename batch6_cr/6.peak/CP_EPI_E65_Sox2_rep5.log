@@ -1,0 +1,45 @@
+INFO  @ Sun, 02 May 2021 20:45:44: 
+# Command line: callpeak -t CP_EPI_E65_Sox2_rep5.duprm.bam -f BAMPE -g mm -n CP_EPI_E65_Sox2_rep5 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch6_cr/6.peak
+# ARGUMENTS LIST:
+# name = CP_EPI_E65_Sox2_rep5
+# format = BAMPE
+# ChIP-seq file = ['CP_EPI_E65_Sox2_rep5.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Sun, 02 May 2021 20:45:44: #1 read fragment files... 
+INFO  @ Sun, 02 May 2021 20:45:44: #1 read treatment fragments... 
+INFO  @ Sun, 02 May 2021 20:46:00:  1000000 
+INFO  @ Sun, 02 May 2021 20:46:20:  2000000 
+INFO  @ Sun, 02 May 2021 20:46:40:  3000000 
+INFO  @ Sun, 02 May 2021 20:47:01:  4000000 
+INFO  @ Sun, 02 May 2021 20:47:20:  5000000 
+INFO  @ Sun, 02 May 2021 20:47:41: #1 mean fragment size is determined as 237 bp from treatment 
+INFO  @ Sun, 02 May 2021 20:47:41: #1 fragment size = 237 
+INFO  @ Sun, 02 May 2021 20:47:41: #1  total fragments in treatment: 5859148 
+INFO  @ Sun, 02 May 2021 20:47:41: #1 user defined the maximum fragments... 
+INFO  @ Sun, 02 May 2021 20:47:41: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sun, 02 May 2021 20:47:59: #1  fragments after filtering in treatment: 5854961 
+INFO  @ Sun, 02 May 2021 20:47:59: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sun, 02 May 2021 20:47:59: #1 finished! 
+INFO  @ Sun, 02 May 2021 20:47:59: #2 Build Peak Model... 
+INFO  @ Sun, 02 May 2021 20:47:59: #2 Skipped... 
+INFO  @ Sun, 02 May 2021 20:47:59: #2 Use 237 as fragment length 
+INFO  @ Sun, 02 May 2021 20:47:59: #3 Call peaks... 
+INFO  @ Sun, 02 May 2021 20:47:59: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sun, 02 May 2021 20:48:25: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sun, 02 May 2021 20:48:25: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... CP_EPI_E65_Sox2_rep5_treat_pileup.bdg 
+INFO  @ Sun, 02 May 2021 20:48:25: #3   Write bedGraph files for control lambda (after scaling if necessary)... CP_EPI_E65_Sox2_rep5_control_lambda.bdg 
+INFO  @ Sun, 02 May 2021 20:48:25: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sun, 02 May 2021 20:48:25: #3 Call peaks for each chromosome... 
+INFO  @ Sun, 02 May 2021 20:49:13: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch6_cr/6.peak/CP_EPI_E65_Sox2_rep5_peaks.xls 
+INFO  @ Sun, 02 May 2021 20:49:13: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch6_cr/6.peak/CP_EPI_E65_Sox2_rep5_peaks.narrowPeak 
+INFO  @ Sun, 02 May 2021 20:49:13: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch6_cr/6.peak/CP_EPI_E65_Sox2_rep5_summits.bed 
+INFO  @ Sun, 02 May 2021 20:49:13: Done! 
