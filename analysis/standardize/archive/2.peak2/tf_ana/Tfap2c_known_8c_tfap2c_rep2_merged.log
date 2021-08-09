@@ -1,0 +1,48 @@
+
+	Position file = 8Cell_Tfap2c_rep2_2_peaks.mergedPeak
+	Genome = mm10
+	Output Directory = tf_ana
+	Using actual sizes of regions (-size given)
+	Fragment size set to given
+	Using 15 CPUs
+	Will find motif(s) in /home1/homer/motifs/ap2gamma.motif
+	Found mset for "mouse", will check against vertebrates motifs
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 54022
+		peakfile formatted lines: 0
+
+	Peak File Statistics:
+		Total Peaks: 54022
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Peak file looks good!
+
+	Background fragment size set to 1332 (avg size of targets)
+	Background files for 1332 bp fragments found.
+
+	Extracting sequences from directory: /usr/local/software/homer/.//data/genomes/mm10//
+	Extracting 1437 sequences from chr1
+Use of uninitialized value $len in numeric lt (<) at /usr/local/software/homer/bin/cleanUpSequences.pl line 36, <IN> line 1437.
+Use of uninitialized value $len in numeric gt (>) at /usr/local/software/homer/bin/cleanUpSequences.pl line 40, <IN> line 1437.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 44, <IN> line 1437.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 45, <IN> line 1437.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 46, <IN> line 1437.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 47, <IN> line 1437.
+Use of uninitialized value $line[1] in substitution (s///) at /usr/local/software/homer/bin/cleanUpSequences.pl line 48, <IN> line 1437.
+Use of uninitialized value $line[1] in pattern match (m//) at /usr/local/software/homer/bin/cleanUpSequences.pl line 50, <IN> line 1437.
+Use of uninitialized value $line[1] in concatenation (.) or string at /usr/local/software/homer/bin/cleanUpSequences.pl line 55, <IN> line 1437.
+Use of uninitialized value $L in numeric lt (<) at /usr/local/software/homer/bin/removePoorSeq.pl line 38, <IN> line 1437.
+	1 of 1437 removed because they were shorter than 5 bp
+
+
+	Reading input files...
+	1436 total sequences read
+	1 motifs loaded
+	Finding instances of 1 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+	Cleaning up tmp files...
+

@@ -1,0 +1,1 @@
+cmd = 8Cell_Tfap2c_rep2_2_peaks.mergedPeak mm10 tf_ana -size given -p 15 -find /home1/gyang/work_space/4.ProjectET/analysis/motif_denovo/Tfap2c.motif

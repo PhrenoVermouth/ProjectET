@@ -1,0 +1,1 @@
+cmd = mm10.SINE_indexed_New.txt mm10 tf_ana -size given -p 15 -find /home1/gyang/work_space/4.ProjectET/analysis/standardize/3.peak_anno/8Cell_Tfap2c_rep1_2_peakAnalysis/knownResults/known1.motif

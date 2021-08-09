@@ -1,0 +1,39 @@
+  18367 ID_B1
+  14587 B1_Mus1
+   9590 B1_Mus2
+   5454 B1_Mm
+   5206 PB1D10
+   5157 B1_Mur4
+   3496 B1_Mur2
+   3329 B1_Mur1
+   3219 B1_Mur3
+   3065 B1F
+   1747 PB1D9
+   1393 PB1D11
+   1223 B1F1
+   1094 B1F2
+    950 PB1D7
+    533 B4
+    531 PB1
+    497 B4A
+    261 RSINE1
+    106 B3
+     77 MIRb
+     76 MIR
+     74 B3A
+     57 MIRc
+     43 MIR3
+     18 ID4
+     16 ID4_
+     10 B2_Mm2
+     10 MamSINE1
+      5 LFSINE_Vert
+      4 ID2
+      3 ID
+      1 AmnSINE1
+      1 B1F1	56	TGGCCTTGAACT	RARg(NR)/ES
+      1 B1_Mur2	11	AGTTCAAGGCCA	RARg(NR)/ES
+      1 B1_Mus2	68	TGGCCTTGAACT	RARg(NR)/ES
+      1 B2_Mm1a
+      1 ID_B1	36	TGGCCTTGAACT	RARg(NR)/ES
+      1 PositionID	Offset	Sequence	Motif Name	Strand	MotifScore

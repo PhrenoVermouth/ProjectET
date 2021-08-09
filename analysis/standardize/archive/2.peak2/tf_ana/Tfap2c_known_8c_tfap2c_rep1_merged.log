@@ -1,0 +1,58 @@
+
+	Position file = 8Cell_Tfap2c_rep1_2_peaks.mergedPeak
+	Genome = mm10
+	Output Directory = tf_ana
+	Using actual sizes of regions (-size given)
+	Fragment size set to given
+	Using 15 CPUs
+	Will find motif(s) in /home1/homer/motifs/ap2gamma.motif
+	Found mset for "mouse", will check against vertebrates motifs
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 63655
+		peakfile formatted lines: 0
+
+	Peak File Statistics:
+		Total Peaks: 63655
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Peak file looks good!
+
+	Background fragment size set to 1410 (avg size of targets)
+	Background files for 1410 bp fragments found.
+
+	Extracting sequences from directory: /usr/local/software/homer/.//data/genomes/mm10//
+	Extracting 3367 sequences from chr1
+	Extracting 5587 sequences from chr2
+	Extracting 2076 sequences from chr3
+	Extracting 5313 sequences from chr4
+	Extracting 4989 sequences from chr5
+	Extracting 2693 sequences from chr6
+	Extracting 4763 sequences from chr7
+	Extracting 3639 sequences from chr8
+	Extracting 3637 sequences from chr9
+	Extracting 2737 sequences from chr10
+	Extracting 6581 sequences from chr11
+	Extracting 2586 sequences from chr12
+	Extracting 1727 sequences from chr13
+	Extracting 1849 sequences from chr14
+	Extracting 2822 sequences from chr15
+	Extracting 2017 sequences from chr16
+	Extracting 3142 sequences from chr17
+	Extracting 1470 sequences from chr18
+	Extracting 2093 sequences from chr19
+	Extracting 563 sequences from chrX
+	Extracting 2 sequences from chrY
+	Extracting 2 sequences from chrM
+
+
+	Reading input files...
+	63655 total sequences read
+	1 motifs loaded
+	Finding instances of 1 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+	Cleaning up tmp files...
+

@@ -1,0 +1,1 @@
+cmd = TSC_Tfap2c_1k_rep2_2_peaks.mergedPeak mm10 /home1/gyang/work_space/4.ProjectET/analysis/standardize/3.peak_anno/TSC_Tfap2c_1k_rep2_2_peakAnalysis -size given -p 10 -len 8

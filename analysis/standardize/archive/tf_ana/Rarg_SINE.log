@@ -1,0 +1,92 @@
+nohup: ignoring input
+
+	Position file = mm10.SINE_indexed.txt
+	Genome = mm10
+	Output Directory = tf_ana
+	Using actual sizes of regions (-size given)
+	Fragment size set to given
+	Using 15 CPUs
+	Will find motif(s) in /home1/gyang/work_space/4.ProjectET/analysis/standardize/3.peak_anno/8Cell_Tfap2c_rep1_2_peakAnalysis/knownResults/known1.motif
+	Found mset for "mouse", will check against vertebrates motifs
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 1533009
+		peakfile formatted lines: 0
+
+	Peak File Statistics:
+		Total Peaks: 1533009
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Peak file looks good!
+
+	Background fragment size set to 133 (avg size of targets)
+	Background files for 133 bp fragments found.
+
+	Extracting sequences from directory: /usr/local/software/homer/.//data/genomes/mm10//
+	Extracting 101752 sequences from chr1
+	Extracting 112800 sequences from chr2
+	Extracting 73377 sequences from chr3
+	Extracting 102001 sequences from chr4
+	Extracting 102097 sequences from chr5
+	Extracting 81838 sequences from chr6
+	Extracting 95508 sequences from chr7
+	Extracting 74718 sequences from chr8
+	Extracting 87560 sequences from chr9
+	Extracting 70318 sequences from chr10
+	Extracting 106337 sequences from chr11
+	Extracting 65819 sequences from chr12
+	Extracting 58470 sequences from chr13
+	Extracting 58888 sequences from chr14
+	Extracting 53035 sequences from chr15
+	Extracting 49239 sequences from chr16
+	Extracting 56327 sequences from chr17
+	Extracting 46037 sequences from chr18
+	Extracting 39624 sequences from chr19
+	Extracting 75245 sequences from chrX
+	Extracting 19663 sequences from chrY
+	Extracting 129 sequences from chr1_GL456210_random
+	Extracting 170 sequences from chr1_GL456211_random
+	Extracting 106 sequences from chr1_GL456212_random
+	Extracting 28 sequences from chr1_GL456213_random
+	Extracting 150 sequences from chr1_GL456221_random
+	Extracting 18 sequences from chr4_GL456216_random
+	Extracting 190 sequences from chr4_GL456350_random
+	Extracting 2 sequences from chr4_JH584292_random
+	Extracting 170 sequences from chr4_JH584293_random
+	Extracting 165 sequences from chr4_JH584294_random
+	Extracting 78 sequences from chr5_GL456354_random
+	Extracting 84 sequences from chr5_JH584296_random
+	Extracting 88 sequences from chr5_JH584297_random
+	Extracting 77 sequences from chr5_JH584298_random
+	Extracting 359 sequences from chr5_JH584299_random
+	Extracting 34 sequences from chr7_GL456219_random
+	Extracting 18 sequences from chrUn_GL456239
+	Extracting 2 sequences from chrUn_GL456359
+	Extracting 10 sequences from chrUn_GL456360
+	Extracting 2 sequences from chrUn_GL456366
+	Extracting 20 sequences from chrUn_GL456367
+	Extracting 6 sequences from chrUn_GL456368
+	Extracting 3 sequences from chrUn_GL456370
+	Extracting 23 sequences from chrUn_GL456372
+	Extracting 8 sequences from chrUn_GL456378
+	Extracting 13 sequences from chrUn_GL456379
+	Extracting 5 sequences from chrUn_GL456382
+	Extracting 6 sequences from chrUn_GL456385
+	Extracting 97 sequences from chrUn_JH584304
+	Extracting 107 sequences from chrX_GL456233_random
+	Extracting 49 sequences from chrY_JH584300_random
+	Extracting 79 sequences from chrY_JH584301_random
+	Extracting 30 sequences from chrY_JH584302_random
+	Extracting 30 sequences from chrY_JH584303_random
+
+
+	Reading input files...
+	1533009 total sequences read
+	1 motifs loaded
+	Finding instances of 1 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+	Cleaning up tmp files...
+
