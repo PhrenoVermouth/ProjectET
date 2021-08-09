@@ -1,0 +1,9 @@
+Sample	adapter_content	Sequences flagged as poor quality	sequence_duplication_levels	avg_sequence_length	Encoding	per_base_sequence_quality	sequence_length_distribution	Sequence length	File type	basic_statistics	per_sequence_gc_content	Total Sequences	per_base_n_content	per_base_sequence_content	overrepresented_sequences	%GC	total_deduplicated_percentage	Filename	per_tile_sequence_quality	per_sequence_quality_scores
+Morula_Cdx2_rep1.R1	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	44942868.0	pass	fail	fail	53.0	24.305802327	Morula_Cdx2_rep1.R1.fq.gz	pass	pass
+Morula_Cdx2_rep1.R2	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	44942868.0	pass	fail	fail	57.0	29.7344770714	Morula_Cdx2_rep1.R2.fq.gz	pass	pass
+Morula_Cdx2_rep2.R1	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	58385799.0	pass	fail	fail	53.0	30.2224362206	Morula_Cdx2_rep2.R1.fq.gz	pass	pass
+Morula_Cdx2_rep2.R2	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	58385799.0	pass	fail	fail	58.0	35.7488554363	Morula_Cdx2_rep2.R2.fq.gz	pass	pass
+Morula_Nanog_rep1.R1	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	48186939.0	pass	fail	fail	57.0	25.9792956268	Morula_Nanog_rep1.R1.fq.gz	pass	pass
+Morula_Nanog_rep1.R2	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	48186939.0	pass	fail	fail	61.0	31.4267796195	Morula_Nanog_rep1.R2.fq.gz	pass	pass
+Morula_Nanog_rep2.R1	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	54199641.0	pass	fail	fail	57.0	21.852901549	Morula_Nanog_rep2.R1.fq.gz	pass	pass
+Morula_Nanog_rep2.R2	fail	0.0	fail	150.0	Sanger / Illumina 1.9	pass	pass	150.0	Conventional base calls	pass	fail	54199641.0	pass	fail	fail	60.0	26.7996215351	Morula_Nanog_rep2.R2.fq.gz	pass	pass

@@ -1,0 +1,75 @@
+INFO  @ Sun, 02 May 2021 20:46:00: 
+# Command line: callpeak -t TSC_Tfap2c_50k_rep1.duprm.bam -f BAMPE -g mm -n TSC_Tfap2c_50k_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak
+# ARGUMENTS LIST:
+# name = TSC_Tfap2c_50k_rep1
+# format = BAMPE
+# ChIP-seq file = ['TSC_Tfap2c_50k_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Sun, 02 May 2021 20:46:00: #1 read fragment files... 
+INFO  @ Sun, 02 May 2021 20:46:00: #1 read treatment fragments... 
+INFO  @ Sun, 02 May 2021 20:46:16:  1000000 
+INFO  @ Sun, 02 May 2021 20:46:35:  2000000 
+INFO  @ Sun, 02 May 2021 20:46:55:  3000000 
+INFO  @ Sun, 02 May 2021 20:47:13:  4000000 
+INFO  @ Sun, 02 May 2021 20:47:30:  5000000 
+INFO  @ Sun, 02 May 2021 20:47:47:  6000000 
+INFO  @ Sun, 02 May 2021 20:48:05:  7000000 
+INFO  @ Sun, 02 May 2021 20:48:21:  8000000 
+INFO  @ Sun, 02 May 2021 20:48:35:  9000000 
+INFO  @ Sun, 02 May 2021 20:48:49:  10000000 
+INFO  @ Sun, 02 May 2021 20:49:03:  11000000 
+INFO  @ Sun, 02 May 2021 20:49:16:  12000000 
+INFO  @ Sun, 02 May 2021 20:49:29:  13000000 
+INFO  @ Sun, 02 May 2021 20:49:42:  14000000 
+INFO  @ Sun, 02 May 2021 20:49:55:  15000000 
+INFO  @ Sun, 02 May 2021 20:50:08:  16000000 
+INFO  @ Sun, 02 May 2021 20:50:21:  17000000 
+INFO  @ Sun, 02 May 2021 20:50:34:  18000000 
+INFO  @ Sun, 02 May 2021 20:50:47:  19000000 
+INFO  @ Sun, 02 May 2021 20:50:59:  20000000 
+INFO  @ Sun, 02 May 2021 20:51:12:  21000000 
+INFO  @ Sun, 02 May 2021 20:51:25:  22000000 
+INFO  @ Sun, 02 May 2021 20:51:37:  23000000 
+INFO  @ Sun, 02 May 2021 20:51:50:  24000000 
+INFO  @ Sun, 02 May 2021 20:52:03:  25000000 
+INFO  @ Sun, 02 May 2021 20:52:16:  26000000 
+INFO  @ Sun, 02 May 2021 20:52:28:  27000000 
+INFO  @ Sun, 02 May 2021 20:52:41:  28000000 
+INFO  @ Sun, 02 May 2021 20:52:54:  29000000 
+INFO  @ Sun, 02 May 2021 20:53:06:  30000000 
+INFO  @ Sun, 02 May 2021 20:53:19:  31000000 
+INFO  @ Sun, 02 May 2021 20:53:32:  32000000 
+INFO  @ Sun, 02 May 2021 20:53:44:  33000000 
+INFO  @ Sun, 02 May 2021 20:53:57:  34000000 
+INFO  @ Sun, 02 May 2021 20:54:10:  35000000 
+INFO  @ Sun, 02 May 2021 20:54:33: #1 mean fragment size is determined as 203 bp from treatment 
+INFO  @ Sun, 02 May 2021 20:54:33: #1 fragment size = 203 
+INFO  @ Sun, 02 May 2021 20:54:33: #1  total fragments in treatment: 35017531 
+INFO  @ Sun, 02 May 2021 20:54:33: #1 user defined the maximum fragments... 
+INFO  @ Sun, 02 May 2021 20:54:33: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sun, 02 May 2021 20:55:55: #1  fragments after filtering in treatment: 35011979 
+INFO  @ Sun, 02 May 2021 20:55:55: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sun, 02 May 2021 20:55:55: #1 finished! 
+INFO  @ Sun, 02 May 2021 20:55:55: #2 Build Peak Model... 
+INFO  @ Sun, 02 May 2021 20:55:55: #2 Skipped... 
+INFO  @ Sun, 02 May 2021 20:55:55: #2 Use 203 as fragment length 
+INFO  @ Sun, 02 May 2021 20:55:55: #3 Call peaks... 
+INFO  @ Sun, 02 May 2021 20:55:55: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sun, 02 May 2021 20:57:57: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sun, 02 May 2021 20:57:57: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... TSC_Tfap2c_50k_rep1_treat_pileup.bdg 
+INFO  @ Sun, 02 May 2021 20:57:57: #3   Write bedGraph files for control lambda (after scaling if necessary)... TSC_Tfap2c_50k_rep1_control_lambda.bdg 
+INFO  @ Sun, 02 May 2021 20:57:57: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sun, 02 May 2021 20:57:57: #3 Call peaks for each chromosome... 
+INFO  @ Sun, 02 May 2021 21:02:40: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak/TSC_Tfap2c_50k_rep1_peaks.xls 
+INFO  @ Sun, 02 May 2021 21:02:40: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak/TSC_Tfap2c_50k_rep1_peaks.narrowPeak 
+INFO  @ Sun, 02 May 2021 21:02:41: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak/TSC_Tfap2c_50k_rep1_summits.bed 
+INFO  @ Sun, 02 May 2021 21:02:41: Done! 

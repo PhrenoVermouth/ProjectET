@@ -1,0 +1,70 @@
+INFO  @ Mon, 31 May 2021 23:00:22: 
+# Command line: callpeak -t Morula_Tfap2c_rep2.duprm.bam -f BAMPE -g mm -n Morula_Tfap2c_rep2 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch9_cr/6.peak
+# ARGUMENTS LIST:
+# name = Morula_Tfap2c_rep2
+# format = BAMPE
+# ChIP-seq file = ['Morula_Tfap2c_rep2.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Mon, 31 May 2021 23:00:22: #1 read fragment files... 
+INFO  @ Mon, 31 May 2021 23:00:22: #1 read treatment fragments... 
+INFO  @ Mon, 31 May 2021 23:00:35:  1000000 
+INFO  @ Mon, 31 May 2021 23:00:48:  2000000 
+INFO  @ Mon, 31 May 2021 23:01:01:  3000000 
+INFO  @ Mon, 31 May 2021 23:01:14:  4000000 
+INFO  @ Mon, 31 May 2021 23:01:27:  5000000 
+INFO  @ Mon, 31 May 2021 23:01:41:  6000000 
+INFO  @ Mon, 31 May 2021 23:01:54:  7000000 
+INFO  @ Mon, 31 May 2021 23:02:07:  8000000 
+INFO  @ Mon, 31 May 2021 23:02:20:  9000000 
+INFO  @ Mon, 31 May 2021 23:02:33:  10000000 
+INFO  @ Mon, 31 May 2021 23:02:47:  11000000 
+INFO  @ Mon, 31 May 2021 23:03:00:  12000000 
+INFO  @ Mon, 31 May 2021 23:03:13:  13000000 
+INFO  @ Mon, 31 May 2021 23:03:26:  14000000 
+INFO  @ Mon, 31 May 2021 23:03:40:  15000000 
+INFO  @ Mon, 31 May 2021 23:03:53:  16000000 
+INFO  @ Mon, 31 May 2021 23:04:14:  17000000 
+INFO  @ Mon, 31 May 2021 23:04:36:  18000000 
+INFO  @ Mon, 31 May 2021 23:04:57:  19000000 
+INFO  @ Mon, 31 May 2021 23:05:19:  20000000 
+INFO  @ Mon, 31 May 2021 23:05:40:  21000000 
+INFO  @ Mon, 31 May 2021 23:06:02:  22000000 
+INFO  @ Mon, 31 May 2021 23:06:25:  23000000 
+INFO  @ Mon, 31 May 2021 23:06:46:  24000000 
+INFO  @ Mon, 31 May 2021 23:07:08:  25000000 
+INFO  @ Mon, 31 May 2021 23:07:29:  26000000 
+INFO  @ Mon, 31 May 2021 23:07:51:  27000000 
+INFO  @ Mon, 31 May 2021 23:08:12:  28000000 
+INFO  @ Mon, 31 May 2021 23:08:34:  29000000 
+INFO  @ Mon, 31 May 2021 23:08:55:  30000000 
+INFO  @ Mon, 31 May 2021 23:09:41: #1 mean fragment size is determined as 195 bp from treatment 
+INFO  @ Mon, 31 May 2021 23:09:41: #1 fragment size = 195 
+INFO  @ Mon, 31 May 2021 23:09:41: #1  total fragments in treatment: 30510556 
+INFO  @ Mon, 31 May 2021 23:09:41: #1 user defined the maximum fragments... 
+INFO  @ Mon, 31 May 2021 23:09:41: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Mon, 31 May 2021 23:11:48: #1  fragments after filtering in treatment: 30504886 
+INFO  @ Mon, 31 May 2021 23:11:48: #1  Redundant rate of treatment: 0.00 
+INFO  @ Mon, 31 May 2021 23:11:48: #1 finished! 
+INFO  @ Mon, 31 May 2021 23:11:48: #2 Build Peak Model... 
+INFO  @ Mon, 31 May 2021 23:11:48: #2 Skipped... 
+INFO  @ Mon, 31 May 2021 23:11:48: #2 Use 195 as fragment length 
+INFO  @ Mon, 31 May 2021 23:11:48: #3 Call peaks... 
+INFO  @ Mon, 31 May 2021 23:11:48: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Mon, 31 May 2021 23:15:13: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Mon, 31 May 2021 23:15:13: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... Morula_Tfap2c_rep2_treat_pileup.bdg 
+INFO  @ Mon, 31 May 2021 23:15:13: #3   Write bedGraph files for control lambda (after scaling if necessary)... Morula_Tfap2c_rep2_control_lambda.bdg 
+INFO  @ Mon, 31 May 2021 23:15:13: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Mon, 31 May 2021 23:15:13: #3 Call peaks for each chromosome... 
+INFO  @ Mon, 31 May 2021 23:23:50: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch9_cr/6.peak/Morula_Tfap2c_rep2_peaks.xls 
+INFO  @ Mon, 31 May 2021 23:23:50: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch9_cr/6.peak/Morula_Tfap2c_rep2_peaks.narrowPeak 
+INFO  @ Mon, 31 May 2021 23:23:51: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch9_cr/6.peak/Morula_Tfap2c_rep2_summits.bed 
+INFO  @ Mon, 31 May 2021 23:23:51: Done! 

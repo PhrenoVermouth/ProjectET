@@ -1,0 +1,67 @@
+INFO  @ Mon, 31 May 2021 23:00:22: 
+# Command line: callpeak -t Morula_Tfap2c_rep1.duprm.bam -f BAMPE -g mm -n Morula_Tfap2c_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch9_cr/6.peak
+# ARGUMENTS LIST:
+# name = Morula_Tfap2c_rep1
+# format = BAMPE
+# ChIP-seq file = ['Morula_Tfap2c_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Mon, 31 May 2021 23:00:22: #1 read fragment files... 
+INFO  @ Mon, 31 May 2021 23:00:22: #1 read treatment fragments... 
+INFO  @ Mon, 31 May 2021 23:00:35:  1000000 
+INFO  @ Mon, 31 May 2021 23:00:49:  2000000 
+INFO  @ Mon, 31 May 2021 23:01:02:  3000000 
+INFO  @ Mon, 31 May 2021 23:01:16:  4000000 
+INFO  @ Mon, 31 May 2021 23:01:30:  5000000 
+INFO  @ Mon, 31 May 2021 23:01:44:  6000000 
+INFO  @ Mon, 31 May 2021 23:01:58:  7000000 
+INFO  @ Mon, 31 May 2021 23:02:11:  8000000 
+INFO  @ Mon, 31 May 2021 23:02:24:  9000000 
+INFO  @ Mon, 31 May 2021 23:02:38:  10000000 
+INFO  @ Mon, 31 May 2021 23:02:51:  11000000 
+INFO  @ Mon, 31 May 2021 23:03:05:  12000000 
+INFO  @ Mon, 31 May 2021 23:03:19:  13000000 
+INFO  @ Mon, 31 May 2021 23:03:32:  14000000 
+INFO  @ Mon, 31 May 2021 23:03:46:  15000000 
+INFO  @ Mon, 31 May 2021 23:04:03:  16000000 
+INFO  @ Mon, 31 May 2021 23:04:25:  17000000 
+INFO  @ Mon, 31 May 2021 23:04:47:  18000000 
+INFO  @ Mon, 31 May 2021 23:05:09:  19000000 
+INFO  @ Mon, 31 May 2021 23:05:31:  20000000 
+INFO  @ Mon, 31 May 2021 23:05:53:  21000000 
+INFO  @ Mon, 31 May 2021 23:06:15:  22000000 
+INFO  @ Mon, 31 May 2021 23:06:36:  23000000 
+INFO  @ Mon, 31 May 2021 23:06:58:  24000000 
+INFO  @ Mon, 31 May 2021 23:07:20:  25000000 
+INFO  @ Mon, 31 May 2021 23:07:41:  26000000 
+INFO  @ Mon, 31 May 2021 23:08:02:  27000000 
+INFO  @ Mon, 31 May 2021 23:08:37: #1 mean fragment size is determined as 206 bp from treatment 
+INFO  @ Mon, 31 May 2021 23:08:37: #1 fragment size = 206 
+INFO  @ Mon, 31 May 2021 23:08:37: #1  total fragments in treatment: 27203788 
+INFO  @ Mon, 31 May 2021 23:08:37: #1 user defined the maximum fragments... 
+INFO  @ Mon, 31 May 2021 23:08:37: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Mon, 31 May 2021 23:10:36: #1  fragments after filtering in treatment: 27198847 
+INFO  @ Mon, 31 May 2021 23:10:36: #1  Redundant rate of treatment: 0.00 
+INFO  @ Mon, 31 May 2021 23:10:36: #1 finished! 
+INFO  @ Mon, 31 May 2021 23:10:36: #2 Build Peak Model... 
+INFO  @ Mon, 31 May 2021 23:10:36: #2 Skipped... 
+INFO  @ Mon, 31 May 2021 23:10:36: #2 Use 206 as fragment length 
+INFO  @ Mon, 31 May 2021 23:10:36: #3 Call peaks... 
+INFO  @ Mon, 31 May 2021 23:10:36: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Mon, 31 May 2021 23:13:38: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Mon, 31 May 2021 23:13:38: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... Morula_Tfap2c_rep1_treat_pileup.bdg 
+INFO  @ Mon, 31 May 2021 23:13:38: #3   Write bedGraph files for control lambda (after scaling if necessary)... Morula_Tfap2c_rep1_control_lambda.bdg 
+INFO  @ Mon, 31 May 2021 23:13:38: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Mon, 31 May 2021 23:13:38: #3 Call peaks for each chromosome... 
+INFO  @ Mon, 31 May 2021 23:21:20: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch9_cr/6.peak/Morula_Tfap2c_rep1_peaks.xls 
+INFO  @ Mon, 31 May 2021 23:21:20: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch9_cr/6.peak/Morula_Tfap2c_rep1_peaks.narrowPeak 
+INFO  @ Mon, 31 May 2021 23:21:20: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch9_cr/6.peak/Morula_Tfap2c_rep1_summits.bed 
+INFO  @ Mon, 31 May 2021 23:21:20: Done! 

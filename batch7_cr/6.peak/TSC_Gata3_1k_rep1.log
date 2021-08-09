@@ -1,0 +1,56 @@
+INFO  @ Sun, 02 May 2021 20:46:00: 
+# Command line: callpeak -t TSC_Gata3_1k_rep1.duprm.bam -f BAMPE -g mm -n TSC_Gata3_1k_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak
+# ARGUMENTS LIST:
+# name = TSC_Gata3_1k_rep1
+# format = BAMPE
+# ChIP-seq file = ['TSC_Gata3_1k_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Sun, 02 May 2021 20:46:00: #1 read fragment files... 
+INFO  @ Sun, 02 May 2021 20:46:00: #1 read treatment fragments... 
+INFO  @ Sun, 02 May 2021 20:46:18:  1000000 
+INFO  @ Sun, 02 May 2021 20:46:37:  2000000 
+INFO  @ Sun, 02 May 2021 20:46:56:  3000000 
+INFO  @ Sun, 02 May 2021 20:47:14:  4000000 
+INFO  @ Sun, 02 May 2021 20:47:33:  5000000 
+INFO  @ Sun, 02 May 2021 20:47:50:  6000000 
+INFO  @ Sun, 02 May 2021 20:48:06:  7000000 
+INFO  @ Sun, 02 May 2021 20:48:22:  8000000 
+INFO  @ Sun, 02 May 2021 20:48:38:  9000000 
+INFO  @ Sun, 02 May 2021 20:48:53:  10000000 
+INFO  @ Sun, 02 May 2021 20:49:07:  11000000 
+INFO  @ Sun, 02 May 2021 20:49:20:  12000000 
+INFO  @ Sun, 02 May 2021 20:49:33:  13000000 
+INFO  @ Sun, 02 May 2021 20:49:46:  14000000 
+INFO  @ Sun, 02 May 2021 20:49:59:  15000000 
+INFO  @ Sun, 02 May 2021 20:50:12:  16000000 
+INFO  @ Sun, 02 May 2021 20:50:24: #1 mean fragment size is determined as 202 bp from treatment 
+INFO  @ Sun, 02 May 2021 20:50:24: #1 fragment size = 202 
+INFO  @ Sun, 02 May 2021 20:50:24: #1  total fragments in treatment: 16254425 
+INFO  @ Sun, 02 May 2021 20:50:24: #1 user defined the maximum fragments... 
+INFO  @ Sun, 02 May 2021 20:50:24: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sun, 02 May 2021 20:51:01: #1  fragments after filtering in treatment: 16249666 
+INFO  @ Sun, 02 May 2021 20:51:01: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sun, 02 May 2021 20:51:01: #1 finished! 
+INFO  @ Sun, 02 May 2021 20:51:01: #2 Build Peak Model... 
+INFO  @ Sun, 02 May 2021 20:51:01: #2 Skipped... 
+INFO  @ Sun, 02 May 2021 20:51:01: #2 Use 202 as fragment length 
+INFO  @ Sun, 02 May 2021 20:51:01: #3 Call peaks... 
+INFO  @ Sun, 02 May 2021 20:51:01: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sun, 02 May 2021 20:51:58: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sun, 02 May 2021 20:51:58: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... TSC_Gata3_1k_rep1_treat_pileup.bdg 
+INFO  @ Sun, 02 May 2021 20:51:58: #3   Write bedGraph files for control lambda (after scaling if necessary)... TSC_Gata3_1k_rep1_control_lambda.bdg 
+INFO  @ Sun, 02 May 2021 20:51:58: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sun, 02 May 2021 20:51:58: #3 Call peaks for each chromosome... 
+INFO  @ Sun, 02 May 2021 20:53:56: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak/TSC_Gata3_1k_rep1_peaks.xls 
+INFO  @ Sun, 02 May 2021 20:53:56: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak/TSC_Gata3_1k_rep1_peaks.narrowPeak 
+INFO  @ Sun, 02 May 2021 20:53:56: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak/TSC_Gata3_1k_rep1_summits.bed 
+INFO  @ Sun, 02 May 2021 20:53:56: Done! 

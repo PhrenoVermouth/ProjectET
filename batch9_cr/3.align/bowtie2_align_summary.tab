@@ -1,0 +1,4 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+lateMorula_Nanog_rep1	52.7643	17.2756	32.74%	13.5056	25.60%	58.34%
+Morula_Tfap2c_rep1	44.7197	27.3846	61.24%	14.0654	31.45%	92.69%
+Morula_Tfap2c_rep2	51.1729	32.0229	62.58%	15.5882	30.46%	93.04%

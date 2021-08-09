@@ -1,0 +1,7 @@
+Sample	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-total_sequences	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-percent_gc
+Morula_Tfap2c_rep1.R1	32.9092740937	150.0	52312682.0	27.2727272727	49.0
+Morula_Tfap2c_rep1.R2	30.4433307225	150.0	52312682.0	36.3636363636	52.0
+Morula_Tfap2c_rep2.R1	32.4581950418	150.0	58312175.0	27.2727272727	48.0
+Morula_Tfap2c_rep2.R2	30.325521085	150.0	58312175.0	36.3636363636	51.0
+lateMorula_Nanog_rep1.R1	60.2119116163	150.0	61616653.0	45.4545454545	53.0
+lateMorula_Nanog_rep1.R2	57.7745873846	150.0	61616653.0	45.4545454545	57.0

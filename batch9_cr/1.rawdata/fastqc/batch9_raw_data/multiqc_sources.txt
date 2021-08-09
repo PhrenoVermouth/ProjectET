@@ -1,0 +1,7 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	lateMorula_Nanog_rep1.R1	/home1/gyang/work_space/4.ProjectET/batch9_cr/1.rawdata/fastqc/lateMorula_Nanog_rep1.R1_fastqc.zip
+FastQC	all_sections	lateMorula_Nanog_rep1.R2	/home1/gyang/work_space/4.ProjectET/batch9_cr/1.rawdata/fastqc/lateMorula_Nanog_rep1.R2_fastqc.zip
+FastQC	all_sections	Morula_Tfap2c_rep2.R2	/home1/gyang/work_space/4.ProjectET/batch9_cr/1.rawdata/fastqc/Morula_Tfap2c_rep2.R2_fastqc.zip
+FastQC	all_sections	Morula_Tfap2c_rep1.R2	/home1/gyang/work_space/4.ProjectET/batch9_cr/1.rawdata/fastqc/Morula_Tfap2c_rep1.R2_fastqc.zip
+FastQC	all_sections	Morula_Tfap2c_rep1.R1	/home1/gyang/work_space/4.ProjectET/batch9_cr/1.rawdata/fastqc/Morula_Tfap2c_rep1.R1_fastqc.zip
+FastQC	all_sections	Morula_Tfap2c_rep2.R1	/home1/gyang/work_space/4.ProjectET/batch9_cr/1.rawdata/fastqc/Morula_Tfap2c_rep2.R1_fastqc.zip

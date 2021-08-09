@@ -1,0 +1,1 @@
+cmd = lateMorula_Nanog_rep1_peaks.narrowPeak mm10 /home1/gyang/work_space/4.ProjectET/batch9_cr/7.Peak_anno/lateMorula_Nanog_rep1_peakAnalysis -size given -p 10 -len 8

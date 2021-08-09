@@ -1,0 +1,138 @@
+
+	Position file = Morula_Tfap2c_rep1_peaks.narrowPeak
+	Genome = mm10
+	Output Directory = /home1/gyang/work_space/4.ProjectET/batch9_cr/7.Peak_anno/Morula_Tfap2c_rep1_peakAnalysis
+	Using actual sizes of regions (-size given)
+	Fragment size set to given
+	Using 10 CPUs
+	Motif length set at 8,
+	Found mset for "mouse", will check against vertebrates motifs
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 21666
+		peakfile formatted lines: 0
+
+	Peak File Statistics:
+		Total Peaks: 21666
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Peak file looks good!
+
+	Background fragment size set to 457 (avg size of targets)
+	Background files for 457 bp fragments found.
+
+	Extracting sequences from directory: /usr/local/software/homer/.//data/genomes/mm10//
+	Extracting 1269 sequences from chr1
+	Extracting 1737 sequences from chr2
+	Extracting 889 sequences from chr3
+	Extracting 1660 sequences from chr4
+	Extracting 1557 sequences from chr5
+	Extracting 1011 sequences from chr6
+	Extracting 1625 sequences from chr7
+	Extracting 1200 sequences from chr8
+	Extracting 1258 sequences from chr9
+	Extracting 1044 sequences from chr10
+	Extracting 1813 sequences from chr11
+	Extracting 914 sequences from chr12
+	Extracting 775 sequences from chr13
+	Extracting 735 sequences from chr14
+	Extracting 816 sequences from chr15
+	Extracting 716 sequences from chr16
+	Extracting 984 sequences from chr17
+	Extracting 630 sequences from chr18
+	Extracting 701 sequences from chr19
+	Extracting 325 sequences from chrX
+	Extracting 4 sequences from chrY
+	Extracting 3 sequences from chrM
+
+	Not removing redundant sequences
+
+
+	Sequences processed:
+		Auto detected maximum sequence length of 215 bp
+		21666 total
+
+	Frequency Bins: 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.6 0.7 0.8
+	Freq	Bin	Count
+	0.3	2	13
+	0.35	3	82
+	0.4	4	566
+	0.45	5	2423
+	0.5	6	4898
+	0.6	7	8119
+	0.7	8	4218
+	0.8	9	1322
+	10	10	25
+
+	Total sequences set to 50000
+
+	Choosing background that matches in CpG/GC content...
+	Bin	# Targets	# Background	Background Weight
+	2	13	17	1.000
+	3	82	107	1.002
+	4	566	740	1.000
+	5	2423	3169	1.000
+	6	4898	6405	1.000
+	7	8119	10618	1.000
+	8	4218	5516	1.000
+	9	1322	1729	1.000
+	10	25	33	0.991
+	Assembling sequence file...
+	Normalizing lower order oligos using homer2
+
+	Reading input files...
+	50000 total sequences read
+	Autonormalization: 1-mers (4 total)
+		A	22.84%	23.22%	0.983
+		C	27.16%	26.78%	1.014
+		G	27.16%	26.78%	1.014
+		T	22.84%	23.22%	0.983
+	Autonormalization: 2-mers (16 total)
+		AA	5.95%	5.80%	1.026
+		CA	7.21%	7.41%	0.974
+		GA	6.16%	6.33%	0.973
+		TA	3.46%	3.67%	0.943
+		AC	5.20%	5.16%	1.007
+		CC	8.40%	8.35%	1.006
+		GC	7.45%	6.95%	1.071
+		TC	6.16%	6.33%	0.973
+		AG	7.82%	7.95%	0.983
+		CG	3.71%	3.09%	1.202
+		GG	8.40%	8.35%	1.006
+		TG	7.21%	7.41%	0.974
+		AT	3.89%	4.29%	0.905
+		CT	7.82%	7.95%	0.983
+		GT	5.20%	5.16%	1.007
+		TT	5.95%	5.80%	1.026
+	Autonormalization: 3-mers (64 total)
+	Normalization weights can be found in file: /home1/gyang/work_space/4.ProjectET/batch9_cr/7.Peak_anno/Morula_Tfap2c_rep1_peakAnalysis/seq.autonorm.tsv
+	Converging on autonormalization solution:
+	...........sh: line 1: 37962 Terminated              homer2 norm -g "/home1/gyang/work_space/4.ProjectET/batch9_cr/7.Peak_anno/Morula_Tfap2c_rep1_peakAnalysis/group.adj" -s "/home1/gyang/work_space/4.ProjectET/batch9_cr/7.Peak_anno/Morula_Tfap2c_rep1_peakAnalysis/seq.tsv" -nmax 160 -nlen 3 -nout "/home1/gyang/work_space/4.ProjectET/batch9_cr/7.Peak_anno/Morula_Tfap2c_rep1_peakAnalysis/seq.autonorm.tsv" > "/home1/gyang/work_space/4.ProjectET/batch9_cr/7.Peak_anno/Morula_Tfap2c_rep1_peakAnalysis/0.20953286562963.tmp"
+	Finished preparing sequence/group files
+
+	----------------------------------------------------------
+	Known motif enrichment
+
+	Reading input files...
+	0 total sequences read
+	414 motifs loaded
+	Cache length = 11180
+	Using binomial scoring
+	Checking enrichment of 414 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+Illegal division by zero at /usr/local/software/homer/bin/findKnownMotifs.pl line 152.
+	----------------------------------------------------------
+	De novo motif finding (HOMER)
+
+	Scanning input files...
+!!! Something is wrong... are you sure you chose the right length for motif finding?
+!!! i.e. also check your sequence file!!!
+Use of uninitialized value in numeric gt (>) at /usr/local/software/homer/bin/compareMotifs.pl line 1389.
+	!!! Filtered out all motifs!!!
+	Job finished - if results look good, please send beer to ..
+
+	Cleaning up tmp files...
+

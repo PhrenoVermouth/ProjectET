@@ -1,0 +1,72 @@
+INFO  @ Sun, 02 May 2021 20:46:00: 
+# Command line: callpeak -t TSC_Gata3_50k_rep1.duprm.bam -f BAMPE -g mm -n TSC_Gata3_50k_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak
+# ARGUMENTS LIST:
+# name = TSC_Gata3_50k_rep1
+# format = BAMPE
+# ChIP-seq file = ['TSC_Gata3_50k_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Sun, 02 May 2021 20:46:00: #1 read fragment files... 
+INFO  @ Sun, 02 May 2021 20:46:00: #1 read treatment fragments... 
+INFO  @ Sun, 02 May 2021 20:46:17:  1000000 
+INFO  @ Sun, 02 May 2021 20:46:36:  2000000 
+INFO  @ Sun, 02 May 2021 20:46:56:  3000000 
+INFO  @ Sun, 02 May 2021 20:47:13:  4000000 
+INFO  @ Sun, 02 May 2021 20:47:31:  5000000 
+INFO  @ Sun, 02 May 2021 20:47:49:  6000000 
+INFO  @ Sun, 02 May 2021 20:48:06:  7000000 
+INFO  @ Sun, 02 May 2021 20:48:22:  8000000 
+INFO  @ Sun, 02 May 2021 20:48:37:  9000000 
+INFO  @ Sun, 02 May 2021 20:48:53:  10000000 
+INFO  @ Sun, 02 May 2021 20:49:06:  11000000 
+INFO  @ Sun, 02 May 2021 20:49:19:  12000000 
+INFO  @ Sun, 02 May 2021 20:49:32:  13000000 
+INFO  @ Sun, 02 May 2021 20:49:45:  14000000 
+INFO  @ Sun, 02 May 2021 20:49:58:  15000000 
+INFO  @ Sun, 02 May 2021 20:50:11:  16000000 
+INFO  @ Sun, 02 May 2021 20:50:24:  17000000 
+INFO  @ Sun, 02 May 2021 20:50:37:  18000000 
+INFO  @ Sun, 02 May 2021 20:50:50:  19000000 
+INFO  @ Sun, 02 May 2021 20:51:02:  20000000 
+INFO  @ Sun, 02 May 2021 20:51:15:  21000000 
+INFO  @ Sun, 02 May 2021 20:51:28:  22000000 
+INFO  @ Sun, 02 May 2021 20:51:41:  23000000 
+INFO  @ Sun, 02 May 2021 20:51:54:  24000000 
+INFO  @ Sun, 02 May 2021 20:52:07:  25000000 
+INFO  @ Sun, 02 May 2021 20:52:20:  26000000 
+INFO  @ Sun, 02 May 2021 20:52:33:  27000000 
+INFO  @ Sun, 02 May 2021 20:52:46:  28000000 
+INFO  @ Sun, 02 May 2021 20:52:58:  29000000 
+INFO  @ Sun, 02 May 2021 20:53:11:  30000000 
+INFO  @ Sun, 02 May 2021 20:53:24:  31000000 
+INFO  @ Sun, 02 May 2021 20:53:37:  32000000 
+INFO  @ Sun, 02 May 2021 20:54:02: #1 mean fragment size is determined as 212 bp from treatment 
+INFO  @ Sun, 02 May 2021 20:54:02: #1 fragment size = 212 
+INFO  @ Sun, 02 May 2021 20:54:02: #1  total fragments in treatment: 32340222 
+INFO  @ Sun, 02 May 2021 20:54:02: #1 user defined the maximum fragments... 
+INFO  @ Sun, 02 May 2021 20:54:02: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sun, 02 May 2021 20:55:20: #1  fragments after filtering in treatment: 32337718 
+INFO  @ Sun, 02 May 2021 20:55:20: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sun, 02 May 2021 20:55:20: #1 finished! 
+INFO  @ Sun, 02 May 2021 20:55:20: #2 Build Peak Model... 
+INFO  @ Sun, 02 May 2021 20:55:20: #2 Skipped... 
+INFO  @ Sun, 02 May 2021 20:55:20: #2 Use 212 as fragment length 
+INFO  @ Sun, 02 May 2021 20:55:20: #3 Call peaks... 
+INFO  @ Sun, 02 May 2021 20:55:20: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sun, 02 May 2021 20:57:13: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sun, 02 May 2021 20:57:13: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... TSC_Gata3_50k_rep1_treat_pileup.bdg 
+INFO  @ Sun, 02 May 2021 20:57:13: #3   Write bedGraph files for control lambda (after scaling if necessary)... TSC_Gata3_50k_rep1_control_lambda.bdg 
+INFO  @ Sun, 02 May 2021 20:57:13: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sun, 02 May 2021 20:57:13: #3 Call peaks for each chromosome... 
+INFO  @ Sun, 02 May 2021 21:00:50: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak/TSC_Gata3_50k_rep1_peaks.xls 
+INFO  @ Sun, 02 May 2021 21:00:50: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak/TSC_Gata3_50k_rep1_peaks.narrowPeak 
+INFO  @ Sun, 02 May 2021 21:00:50: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch7_cr/6.peak/TSC_Gata3_50k_rep1_summits.bed 
+INFO  @ Sun, 02 May 2021 21:00:50: Done! 

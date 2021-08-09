@@ -1,0 +1,5 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+Morula_Cdx2_rep1	37.7976	10.4683	27.70%	9.6203	25.45%	53.15%
+Morula_Cdx2_rep2	47.4406	15.0594	31.74%	13.1508	27.72%	59.46%
+Morula_Nanog_rep1	39.8665	6.0992	15.30%	7.79494	19.55%	34.85%
+Morula_Nanog_rep2	47.4282	6.83005	14.40%	7.89357	16.64%	31.04%
