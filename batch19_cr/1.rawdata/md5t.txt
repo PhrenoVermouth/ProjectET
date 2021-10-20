@@ -1,0 +1,4 @@
+
+b519eefb02209e465050d8c9b822128d  TE_Tead4_rep2.R2.fq.gz
+7a02df234f06c7fcf42a57d60b2ba0df  TE_Tfap2c_rep1.R1.fq.gz
+5b1ea461b1767e7e2d2c4e6ac694c2a9  TE_Tfap2c_rep1.R2.fq.gz

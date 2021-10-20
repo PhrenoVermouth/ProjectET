@@ -1,0 +1,29 @@
+Input file:					'Morula_Tfap2c_rep1.duprm.bam'
+Writing allele-flagged output file to:		'Morula_Tfap2c_rep1.duprm.allele_flagged.bam'
+
+
+Allele-tagging report
+=====================
+Processed 53842844 read alignments in total
+Reads were unaligned and hence skipped: 0 (0.00%)
+24091366 reads were unassignable (44.74%)
+14749535 reads were specific for genome 1 (27.39%)
+14913846 reads were specific for genome 2 (27.70%)
+43067 reads did not contain one of the expected bases at known SNP positions (0.08%)
+88097 contained conflicting allele-specific SNPs (0.16%)
+
+
+SNP coverage report
+===================
+SNP annotation file:	/home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz
+SNPs stored in total:	20315523
+N-containing reads:	29756701
+non-N:			24048299
+total:			53842844
+Reads had a deletion of the N-masked position (and were thus dropped):	37844 (0.07%)
+Of which had multiple deletions of N-masked positions within the same read:	86
+
+Of valid N containing reads,
+N was present in the list of known SNPs:	62376538 (99.97%)
+N was not present in the list of SNPs:		15737 (0.03%)
+

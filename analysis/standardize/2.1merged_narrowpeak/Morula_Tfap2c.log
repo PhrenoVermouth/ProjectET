@@ -1,0 +1,99 @@
+INFO  @ Wed, 29 Sep 2021 15:36:39: 
+# Command line: callpeak -t Morula_Tfap2c.duprm.bam -f BAMPE -g mm -n Morula_Tfap2c -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak
+# ARGUMENTS LIST:
+# name = Morula_Tfap2c
+# format = BAMPE
+# ChIP-seq file = ['Morula_Tfap2c.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Wed, 29 Sep 2021 15:36:39: #1 read fragment files... 
+INFO  @ Wed, 29 Sep 2021 15:36:39: #1 read treatment fragments... 
+INFO  @ Wed, 29 Sep 2021 15:36:46:  1000000 
+INFO  @ Wed, 29 Sep 2021 15:36:53:  2000000 
+INFO  @ Wed, 29 Sep 2021 15:36:59:  3000000 
+INFO  @ Wed, 29 Sep 2021 15:37:05:  4000000 
+INFO  @ Wed, 29 Sep 2021 15:37:12:  5000000 
+INFO  @ Wed, 29 Sep 2021 15:37:18:  6000000 
+INFO  @ Wed, 29 Sep 2021 15:37:24:  7000000 
+INFO  @ Wed, 29 Sep 2021 15:37:31:  8000000 
+INFO  @ Wed, 29 Sep 2021 15:37:37:  9000000 
+INFO  @ Wed, 29 Sep 2021 15:37:44:  10000000 
+INFO  @ Wed, 29 Sep 2021 15:37:50:  11000000 
+INFO  @ Wed, 29 Sep 2021 15:37:56:  12000000 
+INFO  @ Wed, 29 Sep 2021 15:38:03:  13000000 
+INFO  @ Wed, 29 Sep 2021 15:38:09:  14000000 
+INFO  @ Wed, 29 Sep 2021 15:38:16:  15000000 
+INFO  @ Wed, 29 Sep 2021 15:38:22:  16000000 
+INFO  @ Wed, 29 Sep 2021 15:38:28:  17000000 
+INFO  @ Wed, 29 Sep 2021 15:38:35:  18000000 
+INFO  @ Wed, 29 Sep 2021 15:38:41:  19000000 
+INFO  @ Wed, 29 Sep 2021 15:38:48:  20000000 
+INFO  @ Wed, 29 Sep 2021 15:38:54:  21000000 
+INFO  @ Wed, 29 Sep 2021 15:39:01:  22000000 
+INFO  @ Wed, 29 Sep 2021 15:39:07:  23000000 
+INFO  @ Wed, 29 Sep 2021 15:39:14:  24000000 
+INFO  @ Wed, 29 Sep 2021 15:39:20:  25000000 
+INFO  @ Wed, 29 Sep 2021 15:39:27:  26000000 
+INFO  @ Wed, 29 Sep 2021 15:39:33:  27000000 
+INFO  @ Wed, 29 Sep 2021 15:39:39:  28000000 
+INFO  @ Wed, 29 Sep 2021 15:39:46:  29000000 
+INFO  @ Wed, 29 Sep 2021 15:39:52:  30000000 
+INFO  @ Wed, 29 Sep 2021 15:39:59:  31000000 
+INFO  @ Wed, 29 Sep 2021 15:40:05:  32000000 
+INFO  @ Wed, 29 Sep 2021 15:40:11:  33000000 
+INFO  @ Wed, 29 Sep 2021 15:40:18:  34000000 
+INFO  @ Wed, 29 Sep 2021 15:40:24:  35000000 
+INFO  @ Wed, 29 Sep 2021 15:40:31:  36000000 
+INFO  @ Wed, 29 Sep 2021 15:40:37:  37000000 
+INFO  @ Wed, 29 Sep 2021 15:40:44:  38000000 
+INFO  @ Wed, 29 Sep 2021 15:40:50:  39000000 
+INFO  @ Wed, 29 Sep 2021 15:40:56:  40000000 
+INFO  @ Wed, 29 Sep 2021 15:41:03:  41000000 
+INFO  @ Wed, 29 Sep 2021 15:41:09:  42000000 
+INFO  @ Wed, 29 Sep 2021 15:41:16:  43000000 
+INFO  @ Wed, 29 Sep 2021 15:41:22:  44000000 
+INFO  @ Wed, 29 Sep 2021 15:41:28:  45000000 
+INFO  @ Wed, 29 Sep 2021 15:41:35:  46000000 
+INFO  @ Wed, 29 Sep 2021 15:41:41:  47000000 
+INFO  @ Wed, 29 Sep 2021 15:41:48:  48000000 
+INFO  @ Wed, 29 Sep 2021 15:41:54:  49000000 
+INFO  @ Wed, 29 Sep 2021 15:42:00:  50000000 
+INFO  @ Wed, 29 Sep 2021 15:42:07:  51000000 
+INFO  @ Wed, 29 Sep 2021 15:42:14:  52000000 
+INFO  @ Wed, 29 Sep 2021 15:42:20:  53000000 
+INFO  @ Wed, 29 Sep 2021 15:42:26:  54000000 
+INFO  @ Wed, 29 Sep 2021 15:42:33:  55000000 
+INFO  @ Wed, 29 Sep 2021 15:42:39:  56000000 
+INFO  @ Wed, 29 Sep 2021 15:42:46:  57000000 
+INFO  @ Wed, 29 Sep 2021 15:42:50: 57714344 fragments have been read. 
+INFO  @ Wed, 29 Sep 2021 15:43:37: #1 mean fragment size is determined as 225.1 bp from treatment 
+INFO  @ Wed, 29 Sep 2021 15:43:37: #1 fragment size = 225.1 
+INFO  @ Wed, 29 Sep 2021 15:43:37: #1  total fragments in treatment: 57714344 
+INFO  @ Wed, 29 Sep 2021 15:43:37: #1 user defined the maximum fragments... 
+INFO  @ Wed, 29 Sep 2021 15:43:37: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Wed, 29 Sep 2021 15:45:44: #1  fragments after filtering in treatment: 57398341 
+INFO  @ Wed, 29 Sep 2021 15:45:44: #1  Redundant rate of treatment: 0.01 
+INFO  @ Wed, 29 Sep 2021 15:45:44: #1 finished! 
+INFO  @ Wed, 29 Sep 2021 15:45:44: #2 Build Peak Model... 
+INFO  @ Wed, 29 Sep 2021 15:45:44: #2 Skipped... 
+INFO  @ Wed, 29 Sep 2021 15:45:44: #3 Call peaks... 
+INFO  @ Wed, 29 Sep 2021 15:45:44: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 29 Sep 2021 15:50:26: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Wed, 29 Sep 2021 15:50:26: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... Morula_Tfap2c_treat_pileup.bdg 
+INFO  @ Wed, 29 Sep 2021 15:50:26: #3   Write bedGraph files for control lambda (after scaling if necessary)... Morula_Tfap2c_control_lambda.bdg 
+INFO  @ Wed, 29 Sep 2021 15:50:26: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Wed, 29 Sep 2021 15:50:26: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 29 Sep 2021 15:54:50: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak/Morula_Tfap2c_peaks.xls 
+INFO  @ Wed, 29 Sep 2021 15:54:51: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak/Morula_Tfap2c_peaks.narrowPeak 
+INFO  @ Wed, 29 Sep 2021 15:54:51: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak/Morula_Tfap2c_summits.bed 
+INFO  @ Wed, 29 Sep 2021 15:54:51: Done! 

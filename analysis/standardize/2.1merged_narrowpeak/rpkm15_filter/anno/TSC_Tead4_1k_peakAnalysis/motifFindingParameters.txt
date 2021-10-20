@@ -1,0 +1,1 @@
+cmd = TSC_Tead4_1k_rpkm15filter.bed mm10 /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak/rpkm15_filter/anno/TSC_Tead4_1k_peakAnalysis -size given -p 10 -len 8

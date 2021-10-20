@@ -1,0 +1,35 @@
+---
+Meta:
+  tool: SNPsplit
+  version: 0.5.0
+  infile: lateMorula_Nanog_rep1.duprm.bam
+  date_run: 2021-8-20T14:25:05.1Z
+  mode: standard DNA
+  library: paired-end
+  command: SNPsplit --snp_file /home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz lateMorula_Nanog_rep1.duprm.bam --paired -o /home1/gyang/work_space/4.ProjectET/batch9_cr/d.snp_split/lateMorula_Nanog_rep1 --conflicting
+Tagging:
+  total_reads: 21302322
+  unaligned: 0
+  percent_unaligned: 0.00
+  g1: 6257112
+  percent_g1: 29.37
+  g2: 5668349
+  percent_g2: 26.61
+  unassignable: 9339236
+  percent_unassignable: 43.84
+  no_snp: 13599
+  percent_no_snp: 0.06
+  bizarre: 37625
+  percent_bizarre: 0.18
+  SNP_annotation: /home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz
+  SNPs_stored: 20315523
+  N_containing_reads: 11959348
+  non_N_containing_reads: 9325637
+  N_deletion: 17337
+  percent_N_deletion: 0.08
+  multi_N_deletion: 42
+  N_was_known_SNP: 26121229
+  percent_N_was_known_SNP: 99.98
+  N_not_known: 6248
+  percent_N_not_known: 0.02
+...

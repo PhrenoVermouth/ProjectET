@@ -1,0 +1,375 @@
+nohup: ignoring input
+
+	Position file = 8Cell_Tfap2c_pwk_extended.bed
+	Genome = mm10
+	Output Directory = .
+	Using actual sizes of regions (-size given)
+	Fragment size set to given
+	Using 5 CPUs
+	Will find motif(s) in /home1/gyang/work_space/4.ProjectET/analysis/motif_denovo/Tfap2c.motif
+	Found mset for "mouse", will check against vertebrates motifs
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 831
+		peakfile formatted lines: 0
+
+	Peak File Statistics:
+		Total Peaks: 0
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Only 0 peaks found! If many more expected, maybe the file format is for Macs only
+	Try running the command: changeNewLine.pl "./target.clean..pos"
+
+	1 duplicate peak IDs out of 692 total peaks
+	Background fragment size set to 3207 (avg size of targets)
+	Could not find background files for 3207 bp fragments
+	Below are the sizes that are already available prepared.
+		133
+		200
+		224
+		283
+		330
+		332
+		342
+		354
+		356
+		368
+		369
+		370
+		373
+		378
+		384
+		385
+		390
+		392
+		400
+		411
+		416
+		418
+		419
+		420
+		423
+		424
+		433
+		438
+		442
+		443
+		444
+		445
+		447
+		448
+		449
+		451
+		454
+		455
+		457
+		461
+		463
+		468
+		471
+		472
+		475
+		476
+		478
+		479
+		486
+		487
+		489
+		497
+		502
+		504
+		518
+		519
+		521
+		525
+		526
+		534
+		536
+		539
+		550
+		560
+		561
+		562
+		565
+		566
+		567
+		570
+		576
+		586
+		588
+		589
+		590
+		595
+		596
+		598
+		603
+		607
+		624
+		637
+		644
+		648
+		664
+		665
+		667
+		671
+		674
+		676
+		694
+		698
+		703
+		704
+		709
+		712
+		716
+		724
+		735
+		736
+		739
+		740
+		741
+		743
+		747
+		758
+		780
+		783
+		786
+		789
+		815
+		828
+		838
+		843
+		848
+		867
+		892
+		917
+		926
+		951
+		956
+		972
+		973
+		998
+		999
+		1016
+		1032
+		1041
+		1078
+		1142
+		1165
+		1178
+		1222
+		1249
+		1259
+		1262
+		1288
+		1296
+		1332
+		1376
+		1406
+		1410
+		1418
+		1448
+		1455
+		1499
+		1547
+		1575
+		1619
+		1623
+		1848
+		1925
+		1930
+		1959
+		2017
+		2116
+		2151
+		2488
+		2499
+		3187
+		3228
+		3278
+		7879
+		7974
+	HOMER will now create background files for 3207 bp fragments
+	To CANCEL and rerun with a differet "-size <#>", hit <CTRL+C> now!
+		5
+		4
+		3
+		2
+		1
+	Preparsing genome for 3207 bp fragments...(will probably take 1-5 min)
+	preparse size set to 3207
+
+	By default, using /home1/homer/.//data/genomes/mm10//mm10.tss for reference positions
+	Output files will be placed in /home1/homer/.//data/genomes/mm10//preparsed//mm10.3207.* ...
+	By default, HOMER will set the the preparsed Directory to be group read/write
+chmod: changing permissions of ‘/home1/homer/.//data/genomes/mm10//preparsed/’: Operation not permitted
+	Extracting sequences
+	Custom genome sequence directory: /home1/homer/.//data/genomes/mm10//
+
+	Duplicate peak name (NM_001330056-chr8-3279617-1+0) - this could potentially cause problems
+		Sometimes unavoidable for BED/2DBED formats
+		New name for this peak is NM_001330056-chr8-3279617-1+0--2
+		Warning over 1000 peaks with duplicate names
+		Warning over 2000 peaks with duplicate names
+		Warning over 3000 peaks with duplicate names
+		Warning over 4000 peaks with duplicate names
+		Warning over 5000 peaks with duplicate names
+		Warning over 6000 peaks with duplicate names
+		Warning over 7000 peaks with duplicate names
+		Warning over 8000 peaks with duplicate names
+		Warning over 9000 peaks with duplicate names
+		Warning over 10000 peaks with duplicate names
+		Warning over 11000 peaks with duplicate names
+		Warning over 12000 peaks with duplicate names
+		Warning over 13000 peaks with duplicate names
+		Warning over 14000 peaks with duplicate names
+		Warning over 15000 peaks with duplicate names
+		Warning over 16000 peaks with duplicate names
+		Warning over 17000 peaks with duplicate names
+		Warning over 18000 peaks with duplicate names
+		Warning over 19000 peaks with duplicate names
+		Warning over 20000 peaks with duplicate names
+		Warning over 21000 peaks with duplicate names
+		Warning over 22000 peaks with duplicate names
+		Warning over 23000 peaks with duplicate names
+		Warning over 24000 peaks with duplicate names
+		Warning over 25000 peaks with duplicate names
+		Warning over 26000 peaks with duplicate names
+		Warning over 27000 peaks with duplicate names
+		Warning over 28000 peaks with duplicate names
+		Warning over 29000 peaks with duplicate names
+		Warning over 30000 peaks with duplicate names
+		Warning over 31000 peaks with duplicate names
+		Warning over 32000 peaks with duplicate names
+		Warning over 33000 peaks with duplicate names
+		Warning over 34000 peaks with duplicate names
+		Warning over 35000 peaks with duplicate names
+		Warning over 36000 peaks with duplicate names
+		Warning over 37000 peaks with duplicate names
+		Warning over 38000 peaks with duplicate names
+		Warning over 39000 peaks with duplicate names
+		Warning over 40000 peaks with duplicate names
+		Warning over 41000 peaks with duplicate names
+		Warning over 42000 peaks with duplicate names
+		Warning over 43000 peaks with duplicate names
+		Warning over 44000 peaks with duplicate names
+		Warning over 45000 peaks with duplicate names
+		Warning over 46000 peaks with duplicate names
+		Warning over 47000 peaks with duplicate names
+		Warning over 48000 peaks with duplicate names
+		Warning over 49000 peaks with duplicate names
+		Warning over 50000 peaks with duplicate names
+		Warning over 51000 peaks with duplicate names
+		Warning over 52000 peaks with duplicate names
+		Warning over 53000 peaks with duplicate names
+		Warning over 54000 peaks with duplicate names
+		Warning over 55000 peaks with duplicate names
+		Warning over 56000 peaks with duplicate names
+		Warning over 57000 peaks with duplicate names
+		Warning over 58000 peaks with duplicate names
+		Warning over 59000 peaks with duplicate names
+		Warning over 60000 peaks with duplicate names
+		Warning over 61000 peaks with duplicate names
+		Warning over 62000 peaks with duplicate names
+		Warning over 63000 peaks with duplicate names
+		Warning over 64000 peaks with duplicate names
+		Warning over 65000 peaks with duplicate names
+	Extracting sequences from directory: /home1/homer/.//data/genomes/mm10//
+	Extracting 8207 sequences from chr1
+	Extracting 30078 sequences from chr2
+	Extracting 40280 sequences from chr3
+	Extracting 22860 sequences from chr4
+	Extracting 32913 sequences from chr5
+	Extracting 22384 sequences from chr6
+	Extracting 31568 sequences from chr7
+	Extracting 24732 sequences from chr8
+	Extracting 13370 sequences from chr9
+	Extracting 22538 sequences from chr11
+	Extracting 14300 sequences from chr12
+	Extracting 29721 sequences from chr13
+	Extracting 15361 sequences from chr14
+	Extracting 23902 sequences from chr15
+	Extracting 22906 sequences from chr17
+	Extracting 5 sequences from chr18
+	Extracting 10945 sequences from chr19
+	Extracting 21786 sequences from chrX
+	Extracting 3503 sequences from chrY
+	!!Could not open file for 90610292 (.fa or .fa.masked)
+	Extracting 31 sequences from chr1_GL456211_random
+	Extracting 56 sequences from chr1_GL456221_random
+	Extracting 42 sequences from chr4_GL456216_random
+	Extracting 170 sequences from chr4_GL456350_random
+	Extracting 8 sequences from chr4_JH584292_random
+	Extracting 58 sequences from chr4_JH584293_random
+	Extracting 110 sequences from chr4_JH584294_random
+	Extracting 64 sequences from chr5_GL456354_random
+	Extracting 31 sequences from chr5_JH584296_random
+	Extracting 57 sequences from chr5_JH584297_random
+	Extracting 122 sequences from chr5_JH584298_random
+	Extracting 100 sequences from chr7_GL456219_random
+		1039 of 392138 removed because they had >70.00% Ns (i.e. masked repeats)
+
+	Sequences processed:
+		Auto detected maximum sequence length of 3207 bp
+		100000
+		200000
+		300000
+		391099 total
+
+	Frequency Bins: 0.01 0.02 0.03 0.04 0.05 0.06 0.08 0.1 0.12 0.14 0.16
+	Freq	Bin	Count
+	0.01	0	247518
+	0.02	1	116938
+	0.03	2	13993
+	0.04	3	6179
+	0.05	4	3367
+	0.06	5	1746
+	0.08	6	1130
+	0.1	7	198
+	0.12	8	29
+	0.14	9	1
+	Frequency Bins: 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.6 0.7 0.8
+	Freq	Bin	Count
+	0.25	1	5
+	0.3	2	220
+	0.35	3	12314
+	0.4	4	89914
+	0.45	5	149085
+	0.5	6	96300
+	0.6	7	42231
+	0.7	8	1025
+	0.8	9	5
+
+	Custom genome sequence directory: /home1/homer/.//data/genomes/mm10//
+
+	Extracting sequences from directory: /home1/homer/.//data/genomes/mm10//
+	Extracting 23 sequences from chr1
+	Extracting 28 sequences from chr2
+	Extracting 24 sequences from chr3
+	Extracting 27 sequences from chr4
+	Extracting 37 sequences from chr5
+	Extracting 18 sequences from chr6
+	Extracting 26 sequences from chr7
+	Extracting 22 sequences from chr8
+	Extracting 21 sequences from chr9
+	Extracting 21 sequences from chr10
+	Extracting 91 sequences from chr11
+	Extracting 35 sequences from chr12
+	Extracting 46 sequences from chr13
+	Extracting 39 sequences from chr14
+	Extracting 39 sequences from chr15
+	Extracting 63 sequences from chr16
+	Extracting 76 sequences from chr17
+	Extracting 28 sequences from chr18
+	Extracting 28 sequences from chr19
+
+
+	Reading input files...
+	692 total sequences read
+	1 motifs loaded
+	Finding instances of 1 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+	Cleaning up tmp files...
+

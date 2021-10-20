@@ -1,0 +1,11 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	Morula_Klf5_rep1.R1	/home1/gyang/work_space/4.ProjectET/batch18_cr/1.rawdata/fastqc/Morula_Klf5_rep1.R1_fastqc.zip
+FastQC	all_sections	Morula_Klf5_rep1.R2	/home1/gyang/work_space/4.ProjectET/batch18_cr/1.rawdata/fastqc/Morula_Klf5_rep1.R2_fastqc.zip
+FastQC	all_sections	Morula_Klf5_rep2.R2	/home1/gyang/work_space/4.ProjectET/batch18_cr/1.rawdata/fastqc/Morula_Klf5_rep2.R2_fastqc.zip
+FastQC	all_sections	Morula_Klf5_rep2.R1	/home1/gyang/work_space/4.ProjectET/batch18_cr/1.rawdata/fastqc/Morula_Klf5_rep2.R1_fastqc.zip
+FastQC	all_sections	8Cell_Klf5_rep2.R2	/home1/gyang/work_space/4.ProjectET/batch18_cr/1.rawdata/fastqc/8Cell_Klf5_rep2.R2_fastqc.zip
+FastQC	all_sections	8Cell_Klf5_rep2.R1	/home1/gyang/work_space/4.ProjectET/batch18_cr/1.rawdata/fastqc/8Cell_Klf5_rep2.R1_fastqc.zip
+FastQC	all_sections	8Cell_Klf5_rep1.R1	/home1/gyang/work_space/4.ProjectET/batch18_cr/1.rawdata/fastqc/8Cell_Klf5_rep1.R1_fastqc.zip
+FastQC	all_sections	8Cell_Klf5_rep1.R2	/home1/gyang/work_space/4.ProjectET/batch18_cr/1.rawdata/fastqc/8Cell_Klf5_rep1.R2_fastqc.zip
+FastQC	all_sections	Morula_Klf5_rep3.R2	/home1/gyang/work_space/4.ProjectET/batch18_cr/1.rawdata/fastqc/Morula_Klf5_rep3.R2_fastqc.zip
+FastQC	all_sections	Morula_Klf5_rep3.R1	/home1/gyang/work_space/4.ProjectET/batch18_cr/1.rawdata/fastqc/Morula_Klf5_rep3.R1_fastqc.zip

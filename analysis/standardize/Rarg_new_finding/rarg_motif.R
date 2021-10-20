@@ -3,6 +3,7 @@ library(ChIPseeker)
 library(data.table)
 library(ggpubr)
 library(org.Mm.eg.db)
+library(stringr)
 library(tidyr)
 library(TxDb.Mmusculus.UCSC.mm10.knownGene)
 txdb <- TxDb.Mmusculus.UCSC.mm10.knownGene
@@ -45,3 +46,19 @@ fwrite(list(sort(unique(peakAnno_df$SYMBOL))),file = "L1_RArg_promoter1kb", quot
 geneexp <- data.frame(fread("~/work_space/Bio-Resource/embryos/RNA/Xiewei_2016_Nature_log2FPKM_RNA.csv"))
 geneexp[,2:12] <- scale(geneexp[,2:12]) 
 boxplot(geneexp[which(geneexp$Gene %in% sort(unique(peakAnno_df$SYMBOL))),2:12],las=2)
+
+####### L1 + active demethylation
+#embryo_rna <- data.frame(fread("~/work_space/Bio-Resource/embryos/RNA/xiewei_pre_dengm2c.csv"),check.names = F)
+l1_fast <- l1[which(l1$zygote > 0.8 & l1$GSM1386021_2cell < 0.3),]
+l1_fast <- l1_fast[,c("chr","start","end","GSM1386019_oocyte","GSM1386020_sperm","zygote", "GSM1386021_2cell","GSM1386022_4cell")]
+fwrite(l1_fast[,c(1,2,3)] ,file = "L1_fast_demethylation_v4.bed", quote = F,sep="\t",col.names = F)
+
+peakAnno <- annotatePeak("L1_fast_demethylation_v4.bed", tssRegion=c(-2000, 500),
+                         TxDb=txdb, annoDb="org.Mm.eg.db")
+peakAnno_df <- data.frame(peakAnno)
+
+dql <- data.frame(fread("~/work_space/Bio-Resource/embryos/RNA/Deng_Science_allstage_collapse.txt"),check.names = F)
+peakAnno_df <- merge(peakAnno_df,dql,by.x="SYMBOL",by.y="gene")
+peakAnno_df <- merge(peakAnno_df,l1_fast,by.x=c("seqnames","end"),by.y=c("chr","end"))
+peakAnno_df <- peakAnno_df[which(peakAnno_df$annotation != "Distal Intergenic"),]
+fwrite(peakAnno_df ,file = "L1_fast_demethylation_RNA_5mC_anno_dynamics_v3_alldeng.txt", quote = F,sep="\t",col.names = T)

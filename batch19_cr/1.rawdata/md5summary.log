@@ -1,0 +1,13 @@
+GR-0918-4_BKDL210041864-1a_1.clean.fq.gz: OK
+GR-0918-4_BKDL210041864-1a_2.clean.fq.gz: OK
+GR-0918-3_BKDL210041863-1a_1.clean.fq.gz: OK
+GR-0918-3_BKDL210041863-1a_2.clean.fq.gz: OK
+GR-0918-1_BKDL210041861-1a_1.clean.fq.gz: OK
+GR-0918-1_BKDL210041861-1a_2.clean.fq.gz: OK
+GR-0918-5_BKDL210041865-1a_1.clean.fq.gz: OK
+GR-0918-5_BKDL210041865-1a_2.clean.fq.gz: FAILED open or read
+GR-0918-2_BKDL210041862-1a_1.clean.fq.gz: FAILED open or read
+GR-0918-2_BKDL210041862-1a_2.clean.fq.gz: FAILED open or read
+TE_Tead4_rep2.R2.fq.gz: OK
+TE_Tfap2c_rep1.R1.fq.gz: OK
+TE_Tfap2c_rep1.R2.fq.gz: OK

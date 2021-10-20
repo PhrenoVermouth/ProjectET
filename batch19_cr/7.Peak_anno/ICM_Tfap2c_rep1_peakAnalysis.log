@@ -1,0 +1,816 @@
+
+	Position file = ICM_Tfap2c_rep1_peaks.narrowPeak
+	Genome = mm10
+	Output Directory = /home1/gyang/work_space/4.ProjectET/batch19_cr/7.Peak_anno/ICM_Tfap2c_rep1_peakAnalysis
+	Using actual sizes of regions (-size given)
+	Fragment size set to given
+	Using 7 CPUs
+	Motif length set at 8,
+	Found mset for "mouse", will check against vertebrates motifs
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 11336
+		peakfile formatted lines: 0
+
+	Peak File Statistics:
+		Total Peaks: 11336
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Peak file looks good!
+
+	Background fragment size set to 584 (avg size of targets)
+	Could not find background files for 584 bp fragments
+	Below are the sizes that are already available prepared.
+		133
+		200
+		224
+		283
+		330
+		332
+		342
+		345
+		354
+		356
+		368
+		369
+		370
+		373
+		378
+		384
+		385
+		390
+		392
+		400
+		410
+		411
+		416
+		418
+		419
+		420
+		423
+		424
+		433
+		436
+		438
+		442
+		443
+		444
+		445
+		447
+		448
+		449
+		451
+		454
+		455
+		457
+		461
+		463
+		468
+		471
+		472
+		475
+		476
+		478
+		479
+		486
+		487
+		489
+		497
+		502
+		504
+		514
+		518
+		519
+		521
+		525
+		526
+		533
+		534
+		536
+		539
+		550
+		559
+		560
+		561
+		562
+		565
+		566
+		567
+		570
+		576
+		586
+		588
+		589
+		590
+		595
+		596
+		598
+		603
+		607
+		611
+		622
+		623
+		624
+		631
+		637
+		644
+		648
+		664
+		665
+		667
+		671
+		674
+		676
+		685
+		694
+		698
+		703
+		704
+		709
+		712
+		716
+		724
+		735
+		736
+		739
+		740
+		741
+		743
+		747
+		758
+		780
+		783
+		786
+		789
+		815
+		828
+		838
+		843
+		848
+		867
+		892
+		917
+		926
+		951
+		956
+		972
+		973
+		998
+		999
+		1016
+		1032
+		1041
+		1078
+		1142
+		1165
+		1178
+		1222
+		1249
+		1259
+		1262
+		1288
+		1296
+		1332
+		1376
+		1406
+		1410
+		1418
+		1448
+		1455
+		1499
+		1547
+		1575
+		1619
+		1623
+		1848
+		1925
+		1930
+		1959
+		2017
+		2116
+		2151
+		2488
+		2499
+		3187
+		3207
+		3228
+		3257
+		3278
+		5196
+		5251
+		5278
+		7879
+		7974
+		41360
+	HOMER will now create background files for 584 bp fragments
+	To CANCEL and rerun with a differet "-size <#>", hit <CTRL+C> now!
+		5
+		4
+		3
+		2
+		1
+	Preparsing genome for 584 bp fragments...(will probably take 1-5 min)
+	preparse size set to 584
+
+	By default, using /home1/homer/.//data/genomes/mm10//mm10.tss for reference positions
+	Output files will be placed in /home1/homer/.//data/genomes/mm10//preparsed//mm10.584.* ...
+	By default, HOMER will set the the preparsed Directory to be group read/write
+chmod: changing permissions of ‘/home1/homer/.//data/genomes/mm10//preparsed/’: Operation not permitted
+	Extracting sequences
+	Custom genome sequence directory: /home1/homer/.//data/genomes/mm10//
+
+	Extracting sequences from directory: /home1/homer/.//data/genomes/mm10//
+	Extracting 76264 sequences from chr1
+	Extracting 91006 sequences from chr2
+	Extracting 61943 sequences from chr3
+	Extracting 68596 sequences from chr4
+	Extracting 71005 sequences from chr5
+	Extracting 67411 sequences from chr6
+	Extracting 83865 sequences from chr7
+	Extracting 52301 sequences from chr8
+	Extracting 63153 sequences from chr9
+	Extracting 57944 sequences from chr10
+	Extracting 68176 sequences from chr11
+	Extracting 42778 sequences from chr12
+	Extracting 50230 sequences from chr13
+	Extracting 45977 sequences from chr14
+	Extracting 42638 sequences from chr15
+	Extracting 40393 sequences from chr16
+	Extracting 47857 sequences from chr17
+	Extracting 34680 sequences from chr18
+	Extracting 33197 sequences from chr19
+	Extracting 65764 sequences from chrX
+	Extracting 10536 sequences from chrY
+	Extracting 92 sequences from chr1_GL456211_random
+	Extracting 160 sequences from chr1_GL456221_random
+	Extracting 59 sequences from chr4_GL456216_random
+	Extracting 254 sequences from chr4_GL456350_random
+	Extracting 51 sequences from chr4_JH584292_random
+	Extracting 173 sequences from chr4_JH584293_random
+	Extracting 165 sequences from chr4_JH584294_random
+	Extracting 179 sequences from chr5_GL456354_random
+	Extracting 92 sequences from chr5_JH584296_random
+	Extracting 99 sequences from chr5_JH584297_random
+	Extracting 184 sequences from chr5_JH584298_random
+	Extracting 399 sequences from chr5_JH584299_random
+	Extracting 142 sequences from chr7_GL456219_random
+	Extracting 89 sequences from chrUn_JH584304
+	Extracting 304 sequences from chrX_GL456233_random
+		3179 of 1178030 removed because they had >70.00% Ns (i.e. masked repeats)
+
+	Sequences processed:
+		Auto detected maximum sequence length of 585 bp
+		100000
+		200000
+		300000
+		400000
+		500000
+		600000
+		700000
+		800000
+		900000
+		1000000
+		1100000
+		1174851 total
+
+	Frequency Bins: 0.01 0.02 0.03 0.04 0.05 0.06 0.08 0.1 0.12 0.14 0.16
+	Freq	Bin	Count
+	0.01	0	697627
+	0.02	1	356842
+	0.03	2	71858
+	0.04	3	17553
+	0.05	4	7649
+	0.06	5	5241
+	0.08	6	7066
+	0.1	7	5376
+	0.12	8	3168
+	0.14	9	1476
+	0.16	10	757
+	11	11	238
+	Frequency Bins: 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.6 0.7 0.8
+	Freq	Bin	Count
+	0.2	0	46
+	0.25	1	846
+	0.3	2	14215
+	0.35	3	84453
+	0.4	4	244253
+	0.45	5	361382
+	0.5	6	284366
+	0.6	7	163388
+	0.7	8	17379
+	0.8	9	4326
+	10	10	197
+
+	Custom genome sequence directory: /home1/homer/.//data/genomes/mm10//
+
+	Extracting sequences from directory: /home1/homer/.//data/genomes/mm10//
+	Extracting 660 sequences from chr1
+	Extracting 898 sequences from chr2
+	Extracting 486 sequences from chr3
+	Extracting 847 sequences from chr4
+	Extracting 767 sequences from chr5
+	Extracting 582 sequences from chr6
+	Extracting 832 sequences from chr7
+	Extracting 586 sequences from chr8
+	Extracting 686 sequences from chr9
+	Extracting 509 sequences from chr10
+	Extracting 986 sequences from chr11
+	Extracting 444 sequences from chr12
+	Extracting 417 sequences from chr13
+	Extracting 373 sequences from chr14
+	Extracting 453 sequences from chr15
+	Extracting 400 sequences from chr16
+	Extracting 495 sequences from chr17
+	Extracting 321 sequences from chr18
+	Extracting 445 sequences from chr19
+	Extracting 145 sequences from chrX
+	Extracting 1 sequences from chrY
+	Extracting 3 sequences from chrM
+
+	Not removing redundant sequences
+
+
+	Sequences processed:
+		Auto detected maximum sequence length of 813 bp
+		11336 total
+
+	Frequency Bins: 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.6 0.7 0.8
+	Freq	Bin	Count
+	0.3	2	6
+	0.35	3	57
+	0.4	4	356
+	0.45	5	1367
+	0.5	6	2179
+	0.6	7	3659
+	0.7	8	2723
+	0.8	9	975
+	10	10	14
+
+	Total sequences set to 50000
+
+	Choosing background that matches in CpG/GC content...
+	Bin	# Targets	# Background	Background Weight
+	2	6	20	1.023
+	3	57	194	1.002
+	4	356	1214	1.000
+	5	1367	4662	1.000
+	6	2179	7432	1.000
+	7	3659	12480	1.000
+	8	2723	9287	1.000
+	9	975	3325	1.000
+	10	14	48	0.995
+	Assembling sequence file...
+	Normalizing lower order oligos using homer2
+
+	Reading input files...
+	49998 total sequences read
+	Autonormalization: 1-mers (4 total)
+		A	22.35%	22.75%	0.982
+		C	27.65%	27.25%	1.015
+		G	27.65%	27.25%	1.015
+		T	22.35%	22.75%	0.982
+	Autonormalization: 2-mers (16 total)
+		AA	5.92%	5.67%	1.045
+		CA	6.76%	7.23%	0.935
+		GA	6.14%	6.25%	0.983
+		TA	3.48%	3.59%	0.970
+		AC	5.02%	5.08%	0.989
+		CC	8.75%	8.61%	1.016
+		GC	7.78%	7.33%	1.061
+		TC	6.14%	6.25%	0.983
+		AG	7.61%	7.80%	0.975
+		CG	4.52%	3.62%	1.248
+		GG	8.75%	8.61%	1.016
+		TG	6.76%	7.23%	0.935
+		AT	3.80%	4.18%	0.909
+		CT	7.61%	7.80%	0.975
+		GT	5.02%	5.08%	0.989
+		TT	5.92%	5.67%	1.045
+	Autonormalization: 3-mers (64 total)
+	Normalization weights can be found in file: /home1/gyang/work_space/4.ProjectET/batch19_cr/7.Peak_anno/ICM_Tfap2c_rep1_peakAnalysis/seq.autonorm.tsv
+	Converging on autonormalization solution:
+	...............................................................................
+	Final normalization:	Autonormalization: 1-mers (4 total)
+		A	22.35%	22.31%	1.002
+		C	27.65%	27.69%	0.999
+		G	27.65%	27.69%	0.999
+		T	22.35%	22.31%	1.002
+	Autonormalization: 2-mers (16 total)
+		AA	5.92%	5.81%	1.019
+		CA	6.76%	6.85%	0.987
+		GA	6.14%	6.16%	0.998
+		TA	3.48%	3.50%	0.996
+		AC	5.02%	4.97%	1.011
+		CC	8.75%	8.78%	0.996
+		GC	7.78%	7.78%	1.000
+		TC	6.14%	6.16%	0.998
+		AG	7.61%	7.59%	1.003
+		CG	4.52%	4.47%	1.011
+		GG	8.75%	8.78%	0.996
+		TG	6.76%	6.85%	0.987
+		AT	3.80%	3.94%	0.965
+		CT	7.61%	7.59%	1.003
+		GT	5.02%	4.97%	1.011
+		TT	5.92%	5.81%	1.019
+	Autonormalization: 3-mers (64 total)
+	Finished preparing sequence/group files
+
+	----------------------------------------------------------
+	Known motif enrichment
+
+	Reading input files...
+	49998 total sequences read
+	440 motifs loaded
+	Cache length = 11180
+	Using binomial scoring
+	Checking enrichment of 440 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+	Preparing HTML output with sequence logos...
+		1 of 440 (1e-121) AP-2alpha(AP2)/Hela-AP2alpha-ChIP-Seq(GSE31477)/Homer
+		2 of 440 (1e-89) AP-2gamma(AP2)/MCF7-TFAP2C-ChIP-Seq(GSE21234)/Homer
+		3 of 440 (1e-82) Klf4(Zf)/mES-Klf4-ChIP-Seq(GSE11431)/Homer
+		4 of 440 (1e-70) KLF1(Zf)/HUDEP2-KLF1-CutnRun(GSE136251)/Homer
+		5 of 440 (1e-69) KLF3(Zf)/MEF-Klf3-ChIP-Seq(GSE44748)/Homer
+		6 of 440 (1e-57) TEAD1(TEAD)/HepG2-TEAD1-ChIP-Seq(Encode)/Homer
+		7 of 440 (1e-55) EKLF(Zf)/Erythrocyte-Klf1-ChIP-Seq(GSE20478)/Homer
+		8 of 440 (1e-52) TEAD4(TEA)/Tropoblast-Tead4-ChIP-Seq(GSE37350)/Homer
+		9 of 440 (1e-48) KLF5(Zf)/LoVo-KLF5-ChIP-Seq(GSE49402)/Homer
+		10 of 440 (1e-47) Gata1(Zf)/K562-GATA1-ChIP-Seq(GSE18829)/Homer
+		11 of 440 (1e-43) Gata2(Zf)/K562-GATA2-ChIP-Seq(GSE18829)/Homer
+		12 of 440 (1e-43) TEAD(TEA)/Fibroblast-PU.1-ChIP-Seq(Unpublished)/Homer
+		13 of 440 (1e-41) Sp1(Zf)/Promoter/Homer
+		14 of 440 (1e-39) KLF6(Zf)/PDAC-KLF6-ChIP-Seq(GSE64557)/Homer
+		15 of 440 (1e-38) TEAD3(TEA)/HepG2-TEAD3-ChIP-Seq(Encode)/Homer
+		16 of 440 (1e-37) TEAD2(TEA)/Py2T-Tead2-ChIP-Seq(GSE55709)/Homer
+		17 of 440 (1e-33) Klf9(Zf)/GBM-Klf9-ChIP-Seq(GSE62211)/Homer
+		18 of 440 (1e-32) ELF1(ETS)/Jurkat-ELF1-ChIP-Seq(SRA014231)/Homer
+		19 of 440 (1e-31) Gata4(Zf)/Heart-Gata4-ChIP-Seq(GSE35151)/Homer
+		20 of 440 (1e-29) Gata6(Zf)/HUG1N-GATA6-ChIP-Seq(GSE51936)/Homer
+		21 of 440 (1e-29) Sp2(Zf)/HEK293-Sp2.eGFP-ChIP-Seq(Encode)/Homer
+		22 of 440 (1e-26) Elk1(ETS)/Hela-Elk1-ChIP-Seq(GSE31477)/Homer
+		23 of 440 (1e-26) Nr5a2(NR)/mES-Nr5a2-ChIP-Seq(GSE19019)/Homer
+		24 of 440 (1e-25) Elk4(ETS)/Hela-Elk4-ChIP-Seq(GSE31477)/Homer
+		25 of 440 (1e-24) ETS(ETS)/Promoter/Homer
+		26 of 440 (1e-23) Nr5a2(NR)/Pancreas-LRH1-ChIP-Seq(GSE34295)/Homer
+		27 of 440 (1e-20) GABPA(ETS)/Jurkat-GABPa-ChIP-Seq(GSE17954)/Homer
+		28 of 440 (1e-19) SF1(NR)/H295R-Nr5a1-ChIP-Seq(GSE44220)/Homer
+		29 of 440 (1e-18) GATA3(Zf)/iTreg-Gata3-ChIP-Seq(GSE20898)/Homer
+		30 of 440 (1e-17) Sp5(Zf)/mES-Sp5.Flag-ChIP-Seq(GSE72989)/Homer
+		31 of 440 (1e-16) ERRg(NR)/Kidney-ESRRG-ChIP-Seq(GSE104905)/Homer
+		32 of 440 (1e-16) Esrrb(NR)/mES-Esrrb-ChIP-Seq(GSE11431)/Homer
+		33 of 440 (1e-15) KLF10(Zf)/HEK293-KLF10.GFP-ChIP-Seq(GSE58341)/Homer
+		34 of 440 (1e-15) E2F4(E2F)/K562-E2F4-ChIP-Seq(GSE31477)/Homer
+		35 of 440 (1e-14) CTCF(Zf)/CD4+-CTCF-ChIP-Seq(Barski_et_al.)/Homer
+		36 of 440 (1e-13) Elf4(ETS)/BMDM-Elf4-ChIP-Seq(GSE88699)/Homer
+		37 of 440 (1e-13) Ronin(THAP)/ES-Thap11-ChIP-Seq(GSE51522)/Homer
+		38 of 440 (1e-12) Fli1(ETS)/CD8-FLI-ChIP-Seq(GSE20898)/Homer
+		39 of 440 (1e-12) ELF5(ETS)/T47D-ELF5-ChIP-Seq(GSE30407)/Homer
+		40 of 440 (1e-12) Stat3(Stat)/mES-Stat3-ChIP-Seq(GSE11431)/Homer
+		41 of 440 (1e-12) GFY-Staf(?,Zf)/Promoter/Homer
+		42 of 440 (1e-11) GFY(?)/Promoter/Homer
+		43 of 440 (1e-11) ETV4(ETS)/HepG2-ETV4-ChIP-Seq(ENCODE)/Homer
+		44 of 440 (1e-11) E2F7(E2F)/Hela-E2F7-ChIP-Seq(GSE32673)/Homer
+		45 of 440 (1e-11) RAR:RXR(NR),DR0/ES-RAR-ChIP-Seq(GSE56893)/Homer
+		46 of 440 (1e-11) SPDEF(ETS)/VCaP-SPDEF-ChIP-Seq(SRA014231)/Homer
+		47 of 440 (1e-10) bHLHE40(bHLH)/HepG2-BHLHE40-ChIP-Seq(GSE31477)/Homer
+		48 of 440 (1e-10) TRPS1(Zf)/MCF7-TRPS1-ChIP-Seq(GSE107013)/Homer
+		49 of 440 (1e-10) EWS:FLI1-fusion(ETS)/SK_N_MC-EWS:FLI1-ChIP-Seq(SRA014231)/Homer
+		50 of 440 (1e-9) RARg(NR)/ES-RARg-ChIP-Seq(GSE30538)/Homer
+		51 of 440 (1e-9) NRF1(NRF)/MCF7-NRF1-ChIP-Seq(Unpublished)/Homer
+		52 of 440 (1e-8) Fosl2(bZIP)/3T3L1-Fosl2-ChIP-Seq(GSE56872)/Homer
+		53 of 440 (1e-8) USF1(bHLH)/GM12878-Usf1-ChIP-Seq(GSE32465)/Homer
+		54 of 440 (1e-8) CDX4(Homeobox)/ZebrafishEmbryos-Cdx4.Myc-ChIP-Seq(GSE48254)/Homer
+		55 of 440 (1e-8) c-Myc(bHLH)/LNCAP-cMyc-ChIP-Seq(Unpublished)/Homer
+		56 of 440 (1e-8) ELF3(ETS)/PDAC-ELF3-ChIP-Seq(GSE64557)/Homer
+		57 of 440 (1e-8) Etv2(ETS)/ES-ER71-ChIP-Seq(GSE59402)/Homer
+		58 of 440 (1e-8) Jun-AP1(bZIP)/K562-cJun-ChIP-Seq(GSE31477)/Homer
+		59 of 440 (1e-8) STAT1(Stat)/HelaS3-STAT1-ChIP-Seq(GSE12782)/Homer
+		60 of 440 (1e-8) Bach2(bZIP)/OCILy7-Bach2-ChIP-Seq(GSE44420)/Homer
+		61 of 440 (1e-8) BORIS(Zf)/K562-CTCFL-ChIP-Seq(GSE32465)/Homer
+		62 of 440 (1e-8) ZFX(Zf)/mES-Zfx-ChIP-Seq(GSE11431)/Homer
+		63 of 440 (1e-7) ETS1(ETS)/Jurkat-ETS1-ChIP-Seq(GSE17954)/Homer
+		64 of 440 (1e-7) E2F1(E2F)/Hela-E2F1-ChIP-Seq(GSE22478)/Homer
+		65 of 440 (1e-6) Atf3(bZIP)/GBM-ATF3-ChIP-Seq(GSE33912)/Homer
+		66 of 440 (1e-6) Tcfcp2l1(CP2)/mES-Tcfcp2l1-ChIP-Seq(GSE11431)/Homer
+		67 of 440 (1e-6) Usf2(bHLH)/C2C12-Usf2-ChIP-Seq(GSE36030)/Homer
+		68 of 440 (1e-6) ETV1(ETS)/GIST48-ETV1-ChIP-Seq(GSE22441)/Homer
+		69 of 440 (1e-6) Fra2(bZIP)/Striatum-Fra2-ChIP-Seq(GSE43429)/Homer
+		70 of 440 (1e-6) GRHL2(CP2)/HBE-GRHL2-ChIP-Seq(GSE46194)/Homer
+		71 of 440 (1e-6) HOXB13(Homeobox)/ProstateTumor-HOXB13-ChIP-Seq(GSE56288)/Homer
+		72 of 440 (1e-6) TFE3(bHLH)/MEF-TFE3-ChIP-Seq(GSE75757)/Homer
+		73 of 440 (1e-5) STAT5(Stat)/mCD4+-Stat5-ChIP-Seq(GSE12346)/Homer
+		74 of 440 (1e-5) E-box(bHLH)/Promoter/Homer
+		75 of 440 (1e-5) Fra1(bZIP)/BT549-Fra1-ChIP-Seq(GSE46166)/Homer
+		76 of 440 (1e-5) Arnt:Ahr(bHLH)/MCF7-Arnt-ChIP-Seq(Lo_et_al.)/Homer
+		77 of 440 (1e-5) Stat3+il21(Stat)/CD4-Stat3-ChIP-Seq(GSE19198)/Homer
+		78 of 440 (1e-5) NF-E2(bZIP)/K562-NFE2-ChIP-Seq(GSE31477)/Homer
+		79 of 440 (1e-5) Fos(bZIP)/TSC-Fos-ChIP-Seq(GSE110950)/Homer
+		80 of 440 (1e-5) COUP-TFII(NR)/K562-NR2F1-ChIP-Seq(Encode)/Homer
+		81 of 440 (1e-5) BATF(bZIP)/Th17-BATF-ChIP-Seq(GSE39756)/Homer
+		82 of 440 (1e-5) Nrf2(bZIP)/Lymphoblast-Nrf2-ChIP-Seq(GSE37589)/Homer
+		83 of 440 (1e-5) STAT4(Stat)/CD4-Stat4-ChIP-Seq(GSE22104)/Homer
+		84 of 440 (1e-5) JunB(bZIP)/DendriticCells-Junb-ChIP-Seq(GSE36099)/Homer
+		85 of 440 (1e-5) ERG(ETS)/VCaP-ERG-ChIP-Seq(GSE14097)/Homer
+		86 of 440 (1e-4) NRF(NRF)/Promoter/Homer
+		87 of 440 (1e-4) GATA(Zf),IR3/iTreg-Gata3-ChIP-Seq(GSE20898)/Homer
+		88 of 440 (1e-4) AP-1(bZIP)/ThioMac-PU.1-ChIP-Seq(GSE21512)/Homer
+		89 of 440 (1e-4) LXRE(NR),DR4/RAW-LXRb.biotin-ChIP-Seq(GSE21512)/Homer
+		90 of 440 (1e-4) Cdx2(Homeobox)/mES-Cdx2-ChIP-Seq(GSE14586)/Homer
+		91 of 440 (1e-4) Bach1(bZIP)/K562-Bach1-ChIP-Seq(GSE31477)/Homer
+		92 of 440 (1e-4) CLOCK(bHLH)/Liver-Clock-ChIP-Seq(GSE39860)/Homer
+		93 of 440 (1e-4) Unknown(Homeobox)/Limb-p300-ChIP-Seq/Homer
+		94 of 440 (1e-4) EHF(ETS)/LoVo-EHF-ChIP-Seq(GSE49402)/Homer
+		95 of 440 (1e-3) EWS:ERG-fusion(ETS)/CADO_ES1-EWS:ERG-ChIP-Seq(SRA014231)/Homer
+		96 of 440 (1e-3) ZNF711(Zf)/SHSY5Y-ZNF711-ChIP-Seq(GSE20673)/Homer
+		97 of 440 (1e-3) EAR2(NR)/K562-NR2F6-ChIP-Seq(Encode)/Homer
+		98 of 440 (1e-3) E2F6(E2F)/Hela-E2F6-ChIP-Seq(GSE31477)/Homer
+		99 of 440 (1e-3) CEBP(bZIP)/ThioMac-CEBPb-ChIP-Seq(GSE21512)/Homer
+		100 of 440 (1e-3) Tbx21(T-box)/GM12878-TBX21-ChIP-Seq(Encode)/Homer
+		101 of 440 (1e-3) E2F(E2F)/Hela-CellCycle-Expression/Homer
+		102 of 440 (1e-3) Tbx6(T-box)/ESC-Tbx6-ChIP-Seq(GSE93524)/Homer
+		103 of 440 (1e-3) Tbet(T-box)/CD8-Tbet-ChIP-Seq(GSE33802)/Homer
+		104 of 440 (1e-3) MITF(bHLH)/MastCells-MITF-ChIP-Seq(GSE48085)/Homer
+		105 of 440 (1e-3) HINFP(Zf)/K562-HINFP.eGFP-ChIP-Seq(Encode)/Homer
+		106 of 440 (1e-2) KLF14(Zf)/HEK293-KLF14.GFP-ChIP-Seq(GSE58341)/Homer
+		107 of 440 (1e-2) Zfp809(Zf)/ES-Zfp809-ChIP-Seq(GSE70799)/Homer
+		108 of 440 (1e-2) Zfp57(Zf)/H1-ZFP57.HA-ChIP-Seq(GSE115387)/Homer
+		109 of 440 (1e-2) GATA(Zf),IR4/iTreg-Gata3-ChIP-Seq(GSE20898)/Homer
+		110 of 440 (1e-2) E2F3(E2F)/MEF-E2F3-ChIP-Seq(GSE71376)/Homer
+		111 of 440 (1e-2) FXR(NR),IR1/Liver-FXR-ChIP-Seq(Chong_et_al.)/Homer
+		112 of 440 (1e-2) PRDM15(Zf)/ESC-Prdm15-ChIP-Seq(GSE73694)/Homer
+		113 of 440 (1e-2) Tbr1(T-box)/Cortex-Tbr1-ChIP-Seq(GSE71384)/Homer
+		114 of 440 (1e-2) NFE2L2(bZIP)/HepG2-NFE2L2-ChIP-Seq(Encode)/Homer
+		115 of 440 (1e-2) GSC(Homeobox)/FrogEmbryos-GSC-ChIP-Seq(DRA000576)/Homer
+		116 of 440 (1e-2) COUP-TFII(NR)/Artia-Nr2f2-ChIP-Seq(GSE46497)/Homer
+		117 of 440 (1e-2) bHLHE41(bHLH)/proB-Bhlhe41-ChIP-Seq(GSE93764)/Homer
+		118 of 440 (1e-2) p53(p53)/mES-cMyc-ChIP-Seq(GSE11431)/Homer
+		119 of 440 (1e-2) Otx2(Homeobox)/EpiLC-Otx2-ChIP-Seq(GSE56098)/Homer
+		120 of 440 (1e-2) ETS:RUNX(ETS,Runt)/Jurkat-RUNX1-ChIP-Seq(GSE17954)/Homer
+		121 of 440 (1e-2) HIF2a(bHLH)/785_O-HIF2a-ChIP-Seq(GSE34871)/Homer
+		122 of 440 (1e-2) ERE(NR),IR3/MCF7-ERa-ChIP-Seq(Unpublished)/Homer
+		123 of 440 (1e-2) ZNF519(Zf)/HEK293-ZNF519.GFP-ChIP-Seq(GSE58341)/Homer
+		124 of 440 (1e-2) PBX1(Homeobox)/MCF7-PBX1-ChIP-Seq(GSE28007)/Homer
+		125 of 440 (1e-2) Npas4(bHLH)/Neuron-Npas4-ChIP-Seq(GSE127793)/Homer
+		126 of 440 (1e-2) ZBTB33(Zf)/GM12878-ZBTB33-ChIP-Seq(GSE32465)/Homer
+		127 of 440 (1e-2) HIF-1b(HLH)/T47D-HIF1b-ChIP-Seq(GSE59937)/Homer
+	----------------------------------------------------------
+	De novo motif finding (HOMER)
+
+	Number of Trial motifs (-T) set to 7 (from 10) to work well with 7 CPUs
+	Scanning input files...
+	Parsing sequences...
+	|0%                                   50%                                  100%|
+	================================================================================
+	Total number of Oligos: 32896
+	Autoadjustment for sequence coverage in background: 1.23x
+
+	Oligos: 32896 of 34497 max
+	Tree  : 67044 of 172485 max
+	Optimizing memory usage...
+	Cache length = 11180
+	Using binomial scoring
+
+	Global Optimization Phase: Looking for enriched oligos with up to 2 mismatches...
+
+	Screening oligos 32896 (allowing 0 mismatches):
+	|0%                                   50%                                  100%|
+	================================================================================
+		0.00% skipped, 100.00% checked (32896 of 32896), of those checked:
+		0.00% not in target, 0.00% increased p-value, 0.00% high p-value
+
+	Screening oligos 32896 (allowing 1 mismatches):
+	|0%                                   50%                                  100%|
+	================================================================================
+		0.00% skipped, 100.00% checked (32896 of 32896), of those checked:
+		0.00% not in target, 44.82% increased p-value, 42.64% high p-value
+
+	Screening oligos 32896 (allowing 2 mismatches):
+	|0%                                   50%                                  100%|
+	================================================================================
+		57.26% skipped, 42.74% checked (14059 of 32896), of those checked:
+		0.00% not in target, 33.56% increased p-value, 0.00% high p-value
+	Reading input files...
+	49998 total sequences read
+	Cache length = 11180
+	Using binomial scoring
+
+	Local Optimization Phase:
+	1 of 25 Initial Sequence: CCTTAGGC... (-185.048)
+		Round 1: -360.08 CCTNAGGC T:8142.5(51.24%),B:23023.7(38.85%),P:1e-156
+		Round 2: -360.08 CCTNAGGC T:8142.5(51.24%),B:23023.7(38.85%),P:1e-156
+		=Final=: -237.02 CCTNAGGC T:4276.0(37.72%),B:10744.6(28.32%),P:1e-102
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	2 of 25 Initial Sequence: AATTCCGG... (-90.520)
+		Round 1: -148.14 AATTCCGG T:6692.8(44.59%),B:21470.0(36.79%),P:1e-64
+		Round 2: -172.47 AATTCCGG T:6888.3(45.54%),B:21698.9(37.09%),P:1e-74
+		Round 3: -181.98 AATTCCGG T:7487.4(48.34%),B:23580.3(39.57%),P:1e-79
+		Round 4: -181.98 AATTCCGG T:7487.4(48.34%),B:23580.3(39.57%),P:1e-79
+		=Final=: -115.90 AATTCCGG T:2897.0(25.56%),B:7497.8(19.76%),P:1e-50
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	3 of 25 Initial Sequence: CCACACCC... (-60.786)
+		Round 1: -132.80 CCACACCC T:3461.8(26.31%),B:10473.4(20.05%),P:1e-57
+		Round 2: -132.80 CCACACCC T:3461.8(26.31%),B:10473.4(20.05%),P:1e-57
+		=Final=: -147.61 CCACACCC T:3297.0(29.08%),B:8437.2(22.24%),P:1e-64
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	4 of 25 Initial Sequence: GCCTTCGG... (-55.525)
+		Round 1: -78.36 GCCTTCGG T:5445.2(38.14%),B:18515.8(32.67%),P:1e-34
+		Round 2: -78.36 GCCTTCGG T:5445.2(38.14%),B:18515.8(32.67%),P:1e-34
+		=Final=: -71.21 GCCTTCGG T:3681.0(32.47%),B:10433.8(27.50%),P:1e-30
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	5 of 25 Initial Sequence: TGACCTTG... (-52.373)
+		Round 1: -69.07 TGACCTTG T:1225.6(10.24%),B:3540.1(7.28%),P:1e-29
+		Round 2: -69.07 TGACCTTG T:1225.6(10.24%),B:3540.1(7.28%),P:1e-29
+		=Final=: -68.03 TGACCTTG T:1354.0(11.94%),B:3327.8(8.77%),P:1e-29
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	6 of 25 Initial Sequence: AGATAACG... (-52.728)
+		Round 1: -87.48 AGATAACG T:1254.6(10.47%),B:3465.6(7.14%),P:1e-37
+		Round 2: -90.01 AGATAAGR T:955.8(8.08%),B:2464.2(5.13%),P:1e-39
+		Round 3: -112.74 AGATWAGR T:2419.3(19.22%),B:7145.7(14.16%),P:1e-48
+		Round 4: -118.47 AGATAASV T:2128.9(17.12%),B:6096.9(12.21%),P:1e-51
+		Round 5: -119.94 AGATAAGR T:2031.6(16.40%),B:5754.8(11.57%),P:1e-52
+		Round 6: -119.94 AGATAAGR T:2031.6(16.40%),B:5754.8(11.57%),P:1e-52
+		=Final=: -103.68 AGATAAGR T:1308.0(11.54%),B:2939.5(7.75%),P:1e-45
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	7 of 25 Initial Sequence: CGCGTTTA... (-47.828)
+		Round 1: -69.50 CGCGTTTA T:6400.5(43.14%),B:22265.5(37.85%),P:1e-30
+		Round 2: -80.40 CGCGTTTA T:6852.4(45.36%),B:23613.8(39.62%),P:1e-34
+		Round 3: -80.40 CGCGTTTA T:6852.4(45.36%),B:23613.8(39.62%),P:1e-34
+		=Final=: -33.87 CGCGTTTA T:3764.0(33.20%),B:11302.5(29.79%),P:1e-14
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	8 of 25 Initial Sequence: ACATTCCA... (-46.993)
+		Round 1: -186.70 ACATTCCT T:1928.2(15.64%),B:4869.0(9.88%),P:1e-81
+		Round 2: -186.70 ACATTCCT T:1928.2(15.64%),B:4869.0(9.88%),P:1e-81
+		=Final=: -153.88 ACATTCCT T:1577.0(13.91%),B:3388.0(8.93%),P:1e-66
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	9 of 25 Initial Sequence: GCCCCACC... (-40.529)
+		Round 1: -70.34 GCCCCRCC T:6013.4(41.17%),B:20812.5(35.89%),P:1e-30
+		Round 2: -70.34 GCCCCRCC T:6013.4(41.17%),B:20812.5(35.89%),P:1e-30
+		=Final=: -72.76 GCCCCRCC T:4108.0(36.24%),B:11778.9(31.05%),P:1e-31
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	10 of 25 Initial Sequence: AATCCGGT... (-37.300)
+		Round 1: -53.04 AATCCGGT T:4697.7(33.92%),B:16416.7(29.58%),P:1e-23
+		Round 2: -62.54 AATCCGGT T:6281.4(42.54%),B:22034.5(37.54%),P:1e-27
+		Round 3: -74.11 AATCCGGT T:5578.2(38.86%),B:19111.1(33.52%),P:1e-32
+		Round 4: -74.11 AATCCGGT T:5578.2(38.86%),B:19111.1(33.52%),P:1e-32
+		=Final=: -55.48 AATCCGGT T:3646.0(32.16%),B:10545.0(27.79%),P:1e-24
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	11 of 25 Initial Sequence: TTTATCGC... (-30.640)
+		Round 1: -47.64 TTTATCGC T:1971.7(15.96%),B:6462.5(12.89%),P:1e-20
+		Round 2: -50.87 TTTATCGY T:1921.6(15.59%),B:6228.0(12.46%),P:1e-22
+		Round 3: -53.15 TTTABCGC T:3730.9(28.04%),B:12817.7(23.95%),P:1e-23
+		Round 4: -54.98 TTTABCGC T:3328.6(25.44%),B:11292.9(21.43%),P:1e-23
+		Round 5: -54.98 TTTABCGC T:3328.6(25.44%),B:11292.9(21.43%),P:1e-23
+		=Final=: -56.09 TTTABCGC T:3346.0(29.52%),B:9578.9(25.25%),P:1e-24
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	12 of 25 Initial Sequence: GCATTCCA... (-24.803)
+		Round 1: -47.85 GCATTCYW T:1391.1(11.55%),B:4369.4(8.91%),P:1e-20
+		Round 2: -47.85 GCATTCYW T:1391.1(11.55%),B:4369.4(8.91%),P:1e-20
+		=Final=: -55.94 GCATTCYW T:1385.0(12.22%),B:3526.7(9.30%),P:1e-24
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	13 of 25 Initial Sequence: GTAACGCT... (-23.413)
+		Round 1: -51.71 GTAACGCT T:3148.3(24.25%),B:10696.8(20.43%),P:1e-22
+		Round 2: -51.71 GTAACGCT T:3148.3(24.25%),B:10696.8(20.43%),P:1e-22
+		=Final=: -46.61 GTAACGCT T:3147.0(27.76%),B:9089.4(23.96%),P:1e-20
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	14 of 25 Initial Sequence: ACTTCGCT... (-18.809)
+		Round 1: -36.32 ACTTCGCT T:5838.8(40.25%),B:21277.2(36.53%),P:1e-15
+		Round 2: -41.30 ACTTCGCT T:4975.0(35.52%),B:17823.0(31.66%),P:1e-17
+		Round 3: -46.09 ACTTCGYT T:5470.2(38.28%),B:19528.6(34.11%),P:1e-20
+		Round 4: -56.07 ASTTCGYT T:4771.5(34.35%),B:16610.1(29.87%),P:1e-24
+		Round 5: -56.07 ASTTCGYT T:4771.5(34.35%),B:16610.1(29.87%),P:1e-24
+		=Final=: -29.99 ASTTCGYT T:3931.0(34.68%),B:11927.9(31.44%),P:1e-13
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	15 of 25 Initial Sequence: AAATTCTT... (-17.309)
+		Round 1: -20.06 AAATTCTT T:299.4(2.60%),B:857.6(1.81%),P:1e-8
+		Round 2: -25.38 AAATTCGT T:699.2(5.98%),B:2200.0(4.59%),P:1e-11
+		Round 3: -25.38 AAATTCGT T:699.2(5.98%),B:2200.0(4.59%),P:1e-11
+		=Final=: -35.53 AAATTCGT T:920.0(8.12%),B:2354.3(6.21%),P:1e-15
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	16 of 25 Initial Sequence: CATTCCTG... (-17.272)
+		Round 1: -3.69 CATTCCTG T:167.4(1.46%),B:586.8(1.24%),P:1e-1
+		Round 2: -7.86 CAMTCCCG T:1531.6(12.63%),B:5774.1(11.60%),P:1e-3
+		Round 3: -15.53 CAMTCCCG T:1214.7(10.16%),B:4296.5(8.77%),P:1e-6
+		Round 4: -15.53 CAMTCCCG T:1214.7(10.16%),B:4296.5(8.77%),P:1e-6
+		=Final=: -27.38 CAMTCCCG T:1432.0(12.63%),B:4004.6(10.56%),P:1e-11
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	17 of 25 Initial Sequence: TCTGAATG... (-15.884)
+		Round 1: -17.05 TCTGAATG T:297.6(2.59%),B:880.2(1.86%),P:1e-7
+		Round 2: -20.80 TCCGAATG T:687.8(5.88%),B:2223.2(4.64%),P:1e-9
+		Round 3: -20.80 TCCGAATG T:687.8(5.88%),B:2223.2(4.64%),P:1e-9
+		=Final=: -30.79 TCCGAATG T:828.0(7.30%),B:2132.0(5.62%),P:1e-13
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	18 of 25 Initial Sequence: TTTTGCGT... (-15.749)
+		Round 1: -21.43 YTTTSCGT T:552.8(4.75%),B:1727.8(3.62%),P:1e-9
+		Round 2: -22.89 TTTTGCGT T:464.9(4.01%),B:1398.1(2.94%),P:1e-9
+		Round 3: -28.54 CTTTGCGT T:1722.7(14.09%),B:5907.9(11.86%),P:1e-12
+		Round 4: -28.54 CTTTGCGT T:1722.7(14.09%),B:5907.9(11.86%),P:1e-12
+		=Final=: -35.97 CTTTGCGT T:2013.0(17.76%),B:5679.3(14.97%),P:1e-15
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	19 of 25 Initial Sequence: GTCACGTG... (-15.485)
+		Round 1: -27.51 GTCACGTG T:786.5(6.70%),B:2485.3(5.17%),P:1e-11
+		Round 2: -30.36 GTCACGTG T:1456.8(12.05%),B:4884.8(9.91%),P:1e-13
+		Round 3: -30.36 GTCACGTG T:1456.8(12.05%),B:4884.8(9.91%),P:1e-13
+		=Final=: -28.88 GTCACGTG T:533.0(4.70%),B:1291.4(3.40%),P:1e-12
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	20 of 25 Initial Sequence: CAAAACAA... (-14.228)
+		Round 1: -16.74 CAAAACAA T:1664.8(13.65%),B:5980.6(11.99%),P:1e-7
+		Round 2: -16.74 CAAAACAA T:1664.8(13.65%),B:5980.6(11.99%),P:1e-7
+		=Final=: -12.58 CAAAACAA T:826.0(7.29%),B:2366.0(6.24%),P:1e-5
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	21 of 25 Initial Sequence: CCACCCTA... (-14.108)
+		Round 1: -16.10 CCACCCTA T:529.0(4.55%),B:1715.8(3.60%),P:1e-6
+		Round 2: -16.10 CCACCCTA T:529.0(4.55%),B:1715.8(3.60%),P:1e-6
+		=Final=: -23.92 CCACCCTA T:640.0(5.65%),B:1648.7(4.35%),P:1e-10
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	22 of 25 Initial Sequence: CATTCCTC... (-13.992)
+		Round 1: -2.57 CATTCCTC T:153.0(1.33%),B:553.3(1.17%),P:1e-1
+		Round 2: -9.80 CAWTCCTC T:5255.1(37.10%),B:20416.9(35.35%),P:1e-4
+		Round 3: -13.12 CAATCCTH T:3384.9(25.81%),B:12807.8(23.94%),P:1e-5
+		Round 4: -14.15 CAATCCTA T:2942.1(22.86%),B:11028.0(20.99%),P:1e-6
+		Round 5: -14.78 CAAGCCTA T:1607.7(13.22%),B:5821.1(11.69%),P:1e-6
+		Round 6: -17.22 CGRGCYTT T:3740.6(28.10%),B:14001.8(25.85%),P:1e-7
+		Round 7: -24.05 CAAKCYTY T:2300.6(18.36%),B:8198.3(16.07%),P:1e-10
+		Round 8: -24.05 CAAKCYTY T:2300.6(18.36%),B:8198.3(16.07%),P:1e-10
+		=Final=: -34.06 CAAKCYTY T:2517.0(22.20%),B:7295.2(19.23%),P:1e-14
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	23 of 25 Initial Sequence: GTTATCAG... (-13.348)
+		Round 1: -17.09 GTTATCAG T:185.8(1.62%),B:497.2(1.06%),P:1e-7
+		Round 2: -17.09 GTTATCAG T:185.8(1.62%),B:497.2(1.06%),P:1e-7
+		=Final=: -23.43 GTTATCAG T:230.0(2.03%),B:489.3(1.29%),P:1e-10
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	24 of 25 Initial Sequence: GCCCTGGG... (-13.124)
+		Round 1: -13.25 GCCCTGGG T:1380.1(11.46%),B:4994.9(10.12%),P:1e-5
+		Round 2: -22.38 GSCCTGGA T:3959.9(29.48%),B:14627.7(26.84%),P:1e-9
+		Round 3: -22.38 GSCCTGGA T:3959.9(29.48%),B:14627.7(26.84%),P:1e-9
+		=Final=: -22.54 GSCCTGGA T:2416.0(21.31%),B:7193.5(18.96%),P:1e-9
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	25 of 25 Initial Sequence: GCCTCTAG... (-11.776)
+		Round 1: -23.07 GCCTCTAG T:573.1(4.93%),B:1781.0(3.73%),P:1e-10
+		Round 2: -23.07 GCCTCTAG T:573.1(4.93%),B:1781.0(3.73%),P:1e-10
+		=Final=: -34.56 GCCTCTAG T:696.0(6.14%),B:1710.6(4.51%),P:1e-15
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+
+	Finalizing Enrichment Statistics (new in v3.4)
+	Reading input files...
+	49998 total sequences read
+	Cache length = 11180
+	Using binomial scoring
+	Checking enrichment of 25 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+	Output in file: /home1/gyang/work_space/4.ProjectET/batch19_cr/7.Peak_anno/ICM_Tfap2c_rep1_peakAnalysis/homerMotifs.motifs8
+
+	(Motifs in homer2 format)
+	Determining similar motifs... 25 reduced to 17 motifs
+	Outputing HTML and sequence logos for motif comparison...
+	Checking de novo motifs against known motifs...
+	Formatting HTML page...
+		1 of 17 (1e-102) similar to TFAP2E/MA1569.1/Jaspar(0.920)
+		2 of 17 (1e-69) similar to TEAD4(TEA)/Tropoblast-Tead4-ChIP-Seq(GSE37350)/Homer(0.934)
+		3 of 17 (1e-66) similar to Klf1/MA0493.1/Jaspar(0.940)
+		4 of 17 (1e-44) similar to Gata6(Zf)/HUG1N-GATA6-ChIP-Seq(GSE51936)/Homer(0.987)
+		5 of 17 (1e-30) similar to ESRRA/MA0592.3/Jaspar(0.969)
+		6 of 17 (1e-29) similar to E2F4(E2F)/K562-E2F4-ChIP-Seq(GSE31477)/Homer(0.794)
+		7 of 17 (1e-27) similar to PH0126.1_Obox6/Jaspar(0.755)
+		8 of 17 (1e-22) similar to PAX5/MA0014.3/Jaspar(0.729)
+		9 of 17 (1e-17) similar to ZBTB12(Zf)/HEK293-ZBTB12.GFP-ChIP-Seq(GSE58341)/Homer(0.667)
+		10 of 17 (1e-16) similar to Nr2e3/MA0164.1/Jaspar(0.763)
+		11 of 17 (1e-16) similar to Arnt:Ahr(bHLH)/MCF7-Arnt-ChIP-Seq(Lo_et_al.)/Homer(0.740)
+		12 of 17 (1e-16) similar to PB0077.1_Spdef_1/Jaspar(0.699)
+		13 of 17 (1e-15) similar to ZNF711(Zf)/SHSY5Y-ZNF711-ChIP-Seq(GSE20673)/Homer(0.729)
+		14 of 17 (1e-14) similar to BARHL1/MA0877.2/Jaspar(0.763)
+		15 of 17 (1e-14) similar to Arntl/MA0603.1/Jaspar(0.966)
+		16 of 17 (1e-11) similar to KLF4/MA0039.4/Jaspar(0.719)
+		17 of 17 (1e-5) similar to PB0121.1_Foxj3_2/Jaspar(0.855)
+	Job finished - if results look good, please send beer to ..
+
+	Cleaning up tmp files...
+

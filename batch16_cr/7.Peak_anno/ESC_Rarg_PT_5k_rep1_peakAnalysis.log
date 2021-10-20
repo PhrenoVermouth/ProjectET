@@ -1,0 +1,605 @@
+
+	Position file = ESC_Rarg_PT_5k_rep1_peaks.narrowPeak
+	Genome = mm10
+	Output Directory = /home1/gyang/work_space/4.ProjectET/batch16_cr/7.Peak_anno/ESC_Rarg_PT_5k_rep1_peakAnalysis
+	Using actual sizes of regions (-size given)
+	Fragment size set to given
+	Using 7 CPUs
+	Motif length set at 8,
+	Found mset for "mouse", will check against vertebrates motifs
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 108
+		peakfile formatted lines: 0
+
+	Peak File Statistics:
+		Total Peaks: 108
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Peak file looks good!
+
+	Background fragment size set to 559 (avg size of targets)
+	Could not find background files for 559 bp fragments
+	Below are the sizes that are already available prepared.
+		133
+		200
+		224
+		283
+		330
+		332
+		342
+		354
+		356
+		368
+		369
+		370
+		373
+		378
+		384
+		385
+		390
+		392
+		400
+		411
+		416
+		418
+		419
+		420
+		423
+		424
+		433
+		438
+		442
+		443
+		444
+		445
+		447
+		448
+		449
+		451
+		454
+		455
+		457
+		461
+		463
+		468
+		471
+		472
+		475
+		476
+		478
+		479
+		486
+		487
+		489
+		497
+		502
+		504
+		518
+		519
+		521
+		525
+		526
+		534
+		536
+		539
+		550
+		560
+		561
+		562
+		565
+		566
+		567
+		570
+		576
+		586
+		588
+		589
+		590
+		595
+		596
+		598
+		603
+		607
+		624
+		637
+		644
+		648
+		664
+		665
+		667
+		671
+		674
+		676
+		694
+		698
+		703
+		704
+		709
+		712
+		716
+		724
+		735
+		736
+		739
+		740
+		741
+		743
+		747
+		758
+		780
+		783
+		786
+		789
+		815
+		828
+		838
+		843
+		848
+		867
+		892
+		917
+		926
+		951
+		956
+		972
+		973
+		998
+		999
+		1016
+		1032
+		1041
+		1078
+		1142
+		1165
+		1178
+		1222
+		1249
+		1259
+		1262
+		1288
+		1296
+		1332
+		1376
+		1406
+		1410
+		1418
+		1448
+		1455
+		1499
+		1547
+		1575
+		1619
+		1623
+		1848
+		1925
+		1930
+		1959
+		2017
+		2116
+		2151
+		2488
+		2499
+		3187
+		3207
+		3228
+		3257
+		3278
+		5196
+		5251
+		5278
+		7879
+		7974
+		41360
+	HOMER will now create background files for 559 bp fragments
+	To CANCEL and rerun with a differet "-size <#>", hit <CTRL+C> now!
+		5
+		4
+		3
+		2
+		1
+	Preparsing genome for 559 bp fragments...(will probably take 1-5 min)
+	preparse size set to 559
+
+	By default, using /home1/homer/.//data/genomes/mm10//mm10.tss for reference positions
+	Output files will be placed in /home1/homer/.//data/genomes/mm10//preparsed//mm10.559.* ...
+	By default, HOMER will set the the preparsed Directory to be group read/write
+chmod: changing permissions of ‘/home1/homer/.//data/genomes/mm10//preparsed/’: Operation not permitted
+	Extracting sequences
+	Custom genome sequence directory: /home1/homer/.//data/genomes/mm10//
+
+	Extracting sequences from directory: /home1/homer/.//data/genomes/mm10//
+	Extracting 76547 sequences from chr1
+	Extracting 90993 sequences from chr2
+	Extracting 61930 sequences from chr3
+	Extracting 69569 sequences from chr4
+	Extracting 71097 sequences from chr5
+	Extracting 67740 sequences from chr6
+	Extracting 84175 sequences from chr7
+	Extracting 52435 sequences from chr8
+	Extracting 63676 sequences from chr9
+	Extracting 58196 sequences from chr10
+	Extracting 68252 sequences from chr11
+	Extracting 43079 sequences from chr12
+	Extracting 50723 sequences from chr13
+	Extracting 46276 sequences from chr14
+	Extracting 42475 sequences from chr15
+	Extracting 40068 sequences from chr16
+	Extracting 47818 sequences from chr17
+	Extracting 35010 sequences from chr18
+	Extracting 33277 sequences from chr19
+	Extracting 65648 sequences from chrX
+	Extracting 10656 sequences from chrY
+	Extracting 96 sequences from chr1_GL456211_random
+	Extracting 156 sequences from chr1_GL456221_random
+	Extracting 52 sequences from chr4_GL456216_random
+	Extracting 265 sequences from chr4_GL456350_random
+	Extracting 53 sequences from chr4_JH584292_random
+	Extracting 167 sequences from chr4_JH584293_random
+	Extracting 181 sequences from chr4_JH584294_random
+	Extracting 199 sequences from chr5_GL456354_random
+	Extracting 95 sequences from chr5_JH584296_random
+	Extracting 92 sequences from chr5_JH584297_random
+	Extracting 176 sequences from chr5_JH584298_random
+	Extracting 405 sequences from chr5_JH584299_random
+	Extracting 149 sequences from chr7_GL456219_random
+	Extracting 101 sequences from chrUn_JH584304
+	Extracting 307 sequences from chrX_GL456233_random
+		3239 of 1181998 removed because they had >70.00% Ns (i.e. masked repeats)
+
+	Sequences processed:
+		Auto detected maximum sequence length of 559 bp
+		100000
+		200000
+		300000
+		400000
+		500000
+		600000
+		700000
+		800000
+		900000
+		1000000
+		1100000
+		1178759 total
+
+	Frequency Bins: 0.01 0.02 0.03 0.04 0.05 0.06 0.08 0.1 0.12 0.14 0.16
+	Freq	Bin	Count
+	0.01	0	727473
+	0.02	1	340502
+	0.03	2	59934
+	0.04	3	19170
+	0.05	4	7002
+	0.06	5	5654
+	0.08	6	7604
+	0.1	7	5336
+	0.12	8	3232
+	0.14	9	1853
+	0.16	10	735
+	11	11	264
+	Frequency Bins: 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.6 0.7 0.8
+	Freq	Bin	Count
+	0.2	0	56
+	0.25	1	971
+	0.3	2	15032
+	0.35	3	86416
+	0.4	4	248279
+	0.45	5	351164
+	0.5	6	287639
+	0.6	7	166748
+	0.7	8	17687
+	0.8	9	4568
+	10	10	199
+
+	Custom genome sequence directory: /home1/homer/.//data/genomes/mm10//
+
+	Extracting sequences from directory: /home1/homer/.//data/genomes/mm10//
+	Extracting 7 sequences from chr1
+	Extracting 10 sequences from chr2
+	Extracting 3 sequences from chr3
+	Extracting 13 sequences from chr4
+	Extracting 5 sequences from chr5
+	Extracting 1 sequences from chr6
+	Extracting 7 sequences from chr7
+	Extracting 1 sequences from chr8
+	Extracting 8 sequences from chr9
+	Extracting 4 sequences from chr10
+	Extracting 12 sequences from chr11
+	Extracting 2 sequences from chr12
+	Extracting 4 sequences from chr13
+	Extracting 1 sequences from chr14
+	Extracting 6 sequences from chr15
+	Extracting 2 sequences from chr16
+	Extracting 9 sequences from chr17
+	Extracting 6 sequences from chr18
+	Extracting 3 sequences from chr19
+	Extracting 1 sequences from chrX
+	Extracting 3 sequences from chrM
+
+	Not removing redundant sequences
+
+
+	Sequences processed:
+		Auto detected maximum sequence length of 537 bp
+		108 total
+
+	Frequency Bins: 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.6 0.7 0.8
+	Freq	Bin	Count
+	0.3	2	1
+	0.35	3	10
+	0.4	4	25
+	0.45	5	13
+	0.5	6	13
+	0.6	7	28
+	0.7	8	15
+	0.8	9	3
+
+	Total sequences set to 50000
+
+	Choosing background that matches in CpG/GC content...
+	Bin	# Targets	# Background	Background Weight
+	2	1	462	1.000
+	3	10	4620	1.000
+	4	25	11549	1.000
+	5	13	6006	1.000
+	6	13	6006	1.000
+	7	28	12935	1.000
+	8	15	6929	1.000
+	9	3	1386	1.000
+	Assembling sequence file...
+	Normalizing lower order oligos using homer2
+
+	Reading input files...
+	50001 total sequences read
+	Autonormalization: 1-mers (4 total)
+		A	25.94%	26.20%	0.990
+		C	24.06%	23.80%	1.011
+		G	24.06%	23.80%	1.011
+		T	25.94%	26.20%	0.990
+	Autonormalization: 2-mers (16 total)
+		AA	7.80%	7.59%	1.028
+		CA	6.79%	7.30%	0.931
+		GA	6.18%	6.17%	1.002
+		TA	5.14%	5.13%	1.001
+		AC	5.29%	5.21%	1.016
+		CC	7.03%	6.81%	1.033
+		GC	5.58%	5.62%	0.994
+		TC	6.18%	6.17%	1.002
+		AG	7.10%	7.52%	0.944
+		CG	3.13%	2.17%	1.438
+		GG	7.03%	6.81%	1.033
+		TG	6.79%	7.30%	0.931
+		AT	5.76%	5.87%	0.980
+		CT	7.10%	7.52%	0.944
+		GT	5.29%	5.21%	1.016
+		TT	7.80%	7.59%	1.028
+	Autonormalization: 3-mers (64 total)
+	Normalization weights can be found in file: /home1/gyang/work_space/4.ProjectET/batch16_cr/7.Peak_anno/ESC_Rarg_PT_5k_rep1_peakAnalysis/seq.autonorm.tsv
+	Converging on autonormalization solution:
+	...............................................................................
+	Final normalization:	Autonormalization: 1-mers (4 total)
+		A	25.94%	25.91%	1.001
+		C	24.06%	24.09%	0.999
+		G	24.06%	24.09%	0.999
+		T	25.94%	25.91%	1.001
+	Autonormalization: 2-mers (16 total)
+		AA	7.80%	7.74%	1.007
+		CA	6.79%	6.93%	0.981
+		GA	6.18%	6.12%	1.010
+		TA	5.14%	5.12%	1.004
+		AC	5.29%	5.16%	1.026
+		CC	7.03%	6.99%	1.006
+		GC	5.58%	5.82%	0.958
+		TC	6.18%	6.12%	1.010
+		AG	7.10%	7.22%	0.983
+		CG	3.13%	2.95%	1.059
+		GG	7.03%	6.99%	1.006
+		TG	6.79%	6.93%	0.981
+		AT	5.76%	5.79%	0.994
+		CT	7.10%	7.22%	0.983
+		GT	5.29%	5.16%	1.026
+		TT	7.80%	7.74%	1.007
+	Autonormalization: 3-mers (64 total)
+	Finished preparing sequence/group files
+
+	----------------------------------------------------------
+	Known motif enrichment
+
+	Reading input files...
+	50001 total sequences read
+	440 motifs loaded
+	Cache length = 11180
+	Using binomial scoring
+	Checking enrichment of 440 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+	Preparing HTML output with sequence logos...
+		1 of 440 (1e-2) RORg(NR)/Liver-Rorc-ChIP-Seq(GSE101115)/Homer
+	----------------------------------------------------------
+	De novo motif finding (HOMER)
+
+	Number of Trial motifs (-T) set to 7 (from 10) to work well with 7 CPUs
+	Scanning input files...
+	Parsing sequences...
+	|0%                                   50%                                  100%|
+	================================================================================
+	Total number of Oligos: 32896
+	Autoadjustment for sequence coverage in background: 1.27x
+
+	Oligos: 32896 of 34497 max
+	Tree  : 67016 of 172485 max
+	Optimizing memory usage...
+	Cache length = 11180
+	Using binomial scoring
+
+	Global Optimization Phase: Looking for enriched oligos with up to 2 mismatches...
+
+	Screening oligos 32896 (allowing 0 mismatches):
+	|0%                                   50%                                  100%|
+	================================================================================
+		29.50% skipped, 70.50% checked (23191 of 32896), of those checked:
+		29.50% not in target, 0.00% increased p-value, 0.00% high p-value
+
+	Screening oligos 32896 (allowing 1 mismatches):
+	|0%                                   50%                                  100%|
+	================================================================================
+		29.50% skipped, 70.50% checked (23191 of 32896), of those checked:
+		0.00% not in target, 25.05% increased p-value, 50.74% high p-value
+
+	Screening oligos 32896 (allowing 2 mismatches):
+	|0%                                   50%                                  100%|
+	================================================================================
+		84.32% skipped, 15.68% checked (5157 of 32896), of those checked:
+		0.00% not in target, 15.45% increased p-value, 0.00% high p-value
+	Reading input files...
+	50001 total sequences read
+	Cache length = 11180
+	Using binomial scoring
+
+	Local Optimization Phase:
+	1 of 25 Initial Sequence: TATGGCGA... (-28.902)
+		Round 1: -32.26 TATGGCGA T:13.4(11.39%),B:217.6(0.36%),P:1e-14
+		Round 2: -32.26 TATGGCGA T:13.4(11.39%),B:217.6(0.36%),P:1e-14
+		=Final=: -11.90 TATGGCGA T:5.0(4.63%),B:112.6(0.24%),P:1e-5
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	2 of 25 Initial Sequence: TTTTCAGT... (-28.693)
+		Round 1: -35.28 TTTTCAGT T:34.8(27.11%),B:2526.0(4.13%),P:1e-15
+		Round 2: -35.28 TTTTCAGT T:34.8(27.11%),B:2526.0(4.13%),P:1e-15
+		=Final=: -9.29 TTTTCAGT T:16.0(14.81%),B:2355.9(4.98%),P:1e-4
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	3 of 25 Initial Sequence: TCTTTCTT... (-24.753)
+		Round 1: -25.61 TCTTTCTT T:58.8(41.70%),B:9416.4(14.54%),P:1e-11
+		Round 2: -27.39 ACTTACTT T:81.8(52.93%),B:14571.4(21.59%),P:1e-11
+		Round 3: -27.39 ACTTACTT T:81.8(52.93%),B:14571.4(21.59%),P:1e-11
+		=Final=: -6.45 ACTTACTT T:19.0(17.59%),B:3963.2(8.39%),P:1e-2
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	4 of 25 Initial Sequence: TTCTTTCT... (-22.739)
+		Round 1: -22.74 TTCTTTCT T:54.6(39.49%),B:9002.0(13.95%),P:1e-9
+		Round 2: -22.74 TTCTTTCT T:54.6(39.49%),B:9002.0(13.95%),P:1e-9
+		=Final=: -0.24 TTCTTTCT T:9.0(8.33%),B:4830.2(10.22%),P:1e0
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	5 of 25 Initial Sequence: AAATGAGA... (-21.047)
+		Round 1: -24.15 AAATGAGA T:25.0(20.75%),B:2168.3(3.55%),P:1e-10
+		Round 2: -24.15 AAATGAGA T:25.0(20.75%),B:2168.3(3.55%),P:1e-10
+		=Final=: -6.01 AAATGAGA T:12.0(11.11%),B:2037.7(4.31%),P:1e-2
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	6 of 25 Initial Sequence: TCCTCCTC... (-14.816)
+		Round 1: -19.16 TCCTCCTC T:64.1(44.86%),B:13146.1(19.70%),P:1e-8
+		Round 2: -19.16 TCCTCCTC T:64.1(44.86%),B:13146.1(19.70%),P:1e-8
+		=Final=: -0.68 TCCTCCTC T:25.0(23.15%),B:10798.4(22.85%),P:1e0
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	7 of 25 Initial Sequence: AATTATTG... (-13.657)
+		Round 1: -20.45 AATTATTG T:64.7(44.86%),B:12604.2(18.97%),P:1e-8
+		Round 2: -26.87 AATWATTA T:110.2(64.06%),B:22242.5(31.01%),P:1e-11
+		Round 3: -26.87 AATWATTA T:110.2(64.06%),B:22242.5(31.01%),P:1e-11
+		=Final=: -11.10 AATWATTA T:14.0(12.96%),B:1574.0(3.33%),P:1e-4
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	8 of 25 Initial Sequence: CTACAGTG... (-13.405)
+		Round 1: -16.99 CTACAGTG T:23.6(19.26%),B:2663.0(4.35%),P:1e-7
+		Round 2: -17.45 CTACAKTG T:31.1(25.05%),B:4727.7(7.59%),P:1e-7
+		Round 3: -17.45 CTACAKTG T:31.1(25.05%),B:4727.7(7.59%),P:1e-7
+		=Final=: -5.51 CTACAKTG T:22.0(20.37%),B:5307.1(11.23%),P:1e-2
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	9 of 25 Initial Sequence: CGAAACCA... (-11.945)
+		Round 1: -17.49 CGAAACCA T:67.3(46.38%),B:15011.2(22.16%),P:1e-7
+		Round 2: -17.49 CGAAACCA T:67.3(46.38%),B:15011.2(22.16%),P:1e-7
+		=Final=: -14.10 CGAAACCA T:51.0(47.22%),B:11972.2(25.33%),P:1e-6
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	10 of 25 Initial Sequence: GGGGGGGG... (-11.155)
+		Round 1: -11.55 GGGGGGGG T:65.0(45.37%),B:17951.6(25.89%),P:1e-5
+		Round 2: -12.23 SGGGGGGR T:56.0(40.60%),B:13926.0(20.74%),P:1e-5
+		Round 3: -12.23 SGGGGGGR T:56.0(40.60%),B:13926.0(20.74%),P:1e-5
+		=Final=: -3.60 SGGGGGGR T:12.0(11.11%),B:2815.3(5.96%),P:1e-1
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	11 of 25 Initial Sequence: CAACAACA... (-10.493)
+		Round 1: -10.49 CAACAACA T:19.5(16.20%),B:3083.2(5.02%),P:1e-4
+		Round 2: -10.49 CAACAACA T:19.5(16.20%),B:3083.2(5.02%),P:1e-4
+		=Final=: -6.10 CAACAACA T:11.0(10.19%),B:1746.1(3.69%),P:1e-2
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	12 of 25 Initial Sequence: CCACTAAT... (-10.122)
+		Round 1: -13.13 CCACTAAT T:90.2(56.71%),B:25177.2(34.31%),P:1e-5
+		Round 2: -15.91 CTACTAAT T:55.1(40.05%),B:12021.4(18.18%),P:1e-6
+		Round 3: -17.83 CTACYAAT T:71.6(48.34%),B:15984.4(23.42%),P:1e-7
+		Round 4: -17.83 CTACYAAT T:71.6(48.34%),B:15984.4(23.42%),P:1e-7
+		=Final=: -8.86 CTACYAAT T:47.0(43.52%),B:12701.4(26.87%),P:1e-3
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	13 of 25 Initial Sequence: TGGAATAT... (-9.511)
+		Round 1: -12.33 TGGAATAT T:20.2(16.98%),B:2970.9(4.84%),P:1e-5
+		Round 2: -16.71 CGGAATAT T:19.3(16.20%),B:1925.6(3.16%),P:1e-7
+		Round 3: -16.71 CGGAATAT T:19.3(16.20%),B:1925.6(3.16%),P:1e-7
+		=Final=: -7.09 CGGAATAT T:12.0(11.11%),B:1790.2(3.79%),P:1e-3
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	14 of 25 Initial Sequence: CATAGTAT... (-9.405)
+		Round 1: -16.51 CATAGTAT T:29.5(23.64%),B:4276.7(6.89%),P:1e-7
+		Round 2: -17.66 CATACTAT T:15.0(13.02%),B:1153.0(1.90%),P:1e-7
+		Round 3: -17.66 CATACTAT T:15.0(13.02%),B:1153.0(1.90%),P:1e-7
+		=Final=: -9.04 CATACTAT T:10.0(9.26%),B:1014.1(2.15%),P:1e-3
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	15 of 25 Initial Sequence: AACGTGAA... (-8.647)
+		Round 1: -17.69 AACGTGAA T:33.6(26.43%),B:5011.0(8.02%),P:1e-7
+		Round 2: -17.69 AACGTGAA T:33.6(26.43%),B:5011.0(8.02%),P:1e-7
+		=Final=: -11.12 AACGTGAA T:26.0(24.07%),B:4671.2(9.88%),P:1e-4
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	16 of 25 Initial Sequence: ATGGTAGG... (-8.555)
+		Round 1: -11.10 ATGGTAGG T:14.6(12.21%),B:1753.8(2.88%),P:1e-4
+		Round 2: -11.10 ATGGTAGG T:14.6(12.21%),B:1753.8(2.88%),P:1e-4
+		=Final=: -11.68 ATGGTAGG T:15.0(13.89%),B:1707.7(3.61%),P:1e-5
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	17 of 25 Initial Sequence: GATTGAGC... (-8.118)
+		Round 1: -11.76 GATTGAGC T:22.4(18.51%),B:3429.1(5.56%),P:1e-5
+		Round 2: -13.22 GAKTGAGC T:40.6(31.07%),B:8413.0(13.10%),P:1e-5
+		Round 3: -13.22 GAKTGAGC T:40.6(31.07%),B:8413.0(13.10%),P:1e-5
+		=Final=: -14.09 GAKTGAGC T:8.0(7.41%),B:315.7(0.67%),P:1e-6
+		Performing exhaustive masking of motif...
+		Reprioritizing potential motifs...
+	Remaining seeds don't look promising (After initial 5 motifs, logp -7.766 > -8.033)
+
+	Finalizing Enrichment Statistics (new in v3.4)
+	Reading input files...
+	50001 total sequences read
+	Cache length = 11180
+	Using binomial scoring
+	Checking enrichment of 17 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+	Output in file: /home1/gyang/work_space/4.ProjectET/batch16_cr/7.Peak_anno/ESC_Rarg_PT_5k_rep1_peakAnalysis/homerMotifs.motifs8
+
+	(Motifs in homer2 format)
+	Determining similar motifs... 17 reduced to 13 motifs
+	Outputing HTML and sequence logos for motif comparison...
+	Checking de novo motifs against known motifs...
+	Formatting HTML page...
+		1 of 13 (1e-6) similar to PB0036.1_Irf6_1/Jaspar(0.877)
+		2 of 13 (1e-5) similar to ZBTB6/MA1581.1/Jaspar(0.709)
+		3 of 13 (1e-5) similar to YY2/MA0748.2/Jaspar(0.741)
+		4 of 13 (1e-4) similar to MF0010.1_Homeobox_class/Jaspar(0.911)
+		5 of 13 (1e-4) similar to HIF2a(bHLH)/785_O-HIF2a-ChIP-Seq(GSE34871)/Homer(0.737)
+		6 of 13 (1e-4) similar to ZKSCAN1/MA1585.1/Jaspar(0.745)
+		7 of 13 (1e-4) similar to IRF4(IRF)/GM12878-IRF4-ChIP-Seq(GSE32465)/Homer(0.707)
+		8 of 13 (1e-2) similar to SD0001.1_at_AC_acceptor/Jaspar(0.748)
+		9 of 13 (1e-2) similar to PB0122.1_Foxk1_2/Jaspar(0.856)
+		10 of 13 (1e-2) similar to POU6F1(var.2)/MA1549.1/Jaspar(0.711)
+		11 of 13 (1e-2) similar to OSR1/MA1542.1/Jaspar(0.657)
+		12 of 13 (1e-1) similar to VEZF1/MA1578.1/Jaspar(0.903)
+		13 of 13 (1e0) similar to ZNF263/MA0528.2/Jaspar(0.767)
+	Job finished - if results look good, please send beer to ..
+
+	Cleaning up tmp files...
+

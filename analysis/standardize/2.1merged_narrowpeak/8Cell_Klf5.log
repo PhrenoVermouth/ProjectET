@@ -1,0 +1,74 @@
+INFO  @ Wed, 29 Sep 2021 15:36:39: 
+# Command line: callpeak -t 8Cell_Klf5.duprm.bam -f BAMPE -g mm -n 8Cell_Klf5 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak
+# ARGUMENTS LIST:
+# name = 8Cell_Klf5
+# format = BAMPE
+# ChIP-seq file = ['8Cell_Klf5.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Wed, 29 Sep 2021 15:36:39: #1 read fragment files... 
+INFO  @ Wed, 29 Sep 2021 15:36:39: #1 read treatment fragments... 
+INFO  @ Wed, 29 Sep 2021 15:36:46:  1000000 
+INFO  @ Wed, 29 Sep 2021 15:36:52:  2000000 
+INFO  @ Wed, 29 Sep 2021 15:36:58:  3000000 
+INFO  @ Wed, 29 Sep 2021 15:37:05:  4000000 
+INFO  @ Wed, 29 Sep 2021 15:37:11:  5000000 
+INFO  @ Wed, 29 Sep 2021 15:37:17:  6000000 
+INFO  @ Wed, 29 Sep 2021 15:37:24:  7000000 
+INFO  @ Wed, 29 Sep 2021 15:37:30:  8000000 
+INFO  @ Wed, 29 Sep 2021 15:37:36:  9000000 
+INFO  @ Wed, 29 Sep 2021 15:37:43:  10000000 
+INFO  @ Wed, 29 Sep 2021 15:37:49:  11000000 
+INFO  @ Wed, 29 Sep 2021 15:37:55:  12000000 
+INFO  @ Wed, 29 Sep 2021 15:38:02:  13000000 
+INFO  @ Wed, 29 Sep 2021 15:38:08:  14000000 
+INFO  @ Wed, 29 Sep 2021 15:38:14:  15000000 
+INFO  @ Wed, 29 Sep 2021 15:38:21:  16000000 
+INFO  @ Wed, 29 Sep 2021 15:38:27:  17000000 
+INFO  @ Wed, 29 Sep 2021 15:38:34:  18000000 
+INFO  @ Wed, 29 Sep 2021 15:38:40:  19000000 
+INFO  @ Wed, 29 Sep 2021 15:38:47:  20000000 
+INFO  @ Wed, 29 Sep 2021 15:38:53:  21000000 
+INFO  @ Wed, 29 Sep 2021 15:38:59:  22000000 
+INFO  @ Wed, 29 Sep 2021 15:39:06:  23000000 
+INFO  @ Wed, 29 Sep 2021 15:39:12:  24000000 
+INFO  @ Wed, 29 Sep 2021 15:39:18:  25000000 
+INFO  @ Wed, 29 Sep 2021 15:39:25:  26000000 
+INFO  @ Wed, 29 Sep 2021 15:39:31:  27000000 
+INFO  @ Wed, 29 Sep 2021 15:39:37:  28000000 
+INFO  @ Wed, 29 Sep 2021 15:39:43:  29000000 
+INFO  @ Wed, 29 Sep 2021 15:39:50:  30000000 
+INFO  @ Wed, 29 Sep 2021 15:39:56:  31000000 
+INFO  @ Wed, 29 Sep 2021 15:40:01:  32000000 
+INFO  @ Wed, 29 Sep 2021 15:40:07: 32843017 fragments have been read. 
+INFO  @ Wed, 29 Sep 2021 15:40:32: #1 mean fragment size is determined as 235.0 bp from treatment 
+INFO  @ Wed, 29 Sep 2021 15:40:32: #1 fragment size = 235.0 
+INFO  @ Wed, 29 Sep 2021 15:40:32: #1  total fragments in treatment: 32843017 
+INFO  @ Wed, 29 Sep 2021 15:40:32: #1 user defined the maximum fragments... 
+INFO  @ Wed, 29 Sep 2021 15:40:32: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Wed, 29 Sep 2021 15:41:42: #1  fragments after filtering in treatment: 32367225 
+INFO  @ Wed, 29 Sep 2021 15:41:42: #1  Redundant rate of treatment: 0.01 
+INFO  @ Wed, 29 Sep 2021 15:41:42: #1 finished! 
+INFO  @ Wed, 29 Sep 2021 15:41:42: #2 Build Peak Model... 
+INFO  @ Wed, 29 Sep 2021 15:41:42: #2 Skipped... 
+INFO  @ Wed, 29 Sep 2021 15:41:42: #3 Call peaks... 
+INFO  @ Wed, 29 Sep 2021 15:41:42: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 29 Sep 2021 15:44:31: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Wed, 29 Sep 2021 15:44:31: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 8Cell_Klf5_treat_pileup.bdg 
+INFO  @ Wed, 29 Sep 2021 15:44:31: #3   Write bedGraph files for control lambda (after scaling if necessary)... 8Cell_Klf5_control_lambda.bdg 
+INFO  @ Wed, 29 Sep 2021 15:44:31: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Wed, 29 Sep 2021 15:44:31: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 29 Sep 2021 15:47:09: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak/8Cell_Klf5_peaks.xls 
+INFO  @ Wed, 29 Sep 2021 15:47:09: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak/8Cell_Klf5_peaks.narrowPeak 
+INFO  @ Wed, 29 Sep 2021 15:47:09: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak/8Cell_Klf5_summits.bed 
+INFO  @ Wed, 29 Sep 2021 15:47:10: Done! 

@@ -1,0 +1,26 @@
+Input file:						'lateMorula_Nanog_rep2.duprm.allele_flagged.bam'
+Writing unassigned reads to:				'lateMorula_Nanog_rep2.duprm.unassigned.bam'
+Writing genome 1-specific reads to:			'lateMorula_Nanog_rep2.duprm.genome1.bam'
+Writing genome 2-specific reads to:			'lateMorula_Nanog_rep2.duprm.genome2.bam'
+Writing reads with conflicting number of SNPs to:	'lateMorula_Nanog_rep2.duprm.conflicting.bam'
+
+
+
+Allele-specific paired-end sorting report
+=========================================
+Read pairs/singletons processed in total:		9058928
+	thereof were read pairs:			9058928
+	thereof were singletons:			0
+Reads were unassignable (not overlapping SNPs):		2646894 (29.22%)
+	thereof were read pairs:	2646894
+	thereof were singletons:	0
+Reads were specific for genome 1:			3104804 (34.27%)
+	thereof were read pairs:	3104804
+	thereof were singletons:	0
+Reads were specific for genome 2:			3267392 (36.07%)
+	thereof were read pairs:	3267392
+	thereof were singletons:	0
+Reads contained conflicting SNP information:		39838 (0.44%)
+	thereof were read pairs:	39838
+	thereof were singletons:	0
+

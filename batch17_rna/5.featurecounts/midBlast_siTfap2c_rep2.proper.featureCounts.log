@@ -1,0 +1,56 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           midBlast_siTfap2c_rep2.proper.bam                ||
+||                                                                            ||
+||             Output file : midBlast_siTfap2c_rep2.proper.featureCounts_ ... ||
+||                 Summary : midBlast_siTfap2c_rep2.proper.featureCounts_ ... ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : mm10.gtf (GTF)                                   ||
+||      Dir for temp files : /home1/gyang/work_space/4.ProjectET/batch17_ ... ||
+||      Assignment details : <input_file>.featureCounts.bam                   ||
+||                      (Note that files are saved to the output directory)   ||
+||                                                                            ||
+||                                                                            ||
+||                 Threads : 2                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : counted                                          ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file mm10.gtf ...                                          ||
+||    Features : 325154                                                       ||
+||    Meta-features : 24421                                                   ||
+||    Chromosomes/contigs : 36                                                ||
+||                                                                            ||
+|| Process BAM file midBlast_siTfap2c_rep2.proper.bam...                      ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 34074986                                             ||
+||    Successfully assigned alignments : 15637597 (45.9%)                     ||
+||    Running time : 1.77 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home1/gyang/work_space  ||
+|| /4.ProjectET/batch17_rna/5.featurecounts/midBlast_siTfap2c_rep2.proper.fe  ||
+|| atureCounts_geneCounts.summary"                                            ||
+||                                                                            ||
+\\============================================================================//
+

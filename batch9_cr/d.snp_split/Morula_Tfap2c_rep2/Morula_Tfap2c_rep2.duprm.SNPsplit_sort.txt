@@ -1,0 +1,26 @@
+Input file:						'Morula_Tfap2c_rep2.duprm.allele_flagged.bam'
+Writing unassigned reads to:				'Morula_Tfap2c_rep2.duprm.unassigned.bam'
+Writing genome 1-specific reads to:			'Morula_Tfap2c_rep2.duprm.genome1.bam'
+Writing genome 2-specific reads to:			'Morula_Tfap2c_rep2.duprm.genome2.bam'
+Writing reads with conflicting number of SNPs to:	'Morula_Tfap2c_rep2.duprm.conflicting.bam'
+
+
+
+Allele-specific paired-end sorting report
+=========================================
+Read pairs/singletons processed in total:		30208983
+	thereof were read pairs:			30208983
+	thereof were singletons:			0
+Reads were unassignable (not overlapping SNPs):		10833929 (35.86%)
+	thereof were read pairs:	10833929
+	thereof were singletons:	0
+Reads were specific for genome 1:			9688171 (32.07%)
+	thereof were read pairs:	9688171
+	thereof were singletons:	0
+Reads were specific for genome 2:			9590196 (31.75%)
+	thereof were read pairs:	9590196
+	thereof were singletons:	0
+Reads contained conflicting SNP information:		96687 (0.32%)
+	thereof were read pairs:	96687
+	thereof were singletons:	0
+

@@ -1,0 +1,175 @@
+Output will be written into the directory: /home1/gyang/work_space/4.ProjectET/batch12_cr/d.snp_split/8Cell_Tfap2c_rep2/
+Testing if input file '8Cell_Tfap2c_rep2.duprm.bam' looks like a Bisulfite-Seq file
+Now starting to process file <<< '8Cell_Tfap2c_rep2.duprm.bam' >>> 
+
+Input file:					'8Cell_Tfap2c_rep2.duprm.bam'
+Writing SNPplit-tag report to:			'8Cell_Tfap2c_rep2.duprm.SNPsplit_report.txt'
+Writing allele-flagged output file to:		'8Cell_Tfap2c_rep2.duprm.allele_flagged.bam'
+
+
+Summary of parameters for SNPsplit-tag:
+========================================
+SNPsplit infile:		8Cell_Tfap2c_rep2.duprm.bam
+SNP annotation file:		/home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz
+Output directory:		>/home1/gyang/work_space/4.ProjectET/batch12_cr/d.snp_split/8Cell_Tfap2c_rep2/<
+Parent directory:		>/home1/gyang/work_space/4.ProjectET/batch12_cr/c.snp_unique<
+Samtools path:			/home1/gyang/anaconda3/envs/work/bin/samtools
+Output format:			BAM (default)
+Input format:			Paired-end (not relevant for tagging process)
+
+
+File specified as unsorted paired-end BAM file
+Sorting paired-end BAM file '8Cell_Tfap2c_rep2.duprm.bam' by read IDs ...
+[bam_sort_core] merging from 22 files and 1 in-memory blocks...
+Finished sorting BAM file into new file '8Cell_Tfap2c_rep2.duprm.sortedByName.bam'
+
+Storing SNP positions provided in '/home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz'
+Stored 20315523 positions in total
+
+Reading from sorted mapping file '8Cell_Tfap2c_rep2.duprm.sortedByName.bam'
+Processed 1000000 lines so far
+Processed 2000000 lines so far
+Processed 3000000 lines so far
+Processed 4000000 lines so far
+Processed 5000000 lines so far
+Processed 6000000 lines so far
+Processed 7000000 lines so far
+Processed 8000000 lines so far
+Processed 9000000 lines so far
+Processed 10000000 lines so far
+Processed 11000000 lines so far
+Processed 12000000 lines so far
+Processed 13000000 lines so far
+Processed 14000000 lines so far
+Processed 15000000 lines so far
+Processed 16000000 lines so far
+Processed 17000000 lines so far
+Processed 18000000 lines so far
+Processed 19000000 lines so far
+Processed 20000000 lines so far
+Processed 21000000 lines so far
+Processed 22000000 lines so far
+Processed 23000000 lines so far
+Processed 24000000 lines so far
+Processed 25000000 lines so far
+Processed 26000000 lines so far
+Processed 27000000 lines so far
+Processed 28000000 lines so far
+Processed 29000000 lines so far
+Processed 30000000 lines so far
+Processed 31000000 lines so far
+Processed 32000000 lines so far
+Processed 33000000 lines so far
+Processed 34000000 lines so far
+Processed 35000000 lines so far
+Processed 36000000 lines so far
+Processed 37000000 lines so far
+Processed 38000000 lines so far
+Processed 39000000 lines so far
+Processed 40000000 lines so far
+Processed 41000000 lines so far
+Processed 42000000 lines so far
+Processed 43000000 lines so far
+Processed 44000000 lines so far
+Processed 45000000 lines so far
+Processed 46000000 lines so far
+
+Allele-tagging report
+=====================
+Processed 46946460 read alignments in total
+Reads were unaligned and hence skipped: 0 (0.00%)
+Reads were hard-clipped (CIGAR: H) and skipped: 0
+20160042 reads were unassignable (42.94%)
+13020441 reads were specific for genome 1 (27.73%)
+13675711 reads were specific for genome 2 (29.13%)
+42802 reads did not contain one of the expected bases at known SNP positions (0.09%)
+90266 contained conflicting allele-specific SNPs (0.19%)
+
+
+SNP coverage report
+===================
+SNP annotation file:	/home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz
+SNPs stored in total:	20315523
+N-containing reads:	26790704
+non-N:			20117240
+total:			46946460
+Reads had a deletion of the N-masked position (and were thus called Conflicting):	38516 (0.08%)
+Of which had multiple deletions of N-masked positions within the same read:	68 (0.00%)
+
+Of valid N containing reads,
+N was present in the list of known SNPs:	57155519 (99.97%)
+N was not present in the list of SNPs:		14949 (0.03%)
+
+Finished allele-tagging for file <<< '8Cell_Tfap2c_rep2.duprm.sortedByName.bam' >>> 
+
+
+Summary of parameters for SNPsplit-sort:
+========================================
+SNPsplit tagged infile:		8Cell_Tfap2c_rep2.duprm.allele_flagged.bam
+Output directory:		>/home1/gyang/work_space/4.ProjectET/batch12_cr/d.snp_split/8Cell_Tfap2c_rep2/<
+Parent directory:		>/home1/gyang/work_space/4.ProjectET/batch12_cr/c.snp_unique<
+Samtools path:			/home1/gyang/anaconda3/envs/work/bin/samtools
+Output format:			BAM (default)
+Input format:			Paired-end
+
+
+Writing YAML report to 8Cell_Tfap2c_rep2.duprm.SNPsplit_sort.yaml
+
+Input file:						'8Cell_Tfap2c_rep2.duprm.allele_flagged.bam'
+Writing SNPsplit-sort report to:			'8Cell_Tfap2c_rep2.duprm.SNPsplit_sort.txt'
+Writing unassigned reads to:				'8Cell_Tfap2c_rep2.duprm.unassigned.bam'
+Writing genome 1-specific reads to:			'8Cell_Tfap2c_rep2.duprm.genome1.bam'
+Writing genome 2-specific reads to:			'8Cell_Tfap2c_rep2.duprm.genome2.bam'
+Writing reads with conflicting number of SNPs to:	'8Cell_Tfap2c_rep2.duprm.conflicting.bam'
+
+Processed 1000000 lines so far
+Processed 2000000 lines so far
+Processed 3000000 lines so far
+Processed 4000000 lines so far
+Processed 5000000 lines so far
+Processed 6000000 lines so far
+Processed 7000000 lines so far
+Processed 8000000 lines so far
+Processed 9000000 lines so far
+Processed 10000000 lines so far
+Processed 11000000 lines so far
+Processed 12000000 lines so far
+Processed 13000000 lines so far
+Processed 14000000 lines so far
+Processed 15000000 lines so far
+Processed 16000000 lines so far
+Processed 17000000 lines so far
+Processed 18000000 lines so far
+Processed 19000000 lines so far
+Processed 20000000 lines so far
+Processed 21000000 lines so far
+Processed 22000000 lines so far
+Processed 23000000 lines so far
+Last read was a read pair which has already been processed. all done
+
+
+
+Allele-specific paired-end sorting report
+=========================================
+Read pairs/singletons processed in total:		23473230
+	thereof were read pairs:			23473230
+	thereof were singletons:			0
+Reads were unassignable (not overlapping SNPs):		7625454 (32.49%)
+	thereof were read pairs:	7625454
+	thereof were singletons:	0
+Reads were specific for genome 1:			7680006 (32.72%)
+	thereof were read pairs:	7680006
+	thereof were singletons:	0
+Reads were specific for genome 2:			8075537 (34.40%)
+	thereof were read pairs:	8075537
+	thereof were singletons:	0
+Reads contained conflicting SNP information:		92233 (0.39%)
+	thereof were read pairs:	92233
+	thereof were singletons:	0
+
+Sorting finished successfully
+
+
+
+SNPsplit processing finished... [Allele-tagging + tag2sort]
+

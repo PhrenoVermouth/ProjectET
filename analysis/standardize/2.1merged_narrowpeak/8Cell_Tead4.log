@@ -1,0 +1,77 @@
+INFO  @ Wed, 29 Sep 2021 15:36:39: 
+# Command line: callpeak -t 8Cell_Tead4.duprm.bam -f BAMPE -g mm -n 8Cell_Tead4 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak
+# ARGUMENTS LIST:
+# name = 8Cell_Tead4
+# format = BAMPE
+# ChIP-seq file = ['8Cell_Tead4.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Wed, 29 Sep 2021 15:36:39: #1 read fragment files... 
+INFO  @ Wed, 29 Sep 2021 15:36:39: #1 read treatment fragments... 
+INFO  @ Wed, 29 Sep 2021 15:36:47:  1000000 
+INFO  @ Wed, 29 Sep 2021 15:36:54:  2000000 
+INFO  @ Wed, 29 Sep 2021 15:37:00:  3000000 
+INFO  @ Wed, 29 Sep 2021 15:37:07:  4000000 
+INFO  @ Wed, 29 Sep 2021 15:37:14:  5000000 
+INFO  @ Wed, 29 Sep 2021 15:37:21:  6000000 
+INFO  @ Wed, 29 Sep 2021 15:37:28:  7000000 
+INFO  @ Wed, 29 Sep 2021 15:37:35:  8000000 
+INFO  @ Wed, 29 Sep 2021 15:37:42:  9000000 
+INFO  @ Wed, 29 Sep 2021 15:37:48:  10000000 
+INFO  @ Wed, 29 Sep 2021 15:37:55:  11000000 
+INFO  @ Wed, 29 Sep 2021 15:38:02:  12000000 
+INFO  @ Wed, 29 Sep 2021 15:38:09:  13000000 
+INFO  @ Wed, 29 Sep 2021 15:38:16:  14000000 
+INFO  @ Wed, 29 Sep 2021 15:38:23:  15000000 
+INFO  @ Wed, 29 Sep 2021 15:38:30:  16000000 
+INFO  @ Wed, 29 Sep 2021 15:38:37:  17000000 
+INFO  @ Wed, 29 Sep 2021 15:38:44:  18000000 
+INFO  @ Wed, 29 Sep 2021 15:38:51:  19000000 
+INFO  @ Wed, 29 Sep 2021 15:38:58:  20000000 
+INFO  @ Wed, 29 Sep 2021 15:39:05:  21000000 
+INFO  @ Wed, 29 Sep 2021 15:39:13:  22000000 
+INFO  @ Wed, 29 Sep 2021 15:39:20:  23000000 
+INFO  @ Wed, 29 Sep 2021 15:39:27:  24000000 
+INFO  @ Wed, 29 Sep 2021 15:39:34:  25000000 
+INFO  @ Wed, 29 Sep 2021 15:39:41:  26000000 
+INFO  @ Wed, 29 Sep 2021 15:39:48:  27000000 
+INFO  @ Wed, 29 Sep 2021 15:39:55:  28000000 
+INFO  @ Wed, 29 Sep 2021 15:40:02:  29000000 
+INFO  @ Wed, 29 Sep 2021 15:40:09:  30000000 
+INFO  @ Wed, 29 Sep 2021 15:40:16:  31000000 
+INFO  @ Wed, 29 Sep 2021 15:40:23:  32000000 
+INFO  @ Wed, 29 Sep 2021 15:40:29:  33000000 
+INFO  @ Wed, 29 Sep 2021 15:40:36:  34000000 
+INFO  @ Wed, 29 Sep 2021 15:40:43:  35000000 
+INFO  @ Wed, 29 Sep 2021 15:40:49: 35859500 fragments have been read. 
+INFO  @ Wed, 29 Sep 2021 15:41:16: #1 mean fragment size is determined as 245.3 bp from treatment 
+INFO  @ Wed, 29 Sep 2021 15:41:16: #1 fragment size = 245.3 
+INFO  @ Wed, 29 Sep 2021 15:41:16: #1  total fragments in treatment: 35859500 
+INFO  @ Wed, 29 Sep 2021 15:41:16: #1 user defined the maximum fragments... 
+INFO  @ Wed, 29 Sep 2021 15:41:16: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Wed, 29 Sep 2021 15:42:30: #1  fragments after filtering in treatment: 35640916 
+INFO  @ Wed, 29 Sep 2021 15:42:30: #1  Redundant rate of treatment: 0.01 
+INFO  @ Wed, 29 Sep 2021 15:42:30: #1 finished! 
+INFO  @ Wed, 29 Sep 2021 15:42:30: #2 Build Peak Model... 
+INFO  @ Wed, 29 Sep 2021 15:42:30: #2 Skipped... 
+INFO  @ Wed, 29 Sep 2021 15:42:30: #3 Call peaks... 
+INFO  @ Wed, 29 Sep 2021 15:42:30: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 29 Sep 2021 15:45:33: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Wed, 29 Sep 2021 15:45:33: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 8Cell_Tead4_treat_pileup.bdg 
+INFO  @ Wed, 29 Sep 2021 15:45:33: #3   Write bedGraph files for control lambda (after scaling if necessary)... 8Cell_Tead4_control_lambda.bdg 
+INFO  @ Wed, 29 Sep 2021 15:45:33: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Wed, 29 Sep 2021 15:45:33: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 29 Sep 2021 15:48:14: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak/8Cell_Tead4_peaks.xls 
+INFO  @ Wed, 29 Sep 2021 15:48:14: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak/8Cell_Tead4_peaks.narrowPeak 
+INFO  @ Wed, 29 Sep 2021 15:48:14: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/analysis/standardize/2.1merged_narrowpeak/8Cell_Tead4_summits.bed 
+INFO  @ Wed, 29 Sep 2021 15:48:14: Done! 

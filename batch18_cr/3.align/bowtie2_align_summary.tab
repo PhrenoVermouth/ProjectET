@@ -1,0 +1,6 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+8Cell_Klf5_rep1	43.5219	21.3299	49.01%	17.2894	39.73%	88.74%
+8Cell_Klf5_rep2	44.6659	20.7081	46.36%	18.9627	42.45%	88.82%
+Morula_Klf5_rep1	40.575	23.4713	57.85%	14.2232	35.05%	92.90%
+Morula_Klf5_rep2	42.6946	24.2728	56.85%	14.9856	35.10%	91.95%
+Morula_Klf5_rep3	42.1756	22.9485	54.41%	15.0949	35.79%	90.20%

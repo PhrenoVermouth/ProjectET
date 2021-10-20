@@ -1,0 +1,29 @@
+Input file:					'8Cell_Tfap2c_rep1.duprm.bam'
+Writing allele-flagged output file to:		'8Cell_Tfap2c_rep1.duprm.allele_flagged.bam'
+
+
+Allele-tagging report
+=====================
+Processed 60562918 read alignments in total
+Reads were unaligned and hence skipped: 0 (0.00%)
+25931531 reads were unassignable (42.82%)
+16644298 reads were specific for genome 1 (27.48%)
+17878152 reads were specific for genome 2 (29.52%)
+55907 reads did not contain one of the expected bases at known SNP positions (0.09%)
+108937 contained conflicting allele-specific SNPs (0.18%)
+
+
+SNP coverage report
+===================
+SNP annotation file:	/home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz
+SNPs stored in total:	20315523
+N-containing reads:	34643448
+non-N:			25875624
+total:			60562918
+Reads had a deletion of the N-masked position (and were thus dropped):	43846 (0.07%)
+Of which had multiple deletions of N-masked positions within the same read:	89
+
+Of valid N containing reads,
+N was present in the list of known SNPs:	73987832 (99.97%)
+N was not present in the list of SNPs:		18871 (0.03%)
+

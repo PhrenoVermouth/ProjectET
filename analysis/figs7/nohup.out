@@ -1,0 +1,87 @@
+/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py:134: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/_deeptools_3gppvaj7.bed' mode='w+t' encoding='UTF-8'>
+  task = job = result = func = args = kwds = None
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/getScorePerBigWigBin.py", line 18, in countReadsInRegions_wrapper
+    return countFragmentsInRegions_worker(*args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/getScorePerBigWigBin.py", line 107, in countFragmentsInRegions_worker
+    score = bwh.stats(chrom, exon[0], exon[1])
+RuntimeError: Invalid interval bounds!
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/multiBigwigSummary", line 14, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/multiBigwigSummary.py", line 262, in main
+    allArgs=args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/getScorePerBigWigBin.py", line 268, in getScorePerBin
+    transcript_id_designator=transcript_id_designator)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/mapReduce.py", line 142, in mapReduce
+    res = pool.map_async(func, TASKS).get(9999999)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+RuntimeError: Invalid interval bounds!
+/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py:134: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/_deeptools_ze33in3q.bed' mode='w+t' encoding='UTF-8'>
+  task = job = result = func = args = kwds = None
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/getScorePerBigWigBin.py", line 18, in countReadsInRegions_wrapper
+    return countFragmentsInRegions_worker(*args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/getScorePerBigWigBin.py", line 107, in countFragmentsInRegions_worker
+    score = bwh.stats(chrom, exon[0], exon[1])
+RuntimeError: Invalid interval bounds!
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/multiBigwigSummary", line 14, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/multiBigwigSummary.py", line 262, in main
+    allArgs=args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/getScorePerBigWigBin.py", line 268, in getScorePerBin
+    transcript_id_designator=transcript_id_designator)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/mapReduce.py", line 142, in mapReduce
+    res = pool.map_async(func, TASKS).get(9999999)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+RuntimeError: Invalid interval bounds!
+Preloading the following deepBlue files: ls
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/multiBigwigSummary", line 14, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/multiBigwigSummary.py", line 243, in main
+    res = list(map(db.preloadWrapper, deepBlueFiles))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/deepBlue.py", line 114, in preloadWrapper
+    res = deepBlue(foo[0], url=args.deepBlueURL, userKey=args.userKey)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/deepBlue.py", line 140, in __init__
+    raise RuntimeError("The requested sample({}) has no associated experiment! If you did not intend to use samples on deepBlue, then it appears either you misspelled a file name or (if you're using BAM files for input) one of your BAM files is lacking a valid index.".format(sample))
+RuntimeError: The requested sample(ls) has no associated experiment! If you did not intend to use samples on deepBlue, then it appears either you misspelled a file name or (if you're using BAM files for input) one of your BAM files is lacking a valid index.
+Preloading the following deepBlue files: ls
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/bin/multiBigwigSummary", line 14, in <module>
+    main(args)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/multiBigwigSummary.py", line 243, in main
+    res = list(map(db.preloadWrapper, deepBlueFiles))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/deepBlue.py", line 114, in preloadWrapper
+    res = deepBlue(foo[0], url=args.deepBlueURL, userKey=args.userKey)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/deeptools/deepBlue.py", line 140, in __init__
+    raise RuntimeError("The requested sample({}) has no associated experiment! If you did not intend to use samples on deepBlue, then it appears either you misspelled a file name or (if you're using BAM files for input) one of your BAM files is lacking a valid index.".format(sample))
+RuntimeError: The requested sample(ls) has no associated experiment! If you did not intend to use samples on deepBlue, then it appears either you misspelled a file name or (if you're using BAM files for input) one of your BAM files is lacking a valid index.
+Number of bins found: 63159
+Number of bins found: 80743
+Number of bins found: 63159
+Number of bins found: 80743
+Number of bins found: 80743

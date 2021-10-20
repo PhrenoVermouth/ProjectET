@@ -1,0 +1,65 @@
+INFO  @ Tue, 28 Sep 2021 21:39:58: 
+# Command line: callpeak -t Morula_Klf5_rep1.duprm.bam -f BAMPE -g mm -n Morula_Klf5_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch18_cr/6.peak
+# ARGUMENTS LIST:
+# name = Morula_Klf5_rep1
+# format = BAMPE
+# ChIP-seq file = ['Morula_Klf5_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Tue, 28 Sep 2021 21:39:58: #1 read fragment files... 
+INFO  @ Tue, 28 Sep 2021 21:39:58: #1 read treatment fragments... 
+INFO  @ Tue, 28 Sep 2021 21:40:05:  1000000 
+INFO  @ Tue, 28 Sep 2021 21:40:11:  2000000 
+INFO  @ Tue, 28 Sep 2021 21:40:17:  3000000 
+INFO  @ Tue, 28 Sep 2021 21:40:24:  4000000 
+INFO  @ Tue, 28 Sep 2021 21:40:30:  5000000 
+INFO  @ Tue, 28 Sep 2021 21:40:36:  6000000 
+INFO  @ Tue, 28 Sep 2021 21:40:43:  7000000 
+INFO  @ Tue, 28 Sep 2021 21:40:49:  8000000 
+INFO  @ Tue, 28 Sep 2021 21:40:55:  9000000 
+INFO  @ Tue, 28 Sep 2021 21:41:02:  10000000 
+INFO  @ Tue, 28 Sep 2021 21:41:08:  11000000 
+INFO  @ Tue, 28 Sep 2021 21:41:14:  12000000 
+INFO  @ Tue, 28 Sep 2021 21:41:21:  13000000 
+INFO  @ Tue, 28 Sep 2021 21:41:27:  14000000 
+INFO  @ Tue, 28 Sep 2021 21:41:34:  15000000 
+INFO  @ Tue, 28 Sep 2021 21:41:40:  16000000 
+INFO  @ Tue, 28 Sep 2021 21:41:46:  17000000 
+INFO  @ Tue, 28 Sep 2021 21:41:53:  18000000 
+INFO  @ Tue, 28 Sep 2021 21:41:59:  19000000 
+INFO  @ Tue, 28 Sep 2021 21:42:05:  20000000 
+INFO  @ Tue, 28 Sep 2021 21:42:12:  21000000 
+INFO  @ Tue, 28 Sep 2021 21:42:18:  22000000 
+INFO  @ Tue, 28 Sep 2021 21:42:24:  23000000 
+INFO  @ Tue, 28 Sep 2021 21:42:30: 23929007 fragments have been read. 
+INFO  @ Tue, 28 Sep 2021 21:42:47: #1 mean fragment size is determined as 200.7 bp from treatment 
+INFO  @ Tue, 28 Sep 2021 21:42:47: #1 fragment size = 200.7 
+INFO  @ Tue, 28 Sep 2021 21:42:47: #1  total fragments in treatment: 23929007 
+INFO  @ Tue, 28 Sep 2021 21:42:47: #1 user defined the maximum fragments... 
+INFO  @ Tue, 28 Sep 2021 21:42:47: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Tue, 28 Sep 2021 21:43:36: #1  fragments after filtering in treatment: 23920555 
+INFO  @ Tue, 28 Sep 2021 21:43:36: #1  Redundant rate of treatment: 0.00 
+INFO  @ Tue, 28 Sep 2021 21:43:36: #1 finished! 
+INFO  @ Tue, 28 Sep 2021 21:43:36: #2 Build Peak Model... 
+INFO  @ Tue, 28 Sep 2021 21:43:36: #2 Skipped... 
+INFO  @ Tue, 28 Sep 2021 21:43:36: #3 Call peaks... 
+INFO  @ Tue, 28 Sep 2021 21:43:36: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Tue, 28 Sep 2021 21:45:34: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Tue, 28 Sep 2021 21:45:34: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... Morula_Klf5_rep1_treat_pileup.bdg 
+INFO  @ Tue, 28 Sep 2021 21:45:34: #3   Write bedGraph files for control lambda (after scaling if necessary)... Morula_Klf5_rep1_control_lambda.bdg 
+INFO  @ Tue, 28 Sep 2021 21:45:34: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Tue, 28 Sep 2021 21:45:34: #3 Call peaks for each chromosome... 
+INFO  @ Tue, 28 Sep 2021 21:47:21: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch18_cr/6.peak/Morula_Klf5_rep1_peaks.xls 
+INFO  @ Tue, 28 Sep 2021 21:47:21: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch18_cr/6.peak/Morula_Klf5_rep1_peaks.narrowPeak 
+INFO  @ Tue, 28 Sep 2021 21:47:21: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch18_cr/6.peak/Morula_Klf5_rep1_summits.bed 
+INFO  @ Tue, 28 Sep 2021 21:47:21: Done! 

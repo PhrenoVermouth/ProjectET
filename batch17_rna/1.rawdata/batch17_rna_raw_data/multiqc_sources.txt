@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	midBlast_siTfap2c_rep3.R2	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_siTfap2c_rep3.R2_fastqc.zip
+FastQC	all_sections	midBlast_siTfap2c_rep3.R1	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_siTfap2c_rep3.R1_fastqc.zip
+FastQC	all_sections	midBlast_Ctrl_rep1.R2	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_Ctrl_rep1.R2_fastqc.zip
+FastQC	all_sections	midBlast_Ctrl_rep1.R1	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_Ctrl_rep1.R1_fastqc.zip
+FastQC	all_sections	midBlast_siTfap2c_rep1.R1	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_siTfap2c_rep1.R1_fastqc.zip
+FastQC	all_sections	midBlast_siTfap2c_rep1.R2	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_siTfap2c_rep1.R2_fastqc.zip
+FastQC	all_sections	midBlast_siTfap2c_rep2.R2	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_siTfap2c_rep2.R2_fastqc.zip
+FastQC	all_sections	midBlast_siTfap2c_rep2.R1	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_siTfap2c_rep2.R1_fastqc.zip
+FastQC	all_sections	midBlast_Ctrl_rep3.R2	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_Ctrl_rep3.R2_fastqc.zip
+FastQC	all_sections	midBlast_Ctrl_rep3.R1	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_Ctrl_rep3.R1_fastqc.zip
+FastQC	all_sections	midBlast_Ctrl_rep2.R1	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_Ctrl_rep2.R1_fastqc.zip
+FastQC	all_sections	midBlast_Ctrl_rep2.R2	/home1/gyang/work_space/4.ProjectET/batch17_rna/1.rawdata/fastqc/midBlast_Ctrl_rep2.R2_fastqc.zip

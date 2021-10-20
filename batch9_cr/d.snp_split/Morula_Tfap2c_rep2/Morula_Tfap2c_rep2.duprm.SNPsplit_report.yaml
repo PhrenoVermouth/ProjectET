@@ -1,0 +1,35 @@
+---
+Meta:
+  tool: SNPsplit
+  version: 0.5.0
+  infile: Morula_Tfap2c_rep2.duprm.bam
+  date_run: 2021-8-20T14:25:05.1Z
+  mode: standard DNA
+  library: paired-end
+  command: SNPsplit --snp_file /home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz Morula_Tfap2c_rep2.duprm.bam --paired -o /home1/gyang/work_space/4.ProjectET/batch9_cr/d.snp_split/Morula_Tfap2c_rep2 --conflicting
+Tagging:
+  total_reads: 60417966
+  unaligned: 0
+  percent_unaligned: 0.00
+  g1: 16751729
+  percent_g1: 27.73
+  g2: 16560482
+  percent_g2: 27.41
+  unassignable: 27008016
+  percent_unassignable: 44.70
+  no_snp: 45623
+  percent_no_snp: 0.08
+  bizarre: 97739
+  percent_bizarre: 0.16
+  SNP_annotation: /home1/share/snpsplit/PWK_Phj_single_strain/all_SNPs_PWK_PhJ_GRCm38.txt.gz
+  SNPs_stored: 20315523
+  N_containing_reads: 33412070
+  non_N_containing_reads: 26962393
+  N_deletion: 43503
+  percent_N_deletion: 0.07
+  multi_N_deletion: 94
+  N_was_known_SNP: 69984508
+  percent_N_was_known_SNP: 99.97
+  N_not_known: 17620
+  percent_N_not_known: 0.03
+...

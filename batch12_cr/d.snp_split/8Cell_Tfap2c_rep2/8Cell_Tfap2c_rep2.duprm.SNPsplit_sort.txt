@@ -1,0 +1,26 @@
+Input file:						'8Cell_Tfap2c_rep2.duprm.allele_flagged.bam'
+Writing unassigned reads to:				'8Cell_Tfap2c_rep2.duprm.unassigned.bam'
+Writing genome 1-specific reads to:			'8Cell_Tfap2c_rep2.duprm.genome1.bam'
+Writing genome 2-specific reads to:			'8Cell_Tfap2c_rep2.duprm.genome2.bam'
+Writing reads with conflicting number of SNPs to:	'8Cell_Tfap2c_rep2.duprm.conflicting.bam'
+
+
+
+Allele-specific paired-end sorting report
+=========================================
+Read pairs/singletons processed in total:		23473230
+	thereof were read pairs:			23473230
+	thereof were singletons:			0
+Reads were unassignable (not overlapping SNPs):		7625454 (32.49%)
+	thereof were read pairs:	7625454
+	thereof were singletons:	0
+Reads were specific for genome 1:			7680006 (32.72%)
+	thereof were read pairs:	7680006
+	thereof were singletons:	0
+Reads were specific for genome 2:			8075537 (34.40%)
+	thereof were read pairs:	8075537
+	thereof were singletons:	0
+Reads contained conflicting SNP information:		92233 (0.39%)
+	thereof were read pairs:	92233
+	thereof were singletons:	0
+

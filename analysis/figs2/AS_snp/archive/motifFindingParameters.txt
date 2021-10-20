@@ -1,0 +1,1 @@
+cmd = 8Cell_Tfap2c_c57_extended.bed mm10 . -size given -p 5 -find /home1/gyang/work_space/4.ProjectET/analysis/motif_denovo/Tfap2c.motif

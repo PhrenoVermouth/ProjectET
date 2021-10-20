@@ -1,0 +1,1 @@
+cmd = Morula_Tfap2c_pwk_extended.bed mm10 . -size given -p 15 -find /home1/homer/motifs/ap2gamma.motif

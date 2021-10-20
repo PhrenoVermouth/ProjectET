@@ -1,0 +1,1 @@
+cmd = CP_EPI_E6-5_Sox2_rep3_nolambda_peaks.mergedPeak mm10 /home1/gyang/work_space/4.ProjectET/batch5_cr/6.peak/CP_EPI_E6-5_Sox2_rep3_nolambda_peakAnalysis -size given -p 10 -len 8
