@@ -1,0 +1,6 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+ICM_Tfap2c_rep2	46.1918	25.6854	55.61%	15.0542	32.59%	88.20%
+TE_Tead4_rep3	44.3773	22.6059	50.94%	16.3367	36.81%	87.75%
+TE_Tead4_rep4	53.8905	27.1143	50.31%	20.8136	38.62%	88.94%
+TE_Tfap2c_rep3	53.4242	30.8442	57.73%	17.4072	32.58%	90.32%
+TE_Tfap2c_rep4	50.6881	29.1612	57.53%	16.7692	33.08%	90.61%

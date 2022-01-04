@@ -5,6 +5,14 @@ library(ggplot2)
 gran_theme <- theme_classic() +
   theme(legend.title =element_blank(),legend.text = element_text(size = 12, face = "bold"),axis.title =element_text(size=12,face = "bold") ,axis.text=element_text(size=12))
 
+library(stringr)
+library(TxDb.Mmusculus.UCSC.mm10.knownGene)
+library(clusterProfiler)
+library(ChIPseeker)
+library(ggplot2)
+library(org.Mm.eg.db)
+txdb<- TxDb.Mmusculus.UCSC.mm10.knownGene
+
 #########  FPKM quantification
 
 # data_directory = "/home1/gyang/work_space/4.ProjectET/batch15_rna/5.stringtie"
@@ -34,13 +42,26 @@ gene_expression$KD <- rowMeans(gene_expression[,4:6])
 gene_expression$diff <- gene_expression$KD - gene_expression$Ctrl
 
 
-stat_results = stattest(bg, feature='gene', meas='FPKM', covariate='group')
+stat_results = stattest(bg, feature='gene', meas='FPKM', covariate='group',libadjust=F)
 stat_results <- stat_results[,c("id","pval","qval")]
 #head(stat_results)
 gene_expression <- merge(gene_expression, stat_results, by.x = "name", by.y="id")
 gene_expression$class <- ifelse(abs(gene_expression$diff) > log2(1.5) & gene_expression$pval < 0.05,
                                 ifelse(gene_expression$diff > 0, "up","down"),"none")
-fwrite(gene_expression[,c(1:7,10,13)], "Klf5_KD_0914altered_expr.csv",quote = F)
+fwrite(gene_expression[,c(1:7,10,13)], "Klf5_KD_220103altered_expr.csv",quote = F)
+
+
+
+key_influ <- c("Arpc1b","Zscan4c","Zscan4d","Zscan4f","Zfp532","Zfp560","Dppa3")
+all_fpkm2$highlight <- ifelse(all_fpkm2$gene %in% key_influ, "yes", "no")
+all_fpkm2 <- spread(all_fpkm2,"class","fpkm")
+p <- ggscatter(all_fpkm2, x = "IVF2C", y = "SCNT2C",alpha = 1,color = "highlight", palette = c("grey","Firebrick4"))+
+  geom_abline(linetype = "dashed",intercept = 1,alpha=0.8,color = "black") +
+  geom_abline(linetype = "dashed",intercept = -1,alpha=0.8,color = "black") +
+  xlim(-1,18) + ylim(-1,18)+coord_cartesian(expand = F)
+
+
+
 
 #########  DEG
 # 
@@ -95,7 +116,38 @@ p <- ggplot(pca_result) +
 p<-p+gran_theme+theme(legend.title =element_blank())+labs(x="PC1: 43 % variance",y="PC2: 16 % variance")
 ggsave("Klf5_KD_0914altered_PCA.pdf",dpi=300)
 
+
+
+
+
 ### TT target gene on Science Fig5G
 diff_fpkm_DEG[which(diff_fpkm_DEG$name %in% c("Vangl1", "Vav1", "Trip10", "Tpm4", "Tmsb10", "Tbcd", "Tagln2", "Plekhg2", "Nck2", "Mylpf", "Marcksl1", "Marcks", "Lcp1", "Frmpd1", "Frmd4b", "Fgfr2", "Epb4.115", "Cdc42ep4", "Cdc42ep3", "Cdc42ep1", "Cdc42ep1", "Arpc1b", "Arhgef19", "Arhgef16", "Arhgdib", "Arhgap9", "Arhgap18", "Anln", "Amn")),]
 
 fwrite(diff_fpkm_DEG,"FPKM-Klf5KD-DEG-by1.5-0.05.csv")
+
+#########  Scatter plot
+
+key_influ <- c("Actn1","Actn4","Pard6b","Plcd1","Plcg1")
+all_fpkm2 <- gene_expression[,c("name","Ctrl","KD","diff","pval", "class")]
+all_fpkm2$highlight <- ifelse(all_fpkm2$name %in% key_influ, "yes", "no")
+#all_fpkm2 <- spread(all_fpkm2,"class","fpkm")
+p <- ggscatter(all_fpkm2, x = "Ctrl", y = "KD",alpha = 1,color = "class", palette = c("#4682B4","grey","#FF6A6A"))+
+  geom_abline(linetype = "dashed",intercept = 0.585,alpha=0.8,color = "black") +
+  geom_abline(linetype = "dashed",intercept = -0.585,alpha=0.8,color = "black") +
+  xlim(0,12) + ylim(0,12)+coord_cartesian(expand = F)
+
+ggsave("~/work_space/4.ProjectET/analysis/fig3/5.Klf_enhancer_binding/Klf5KD_scatter_DEG.pdf",width = 4,height = 4.5,useDingbats=F) 
+
+gene_expression[gene_expression$class == "down","name"]
+
+ego2 <- enrichGO(gene         = gene_expression[gene_expression$class == "down","name"],
+                 OrgDb         = org.Mm.eg.db,
+                 keyType       = 'SYMBOL',
+                 ont           = "ALL",
+                 pAdjustMethod = "BH",
+                 pvalueCutoff  = 0.01,
+                 qvalueCutoff  = 0.05)
+dotplot(ego2, showCategory=10) + ggtitle("GO for Klf5KD Down-regulated genes") 
+
+ggsave("~/work_space/4.ProjectET/analysis/fig3/Klf5KD_DEG_downGO.pdf",width=7 ,height = 4)
+

@@ -1,0 +1,1 @@
+cmd = TE_Cdx2_rep1_peaks.narrowPeak mm10 /home1/gyang/work_space/4.ProjectET/batch28_cr/7.Peak_anno/TE_Cdx2_rep1_peakAnalysis -size given -p 7 -len 8

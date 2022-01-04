@@ -1,0 +1,55 @@
+INFO  @ Tue, 21 Dec 2021 22:04:47: 
+# Command line: callpeak -t TE_Klf5_rep3.duprm.bam -f BAMPE -g mm -n TE_Klf5_rep3 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch30_cr/6.peak
+# ARGUMENTS LIST:
+# name = TE_Klf5_rep3
+# format = BAMPE
+# ChIP-seq file = ['TE_Klf5_rep3.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Tue, 21 Dec 2021 22:04:47: #1 read fragment files... 
+INFO  @ Tue, 21 Dec 2021 22:04:47: #1 read treatment fragments... 
+INFO  @ Tue, 21 Dec 2021 22:05:01:  1000000 
+INFO  @ Tue, 21 Dec 2021 22:05:14:  2000000 
+INFO  @ Tue, 21 Dec 2021 22:05:28:  3000000 
+INFO  @ Tue, 21 Dec 2021 22:05:42:  4000000 
+INFO  @ Tue, 21 Dec 2021 22:05:55:  5000000 
+INFO  @ Tue, 21 Dec 2021 22:06:09:  6000000 
+INFO  @ Tue, 21 Dec 2021 22:06:22:  7000000 
+INFO  @ Tue, 21 Dec 2021 22:06:36:  8000000 
+INFO  @ Tue, 21 Dec 2021 22:06:50:  9000000 
+INFO  @ Tue, 21 Dec 2021 22:07:03:  10000000 
+INFO  @ Tue, 21 Dec 2021 22:07:17:  11000000 
+INFO  @ Tue, 21 Dec 2021 22:07:30:  12000000 
+INFO  @ Tue, 21 Dec 2021 22:07:44:  13000000 
+INFO  @ Tue, 21 Dec 2021 22:07:58:  14000000 
+INFO  @ Tue, 21 Dec 2021 22:08:11:  15000000 
+INFO  @ Tue, 21 Dec 2021 22:08:26: #1 mean fragment size is determined as 212 bp from treatment 
+INFO  @ Tue, 21 Dec 2021 22:08:26: #1 fragment size = 212 
+INFO  @ Tue, 21 Dec 2021 22:08:26: #1  total fragments in treatment: 15412918 
+INFO  @ Tue, 21 Dec 2021 22:08:26: #1 user defined the maximum fragments... 
+INFO  @ Tue, 21 Dec 2021 22:08:26: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Tue, 21 Dec 2021 22:08:57: #1  fragments after filtering in treatment: 15407650 
+INFO  @ Tue, 21 Dec 2021 22:08:57: #1  Redundant rate of treatment: 0.00 
+INFO  @ Tue, 21 Dec 2021 22:08:57: #1 finished! 
+INFO  @ Tue, 21 Dec 2021 22:08:57: #2 Build Peak Model... 
+INFO  @ Tue, 21 Dec 2021 22:08:57: #2 Skipped... 
+INFO  @ Tue, 21 Dec 2021 22:08:57: #2 Use 212 as fragment length 
+INFO  @ Tue, 21 Dec 2021 22:08:57: #3 Call peaks... 
+INFO  @ Tue, 21 Dec 2021 22:08:57: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Tue, 21 Dec 2021 22:09:54: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Tue, 21 Dec 2021 22:09:54: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... TE_Klf5_rep3_treat_pileup.bdg 
+INFO  @ Tue, 21 Dec 2021 22:09:54: #3   Write bedGraph files for control lambda (after scaling if necessary)... TE_Klf5_rep3_control_lambda.bdg 
+INFO  @ Tue, 21 Dec 2021 22:09:54: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Tue, 21 Dec 2021 22:09:54: #3 Call peaks for each chromosome... 
+INFO  @ Tue, 21 Dec 2021 22:12:06: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch30_cr/6.peak/TE_Klf5_rep3_peaks.xls 
+INFO  @ Tue, 21 Dec 2021 22:12:06: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch30_cr/6.peak/TE_Klf5_rep3_peaks.narrowPeak 
+INFO  @ Tue, 21 Dec 2021 22:12:07: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch30_cr/6.peak/TE_Klf5_rep3_summits.bed 
+INFO  @ Tue, 21 Dec 2021 22:12:07: Done! 

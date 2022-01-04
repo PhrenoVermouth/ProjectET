@@ -1,0 +1,63 @@
+INFO  @ Thu, 04 Nov 2021 10:46:43: 
+# Command line: callpeak -t EPI_E65_Tfap2c_rep2.duprm.bam -f BAMPE -g mm -n EPI_E65_Tfap2c_rep2 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch22_cr/6.peak
+# ARGUMENTS LIST:
+# name = EPI_E65_Tfap2c_rep2
+# format = BAMPE
+# ChIP-seq file = ['EPI_E65_Tfap2c_rep2.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Thu, 04 Nov 2021 10:46:43: #1 read fragment files... 
+INFO  @ Thu, 04 Nov 2021 10:46:43: #1 read treatment fragments... 
+INFO  @ Thu, 04 Nov 2021 10:47:02:  1000000 
+INFO  @ Thu, 04 Nov 2021 10:47:21:  2000000 
+INFO  @ Thu, 04 Nov 2021 10:47:40:  3000000 
+INFO  @ Thu, 04 Nov 2021 10:47:58:  4000000 
+INFO  @ Thu, 04 Nov 2021 10:48:16:  5000000 
+INFO  @ Thu, 04 Nov 2021 10:48:35:  6000000 
+INFO  @ Thu, 04 Nov 2021 10:48:54:  7000000 
+INFO  @ Thu, 04 Nov 2021 10:49:12:  8000000 
+INFO  @ Thu, 04 Nov 2021 10:49:31:  9000000 
+INFO  @ Thu, 04 Nov 2021 10:49:50:  10000000 
+INFO  @ Thu, 04 Nov 2021 10:50:09:  11000000 
+INFO  @ Thu, 04 Nov 2021 10:50:27:  12000000 
+INFO  @ Thu, 04 Nov 2021 10:50:47:  13000000 
+INFO  @ Thu, 04 Nov 2021 10:51:05:  14000000 
+INFO  @ Thu, 04 Nov 2021 10:51:23:  15000000 
+INFO  @ Thu, 04 Nov 2021 10:51:42:  16000000 
+INFO  @ Thu, 04 Nov 2021 10:52:00:  17000000 
+INFO  @ Thu, 04 Nov 2021 10:52:19:  18000000 
+INFO  @ Thu, 04 Nov 2021 10:52:38:  19000000 
+INFO  @ Thu, 04 Nov 2021 10:52:56:  20000000 
+INFO  @ Thu, 04 Nov 2021 10:53:15:  21000000 
+INFO  @ Thu, 04 Nov 2021 10:53:34:  22000000 
+INFO  @ Thu, 04 Nov 2021 10:53:52:  23000000 
+INFO  @ Thu, 04 Nov 2021 10:54:13: #1 mean fragment size is determined as 248 bp from treatment 
+INFO  @ Thu, 04 Nov 2021 10:54:13: #1 fragment size = 248 
+INFO  @ Thu, 04 Nov 2021 10:54:13: #1  total fragments in treatment: 23119931 
+INFO  @ Thu, 04 Nov 2021 10:54:13: #1 user defined the maximum fragments... 
+INFO  @ Thu, 04 Nov 2021 10:54:13: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Thu, 04 Nov 2021 10:55:08: #1  fragments after filtering in treatment: 23117291 
+INFO  @ Thu, 04 Nov 2021 10:55:08: #1  Redundant rate of treatment: 0.00 
+INFO  @ Thu, 04 Nov 2021 10:55:08: #1 finished! 
+INFO  @ Thu, 04 Nov 2021 10:55:08: #2 Build Peak Model... 
+INFO  @ Thu, 04 Nov 2021 10:55:08: #2 Skipped... 
+INFO  @ Thu, 04 Nov 2021 10:55:08: #2 Use 248 as fragment length 
+INFO  @ Thu, 04 Nov 2021 10:55:08: #3 Call peaks... 
+INFO  @ Thu, 04 Nov 2021 10:55:08: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Thu, 04 Nov 2021 10:56:31: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Thu, 04 Nov 2021 10:56:31: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... EPI_E65_Tfap2c_rep2_treat_pileup.bdg 
+INFO  @ Thu, 04 Nov 2021 10:56:31: #3   Write bedGraph files for control lambda (after scaling if necessary)... EPI_E65_Tfap2c_rep2_control_lambda.bdg 
+INFO  @ Thu, 04 Nov 2021 10:56:31: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Thu, 04 Nov 2021 10:56:31: #3 Call peaks for each chromosome... 
+INFO  @ Thu, 04 Nov 2021 10:59:07: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch22_cr/6.peak/EPI_E65_Tfap2c_rep2_peaks.xls 
+INFO  @ Thu, 04 Nov 2021 10:59:07: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch22_cr/6.peak/EPI_E65_Tfap2c_rep2_peaks.narrowPeak 
+INFO  @ Thu, 04 Nov 2021 10:59:07: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch22_cr/6.peak/EPI_E65_Tfap2c_rep2_summits.bed 
+INFO  @ Thu, 04 Nov 2021 10:59:07: Done! 

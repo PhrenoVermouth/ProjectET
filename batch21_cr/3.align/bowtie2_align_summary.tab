@@ -1,0 +1,6 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+ESC_Tfap2c_100k_rep1	42.3065	25.0342	59.17%	12.7847	30.22%	89.39%
+ESC_Tfap2c_10k_rep1	50.0016	30.2557	60.51%	16.5295	33.06%	93.57%
+ESC_Tfap2c_1k_rep1	52.0807	28.8523	55.40%	15.6634	30.08%	85.47%
+ESC_Tfap2c_1k_rep2	46.7783	25.2274	53.93%	13.8119	29.53%	83.46%
+ESC_Tfap2c_5k_rep1	45.9768	25.9472	56.44%	14.1891	30.86%	87.30%

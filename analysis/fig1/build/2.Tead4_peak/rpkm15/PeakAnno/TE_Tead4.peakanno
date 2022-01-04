@@ -1,0 +1,80 @@
+
+	Peak file = TE_Tead4_ds_rpkm15filter.bed
+	Genome = mm10
+	Organism = mouse
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 2958
+		peakfile formatted lines: 0
+		Duplicated Peak IDs: 0
+
+	Peak File Statistics:
+		Total Peaks: 2958
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Peak file looks good!
+
+	Reading Positions...
+	-----------------------
+	Finding Closest TSS...
+	Annotating:.....................
+		Annotation	Number of peaks	Total size (bp)	Log2 Ratio (obs/exp)	LogP enrichment (+values depleted)
+		3UTR	13.0	20758984	-0.794	3.847
+		miRNA	0.0	31126	-0.048	0.034
+		ncRNA	8.0	3444819	1.097	-3.297
+		TTS	42.0	27310824	0.503	-4.006
+		pseudo	0.0	546038	-0.672	0.593
+		Exon	42.0	34637734	0.160	-1.363
+		Intron	1025.0	949817418	-0.008	0.876
+		Intergenic	1180.0	1652260349	-0.604	262.477
+		Promoter	609.0	30199116	4.216	-1268.222
+		5UTR	33.0	2375187	3.678	-56.452
+		snoRNA	0.0	19	-0.000	0.000
+		rRNA	2.0	5631	8.354	-10.892
+	NOTE: If this part takes more than 2 minutes, there is a good chance
+		your machine ran out of memory: consider hitting ctrl+C and rerunning
+		the command with "-noann"
+	To capture annotation stats in a file, use "-annStats <filename>" next time
+	Annotating:......................
+		Annotation	Number of peaks	Total size (bp)	Log2 Ratio (obs/exp)	LogP enrichment (+values depleted)
+		3UTR	13.0	20758984	-0.795	3.856
+		Other	2.0	7949755	-2.111	4.796
+		RC?	0.0	10979	-0.017	0.012
+		RNA	0.0	113962	-0.168	0.124
+		miRNA	0.0	31126	-0.048	0.034
+		ncRNA	8.0	3444819	1.096	-3.292
+		TTS	42.0	27310824	0.501	-3.993
+		LINE	84.0	543494309	-2.813	396.352
+		LINE?	0.0	8168	-0.013	0.009
+		srpRNA	0.0	43307	-0.066	0.047
+		SINE	266.0	196371795	0.318	-8.706
+		RC	0.0	65629	-0.099	0.071
+		tRNA	0.0	266489	-0.367	0.290
+		DNA?	0.0	142070	-0.207	0.154
+		pseudo	0.0	546038	-0.672	0.593
+		DNA	19.0	28672013	-0.713	4.332
+		Exon	42.0	34637734	0.158	-1.356
+		Intron	679.0	602752347	0.052	-1.912
+		Intergenic	668.0	822343501	-0.420	46.008
+		Promoter	609.0	30199116	4.214	-1267.603
+		5UTR	33.0	2375187	3.677	-56.424
+		snoRNA	0.0	19	-0.000	0.000
+		LTR?	0.0	192563	-0.274	0.209
+		scRNA	0.0	602434	-0.727	0.655
+		CpG-Island	56.0	3120067	4.046	-107.780
+		Low_complexity	7.0	19380292	-1.589	7.911
+		LTR	381.0	312893904	0.164	-4.553
+		Simple_repeat	27.0	57509780	-1.210	15.072
+		snRNA	0.0	237028	-0.331	0.258
+		Unknown	1.0	2405032	-1.386	1.329
+		SINE?	0.0	29758	-0.046	0.032
+		Satellite	11.0	4519924	1.163	-4.416
+		rRNA	10.0	166665	5.787	-32.372
+	Counting Tags in Peaks from each directory...
+	Organism: mouse
+	Loading Gene Informaiton...
+	Outputing Annotation File...
+	Done annotating peaks file
+

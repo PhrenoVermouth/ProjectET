@@ -1,0 +1,55 @@
+INFO  @ Fri, 19 Nov 2021 18:13:10: 
+# Command line: callpeak -t 8Cell_siTfap2c_Tead4_rep1.duprm.bam -f BAMPE -g mm -n 8Cell_siTfap2c_Tead4_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch24_cr/6.peak
+# ARGUMENTS LIST:
+# name = 8Cell_siTfap2c_Tead4_rep1
+# format = BAMPE
+# ChIP-seq file = ['8Cell_siTfap2c_Tead4_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Fri, 19 Nov 2021 18:13:10: #1 read fragment files... 
+INFO  @ Fri, 19 Nov 2021 18:13:10: #1 read treatment fragments... 
+INFO  @ Fri, 19 Nov 2021 18:13:24:  1000000 
+INFO  @ Fri, 19 Nov 2021 18:13:38:  2000000 
+INFO  @ Fri, 19 Nov 2021 18:13:51:  3000000 
+INFO  @ Fri, 19 Nov 2021 18:14:05:  4000000 
+INFO  @ Fri, 19 Nov 2021 18:14:19:  5000000 
+INFO  @ Fri, 19 Nov 2021 18:14:33:  6000000 
+INFO  @ Fri, 19 Nov 2021 18:14:46:  7000000 
+INFO  @ Fri, 19 Nov 2021 18:15:00:  8000000 
+INFO  @ Fri, 19 Nov 2021 18:15:14:  9000000 
+INFO  @ Fri, 19 Nov 2021 18:15:28:  10000000 
+INFO  @ Fri, 19 Nov 2021 18:15:41:  11000000 
+INFO  @ Fri, 19 Nov 2021 18:15:55:  12000000 
+INFO  @ Fri, 19 Nov 2021 18:16:09:  13000000 
+INFO  @ Fri, 19 Nov 2021 18:16:22:  14000000 
+INFO  @ Fri, 19 Nov 2021 18:16:35:  15000000 
+INFO  @ Fri, 19 Nov 2021 18:16:48: #1 mean fragment size is determined as 255 bp from treatment 
+INFO  @ Fri, 19 Nov 2021 18:16:48: #1 fragment size = 255 
+INFO  @ Fri, 19 Nov 2021 18:16:48: #1  total fragments in treatment: 15278312 
+INFO  @ Fri, 19 Nov 2021 18:16:48: #1 user defined the maximum fragments... 
+INFO  @ Fri, 19 Nov 2021 18:16:48: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Fri, 19 Nov 2021 18:17:23: #1  fragments after filtering in treatment: 15263173 
+INFO  @ Fri, 19 Nov 2021 18:17:23: #1  Redundant rate of treatment: 0.00 
+INFO  @ Fri, 19 Nov 2021 18:17:23: #1 finished! 
+INFO  @ Fri, 19 Nov 2021 18:17:23: #2 Build Peak Model... 
+INFO  @ Fri, 19 Nov 2021 18:17:23: #2 Skipped... 
+INFO  @ Fri, 19 Nov 2021 18:17:23: #2 Use 255 as fragment length 
+INFO  @ Fri, 19 Nov 2021 18:17:23: #3 Call peaks... 
+INFO  @ Fri, 19 Nov 2021 18:17:23: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Fri, 19 Nov 2021 18:18:22: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Fri, 19 Nov 2021 18:18:22: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 8Cell_siTfap2c_Tead4_rep1_treat_pileup.bdg 
+INFO  @ Fri, 19 Nov 2021 18:18:22: #3   Write bedGraph files for control lambda (after scaling if necessary)... 8Cell_siTfap2c_Tead4_rep1_control_lambda.bdg 
+INFO  @ Fri, 19 Nov 2021 18:18:22: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Fri, 19 Nov 2021 18:18:22: #3 Call peaks for each chromosome... 
+INFO  @ Fri, 19 Nov 2021 18:20:22: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch24_cr/6.peak/8Cell_siTfap2c_Tead4_rep1_peaks.xls 
+INFO  @ Fri, 19 Nov 2021 18:20:22: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch24_cr/6.peak/8Cell_siTfap2c_Tead4_rep1_peaks.narrowPeak 
+INFO  @ Fri, 19 Nov 2021 18:20:22: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch24_cr/6.peak/8Cell_siTfap2c_Tead4_rep1_summits.bed 
+INFO  @ Fri, 19 Nov 2021 18:20:22: Done! 

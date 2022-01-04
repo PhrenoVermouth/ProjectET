@@ -1,0 +1,68 @@
+INFO  @ Mon, 06 Dec 2021 23:51:05: 
+# Command line: callpeak -t TE_Tfap2c_rep3.duprm.bam -f BAMPE -g mm -n TE_Tfap2c_rep3 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch27_cr/6.peak
+# ARGUMENTS LIST:
+# name = TE_Tfap2c_rep3
+# format = BAMPE
+# ChIP-seq file = ['TE_Tfap2c_rep3.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Mon, 06 Dec 2021 23:51:05: #1 read fragment files... 
+INFO  @ Mon, 06 Dec 2021 23:51:05: #1 read treatment fragments... 
+INFO  @ Mon, 06 Dec 2021 23:51:19:  1000000 
+INFO  @ Mon, 06 Dec 2021 23:51:32:  2000000 
+INFO  @ Mon, 06 Dec 2021 23:51:46:  3000000 
+INFO  @ Mon, 06 Dec 2021 23:52:00:  4000000 
+INFO  @ Mon, 06 Dec 2021 23:52:13:  5000000 
+INFO  @ Mon, 06 Dec 2021 23:52:27:  6000000 
+INFO  @ Mon, 06 Dec 2021 23:52:40:  7000000 
+INFO  @ Mon, 06 Dec 2021 23:52:53:  8000000 
+INFO  @ Mon, 06 Dec 2021 23:53:07:  9000000 
+INFO  @ Mon, 06 Dec 2021 23:53:20:  10000000 
+INFO  @ Mon, 06 Dec 2021 23:53:33:  11000000 
+INFO  @ Mon, 06 Dec 2021 23:53:47:  12000000 
+INFO  @ Mon, 06 Dec 2021 23:54:00:  13000000 
+INFO  @ Mon, 06 Dec 2021 23:54:14:  14000000 
+INFO  @ Mon, 06 Dec 2021 23:54:27:  15000000 
+INFO  @ Mon, 06 Dec 2021 23:54:40:  16000000 
+INFO  @ Mon, 06 Dec 2021 23:54:54:  17000000 
+INFO  @ Mon, 06 Dec 2021 23:55:07:  18000000 
+INFO  @ Mon, 06 Dec 2021 23:55:20:  19000000 
+INFO  @ Mon, 06 Dec 2021 23:55:34:  20000000 
+INFO  @ Mon, 06 Dec 2021 23:55:47:  21000000 
+INFO  @ Mon, 06 Dec 2021 23:56:00:  22000000 
+INFO  @ Mon, 06 Dec 2021 23:56:14:  23000000 
+INFO  @ Mon, 06 Dec 2021 23:56:27:  24000000 
+INFO  @ Mon, 06 Dec 2021 23:56:40:  25000000 
+INFO  @ Mon, 06 Dec 2021 23:56:54:  26000000 
+INFO  @ Mon, 06 Dec 2021 23:57:07:  27000000 
+INFO  @ Mon, 06 Dec 2021 23:57:21:  28000000 
+INFO  @ Mon, 06 Dec 2021 23:57:40: #1 mean fragment size is determined as 205 bp from treatment 
+INFO  @ Mon, 06 Dec 2021 23:57:40: #1 fragment size = 205 
+INFO  @ Mon, 06 Dec 2021 23:57:40: #1  total fragments in treatment: 28131526 
+INFO  @ Mon, 06 Dec 2021 23:57:40: #1 user defined the maximum fragments... 
+INFO  @ Mon, 06 Dec 2021 23:57:40: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Mon, 06 Dec 2021 23:58:38: #1  fragments after filtering in treatment: 28123768 
+INFO  @ Mon, 06 Dec 2021 23:58:38: #1  Redundant rate of treatment: 0.00 
+INFO  @ Mon, 06 Dec 2021 23:58:38: #1 finished! 
+INFO  @ Mon, 06 Dec 2021 23:58:38: #2 Build Peak Model... 
+INFO  @ Mon, 06 Dec 2021 23:58:38: #2 Skipped... 
+INFO  @ Mon, 06 Dec 2021 23:58:38: #2 Use 205 as fragment length 
+INFO  @ Mon, 06 Dec 2021 23:58:38: #3 Call peaks... 
+INFO  @ Mon, 06 Dec 2021 23:58:38: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Tue, 07 Dec 2021 00:00:22: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Tue, 07 Dec 2021 00:00:22: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... TE_Tfap2c_rep3_treat_pileup.bdg 
+INFO  @ Tue, 07 Dec 2021 00:00:22: #3   Write bedGraph files for control lambda (after scaling if necessary)... TE_Tfap2c_rep3_control_lambda.bdg 
+INFO  @ Tue, 07 Dec 2021 00:00:22: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Tue, 07 Dec 2021 00:00:22: #3 Call peaks for each chromosome... 
+INFO  @ Tue, 07 Dec 2021 00:04:24: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch27_cr/6.peak/TE_Tfap2c_rep3_peaks.xls 
+INFO  @ Tue, 07 Dec 2021 00:04:24: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch27_cr/6.peak/TE_Tfap2c_rep3_peaks.narrowPeak 
+INFO  @ Tue, 07 Dec 2021 00:04:25: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch27_cr/6.peak/TE_Tfap2c_rep3_summits.bed 
+INFO  @ Tue, 07 Dec 2021 00:04:25: Done! 

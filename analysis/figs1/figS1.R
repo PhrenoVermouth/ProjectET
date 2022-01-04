@@ -1,4 +1,6 @@
 library(data.table)
+library(GGally)
+library(pheatmap)
 
 
 
@@ -109,4 +111,28 @@ write.table(bed[,c("V1","start","end")],"DNase_morula_KLF5_mm9.bed",sep="\t",quo
 embryo_gexpr <-  refresh_rna()
 fwrite(embryo_gexpr,"../early_embryo_gexpr.csv")
 
+####### 3.Tfap2c_TSC_cor_heatmap
 
+setwd("~/work_space/4.ProjectET/analysis/figs1")
+Tfap2c_TSC <- data.frame(fread("~/work_space/4.ProjectET/analysis/figs1/3.Tfap2c_TSC_cor_heatmap/Tfap2c_TSC_promoter.tab"))
+ggcorr(Tfap2c_TSC[, 4:8], hjust = 1, label = TRUE, label_alpha = 1,label_round = 3,
+       low = "white", mid = "white", high = "white")
+ggsave("Tfap2c_TSC_cor_heatmap_triangle_raw.pdf")
+
+####### 4.Tfap2c_Tead4_cor_heatmap
+library(corrplot)
+setwd("/home1/gyang/work_space/4.ProjectET/analysis/figs1")
+Tfap2c <- data.frame(fread("/home1/gyang/work_space/4.ProjectET/analysis/figs1/4.Tfap2c_Tead4_embyo_cor/all-tfap2c_promoter_cor.txt"),check.names = F)
+rownames(Tfap2c) <- Tfap2c$V1
+Tfap2c<- Tfap2c[,2:17]
+pheatmap(Tfap2c)
+corrplot(as.matrix(Tfap2c), type = 'lower', order = 'original', tl.col = 'black', method = 'shade',
+         cl.ratio = 0.2, tl.srt = 45,is.corr=F,col.lim = c(0.4,1),addCoef.col = 'black',col = colorRampPalette(colors = c("DodgerBlue1","PaleTurquoise","white","Wheat","RosyBrown1","IndianRed1"))(100),tl.cex=1, addrect = 5) 
+#gsave("Tfap2c_samples_cor.pdf",width = 12,height = 12)
+Tead4 <- data.frame(fread("/home1/gyang/work_space/4.ProjectET/analysis/figs1/4.Tfap2c_Tead4_embyo_cor/all-tead4_promoter_cor.txt"),check.names = F)
+rownames(Tead4) <- Tead4$V1
+Tead4<- Tead4[,2:11]
+pheatmap(Tead4)
+corrplot(as.matrix(Tead4), type = 'upper', order = 'original', tl.col = 'black', method = 'shade',
+         cl.ratio = 0.2, tl.srt = 45,is.corr=F,col.lim = c(0.4,1),addCoef.col = 'black',col = colorRampPalette(colors = c("DodgerBlue1","PaleTurquoise","white","Wheat","RosyBrown1","IndianRed1"))(100),tl.cex=1, addrect = 5)
+#gsave("Tead4_samples_cor.pdf",width = 12,height = 12)

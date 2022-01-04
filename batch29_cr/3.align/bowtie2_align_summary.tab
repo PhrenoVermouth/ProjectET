@@ -1,0 +1,10 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+8cell_Ctrl_H3K27ac_rep1	42.8184	26.6642	62.27%	13.6119	31.79%	94.06%
+8cell_Ctrl_H3K27ac_rep2	31.358	19.6705	62.73%	10.0195	31.95%	94.68%
+8cell_Ctrl_H3K4me3_rep3	42.5359	25.6454	60.29%	13.1618	30.94%	91.23%
+8cell_Ctrl_H3K4me3_rep4	45.0353	27.772	61.67%	14.4273	32.04%	93.70%
+8cell_siTfap2c_H3K27ac_rep1	37.9539	23.4382	61.75%	12.3055	32.42%	94.18%
+8cell_siTfap2c_H3K27ac_rep2	39.7256	25.3366	63.78%	12.2722	30.89%	94.67%
+8cell_siTfap2c_H3K27ac_rep3	40.7848	25.6505	62.89%	12.7331	31.22%	94.11%
+8cell_siTfap2c_H3K4me3_rep1	47.1532	28.3035	60.02%	14.7877	31.36%	91.39%
+8cell_siTfap2c_H3K4me3_rep2	42.3876	25.9429	61.20%	12.8583	30.34%	91.54%

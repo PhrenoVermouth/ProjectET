@@ -1,0 +1,57 @@
+INFO  @ Tue, 21 Dec 2021 22:04:47: 
+# Command line: callpeak -t ICM_Sox2_rep1.duprm.bam -f BAMPE -g mm -n ICM_Sox2_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch30_cr/6.peak
+# ARGUMENTS LIST:
+# name = ICM_Sox2_rep1
+# format = BAMPE
+# ChIP-seq file = ['ICM_Sox2_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Tue, 21 Dec 2021 22:04:47: #1 read fragment files... 
+INFO  @ Tue, 21 Dec 2021 22:04:47: #1 read treatment fragments... 
+INFO  @ Tue, 21 Dec 2021 22:05:01:  1000000 
+INFO  @ Tue, 21 Dec 2021 22:05:15:  2000000 
+INFO  @ Tue, 21 Dec 2021 22:05:30:  3000000 
+INFO  @ Tue, 21 Dec 2021 22:05:44:  4000000 
+INFO  @ Tue, 21 Dec 2021 22:05:58:  5000000 
+INFO  @ Tue, 21 Dec 2021 22:06:13:  6000000 
+INFO  @ Tue, 21 Dec 2021 22:06:27:  7000000 
+INFO  @ Tue, 21 Dec 2021 22:06:42:  8000000 
+INFO  @ Tue, 21 Dec 2021 22:06:57:  9000000 
+INFO  @ Tue, 21 Dec 2021 22:07:11:  10000000 
+INFO  @ Tue, 21 Dec 2021 22:07:26:  11000000 
+INFO  @ Tue, 21 Dec 2021 22:07:40:  12000000 
+INFO  @ Tue, 21 Dec 2021 22:07:54:  13000000 
+INFO  @ Tue, 21 Dec 2021 22:08:08:  14000000 
+INFO  @ Tue, 21 Dec 2021 22:08:23:  15000000 
+INFO  @ Tue, 21 Dec 2021 22:08:37:  16000000 
+INFO  @ Tue, 21 Dec 2021 22:08:51:  17000000 
+INFO  @ Tue, 21 Dec 2021 22:09:06: #1 mean fragment size is determined as 230 bp from treatment 
+INFO  @ Tue, 21 Dec 2021 22:09:06: #1 fragment size = 230 
+INFO  @ Tue, 21 Dec 2021 22:09:06: #1  total fragments in treatment: 17325195 
+INFO  @ Tue, 21 Dec 2021 22:09:06: #1 user defined the maximum fragments... 
+INFO  @ Tue, 21 Dec 2021 22:09:06: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Tue, 21 Dec 2021 22:09:45: #1  fragments after filtering in treatment: 17319641 
+INFO  @ Tue, 21 Dec 2021 22:09:45: #1  Redundant rate of treatment: 0.00 
+INFO  @ Tue, 21 Dec 2021 22:09:45: #1 finished! 
+INFO  @ Tue, 21 Dec 2021 22:09:45: #2 Build Peak Model... 
+INFO  @ Tue, 21 Dec 2021 22:09:45: #2 Skipped... 
+INFO  @ Tue, 21 Dec 2021 22:09:45: #2 Use 230 as fragment length 
+INFO  @ Tue, 21 Dec 2021 22:09:45: #3 Call peaks... 
+INFO  @ Tue, 21 Dec 2021 22:09:45: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Tue, 21 Dec 2021 22:10:50: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Tue, 21 Dec 2021 22:10:50: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... ICM_Sox2_rep1_treat_pileup.bdg 
+INFO  @ Tue, 21 Dec 2021 22:10:50: #3   Write bedGraph files for control lambda (after scaling if necessary)... ICM_Sox2_rep1_control_lambda.bdg 
+INFO  @ Tue, 21 Dec 2021 22:10:50: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Tue, 21 Dec 2021 22:10:50: #3 Call peaks for each chromosome... 
+INFO  @ Tue, 21 Dec 2021 22:12:52: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch30_cr/6.peak/ICM_Sox2_rep1_peaks.xls 
+INFO  @ Tue, 21 Dec 2021 22:12:52: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch30_cr/6.peak/ICM_Sox2_rep1_peaks.narrowPeak 
+INFO  @ Tue, 21 Dec 2021 22:12:52: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch30_cr/6.peak/ICM_Sox2_rep1_summits.bed 
+INFO  @ Tue, 21 Dec 2021 22:12:52: Done! 

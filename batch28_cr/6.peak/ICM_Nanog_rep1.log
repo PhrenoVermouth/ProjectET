@@ -1,0 +1,56 @@
+INFO  @ Sat, 11 Dec 2021 23:17:49: 
+# Command line: callpeak -t ICM_Nanog_rep1.duprm.bam -f BAMPE -g mm -n ICM_Nanog_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch28_cr/6.peak
+# ARGUMENTS LIST:
+# name = ICM_Nanog_rep1
+# format = BAMPE
+# ChIP-seq file = ['ICM_Nanog_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Sat, 11 Dec 2021 23:17:49: #1 read fragment files... 
+INFO  @ Sat, 11 Dec 2021 23:17:49: #1 read treatment fragments... 
+INFO  @ Sat, 11 Dec 2021 23:18:03:  1000000 
+INFO  @ Sat, 11 Dec 2021 23:18:17:  2000000 
+INFO  @ Sat, 11 Dec 2021 23:18:30:  3000000 
+INFO  @ Sat, 11 Dec 2021 23:18:43:  4000000 
+INFO  @ Sat, 11 Dec 2021 23:18:57:  5000000 
+INFO  @ Sat, 11 Dec 2021 23:19:10:  6000000 
+INFO  @ Sat, 11 Dec 2021 23:19:24:  7000000 
+INFO  @ Sat, 11 Dec 2021 23:19:37:  8000000 
+INFO  @ Sat, 11 Dec 2021 23:19:51:  9000000 
+INFO  @ Sat, 11 Dec 2021 23:20:04:  10000000 
+INFO  @ Sat, 11 Dec 2021 23:20:17:  11000000 
+INFO  @ Sat, 11 Dec 2021 23:20:31:  12000000 
+INFO  @ Sat, 11 Dec 2021 23:20:44:  13000000 
+INFO  @ Sat, 11 Dec 2021 23:20:58:  14000000 
+INFO  @ Sat, 11 Dec 2021 23:21:11:  15000000 
+INFO  @ Sat, 11 Dec 2021 23:21:25:  16000000 
+INFO  @ Sat, 11 Dec 2021 23:21:47: #1 mean fragment size is determined as 219 bp from treatment 
+INFO  @ Sat, 11 Dec 2021 23:21:47: #1 fragment size = 219 
+INFO  @ Sat, 11 Dec 2021 23:21:47: #1  total fragments in treatment: 16956424 
+INFO  @ Sat, 11 Dec 2021 23:21:47: #1 user defined the maximum fragments... 
+INFO  @ Sat, 11 Dec 2021 23:21:47: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Sat, 11 Dec 2021 23:22:26: #1  fragments after filtering in treatment: 16949902 
+INFO  @ Sat, 11 Dec 2021 23:22:26: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 11 Dec 2021 23:22:26: #1 finished! 
+INFO  @ Sat, 11 Dec 2021 23:22:26: #2 Build Peak Model... 
+INFO  @ Sat, 11 Dec 2021 23:22:26: #2 Skipped... 
+INFO  @ Sat, 11 Dec 2021 23:22:26: #2 Use 219 as fragment length 
+INFO  @ Sat, 11 Dec 2021 23:22:26: #3 Call peaks... 
+INFO  @ Sat, 11 Dec 2021 23:22:26: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 11 Dec 2021 23:23:28: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 11 Dec 2021 23:23:28: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... ICM_Nanog_rep1_treat_pileup.bdg 
+INFO  @ Sat, 11 Dec 2021 23:23:28: #3   Write bedGraph files for control lambda (after scaling if necessary)... ICM_Nanog_rep1_control_lambda.bdg 
+INFO  @ Sat, 11 Dec 2021 23:23:28: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Sat, 11 Dec 2021 23:23:28: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 11 Dec 2021 23:25:25: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch28_cr/6.peak/ICM_Nanog_rep1_peaks.xls 
+INFO  @ Sat, 11 Dec 2021 23:25:25: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch28_cr/6.peak/ICM_Nanog_rep1_peaks.narrowPeak 
+INFO  @ Sat, 11 Dec 2021 23:25:25: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch28_cr/6.peak/ICM_Nanog_rep1_summits.bed 
+INFO  @ Sat, 11 Dec 2021 23:25:25: Done! 

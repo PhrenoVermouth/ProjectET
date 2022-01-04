@@ -1,0 +1,59 @@
+INFO  @ Thu, 04 Nov 2021 10:46:43: 
+# Command line: callpeak -t EXE_E65_Tead4_rep1.duprm.bam -f BAMPE -g mm -n EXE_E65_Tead4_rep1 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch22_cr/6.peak
+# ARGUMENTS LIST:
+# name = EXE_E65_Tead4_rep1
+# format = BAMPE
+# ChIP-seq file = ['EXE_E65_Tead4_rep1.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Thu, 04 Nov 2021 10:46:43: #1 read fragment files... 
+INFO  @ Thu, 04 Nov 2021 10:46:43: #1 read treatment fragments... 
+INFO  @ Thu, 04 Nov 2021 10:47:00:  1000000 
+INFO  @ Thu, 04 Nov 2021 10:47:18:  2000000 
+INFO  @ Thu, 04 Nov 2021 10:47:36:  3000000 
+INFO  @ Thu, 04 Nov 2021 10:47:54:  4000000 
+INFO  @ Thu, 04 Nov 2021 10:48:13:  5000000 
+INFO  @ Thu, 04 Nov 2021 10:48:31:  6000000 
+INFO  @ Thu, 04 Nov 2021 10:48:49:  7000000 
+INFO  @ Thu, 04 Nov 2021 10:49:07:  8000000 
+INFO  @ Thu, 04 Nov 2021 10:49:26:  9000000 
+INFO  @ Thu, 04 Nov 2021 10:49:44:  10000000 
+INFO  @ Thu, 04 Nov 2021 10:50:03:  11000000 
+INFO  @ Thu, 04 Nov 2021 10:50:21:  12000000 
+INFO  @ Thu, 04 Nov 2021 10:50:40:  13000000 
+INFO  @ Thu, 04 Nov 2021 10:50:58:  14000000 
+INFO  @ Thu, 04 Nov 2021 10:51:18:  15000000 
+INFO  @ Thu, 04 Nov 2021 10:51:36:  16000000 
+INFO  @ Thu, 04 Nov 2021 10:51:54:  17000000 
+INFO  @ Thu, 04 Nov 2021 10:52:12:  18000000 
+INFO  @ Thu, 04 Nov 2021 10:52:30:  19000000 
+INFO  @ Thu, 04 Nov 2021 10:53:04: #1 mean fragment size is determined as 269 bp from treatment 
+INFO  @ Thu, 04 Nov 2021 10:53:04: #1 fragment size = 269 
+INFO  @ Thu, 04 Nov 2021 10:53:04: #1  total fragments in treatment: 19950445 
+INFO  @ Thu, 04 Nov 2021 10:53:04: #1 user defined the maximum fragments... 
+INFO  @ Thu, 04 Nov 2021 10:53:04: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Thu, 04 Nov 2021 10:54:18: #1  fragments after filtering in treatment: 19945661 
+INFO  @ Thu, 04 Nov 2021 10:54:18: #1  Redundant rate of treatment: 0.00 
+INFO  @ Thu, 04 Nov 2021 10:54:18: #1 finished! 
+INFO  @ Thu, 04 Nov 2021 10:54:18: #2 Build Peak Model... 
+INFO  @ Thu, 04 Nov 2021 10:54:18: #2 Skipped... 
+INFO  @ Thu, 04 Nov 2021 10:54:18: #2 Use 269 as fragment length 
+INFO  @ Thu, 04 Nov 2021 10:54:18: #3 Call peaks... 
+INFO  @ Thu, 04 Nov 2021 10:54:18: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Thu, 04 Nov 2021 10:55:33: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Thu, 04 Nov 2021 10:55:33: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... EXE_E65_Tead4_rep1_treat_pileup.bdg 
+INFO  @ Thu, 04 Nov 2021 10:55:33: #3   Write bedGraph files for control lambda (after scaling if necessary)... EXE_E65_Tead4_rep1_control_lambda.bdg 
+INFO  @ Thu, 04 Nov 2021 10:55:33: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Thu, 04 Nov 2021 10:55:33: #3 Call peaks for each chromosome... 
+INFO  @ Thu, 04 Nov 2021 10:57:56: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch22_cr/6.peak/EXE_E65_Tead4_rep1_peaks.xls 
+INFO  @ Thu, 04 Nov 2021 10:57:56: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch22_cr/6.peak/EXE_E65_Tead4_rep1_peaks.narrowPeak 
+INFO  @ Thu, 04 Nov 2021 10:57:57: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch22_cr/6.peak/EXE_E65_Tead4_rep1_summits.bed 
+INFO  @ Thu, 04 Nov 2021 10:57:57: Done! 

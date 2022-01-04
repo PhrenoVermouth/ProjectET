@@ -1,0 +1,45 @@
+INFO  @ Fri, 24 Dec 2021 10:22:35: 
+# Command line: callpeak -t mES_500_Sox2.duprm.bam -f BAMPE -g mm -n mES_500_Sox2 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/temp_gaorui_usb/usb/500_mES_Sox2_xielab/6.peak
+# ARGUMENTS LIST:
+# name = mES_500_Sox2
+# format = BAMPE
+# ChIP-seq file = ['mES_500_Sox2.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Fri, 24 Dec 2021 10:22:35: #1 read fragment files... 
+INFO  @ Fri, 24 Dec 2021 10:22:35: #1 read treatment fragments... 
+INFO  @ Fri, 24 Dec 2021 10:22:48:  1000000 
+INFO  @ Fri, 24 Dec 2021 10:23:01:  2000000 
+INFO  @ Fri, 24 Dec 2021 10:23:14:  3000000 
+INFO  @ Fri, 24 Dec 2021 10:23:27:  4000000 
+INFO  @ Fri, 24 Dec 2021 10:23:40:  5000000 
+INFO  @ Fri, 24 Dec 2021 10:23:46: #1 mean fragment size is determined as 153 bp from treatment 
+INFO  @ Fri, 24 Dec 2021 10:23:46: #1 fragment size = 153 
+INFO  @ Fri, 24 Dec 2021 10:23:46: #1  total fragments in treatment: 5223248 
+INFO  @ Fri, 24 Dec 2021 10:23:46: #1 user defined the maximum fragments... 
+INFO  @ Fri, 24 Dec 2021 10:23:46: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Fri, 24 Dec 2021 10:23:57: #1  fragments after filtering in treatment: 5220762 
+INFO  @ Fri, 24 Dec 2021 10:23:57: #1  Redundant rate of treatment: 0.00 
+INFO  @ Fri, 24 Dec 2021 10:23:57: #1 finished! 
+INFO  @ Fri, 24 Dec 2021 10:23:57: #2 Build Peak Model... 
+INFO  @ Fri, 24 Dec 2021 10:23:57: #2 Skipped... 
+INFO  @ Fri, 24 Dec 2021 10:23:57: #2 Use 153 as fragment length 
+INFO  @ Fri, 24 Dec 2021 10:23:57: #3 Call peaks... 
+INFO  @ Fri, 24 Dec 2021 10:23:57: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Fri, 24 Dec 2021 10:24:14: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Fri, 24 Dec 2021 10:24:14: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... mES_500_Sox2_treat_pileup.bdg 
+INFO  @ Fri, 24 Dec 2021 10:24:14: #3   Write bedGraph files for control lambda (after scaling if necessary)... mES_500_Sox2_control_lambda.bdg 
+INFO  @ Fri, 24 Dec 2021 10:24:14: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Fri, 24 Dec 2021 10:24:14: #3 Call peaks for each chromosome... 
+INFO  @ Fri, 24 Dec 2021 10:24:55: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/temp_gaorui_usb/usb/500_mES_Sox2_xielab/6.peak/mES_500_Sox2_peaks.xls 
+INFO  @ Fri, 24 Dec 2021 10:24:55: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/temp_gaorui_usb/usb/500_mES_Sox2_xielab/6.peak/mES_500_Sox2_peaks.narrowPeak 
+INFO  @ Fri, 24 Dec 2021 10:24:56: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/temp_gaorui_usb/usb/500_mES_Sox2_xielab/6.peak/mES_500_Sox2_summits.bed 
+INFO  @ Fri, 24 Dec 2021 10:24:56: Done! 

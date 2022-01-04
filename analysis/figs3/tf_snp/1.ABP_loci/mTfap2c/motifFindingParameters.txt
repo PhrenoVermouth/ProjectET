@@ -1,0 +1,1 @@
+cmd = all_stage.mat.Tfap2c.bed mm10 tf_snp/1.ABP_loci/mTfap2c -size given -p 15 -find /home1/gyang/work_space/4.ProjectET/analysis/motif_denovo/Tfap2c.motif

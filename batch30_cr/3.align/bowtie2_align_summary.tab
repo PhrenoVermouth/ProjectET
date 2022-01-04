@@ -1,0 +1,6 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+ICM_Sox2_rep1	40.7427	19.5834	48.07%	14.7241	36.14%	84.21%
+TE_Cdx2_rep3	44.3878	25.4603	57.36%	15.5361	35.00%	92.36%
+TE_Cdx2_rep4	42.4344	24.7263	58.27%	14.2567	33.60%	91.87%
+TE_Klf5_rep3	28.3276	14.7451	52.05%	9.93415	35.07%	87.12%
+TE_Klf5_rep4	42.6409	23.0758	54.12%	14.7031	34.48%	88.60%

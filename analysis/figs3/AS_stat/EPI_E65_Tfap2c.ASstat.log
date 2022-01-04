@@ -1,0 +1,14 @@
+nohup: ignoring input
+
+Maternal(col4) size:
+2988580
+
+Total(col6) size:
+5896636
+
+Start binominal test:
+
+
+Write output table
+chrom start  end  maternal  paternal  logpval abslfc
+

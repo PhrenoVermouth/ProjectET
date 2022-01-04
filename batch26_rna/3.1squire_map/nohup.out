@@ -1,0 +1,1066 @@
+Warning: gene "Mir7676-1" (on chr15) has reference transcripts on both strands?
+Warning: gene "Mir7676-2" (on chr15) has reference transcripts on both strands?
+Warning: gene "Tgif2lx2" (on chrX) has reference transcripts on both strands?
+Warning: gene "Tgif2lx1" (on chrX) has reference transcripts on both strands?
+Warning: gene "1700020D14Rik" (on chrY) has reference transcripts on both strands?
+Warning: gene "Gm29089" (on chrY) has reference transcripts on both strands?
+Expectation maximization changed the average likelihood by: 0.048901827824 2021-12-05 03:42:50.949154
+
+Number of reads with average TE likelihoods changed by at least 0.1: 941048 2021-12-05 03:42:51.015607
+
+Expectation maximization changed the average likelihood by: 0.0173235434197 2021-12-05 03:46:21.503243
+
+Number of reads with average TE likelihoods changed by at least 0.1: 85088 2021-12-05 03:46:21.503331
+
+Expectation maximization changed the average likelihood by: 0.0105044439366 2021-12-05 03:49:52.401721
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34763 2021-12-05 03:49:52.401812
+
+Expectation maximization changed the average likelihood by: 0.00776939173698 2021-12-05 03:53:22.786148
+
+Number of reads with average TE likelihoods changed by at least 0.1: 32951 2021-12-05 03:53:22.786251
+
+Expectation maximization changed the average likelihood by: 0.00636937983946 2021-12-05 03:56:53.467411
+
+Number of reads with average TE likelihoods changed by at least 0.1: 32961 2021-12-05 03:56:53.467502
+
+Expectation maximization changed the average likelihood by: 0.00553388134507 2021-12-05 04:00:24.224042
+
+Number of reads with average TE likelihoods changed by at least 0.1: 33245 2021-12-05 04:00:24.224148
+
+Expectation maximization changed the average likelihood by: 0.00496858346373 2021-12-05 04:03:58.910388
+
+Number of reads with average TE likelihoods changed by at least 0.1: 33351 2021-12-05 04:03:58.910478
+
+Expectation maximization changed the average likelihood by: 0.00454648920523 2021-12-05 04:07:29.066822
+
+Number of reads with average TE likelihoods changed by at least 0.1: 33479 2021-12-05 04:07:29.066913
+
+Expectation maximization changed the average likelihood by: 0.00421574739634 2021-12-05 04:11:04.908689
+
+Number of reads with average TE likelihoods changed by at least 0.1: 33610 2021-12-05 04:11:04.908790
+
+Expectation maximization changed the average likelihood by: 0.00394919528968 2021-12-05 04:14:37.343871
+
+Number of reads with average TE likelihoods changed by at least 0.1: 33731 2021-12-05 04:14:37.343978
+
+Expectation maximization changed the average likelihood by: 0.00373078977098 2021-12-05 04:18:15.013663
+
+Number of reads with average TE likelihoods changed by at least 0.1: 33840 2021-12-05 04:18:15.013768
+
+Expectation maximization changed the average likelihood by: 0.00354984122086 2021-12-05 04:21:45.618468
+
+Number of reads with average TE likelihoods changed by at least 0.1: 33903 2021-12-05 04:21:45.618563
+
+Expectation maximization changed the average likelihood by: 0.00339943211394 2021-12-05 04:25:16.212763
+
+Number of reads with average TE likelihoods changed by at least 0.1: 33978 2021-12-05 04:25:16.212863
+
+Expectation maximization changed the average likelihood by: 0.00327186118845 2021-12-05 04:28:46.811400
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34031 2021-12-05 04:28:46.811485
+
+Expectation maximization changed the average likelihood by: 0.00316391947401 2021-12-05 04:32:17.124884
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34112 2021-12-05 04:32:17.124977
+
+Expectation maximization changed the average likelihood by: 0.0030698222005 2021-12-05 04:35:47.436570
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34167 2021-12-05 04:35:47.436666
+
+Expectation maximization changed the average likelihood by: 0.00298852850894 2021-12-05 04:39:18.197681
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34258 2021-12-05 04:39:18.197771
+
+Expectation maximization changed the average likelihood by: 0.00291622522315 2021-12-05 04:42:48.458488
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34276 2021-12-05 04:42:48.458595
+
+Expectation maximization changed the average likelihood by: 0.002852963004 2021-12-05 04:46:20.309483
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34317 2021-12-05 04:46:20.309587
+
+Expectation maximization changed the average likelihood by: 0.00279554079812 2021-12-05 04:49:51.163285
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34342 2021-12-05 04:49:51.163400
+
+Expectation maximization changed the average likelihood by: 0.00274606403908 2021-12-05 04:53:21.768393
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34393 2021-12-05 04:53:21.768483
+
+Expectation maximization changed the average likelihood by: 0.00270079944155 2021-12-05 04:56:52.197531
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34420 2021-12-05 04:56:52.197631
+
+Expectation maximization changed the average likelihood by: 0.00266000936988 2021-12-05 05:00:22.613518
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34443 2021-12-05 05:00:22.613617
+
+Expectation maximization changed the average likelihood by: 0.00262306449688 2021-12-05 05:03:53.226580
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34458 2021-12-05 05:03:53.226681
+
+Expectation maximization changed the average likelihood by: 0.00258964038288 2021-12-05 05:07:23.936987
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34467 2021-12-05 05:07:23.937087
+
+Expectation maximization changed the average likelihood by: 0.00255960455081 2021-12-05 05:10:54.186077
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34479 2021-12-05 05:10:54.186184
+
+Expectation maximization changed the average likelihood by: 0.00253160448651 2021-12-05 05:14:24.461549
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34479 2021-12-05 05:14:24.461650
+
+Expectation maximization changed the average likelihood by: 0.00250635552964 2021-12-05 05:17:54.478358
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34483 2021-12-05 05:17:54.478449
+
+Expectation maximization changed the average likelihood by: 0.00248411594233 2021-12-05 05:21:30.670743
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34513 2021-12-05 05:21:30.670831
+
+Expectation maximization changed the average likelihood by: 0.00246272326403 2021-12-05 05:25:01.557189
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34513 2021-12-05 05:25:01.557301
+
+Expectation maximization changed the average likelihood by: 0.00244344076138 2021-12-05 05:28:31.760458
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34529 2021-12-05 05:28:31.760549
+
+Expectation maximization changed the average likelihood by: 0.00242606015388 2021-12-05 05:32:01.966779
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34553 2021-12-05 05:32:01.966876
+
+Expectation maximization changed the average likelihood by: 0.0024101940341 2021-12-05 05:35:32.014634
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34562 2021-12-05 05:35:32.014731
+
+Expectation maximization changed the average likelihood by: 0.0471366284824 2021-12-05 05:37:49.275111
+
+Number of reads with average TE likelihoods changed by at least 0.1: 934602 2021-12-05 05:37:49.275272
+
+Expectation maximization changed the average likelihood by: 0.00239506979974 2021-12-05 05:39:01.796212
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34563 2021-12-05 05:39:01.796305
+
+Expectation maximization changed the average likelihood by: 0.0178085495271 2021-12-05 05:41:48.695483
+
+Number of reads with average TE likelihoods changed by at least 0.1: 87925 2021-12-05 05:41:48.695588
+
+Expectation maximization changed the average likelihood by: 0.00238087389754 2021-12-05 05:42:32.067023
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34565 2021-12-05 05:42:32.067120
+
+Expectation maximization changed the average likelihood by: 0.0112904427487 2021-12-05 05:45:47.565211
+
+Number of reads with average TE likelihoods changed by at least 0.1: 38907 2021-12-05 05:45:47.565318
+
+Expectation maximization changed the average likelihood by: 0.00236776818001 2021-12-05 05:46:02.370500
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34571 2021-12-05 05:46:02.370586
+
+Expectation maximization changed the average likelihood by: 0.00235586283604 2021-12-05 05:49:32.671878
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34580 2021-12-05 05:49:32.671977
+
+Expectation maximization changed the average likelihood by: 0.00833889906604 2021-12-05 05:49:46.324906
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34881 2021-12-05 05:49:46.325027
+
+Expectation maximization changed the average likelihood by: 0.00234439241183 2021-12-05 05:53:02.421144
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34585 2021-12-05 05:53:02.421237
+
+Expectation maximization changed the average likelihood by: 0.00663667020335 2021-12-05 05:53:45.794446
+
+Number of reads with average TE likelihoods changed by at least 0.1: 33545 2021-12-05 05:53:45.794543
+
+Expectation maximization changed the average likelihood by: 0.00233422073317 2021-12-05 05:56:31.459433
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34592 2021-12-05 05:56:31.459517
+
+Expectation maximization changed the average likelihood by: 0.00553796203261 2021-12-05 05:57:44.947033
+
+Number of reads with average TE likelihoods changed by at least 0.1: 33998 2021-12-05 05:57:44.947129
+
+Expectation maximization changed the average likelihood by: 0.00232489037676 2021-12-05 06:00:00.403125
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34615 2021-12-05 06:00:00.403213
+
+Expectation maximization changed the average likelihood by: 0.00476473870555 2021-12-05 06:01:44.275166
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34276 2021-12-05 06:01:44.275279
+
+Expectation maximization changed the average likelihood by: 0.00231642342842 2021-12-05 06:03:29.963204
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34625 2021-12-05 06:03:29.963295
+
+Expectation maximization changed the average likelihood by: 0.00419535044059 2021-12-05 06:05:43.636542
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34484 2021-12-05 06:05:43.636641
+
+Expectation maximization changed the average likelihood by: 0.00230885291118 2021-12-05 06:06:59.539120
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34627 2021-12-05 06:06:59.539215
+
+Expectation maximization changed the average likelihood by: 0.00376711603635 2021-12-05 06:09:42.869379
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34732 2021-12-05 06:09:42.869478
+
+Expectation maximization changed the average likelihood by: 0.00230104361547 2021-12-05 06:10:33.981359
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34627 2021-12-05 06:10:33.981461
+
+Expectation maximization changed the average likelihood by: 0.0034356775983 2021-12-05 06:13:42.375550
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34905 2021-12-05 06:13:42.375646
+
+Expectation maximization changed the average likelihood by: 0.00229404396041 2021-12-05 06:14:03.769156
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34636 2021-12-05 06:14:03.769256
+
+Expectation maximization changed the average likelihood by: 0.00228734872355 2021-12-05 06:17:33.327320
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34639 2021-12-05 06:17:33.327425
+
+Expectation maximization changed the average likelihood by: 0.00317933138111 2021-12-05 06:17:42.903253
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34962 2021-12-05 06:17:42.903348
+
+Expectation maximization changed the average likelihood by: 0.00228159968078 2021-12-05 06:21:03.281111
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34645 2021-12-05 06:21:03.281216
+
+Expectation maximization changed the average likelihood by: 0.00298270905244 2021-12-05 06:21:42.314723
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35118 2021-12-05 06:21:42.314840
+
+Expectation maximization changed the average likelihood by: 0.00227611623441 2021-12-05 06:24:33.278180
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34651 2021-12-05 06:24:33.278267
+
+Expectation maximization changed the average likelihood by: 0.0028283948638 2021-12-05 06:25:41.574076
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35168 2021-12-05 06:25:41.574175
+
+Expectation maximization changed the average likelihood by: 0.00227065910846 2021-12-05 06:28:03.404759
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34648 2021-12-05 06:28:03.404862
+
+Expectation maximization changed the average likelihood by: 0.00270804899526 2021-12-05 06:29:41.054680
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35243 2021-12-05 06:29:41.054778
+
+Expectation maximization changed the average likelihood by: 0.00226545434722 2021-12-05 06:31:33.437312
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34651 2021-12-05 06:31:33.437407
+
+Expectation maximization changed the average likelihood by: 0.00261176706007 2021-12-05 06:33:40.230559
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35361 2021-12-05 06:33:40.230670
+
+Expectation maximization changed the average likelihood by: 0.00226117054443 2021-12-05 06:35:03.514616
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34653 2021-12-05 06:35:03.514720
+
+Expectation maximization changed the average likelihood by: 0.00253500686907 2021-12-05 06:37:39.427842
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35444 2021-12-05 06:37:39.427949
+
+Expectation maximization changed the average likelihood by: 0.0022567635439 2021-12-05 06:38:33.337260
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34655 2021-12-05 06:38:33.337364
+
+Expectation maximization changed the average likelihood by: 0.00247030257204 2021-12-05 06:41:38.708241
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35462 2021-12-05 06:41:38.708340
+
+Expectation maximization changed the average likelihood by: 0.00225245516738 2021-12-05 06:42:03.313981
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34660 2021-12-05 06:42:03.314091
+
+Expectation maximization changed the average likelihood by: 0.00224851202835 2021-12-05 06:45:33.242461
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34659 2021-12-05 06:45:33.242549
+
+Expectation maximization changed the average likelihood by: 0.00241675081772 2021-12-05 06:45:37.858600
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35495 2021-12-05 06:45:37.858696
+
+Expectation maximization changed the average likelihood by: 0.00224529714019 2021-12-05 06:49:03.443597
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34659 2021-12-05 06:49:03.443689
+
+Expectation maximization changed the average likelihood by: 0.0023708084598 2021-12-05 06:49:37.326147
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35517 2021-12-05 06:49:37.326235
+
+Expectation maximization changed the average likelihood by: 0.0022420836789 2021-12-05 06:52:33.501856
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34670 2021-12-05 06:52:33.501943
+
+Expectation maximization changed the average likelihood by: 0.00233105766224 2021-12-05 06:53:36.536349
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35552 2021-12-05 06:53:36.536448
+
+Expectation maximization changed the average likelihood by: 0.00223864486873 2021-12-05 06:56:03.532553
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34674 2021-12-05 06:56:03.532653
+
+Expectation maximization changed the average likelihood by: 0.00229755965251 2021-12-05 06:57:35.992425
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35585 2021-12-05 06:57:35.992522
+
+Expectation maximization changed the average likelihood by: 0.00223569357922 2021-12-05 06:59:33.454977
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34667 2021-12-05 06:59:33.455075
+
+Expectation maximization changed the average likelihood by: 0.00226711405336 2021-12-05 07:01:36.324383
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35596 2021-12-05 07:01:36.324481
+
+Expectation maximization changed the average likelihood by: 0.00223308406258 2021-12-05 07:03:02.936378
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34671 2021-12-05 07:03:02.936476
+
+Expectation maximization changed the average likelihood by: 0.00224004321515 2021-12-05 07:05:37.000076
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35627 2021-12-05 07:05:37.000172
+
+Expectation maximization changed the average likelihood by: 0.00223085241912 2021-12-05 07:06:31.998695
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34687 2021-12-05 07:06:31.998792
+
+Expectation maximization changed the average likelihood by: 0.00221588226057 2021-12-05 07:09:37.638333
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35656 2021-12-05 07:09:37.638433
+
+Expectation maximization changed the average likelihood by: 0.00222891139136 2021-12-05 07:10:01.069901
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34693 2021-12-05 07:10:01.069991
+
+Expectation maximization changed the average likelihood by: 0.00222634713505 2021-12-05 07:13:30.193710
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34694 2021-12-05 07:13:30.193808
+
+Expectation maximization changed the average likelihood by: 0.00219394940581 2021-12-05 07:13:38.187876
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35660 2021-12-05 07:13:38.187976
+
+Expectation maximization changed the average likelihood by: 0.00222432685989 2021-12-05 07:16:59.888462
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34699 2021-12-05 07:16:59.888559
+
+Expectation maximization changed the average likelihood by: 0.00217435410327 2021-12-05 07:17:38.867618
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35680 2021-12-05 07:17:38.867714
+
+Expectation maximization changed the average likelihood by: 0.00222240339571 2021-12-05 07:20:30.257159
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34702 2021-12-05 07:20:30.257272
+
+Expectation maximization changed the average likelihood by: 0.00215625766498 2021-12-05 07:21:37.710962
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35687 2021-12-05 07:21:37.711068
+
+Expectation maximization changed the average likelihood by: 0.00222061806936 2021-12-05 07:24:00.371954
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34710 2021-12-05 07:24:00.372044
+
+Expectation maximization changed the average likelihood by: 0.00213947476378 2021-12-05 07:25:36.753956
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35688 2021-12-05 07:25:36.754060
+
+Expectation maximization changed the average likelihood by: 0.00221884776551 2021-12-05 07:27:30.618452
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34711 2021-12-05 07:27:30.618549
+
+Expectation maximization changed the average likelihood by: 0.00212439487173 2021-12-05 07:29:35.532832
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35715 2021-12-05 07:29:35.532929
+
+Expectation maximization changed the average likelihood by: 0.00221732381602 2021-12-05 07:31:00.854949
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34711 2021-12-05 07:31:00.855047
+
+Expectation maximization changed the average likelihood by: 0.00211029884264 2021-12-05 07:33:34.369789
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35735 2021-12-05 07:33:34.369888
+
+Expectation maximization changed the average likelihood by: 0.00221579192503 2021-12-05 07:34:31.159124
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34721 2021-12-05 07:34:31.159221
+
+Expectation maximization changed the average likelihood by: 0.00209757631188 2021-12-05 07:37:33.319324
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35745 2021-12-05 07:37:33.319438
+
+Expectation maximization changed the average likelihood by: 0.00221444163384 2021-12-05 07:38:01.530361
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34728 2021-12-05 07:38:01.530458
+
+Expectation maximization changed the average likelihood by: 0.00221316533392 2021-12-05 07:41:31.903433
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34721 2021-12-05 07:41:31.903524
+
+Expectation maximization changed the average likelihood by: 0.00208555263122 2021-12-05 07:41:32.045672
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35748 2021-12-05 07:41:32.045775
+
+Expectation maximization changed the average likelihood by: 0.00221188654326 2021-12-05 07:45:02.032334
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34720 2021-12-05 07:45:02.032426
+
+Expectation maximization changed the average likelihood by: 0.00207478463024 2021-12-05 07:45:32.260328
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35755 2021-12-05 07:45:32.260428
+
+Expectation maximization changed the average likelihood by: 0.00221041106192 2021-12-05 07:48:32.240460
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34721 2021-12-05 07:48:32.240561
+
+Expectation maximization changed the average likelihood by: 0.00206493440634 2021-12-05 07:49:33.106773
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35766 2021-12-05 07:49:33.106865
+
+Expectation maximization changed the average likelihood by: 0.00220932342272 2021-12-05 07:52:02.444282
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34728 2021-12-05 07:52:02.444371
+
+Expectation maximization changed the average likelihood by: 0.00205536914612 2021-12-05 07:53:34.031009
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35768 2021-12-05 07:53:34.031109
+
+Expectation maximization changed the average likelihood by: 0.002208176426 2021-12-05 07:55:32.748401
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34728 2021-12-05 07:55:32.748491
+
+Expectation maximization changed the average likelihood by: 0.00204667826917 2021-12-05 07:57:34.710546
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35780 2021-12-05 07:57:34.710638
+
+Expectation maximization changed the average likelihood by: 0.00220698165001 2021-12-05 07:59:03.115115
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34736 2021-12-05 07:59:03.115214
+
+Expectation maximization changed the average likelihood by: 0.00203815829094 2021-12-05 08:01:35.479778
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35783 2021-12-05 08:01:35.479877
+
+Expectation maximization changed the average likelihood by: 0.00220616741249 2021-12-05 08:02:33.183228
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34742 2021-12-05 08:02:33.183329
+
+Expectation maximization changed the average likelihood by: 0.00203053088226 2021-12-05 08:05:36.384577
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35776 2021-12-05 08:05:36.384675
+
+Expectation maximization changed the average likelihood by: 0.00220531774118 2021-12-05 08:06:03.072895
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34742 2021-12-05 08:06:03.072985
+
+Expectation maximization changed the average likelihood by: 0.00220427988176 2021-12-05 08:09:32.874402
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34739 2021-12-05 08:09:32.874494
+
+Expectation maximization changed the average likelihood by: 0.00202320958127 2021-12-05 08:09:37.060135
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35778 2021-12-05 08:09:37.060241
+
+Expectation maximization changed the average likelihood by: 0.00220321344552 2021-12-05 08:13:02.831798
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34739 2021-12-05 08:13:02.831896
+
+Expectation maximization changed the average likelihood by: 0.00201646287119 2021-12-05 08:13:38.005236
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35776 2021-12-05 08:13:38.005329
+
+Expectation maximization changed the average likelihood by: 0.00220256727519 2021-12-05 08:16:34.027992
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34739 2021-12-05 08:16:34.028093
+
+Expectation maximization changed the average likelihood by: 0.00201034942515 2021-12-05 08:17:38.639983
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35781 2021-12-05 08:17:38.640092
+
+Expectation maximization changed the average likelihood by: 0.00220167671349 2021-12-05 08:20:05.833818
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34739 2021-12-05 08:20:05.833907
+
+Expectation maximization changed the average likelihood by: 0.00200420726997 2021-12-05 08:21:39.468492
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35786 2021-12-05 08:21:39.468589
+
+Expectation maximization changed the average likelihood by: 0.00220077316654 2021-12-05 08:23:37.589467
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34739 2021-12-05 08:23:37.589553
+
+Expectation maximization changed the average likelihood by: 0.00199930319877 2021-12-05 08:25:40.186791
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35802 2021-12-05 08:25:40.186897
+
+Expectation maximization changed the average likelihood by: 0.00220002387459 2021-12-05 08:27:09.345348
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34742 2021-12-05 08:27:09.345452
+
+Expectation maximization changed the average likelihood by: 0.00199462030244 2021-12-05 08:29:40.829900
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35810 2021-12-05 08:29:40.829995
+
+Expectation maximization changed the average likelihood by: 0.00219920648478 2021-12-05 08:30:40.921047
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34742 2021-12-05 08:30:40.921141
+
+Expectation maximization changed the average likelihood by: 0.00198962731669 2021-12-05 08:33:42.136953
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35815 2021-12-05 08:33:42.137057
+
+Expectation maximization changed the average likelihood by: 0.00219875290504 2021-12-05 08:34:17.845833
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34743 2021-12-05 08:34:17.845934
+
+Expectation maximization changed the average likelihood by: 0.00198519480175 2021-12-05 08:37:42.614057
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35820 2021-12-05 08:37:42.614157
+
+Expectation maximization changed the average likelihood by: 0.00219817494861 2021-12-05 08:37:48.687171
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34749 2021-12-05 08:37:48.687262
+
+Expectation maximization changed the average likelihood by: 0.00219748056445 2021-12-05 08:41:19.472233
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34749 2021-12-05 08:41:19.472329
+
+Expectation maximization changed the average likelihood by: 0.00198080240915 2021-12-05 08:41:43.324016
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35820 2021-12-05 08:41:43.324136
+
+Expectation maximization changed the average likelihood by: 0.00219690963168 2021-12-05 08:44:50.247817
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34745 2021-12-05 08:44:50.247914
+
+Expectation maximization changed the average likelihood by: 0.00197692570059 2021-12-05 08:45:43.738559
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35819 2021-12-05 08:45:43.738660
+
+Expectation maximization changed the average likelihood by: 0.00219620542262 2021-12-05 08:48:21.090286
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34745 2021-12-05 08:48:21.090385
+
+Expectation maximization changed the average likelihood by: 0.00197335690694 2021-12-05 08:49:44.439401
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35819 2021-12-05 08:49:44.439510
+
+Expectation maximization changed the average likelihood by: 0.00219556465514 2021-12-05 08:51:51.657689
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34745 2021-12-05 08:51:51.657787
+
+Expectation maximization changed the average likelihood by: 0.0019707888621 2021-12-05 08:53:45.135877
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35825 2021-12-05 08:53:45.135981
+
+Expectation maximization changed the average likelihood by: 0.00219502225053 2021-12-05 08:55:22.241802
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34745 2021-12-05 08:55:22.241895
+
+Expectation maximization changed the average likelihood by: 0.00196762902416 2021-12-05 08:57:50.233604
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35838 2021-12-05 08:57:50.233708
+
+Expectation maximization changed the average likelihood by: 0.00219437484689 2021-12-05 08:58:52.942901
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34745 2021-12-05 08:58:52.942987
+
+Expectation maximization changed the average likelihood by: 0.00196463063186 2021-12-05 09:01:50.857915
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35846 2021-12-05 09:01:50.858017
+
+Expectation maximization changed the average likelihood by: 0.00219377125387 2021-12-05 09:02:23.390288
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34745 2021-12-05 09:02:23.390381
+
+Expectation maximization changed the average likelihood by: 0.00196166643793 2021-12-05 09:05:51.772267
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35851 2021-12-05 09:05:51.772370
+
+Expectation maximization changed the average likelihood by: 0.00219360248722 2021-12-05 09:05:53.388823
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34745 2021-12-05 09:05:53.388924
+
+Expectation maximization changed the average likelihood by: 0.00219320271167 2021-12-05 09:09:23.456231
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34754 2021-12-05 09:09:23.456333
+
+Expectation maximization changed the average likelihood by: 0.0019591438039 2021-12-05 09:09:52.910731
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35861 2021-12-05 09:09:52.910826
+
+Expectation maximization changed the average likelihood by: 0.00219277736729 2021-12-05 09:12:53.461565
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34759 2021-12-05 09:12:53.461660
+
+Expectation maximization changed the average likelihood by: 0.00195650799625 2021-12-05 09:13:53.663380
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35865 2021-12-05 09:13:53.663476
+
+Expectation maximization changed the average likelihood by: 0.00219239356426 2021-12-05 09:16:23.111558
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34765 2021-12-05 09:16:23.111659
+
+Expectation maximization changed the average likelihood by: 0.00195441236117 2021-12-05 09:17:54.572869
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35867 2021-12-05 09:17:54.572972
+
+Expectation maximization changed the average likelihood by: 0.00219228938427 2021-12-05 09:19:53.003406
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34769 2021-12-05 09:19:53.003496
+
+Expectation maximization changed the average likelihood by: 0.00195211601921 2021-12-05 09:21:55.247948
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35874 2021-12-05 09:21:55.248073
+
+Expectation maximization changed the average likelihood by: 0.00219205612395 2021-12-05 09:23:22.815223
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34768 2021-12-05 09:23:22.815310
+
+Expectation maximization changed the average likelihood by: 0.00194980949856 2021-12-05 09:25:56.241171
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35875 2021-12-05 09:25:56.241299
+
+Expectation maximization changed the average likelihood by: 0.00219185958006 2021-12-05 09:26:52.708910
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34770 2021-12-05 09:26:52.709009
+
+Expectation maximization changed the average likelihood by: 0.00194803050577 2021-12-05 09:29:56.848612
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35878 2021-12-05 09:29:56.848711
+
+Expectation maximization changed the average likelihood by: 0.00219169364598 2021-12-05 09:30:22.957257
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34778 2021-12-05 09:30:22.957346
+
+Expectation maximization changed the average likelihood by: 0.00219150747467 2021-12-05 09:33:52.987624
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34778 2021-12-05 09:33:52.987718
+
+Expectation maximization changed the average likelihood by: 0.00194608292822 2021-12-05 09:33:57.712660
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35878 2021-12-05 09:33:57.712767
+
+Expectation maximization changed the average likelihood by: 0.00219115833886 2021-12-05 09:37:22.749363
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34778 2021-12-05 09:37:22.749469
+
+Expectation maximization changed the average likelihood by: 0.00194436589819 2021-12-05 09:37:58.562417
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35883 2021-12-05 09:37:58.562516
+
+Expectation maximization changed the average likelihood by: 0.00219097986168 2021-12-05 09:40:52.656914
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34788 2021-12-05 09:40:52.657001
+
+Expectation maximization changed the average likelihood by: 0.00194267222978 2021-12-05 09:41:59.272118
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35887 2021-12-05 09:41:59.272217
+
+Expectation maximization changed the average likelihood by: 0.00219061191271 2021-12-05 09:44:22.603093
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34788 2021-12-05 09:44:22.603194
+
+Expectation maximization changed the average likelihood by: 0.00194105719278 2021-12-05 09:46:00.185949
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35885 2021-12-05 09:46:00.186066
+
+Expectation maximization changed the average likelihood by: 0.00219050004449 2021-12-05 09:47:52.540487
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34788 2021-12-05 09:47:52.540587
+
+Expectation maximization changed the average likelihood by: 0.00193972107603 2021-12-05 09:50:00.886582
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35895 2021-12-05 09:50:00.886680
+
+Expectation maximization changed the average likelihood by: 0.00219024013893 2021-12-05 09:51:22.556959
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34788 2021-12-05 09:51:22.557063
+
+Expectation maximization changed the average likelihood by: 0.00193822846329 2021-12-05 09:54:01.755946
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35893 2021-12-05 09:54:01.756043
+
+Expectation maximization changed the average likelihood by: 0.00218989602983 2021-12-05 09:54:52.599170
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34788 2021-12-05 09:54:52.599257
+
+Expectation maximization changed the average likelihood by: 0.00193706268547 2021-12-05 09:58:02.697632
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35910 2021-12-05 09:58:02.697734
+
+Expectation maximization changed the average likelihood by: 0.00218965279686 2021-12-05 09:58:22.763138
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34788 2021-12-05 09:58:22.763223
+
+Expectation maximization changed the average likelihood by: 0.00218929913803 2021-12-05 10:01:52.909784
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34789 2021-12-05 10:01:52.909883
+
+Expectation maximization changed the average likelihood by: 0.00193602724729 2021-12-05 10:02:03.223970
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35913 2021-12-05 10:02:03.224104
+
+Expectation maximization changed the average likelihood by: 0.00218916506435 2021-12-05 10:05:23.215384
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34789 2021-12-05 10:05:23.215483
+
+Expectation maximization changed the average likelihood by: 0.0019346419054 2021-12-05 10:06:04.005587
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35913 2021-12-05 10:06:04.005687
+
+Expectation maximization changed the average likelihood by: 0.00218883580893 2021-12-05 10:08:53.512687
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34789 2021-12-05 10:08:53.512787
+
+Expectation maximization changed the average likelihood by: 0.00193318927092 2021-12-05 10:10:04.694576
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35905 2021-12-05 10:10:04.694681
+
+Expectation maximization changed the average likelihood by: 0.00218875024841 2021-12-05 10:12:23.848449
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34792 2021-12-05 10:12:23.848540
+
+Expectation maximization changed the average likelihood by: 0.00193210107646 2021-12-05 10:14:05.952631
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35910 2021-12-05 10:14:05.952732
+
+Expectation maximization changed the average likelihood by: 0.0021884374934 2021-12-05 10:15:54.264271
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34792 2021-12-05 10:15:54.264364
+
+Expectation maximization changed the average likelihood by: 0.00193125521092 2021-12-05 10:18:06.470386
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35911 2021-12-05 10:18:06.470486
+
+Expectation maximization changed the average likelihood by: 0.00218825223758 2021-12-05 10:19:24.587151
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34796 2021-12-05 10:19:24.587240
+
+Expectation maximization changed the average likelihood by: 0.00193008976145 2021-12-05 10:22:07.026246
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35915 2021-12-05 10:22:07.026347
+
+Expectation maximization changed the average likelihood by: 0.00218798137402 2021-12-05 10:22:54.711952
+
+Number of reads with average TE likelihoods changed by at least 0.1: 34796 2021-12-05 10:22:54.712038
+
+Expectation maximization changed the average likelihood by: 0.00192937884556 2021-12-05 10:26:07.931622
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35918 2021-12-05 10:26:07.931718
+
+Expectation maximization changed the average likelihood by: 0.00192834130473 2021-12-05 10:30:08.788690
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35925 2021-12-05 10:30:08.788801
+
+Expectation maximization changed the average likelihood by: 0.00192741331723 2021-12-05 10:34:10.073757
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35933 2021-12-05 10:34:10.073870
+
+Expectation maximization changed the average likelihood by: 0.00192648492117 2021-12-05 10:38:11.278751
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35926 2021-12-05 10:38:11.278873
+
+Expectation maximization changed the average likelihood by: 0.00192556633192 2021-12-05 10:42:12.699607
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35929 2021-12-05 10:42:12.699717
+
+Expectation maximization changed the average likelihood by: 0.0019249069106 2021-12-05 10:46:14.087030
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35935 2021-12-05 10:46:14.087137
+
+Expectation maximization changed the average likelihood by: 0.00192440138208 2021-12-05 10:50:15.586346
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35945 2021-12-05 10:50:15.586457
+
+Expectation maximization changed the average likelihood by: 0.00192383811302 2021-12-05 10:54:17.309592
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35948 2021-12-05 10:54:17.309712
+
+Expectation maximization changed the average likelihood by: 0.00192320276863 2021-12-05 10:58:18.686964
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35946 2021-12-05 10:58:18.687073
+
+Expectation maximization changed the average likelihood by: 0.001922715008 2021-12-05 11:02:20.166129
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35947 2021-12-05 11:02:20.166230
+
+Expectation maximization changed the average likelihood by: 0.00192185617108 2021-12-05 11:06:21.454395
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35947 2021-12-05 11:06:21.454497
+
+Expectation maximization changed the average likelihood by: 0.00192114629322 2021-12-05 11:10:22.694865
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35947 2021-12-05 11:10:22.694974
+
+Expectation maximization changed the average likelihood by: 0.00192069741582 2021-12-05 11:14:24.223934
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35947 2021-12-05 11:14:24.224049
+
+Expectation maximization changed the average likelihood by: 0.00192013546887 2021-12-05 11:18:25.490617
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35947 2021-12-05 11:18:25.490727
+
+Expectation maximization changed the average likelihood by: 0.00191987831603 2021-12-05 11:22:27.076556
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35957 2021-12-05 11:22:27.076661
+
+Expectation maximization changed the average likelihood by: 0.00191922277921 2021-12-05 11:26:28.316096
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35957 2021-12-05 11:26:28.316190
+
+Expectation maximization changed the average likelihood by: 0.0019188889969 2021-12-05 11:30:29.703003
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35948 2021-12-05 11:30:29.703117
+
+Expectation maximization changed the average likelihood by: 0.00191842267204 2021-12-05 11:34:31.285137
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35958 2021-12-05 11:34:31.285236
+
+Expectation maximization changed the average likelihood by: 0.00191806678573 2021-12-05 11:38:32.556024
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35958 2021-12-05 11:38:32.556128
+
+Expectation maximization changed the average likelihood by: 0.00191762018861 2021-12-05 11:42:34.126278
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35958 2021-12-05 11:42:34.126381
+
+Expectation maximization changed the average likelihood by: 0.00191715557933 2021-12-05 11:46:35.365478
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35961 2021-12-05 11:46:35.365576
+
+Expectation maximization changed the average likelihood by: 0.00191675371264 2021-12-05 11:50:36.716164
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35961 2021-12-05 11:50:36.716264
+
+Expectation maximization changed the average likelihood by: 0.00191626830894 2021-12-05 11:54:38.170723
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35961 2021-12-05 11:54:38.170830
+
+Expectation maximization changed the average likelihood by: 0.00191584829281 2021-12-05 11:58:39.507886
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35961 2021-12-05 11:58:39.508003
+
+Expectation maximization changed the average likelihood by: 0.00191541184024 2021-12-05 12:02:41.098544
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35964 2021-12-05 12:02:41.098648
+
+Expectation maximization changed the average likelihood by: 0.00191492184692 2021-12-05 12:06:42.338021
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35971 2021-12-05 12:06:42.338141
+
+Expectation maximization changed the average likelihood by: 0.0019144442867 2021-12-05 12:10:43.795107
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35964 2021-12-05 12:10:43.795210
+
+Expectation maximization changed the average likelihood by: 0.00191397787484 2021-12-05 12:14:45.216780
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35964 2021-12-05 12:14:45.216913
+
+Expectation maximization changed the average likelihood by: 0.0019136790121 2021-12-05 12:18:46.501407
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35969 2021-12-05 12:18:46.501509
+
+Expectation maximization changed the average likelihood by: 0.00191335282903 2021-12-05 12:22:48.076947
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35969 2021-12-05 12:22:48.077046
+
+Expectation maximization changed the average likelihood by: 0.00191297092682 2021-12-05 12:26:49.342975
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35967 2021-12-05 12:26:49.343100
+
+Expectation maximization changed the average likelihood by: 0.00191265836955 2021-12-05 12:30:51.134203
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35972 2021-12-05 12:30:51.134317
+
+Expectation maximization changed the average likelihood by: 0.00191235630434 2021-12-05 12:34:52.457061
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35972 2021-12-05 12:34:52.457162
+
+Expectation maximization changed the average likelihood by: 0.00191204560612 2021-12-05 12:38:53.726262
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35972 2021-12-05 12:38:53.726360
+
+Expectation maximization changed the average likelihood by: 0.00191184423859 2021-12-05 12:42:55.259691
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35972 2021-12-05 12:42:55.259809
+
+Expectation maximization changed the average likelihood by: 0.0019116114386 2021-12-05 12:46:56.571497
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35976 2021-12-05 12:46:56.571595
+
+Expectation maximization changed the average likelihood by: 0.00191153134783 2021-12-05 12:50:58.135987
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35976 2021-12-05 12:50:58.136096
+
+Expectation maximization changed the average likelihood by: 0.00191111479294 2021-12-05 12:55:00.239809
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35976 2021-12-05 12:55:00.239925
+
+Expectation maximization changed the average likelihood by: 0.00191088449704 2021-12-05 12:59:01.481760
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35979 2021-12-05 12:59:01.481870
+
+Expectation maximization changed the average likelihood by: 0.00191051182573 2021-12-05 13:03:03.104344
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35979 2021-12-05 13:03:03.104442
+
+Expectation maximization changed the average likelihood by: 0.00191028270448 2021-12-05 13:07:04.459210
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35987 2021-12-05 13:07:04.459311
+
+Expectation maximization changed the average likelihood by: 0.00191017197731 2021-12-05 13:11:06.034352
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35981 2021-12-05 13:11:06.034453
+
+Expectation maximization changed the average likelihood by: 0.00190983635065 2021-12-05 13:15:07.246310
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35983 2021-12-05 13:15:07.246401
+
+Expectation maximization changed the average likelihood by: 0.00190956421688 2021-12-05 13:19:08.612738
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35983 2021-12-05 13:19:08.612837
+
+Expectation maximization changed the average likelihood by: 0.00190940475049 2021-12-05 13:23:10.160164
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35981 2021-12-05 13:23:10.160266
+
+Expectation maximization changed the average likelihood by: 0.00190930305585 2021-12-05 13:27:11.411921
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35981 2021-12-05 13:27:11.412021
+
+Expectation maximization changed the average likelihood by: 0.00190907613889 2021-12-05 13:31:12.875812
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35981 2021-12-05 13:31:12.875921
+
+Expectation maximization changed the average likelihood by: 0.00190899847941 2021-12-05 13:35:14.113204
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35981 2021-12-05 13:35:14.113316
+
+Expectation maximization changed the average likelihood by: 0.00190892446822 2021-12-05 13:39:15.540067
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35984 2021-12-05 13:39:15.540177
+
+Expectation maximization changed the average likelihood by: 0.00190860733617 2021-12-05 13:43:16.966640
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35984 2021-12-05 13:43:16.966738
+
+Expectation maximization changed the average likelihood by: 0.00190840432335 2021-12-05 13:47:18.220957
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35984 2021-12-05 13:47:18.221052
+
+Expectation maximization changed the average likelihood by: 0.00190828656991 2021-12-05 13:51:19.867422
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35983 2021-12-05 13:51:19.867516
+
+Expectation maximization changed the average likelihood by: 0.0019082114506 2021-12-05 13:55:21.164120
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35989 2021-12-05 13:55:21.164221
+
+Expectation maximization changed the average likelihood by: 0.00190820020375 2021-12-05 13:59:22.684939
+
+Number of reads with average TE likelihoods changed by at least 0.1: 36000 2021-12-05 13:59:22.685041
+
+Expectation maximization changed the average likelihood by: 0.00190803666604 2021-12-05 14:03:24.119540
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35996 2021-12-05 14:03:24.119647
+
+Expectation maximization changed the average likelihood by: 0.00190785536313 2021-12-05 14:07:25.379111
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35988 2021-12-05 14:07:25.379209
+
+Expectation maximization changed the average likelihood by: 0.00190778829036 2021-12-05 14:11:27.487764
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35993 2021-12-05 14:11:27.487864
+
+Expectation maximization changed the average likelihood by: 0.00190752218346 2021-12-05 14:15:29.303482
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35993 2021-12-05 14:15:29.303600
+
+Expectation maximization changed the average likelihood by: 0.00190744650431 2021-12-05 14:19:30.913534
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35991 2021-12-05 14:19:30.913642
+
+Expectation maximization changed the average likelihood by: 0.00190727544306 2021-12-05 14:23:32.250302
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35986 2021-12-05 14:23:32.250423
+
+Expectation maximization changed the average likelihood by: 0.00190724922153 2021-12-05 14:27:33.673487
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35987 2021-12-05 14:27:33.673593
+
+Expectation maximization changed the average likelihood by: 0.00190714734019 2021-12-05 14:31:35.319010
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35987 2021-12-05 14:31:35.319128
+
+Expectation maximization changed the average likelihood by: 0.00190694215021 2021-12-05 14:35:36.707865
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35991 2021-12-05 14:35:36.707962
+
+Expectation maximization changed the average likelihood by: 0.00190695422638 2021-12-05 14:39:38.361402
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35991 2021-12-05 14:39:38.361500
+
+Expectation maximization changed the average likelihood by: 0.00190682343933 2021-12-05 14:43:39.684882
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35990 2021-12-05 14:43:39.684982
+
+Expectation maximization changed the average likelihood by: 0.00190667995626 2021-12-05 14:47:40.988477
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35990 2021-12-05 14:47:40.988581
+
+Expectation maximization changed the average likelihood by: 0.00190667264518 2021-12-05 14:51:42.551949
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35990 2021-12-05 14:51:42.552049
+
+Expectation maximization changed the average likelihood by: 0.00190679071806 2021-12-05 14:55:43.901364
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35990 2021-12-05 14:55:43.901458
+
+Expectation maximization changed the average likelihood by: 0.00190691977276 2021-12-05 14:59:45.456017
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35997 2021-12-05 14:59:45.456121
+
+Expectation maximization changed the average likelihood by: 0.00190683220627 2021-12-05 15:03:46.674339
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35997 2021-12-05 15:03:46.674439
+
+Expectation maximization changed the average likelihood by: 0.00190681873164 2021-12-05 15:07:48.036606
+
+Number of reads with average TE likelihoods changed by at least 0.1: 35997 2021-12-05 15:07:48.036704
+
+Expectation maximization changed the average likelihood by: 0.00190669220489 2021-12-05 15:11:49.684815
+
+Number of reads with average TE likelihoods changed by at least 0.1: 36001 2021-12-05 15:11:49.684913
+
+Expectation maximization changed the average likelihood by: 0.00190649267487 2021-12-05 15:15:51.150525
+
+Number of reads with average TE likelihoods changed by at least 0.1: 36001 2021-12-05 15:15:51.150626
+
+Expectation maximization changed the average likelihood by: 0.001906525299 2021-12-05 15:19:52.792267
+
+Number of reads with average TE likelihoods changed by at least 0.1: 36010 2021-12-05 15:19:52.792373
+
+Expectation maximization changed the average likelihood by: 0.00190636333165 2021-12-05 15:23:54.739606
+
+Number of reads with average TE likelihoods changed by at least 0.1: 36010 2021-12-05 15:23:54.739709
+
+Expectation maximization changed the average likelihood by: 0.0019061626302 2021-12-05 15:27:56.376046
+
+Number of reads with average TE likelihoods changed by at least 0.1: 36001 2021-12-05 15:27:56.376160
+
+Expectation maximization changed the average likelihood by: 0.00190613297549 2021-12-05 15:31:57.858212
+
+Number of reads with average TE likelihoods changed by at least 0.1: 36001 2021-12-05 15:31:57.858313
+
+Expectation maximization changed the average likelihood by: 0.00190606544068 2021-12-05 15:35:59.298116
+
+Number of reads with average TE likelihoods changed by at least 0.1: 36002 2021-12-05 15:35:59.298233
+

@@ -1,0 +1,56 @@
+
+	Position file = all_stage.mat.Tead4.bed
+	Genome = mm10
+	Output Directory = tf_snp/1.ABP_loci/mTead4
+	Using actual sizes of regions (-size given)
+	Fragment size set to given
+	Using 15 CPUs
+	Will find motif(s) in /home1/gyang/work_space/4.ProjectET/analysis/motif_denovo/Tead4.motif
+	Found mset for "mouse", will check against vertebrates motifs
+	Peak/BED file conversion summary:
+		BED/Header formatted lines: 2294
+		peakfile formatted lines: 0
+
+	Peak File Statistics:
+		Total Peaks: 2294
+		Redundant Peak IDs: 0
+		Peaks lacking information: 0 (need at least 5 columns per peak)
+		Peaks with misformatted coordinates: 0 (should be integer)
+		Peaks with misformatted strand: 0 (should be either +/- or 0/1)
+
+	Peak file looks good!
+
+	Background fragment size set to 999 (avg size of targets)
+	Background files for 999 bp fragments found.
+	Custom genome sequence directory: /home1/homer/.//data/genomes/mm10//
+
+	Extracting sequences from directory: /home1/homer/.//data/genomes/mm10//
+	Extracting 144 sequences from chr1
+	Extracting 141 sequences from chr2
+	Extracting 128 sequences from chr3
+	Extracting 174 sequences from chr4
+	Extracting 223 sequences from chr5
+	Extracting 142 sequences from chr6
+	Extracting 135 sequences from chr7
+	Extracting 97 sequences from chr8
+	Extracting 142 sequences from chr9
+	Extracting 140 sequences from chr10
+	Extracting 172 sequences from chr11
+	Extracting 89 sequences from chr12
+	Extracting 81 sequences from chr13
+	Extracting 57 sequences from chr14
+	Extracting 86 sequences from chr15
+	Extracting 97 sequences from chr16
+	Extracting 101 sequences from chr17
+	Extracting 82 sequences from chr18
+	Extracting 63 sequences from chr19
+
+
+	Reading input files...
+	2294 total sequences read
+	1 motifs loaded
+	Finding instances of 1 motif(s)
+	|0%                                    50%                                  100%|
+	=================================================================================
+	Cleaning up tmp files...
+

@@ -1,0 +1,9 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+EPI_E65_Tfap2c_rep1	47.9084	27.7772	57.98%	14.23	29.70%	87.68%
+EPI_E65_Tfap2c_rep2	47.6947	28.1055	58.93%	14.4121	30.22%	89.15%
+EPI_E65_Tfap2c_rep3	43.8059	25.38	57.94%	13.3938	30.58%	88.51%
+EXE_E65_Tead4_rep1	48.6401	27.6121	56.77%	14.4119	29.63%	86.40%
+EXE_E65_Tead4_rep2	53.6299	30.4541	56.79%	16.2137	30.23%	87.02%
+EXE_E65_Tfap2c_rep1	38.7904	24.8549	64.07%	10.986	28.32%	92.40%
+EXE_E65_Tfap2c_rep2	36.249	23.0877	63.69%	10.6584	29.40%	93.10%
+EXE_E65_Tfap2c_rep3	51.9843	33.5179	64.48%	13.8195	26.58%	91.06%

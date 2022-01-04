@@ -1,0 +1,219 @@
+normalization: RPKM
+bamFilesList: ['TE_Tead4.duprm.bam']
+binLength: 25
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 6
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: ['chrM']
+stepSize: 25
+center_read: True
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000
+Process ForkPoolWorker-1:
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 127, in worker
+    put((job, i, result))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 132, in worker
+    put((job, i, (False, wrapped)))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-2:
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 127, in worker
+    put((job, i, result))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 132, in worker
+    put((job, i, (False, wrapped)))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-3:
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 127, in worker
+    put((job, i, result))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 132, in worker
+    put((job, i, (False, wrapped)))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-4:
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 127, in worker
+    put((job, i, result))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 132, in worker
+    put((job, i, (False, wrapped)))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-6:
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 127, in worker
+    put((job, i, result))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 132, in worker
+    put((job, i, (False, wrapped)))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-5:
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 127, in worker
+    put((job, i, result))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/pool.py", line 132, in worker
+    put((job, i, (False, wrapped)))
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/queues.py", line 364, in put
+    self._writer.send_bytes(obj)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe

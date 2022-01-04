@@ -1,0 +1,7 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+8Cell_Tfap2c_rep1	49.8355	31.8427	63.90%	15.0434	30.19%	94.08%
+8Cell_Tfap2c_rep1_spikein	49.8355	0.032436	0.07%	0.012448	0.02%	0.09%
+8Cell_Tfap2c_rep2	48.7255	31.2958	64.23%	14.1735	29.09%	93.32%
+8Cell_Tfap2c_rep2_spikein	48.7255	0.027889	0.06%	0.011886	0.02%	0.08%
+EPI_E6	47.6947	28.1055	58.93%	14.4121	30.22%	89.15%
+EPI_E6_spikein	47.9084	0.033739	0.07%	0.021734	0.05%	0.12%

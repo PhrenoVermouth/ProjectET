@@ -1,0 +1,3 @@
+class	co_occu	only_Occu_by_Tfap2c	only_Occu_by_Tead4	none
+Enhancer	1813	1235	2427	13748
+Promoter	1859	2010	602	3462

@@ -1,0 +1,58 @@
+INFO  @ Fri, 26 Nov 2021 18:27:44: 
+# Command line: callpeak -t 8Cell_siTfap2c_Klf5_rep2.duprm.bam -f BAMPE -g mm -n 8Cell_siTfap2c_Klf5_rep2 -B -q 0.05 --keep-dup 1 --outdir /home1/gyang/work_space/4.ProjectET/batch25_cr/6.peak
+# ARGUMENTS LIST:
+# name = 8Cell_siTfap2c_Klf5_rep2
+# format = BAMPE
+# ChIP-seq file = ['8Cell_siTfap2c_Klf5_rep2.duprm.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Fri, 26 Nov 2021 18:27:44: #1 read fragment files... 
+INFO  @ Fri, 26 Nov 2021 18:27:44: #1 read treatment fragments... 
+INFO  @ Fri, 26 Nov 2021 18:27:58:  1000000 
+INFO  @ Fri, 26 Nov 2021 18:28:12:  2000000 
+INFO  @ Fri, 26 Nov 2021 18:28:26:  3000000 
+INFO  @ Fri, 26 Nov 2021 18:28:40:  4000000 
+INFO  @ Fri, 26 Nov 2021 18:28:53:  5000000 
+INFO  @ Fri, 26 Nov 2021 18:29:07:  6000000 
+INFO  @ Fri, 26 Nov 2021 18:29:21:  7000000 
+INFO  @ Fri, 26 Nov 2021 18:29:35:  8000000 
+INFO  @ Fri, 26 Nov 2021 18:29:48:  9000000 
+INFO  @ Fri, 26 Nov 2021 18:30:02:  10000000 
+INFO  @ Fri, 26 Nov 2021 18:30:16:  11000000 
+INFO  @ Fri, 26 Nov 2021 18:30:30:  12000000 
+INFO  @ Fri, 26 Nov 2021 18:30:44:  13000000 
+INFO  @ Fri, 26 Nov 2021 18:30:57:  14000000 
+INFO  @ Fri, 26 Nov 2021 18:31:11:  15000000 
+INFO  @ Fri, 26 Nov 2021 18:31:25:  16000000 
+INFO  @ Fri, 26 Nov 2021 18:31:38:  17000000 
+INFO  @ Fri, 26 Nov 2021 18:31:51:  18000000 
+INFO  @ Fri, 26 Nov 2021 18:32:12: #1 mean fragment size is determined as 252 bp from treatment 
+INFO  @ Fri, 26 Nov 2021 18:32:12: #1 fragment size = 252 
+INFO  @ Fri, 26 Nov 2021 18:32:12: #1  total fragments in treatment: 18705390 
+INFO  @ Fri, 26 Nov 2021 18:32:12: #1 user defined the maximum fragments... 
+INFO  @ Fri, 26 Nov 2021 18:32:12: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Fri, 26 Nov 2021 18:32:55: #1  fragments after filtering in treatment: 18687132 
+INFO  @ Fri, 26 Nov 2021 18:32:55: #1  Redundant rate of treatment: 0.00 
+INFO  @ Fri, 26 Nov 2021 18:32:55: #1 finished! 
+INFO  @ Fri, 26 Nov 2021 18:32:55: #2 Build Peak Model... 
+INFO  @ Fri, 26 Nov 2021 18:32:55: #2 Skipped... 
+INFO  @ Fri, 26 Nov 2021 18:32:55: #2 Use 252 as fragment length 
+INFO  @ Fri, 26 Nov 2021 18:32:55: #3 Call peaks... 
+INFO  @ Fri, 26 Nov 2021 18:32:55: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Fri, 26 Nov 2021 18:34:05: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Fri, 26 Nov 2021 18:34:05: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 8Cell_siTfap2c_Klf5_rep2_treat_pileup.bdg 
+INFO  @ Fri, 26 Nov 2021 18:34:05: #3   Write bedGraph files for control lambda (after scaling if necessary)... 8Cell_siTfap2c_Klf5_rep2_control_lambda.bdg 
+INFO  @ Fri, 26 Nov 2021 18:34:05: #3   Pileup will be based on sequencing depth in treatment. 
+INFO  @ Fri, 26 Nov 2021 18:34:05: #3 Call peaks for each chromosome... 
+INFO  @ Fri, 26 Nov 2021 18:36:34: #4 Write output xls file... /home1/gyang/work_space/4.ProjectET/batch25_cr/6.peak/8Cell_siTfap2c_Klf5_rep2_peaks.xls 
+INFO  @ Fri, 26 Nov 2021 18:36:35: #4 Write peak in narrowPeak format file... /home1/gyang/work_space/4.ProjectET/batch25_cr/6.peak/8Cell_siTfap2c_Klf5_rep2_peaks.narrowPeak 
+INFO  @ Fri, 26 Nov 2021 18:36:35: #4 Write summits bed file... /home1/gyang/work_space/4.ProjectET/batch25_cr/6.peak/8Cell_siTfap2c_Klf5_rep2_summits.bed 
+INFO  @ Fri, 26 Nov 2021 18:36:35: Done! 

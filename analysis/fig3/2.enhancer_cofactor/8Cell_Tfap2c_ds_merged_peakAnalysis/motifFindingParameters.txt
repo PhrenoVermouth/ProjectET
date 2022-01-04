@@ -1,0 +1,1 @@
+cmd = /home1/gyang/work_space/4.ProjectET/analysis/fig1/build/2.Tfap2c_peak/8Cell_Tfap2c_ds_merged.bed mm10 /home1/gyang/work_space/4.ProjectET/analysis/fig3/2.enhancer_cofactor/8Cell_Tfap2c_ds_merged_peakAnalysis -size given -p 7 -len 8

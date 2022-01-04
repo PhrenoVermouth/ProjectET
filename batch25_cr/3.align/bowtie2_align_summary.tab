@@ -1,0 +1,3 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+8Cell_siTfap2c_Klf5_rep1	65.0537	31.7029	48.73%	25.7889	39.64%	88.38%
+8Cell_siTfap2c_Klf5_rep2	54.0713	27.5366	50.93%	22.6032	41.80%	92.73%

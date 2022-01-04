@@ -1,0 +1,1 @@
+cmd = TE_Tfap2c_rep4_peaks.narrowPeak mm10 /home1/gyang/work_space/4.ProjectET/batch27_cr/7.Peak_anno/TE_Tfap2c_rep4_peakAnalysis -size given -p 7 -len 8

@@ -1,0 +1,21 @@
+This is cutadapt 1.18 with Python 3.7.11
+Command line parameters: -j 3 -a AGATCGGAAGAGC -A AGATCGGAAGAGC --trim-n -m 50 -q 20,20 -o /home1/gyang/work_space/4.ProjectET/batch23_cr/2.cutdata/ESC_RA-_Rarg_PT_1k_rep2.R1_cut.fq -p /home1/gyang/work_space/4.ProjectET/batch23_cr/2.cutdata/ESC_RA-_Rarg_PT_1k_rep2.R2_cut.fq ESC_RA-_Rarg_PT_1k_rep2.R1.fq.gz ESC_RA-_Rarg_PT_1k_rep2.R2.fq.gz
+Processing reads on 3 cores in paired-end mode ...
+ERROR: Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/cutadapt/seqio.py", line 411, in __iter__
+    r2 = next(it2)
+  File "src/cutadapt/_seqio.pyx", line 136, in __iter__
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/cutadapt/pipeline.py", line 486, in run
+    (n, bp1, bp2) = self._pipeline.process_reads()
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/cutadapt/pipeline.py", line 317, in process_reads
+    for read1, read2 in self._reader:
+  File "/home1/gyang/anaconda3/envs/py36/lib/python3.7/site-packages/cutadapt/seqio.py", line 413, in __iter__
+    raise FormatError("Reads are improperly paired. There are more reads in "
+cutadapt.seqio.FormatError: Reads are improperly paired. There are more reads in file 1 than in file 2.
+
+cutadapt: error: Reads are improperly paired. There are more reads in file 1 than in file 2.

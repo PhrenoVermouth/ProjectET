@@ -1,0 +1,1 @@
+cmd = all_stage.mat.Tead4.bed mm10 tf_snp/1.ABP_loci/mTead4 -size given -p 15 -find /home1/gyang/work_space/4.ProjectET/analysis/motif_denovo/Tead4.motif

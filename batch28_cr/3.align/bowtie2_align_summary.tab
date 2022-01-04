@@ -1,0 +1,6 @@
+sample	total_paired(million)	properly_paired(million)	ratio	more_1_time(million)	ratio	align_ratio_all
+ICM_Nanog_rep1	45.5219	21.0071	46.15%	16.352	35.92%	82.07%
+TE_Cdx2_rep1	54.8112	30.8628	56.31%	18.7005	34.12%	90.43%
+TE_Cdx2_rep2	60.001	33.5641	55.94%	20.4811	34.13%	90.07%
+TE_Klf5_rep1	68.8718	37.033	53.77%	22.5446	32.73%	86.51%
+TE_Klf5_rep2	55.0276	29.2521	53.16%	18.1903	33.06%	86.22%
